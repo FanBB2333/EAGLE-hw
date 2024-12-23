@@ -41,3 +41,13 @@ gradio_tmp/*
 *.ipynb
 
 unit_test*.*
+
+# Custom
+OneLLM/*
+LLaMA-Factory/*
+lmms_eval_old/*
+lmms_eval-main/*
+assets/*
+pytorch-image-models/*
+flash-attention/*
+.cache/*

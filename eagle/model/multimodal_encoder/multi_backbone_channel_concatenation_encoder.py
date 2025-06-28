@@ -92,7 +92,7 @@ class MultiBackboneChannelConcatenationVisionTower(nn.Module):
                 clip_args = deepcopy(args)
                 clip_args.input_image_size = 336 # actually 448, will have no effect
                 clip_args.freeze_vision = False
-                clip_vision_tower = HRCLIPVisionTower("openai/clip-vit-large-patch14-336", clip_args)     
+                clip_vision_tower = HRCLIPVisionTower("./model/Vision_Encoder/clip-vit-large-patch14-336", clip_args)     
                 clip_vision_tower.load_model()
                 self.vision_towers.append(clip_vision_tower)
         

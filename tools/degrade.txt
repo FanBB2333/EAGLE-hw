@@ -1,0 +1,201 @@
+Model = MetaModel(
+  (criterion): CrossEntropyLoss()
+  (llma): OneLLM(
+    (clip): CLIPVisionTransformer(
+      (embeddings): CLIPVisionEmbeddings(
+        (patch_embedding): Conv2d(3, 1024, kernel_size=(14, 14), stride=(14, 14), bias=False)
+        (position_embedding): Embedding(257, 1024)
+      )
+      (pre_layrnorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+      (encoder): CLIPEncoder(
+        (layers): ModuleList(
+          (0-23): 24 x CLIPEncoderLayer(
+            (self_attn): CLIPAttention(
+              (k_proj): Linear(in_features=1024, out_features=1024, bias=True)
+              (v_proj): Linear(in_features=1024, out_features=1024, bias=True)
+              (q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+              (out_proj): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (layer_norm1): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (mlp): CLIPMLP(
+              (activation_fn): GELUActivation()
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+            )
+            (layer_norm2): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+        )
+      )
+      (post_layernorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+    )
+    (resample_layers): ModuleDict(
+      (0): ModuleList(
+        (0-7): 8 x TransformerBlock(
+          (attention): Attention(
+            (wq): Linear(in_features=1024, out_features=1024, bias=False)
+            (wk): Linear(in_features=1024, out_features=1024, bias=False)
+            (wv): Linear(in_features=1024, out_features=1024, bias=False)
+            (wo): Linear(in_features=1024, out_features=1024, bias=False)
+          )
+          (feed_forward): FeedForward(
+            (w1): Linear(in_features=1024, out_features=2816, bias=False)
+            (w2): Linear(in_features=2816, out_features=1024, bias=False)
+            (w3): Linear(in_features=1024, out_features=2816, bias=False)
+          )
+          (attention_norm): RMSNorm()
+          (ffn_norm): RMSNorm()
+        )
+      )
+      (1): ModuleList(
+        (0-7): 8 x TransformerBlock(
+          (attention): Attention(
+            (wq): Linear(in_features=1024, out_features=1024, bias=False)
+            (wk): Linear(in_features=1024, out_features=1024, bias=False)
+            (wv): Linear(in_features=1024, out_features=1024, bias=False)
+            (wo): Linear(in_features=1024, out_features=1024, bias=False)
+          )
+          (feed_forward): FeedForward(
+            (w1): Linear(in_features=1024, out_features=2816, bias=False)
+            (w2): Linear(in_features=2816, out_features=1024, bias=False)
+            (w3): Linear(in_features=1024, out_features=2816, bias=False)
+          )
+          (attention_norm): RMSNorm()
+          (ffn_norm): RMSNorm()
+        )
+      )
+      (2): ModuleList(
+        (0-7): 8 x TransformerBlock(
+          (attention): Attention(
+            (wq): Linear(in_features=1024, out_features=1024, bias=False)
+            (wk): Linear(in_features=1024, out_features=1024, bias=False)
+            (wv): Linear(in_features=1024, out_features=1024, bias=False)
+            (wo): Linear(in_features=1024, out_features=1024, bias=False)
+          )
+          (feed_forward): FeedForward(
+            (w1): Linear(in_features=1024, out_features=2816, bias=False)
+            (w2): Linear(in_features=2816, out_features=1024, bias=False)
+            (w3): Linear(in_features=1024, out_features=2816, bias=False)
+          )
+          (attention_norm): RMSNorm()
+          (ffn_norm): RMSNorm()
+        )
+      )
+    )
+    (conv1): ModuleDict(
+      (audio): Conv2d(1, 1024, kernel_size=(16, 16), stride=(10, 10))
+      (point): PointPatchEmbed(
+        (grouper): KNNGroup(
+          (knn): KNN()
+        )
+        (conv1): Conv2d(6, 1024, kernel_size=(1, 1), stride=(1, 1))
+      )
+    )
+    (positional_embedding): ParameterDict(
+        (audio): Parameter containing: [torch.cuda.FloatTensor of size 1213x1024 (GPU 0)]
+        (point): Parameter containing: [torch.cuda.FloatTensor of size 1025x1024 (GPU 0)]
+    )
+    (resample_tokens): ParameterDict(
+        (image): Parameter containing: [torch.cuda.FloatTensor of size 1x30x1024 (GPU 0)]
+        (video): Parameter containing: [torch.cuda.FloatTensor of size 1x30x1024 (GPU 0)]
+        (audio): Parameter containing: [torch.cuda.FloatTensor of size 1x30x1024 (GPU 0)]
+        (point): Parameter containing: [torch.cuda.FloatTensor of size 1x30x1024 (GPU 0)]
+    )
+    (clip_proj1): ModuleDict(
+      (image): Sequential(
+        (0): Linear(in_features=1024, out_features=1024, bias=True)
+        (1): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+      )
+      (video): Sequential(
+        (0): Linear(in_features=1024, out_features=1024, bias=True)
+        (1): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+      )
+      (audio): Sequential(
+        (0): Linear(in_features=1024, out_features=1024, bias=True)
+        (1): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+      )
+      (point): Sequential(
+        (0): Linear(in_features=1024, out_features=1024, bias=True)
+        (1): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+      )
+    )
+    (clip_proj2): ModuleDict(
+      (image): Sequential(
+        (0): Linear(in_features=1024, out_features=4096, bias=True)
+        (1): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+      )
+      (video): Sequential(
+        (0): Linear(in_features=1024, out_features=4096, bias=True)
+        (1): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+      )
+      (audio): Sequential(
+        (0): Linear(in_features=1024, out_features=4096, bias=True)
+        (1): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+      )
+      (point): Sequential(
+        (0): Linear(in_features=1024, out_features=4096, bias=True)
+        (1): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+      )
+    )
+    (routers): ModuleDict(
+      (image): Mlp(
+        (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+        (act): GELU(approximate='none')
+        (fc2): Linear(in_features=4096, out_features=3, bias=True)
+      )
+      (video): Mlp(
+        (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+        (act): GELU(approximate='none')
+        (fc2): Linear(in_features=4096, out_features=3, bias=True)
+      )
+      (audio): Mlp(
+        (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+        (act): GELU(approximate='none')
+        (fc2): Linear(in_features=4096, out_features=3, bias=True)
+      )
+      (point): Mlp(
+        (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+        (act): GELU(approximate='none')
+        (fc2): Linear(in_features=4096, out_features=3, bias=True)
+      )
+    )
+    (start_tag): ParameterDict(
+        (image): Parameter containing: [torch.cuda.FloatTensor of size 1x1x4096 (GPU 0)]
+        (video): Parameter containing: [torch.cuda.FloatTensor of size 1x1x4096 (GPU 0)]
+        (audio): Parameter containing: [torch.cuda.FloatTensor of size 1x1x4096 (GPU 0)]
+        (point): Parameter containing: [torch.cuda.FloatTensor of size 1x1x4096 (GPU 0)]
+    )
+    (end_tag): ParameterDict(
+        (image): Parameter containing: [torch.cuda.FloatTensor of size 1x1x4096 (GPU 0)]
+        (video): Parameter containing: [torch.cuda.FloatTensor of size 1x1x4096 (GPU 0)]
+        (audio): Parameter containing: [torch.cuda.FloatTensor of size 1x1x4096 (GPU 0)]
+        (point): Parameter containing: [torch.cuda.FloatTensor of size 1x1x4096 (GPU 0)]
+    )
+    (llm): LlamaForCausalLM(
+      (model): LlamaModel(
+        (embed_tokens): Embedding(128256, 2048)
+        (layers): ModuleList(
+          (0-15): 16 x LlamaDecoderLayer(
+            (self_attn): LlamaAttention(
+              (q_proj): Linear(in_features=2048, out_features=2048, bias=False)
+              (k_proj): Linear(in_features=2048, out_features=512, bias=False)
+              (v_proj): Linear(in_features=2048, out_features=512, bias=False)
+              (o_proj): Linear(in_features=2048, out_features=2048, bias=False)
+              (rotary_emb): LlamaRotaryEmbedding()
+            )
+            (mlp): LlamaMLP(
+              (gate_proj): Linear(in_features=2048, out_features=8192, bias=False)
+              (up_proj): Linear(in_features=2048, out_features=8192, bias=False)
+              (down_proj): Linear(in_features=8192, out_features=2048, bias=False)
+              (act_fn): SiLU()
+            )
+            (input_layernorm): LlamaRMSNorm((2048,), eps=1e-05)
+            (post_attention_layernorm): LlamaRMSNorm((2048,), eps=1e-05)
+          )
+        )
+        (norm): LlamaRMSNorm((2048,), eps=1e-05)
+        (rotary_emb): LlamaRotaryEmbedding()
+      )
+      (lm_head): Linear(in_features=2048, out_features=128256, bias=False)
+    )
+  )
+)

@@ -1,0 +1,1849 @@
+{'loss': 2.0637, 'grad_norm': 2.178543424642702, 'learning_rate': 2.962962962962963e-05, 'epoch': 0.0}
+
+{'loss': 1.8426, 'grad_norm': 1.7564072393365027, 'learning_rate': 3.068783068783069e-05, 'epoch': 0.0}
+
+{'loss': 1.9125, 'grad_norm': 1.706699707681027, 'learning_rate': 3.1746031746031745e-05, 'epoch': 0.0}
+
+{'loss': 1.843, 'grad_norm': 1.5642565637684254, 'learning_rate': 3.280423280423281e-05, 'epoch': 0.0}
+
+{'loss': 1.8117, 'grad_norm': 1.4680298789337058, 'learning_rate': 3.386243386243386e-05, 'epoch': 0.01}
+
+{'loss': 1.818, 'grad_norm': 1.4222071333091395, 'learning_rate': 3.492063492063492e-05, 'epoch': 0.01}
+
+{'loss': 1.8645, 'grad_norm': 1.3730375766439307, 'learning_rate': 3.597883597883598e-05, 'epoch': 0.01}
+
+{'loss': 1.791, 'grad_norm': 1.181503709927834, 'learning_rate': 3.7037037037037037e-05, 'epoch': 0.01}
+
+{'loss': 1.7656, 'grad_norm': 1.1752961593151963, 'learning_rate': 3.809523809523809e-05, 'epoch': 0.01}
+
+{'loss': 1.6836, 'grad_norm': 1.0212988798997722, 'learning_rate': 3.9153439153439155e-05, 'epoch': 0.01}
+
+{'loss': 1.7137, 'grad_norm': 1.1300181684468162, 'learning_rate': 4.021164021164021e-05, 'epoch': 0.01}
+
+{'loss': 1.7078, 'grad_norm': 1.0574497678619916, 'learning_rate': 4.126984126984127e-05, 'epoch': 0.01}
+
+{'loss': 1.6426, 'grad_norm': 1.12954744605868, 'learning_rate': 4.232804232804233e-05, 'epoch': 0.01}
+
+{'loss': 1.666, 'grad_norm': 0.9629689974450292, 'learning_rate': 4.3386243386243384e-05, 'epoch': 0.01}
+
+{'loss': 1.6227, 'grad_norm': 0.8514717624053767, 'learning_rate': 4.4444444444444447e-05, 'epoch': 0.01}
+
+{'loss': 1.6582, 'grad_norm': 0.8797574464670874, 'learning_rate': 4.55026455026455e-05, 'epoch': 0.01}
+
+{'loss': 1.6059, 'grad_norm': 0.8101300954016868, 'learning_rate': 4.656084656084656e-05, 'epoch': 0.01}
+
+  1%|▌                                                                       | 44/6289 [14:55<34:47:26, 20
+.06s/it]Traceback (most recent call last):
+  File "/home1/hxl/disk2/MLLM/ModelCompose/modelcompose/train/train_multimodal.py", line 528, in <module>
+    train()
+  File "/home1/hxl/disk2/MLLM/ModelCompose/modelcompose/train/train_multimodal.py", line 500, in train
+    trainer.train()
+  File "/home1/hxl/miniconda3/envs/mcllama3/lib/python3.10/site-packages/transformers/trainer.py", line 20
+52, in train
+    return inner_training_loop(
+  File "/home1/hxl/miniconda3/envs/mcllama3/lib/python3.10/site-packages/transformers/trainer.py", line 23
+88, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home1/hxl/miniconda3/envs/mcllama3/lib/python3.10/site-packages/transformers/trainer.py", line 34
+85, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/home1/hxl/miniconda3/envs/mcllama3/lib/python3.10/site-packages/transformers/trainer.py", line 35
+32, in compute_loss
+    outputs = model(**inputs)
+  File "/home1/hxl/miniconda3/envs/mcllama3/lib/python3.10/site-packages/torch/nn/modules/module.py", line
+ 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home1/hxl/miniconda3/envs/mcllama3/lib/python3.10/site-packages/deepspeed/utils/nvtx.py", line 15
+, in wrapped_fn
+    ret_val = func(*args, **kwargs)
+  File "/home1/hxl/miniconda3/envs/mcllama3/lib/python3.10/site-packages/deepspeed/runtime/engine.py", lin
+e 1833, in forward
+    loss = self.module(*inputs, **kwargs)
+  File "/home1/hxl/miniconda3/envs/mcllama3/lib/python3.10/site-packages/torch/nn/modules/module.py", line
+ 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home1/hxl/disk2/MLLM/ModelCompose/modelcompose/model/language_model/multimodal_llama.py", line 73
+6, in forward
+    loss = loss_fct(shift_logits, shift_labels)
+  File "/home1/hxl/miniconda3/envs/mcllama3/lib/python3.10/site-packages/torch/nn/modules/module.py", line
+ 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home1/hxl/miniconda3/envs/mcllama3/lib/python3.10/site-packages/torch/nn/modules/loss.py", line 1
+174, in forward
+    return F.cross_entropy(input, target, weight=self.weight,
+  File "/home1/hxl/miniconda3/envs/mcllama3/lib/python3.10/site-packages/torch/nn/functional.py", line 302
+9, in cross_entropy
+    return torch._C._nn.cross_entropy_loss(input, target, weight, _Reduction.get_enum(reduction), ignore_i
+ndex, label_smoothing)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 6.21 GiB (GPU 2; 47.43 GiB total capaci
+ty; 18.10 GiB already allocated; 5.41 GiB free; 22.21 GiB reserved in total by PyTorch) If reserved memory
+ is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memor
+y Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-01-20 16:14:30,500] [INFO] [launch.py:315:sigkill_handler] Killing subprocess 149358
+[2025-01-20 16:14:31,641] [INFO] [launch.py:315:sigkill_handler] Killing subprocess 149359
+[2025-01-20 16:14:32,740] [INFO] [launch.py:315:sigkill_handler] Killing subprocess 149360
+[2025-01-20 16:14:32,740] [INFO] [launch.py:315:sigkill_handler] Killing subprocess 149361
+[2025-01-20 16:14:33,641] [INFO] [launch.py:315:sigkill_handler] Killing subprocess 149362
+[2025-01-20 16:14:34,808] [ERROR] [launch.py:321:sigkill_handler] ['/home1/hxl/miniconda3/envs/mcllama3/bi
+n/python', '-u', 'modelcompose/train/train_multimodal.py', '--local_rank=4', '--lora_strategy', 'same', '-
+-lora_r', '128', '--lora_alpha', '256', '--mm_projector_lr', '2e-5', '--deepspeed', './scripts/zero2.json'
+, '--model_name_or_path', '/home1/hxl/disk/EAGLE/model/LLM/Llama-3.2-1B-Instruct', '--version', 'v0', '--d
+ata_path', '/home1/hxl/disk/EAGLE/dataset/Eagle-1.8M/eagle-1509586.json', '--mm_vision_encoder', '/home1/h
+xl/disk/EAGLE/model/Vision_Encoder/clip-vit-large-patch14-336', '--mm_vision_select_layer', '-2', '--mm_pr
+ojector_type', 'mlp2x_gelu', '--image_aspect_ratio', 'pad', '--group_by_modality_length', 'False', '--bf16
+', 'True', '--output_dir', './checkpoints/train-vision-pr-llm', '--num_train_epochs', '1', '--per_device_t
+rain_batch_size', '12', '--per_device_eval_batch_size', '4', '--gradient_accumulation_steps', '4', '--eval
+uation_strategy', 'no', '--save_strategy', 'steps', '--save_steps', '50000', '--save_total_limit', '1', '-
+-learning_rate', '2e-4', '--weight_decay', '0.', '--warmup_ratio', '0.03', '--lr_scheduler_type', 'cosine'
+, '--logging_steps', '1', '--tf32', 'True', '--model_max_length', '2048', '--gradient_checkpointing', 'Tru
+e', '--dataloader_num_workers', '4', '--dataloader_drop_last', 'True', '--lazy_preprocess', 'True'] exits
+with return code = 1
+(mcllama3) hxl@9007:~/disk2/MLLM/ModelCompose$ bash scripts/model_composition/train/train_vision_pr_llm.sh
+
+[2025-01-20 16:14:38,724] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda
+(auto detect)
+[2025-01-20 16:14:40,713] [WARNING] [runner.py:202:fetch_hostfile] Unable to find hostfile, will proceed w
+ith training with local resources only.
+[2025-01-20 16:14:40,754] [INFO] [runner.py:571:main] cmd = /home1/hxl/miniconda3/envs/mcllama3/bin/python
+ -u -m deepspeed.launcher.launch --world_info=eyJsb2NhbGhvc3QiOiBbMCwgMSwgMiwgMywgNF19 --master_addr=127.0
+.0.1 --master_port=29953 --enable_each_rank_log=None modelcompose/train/train_multimodal.py --lora_strateg
+y same --lora_r 128 --lora_alpha 256 --mm_projector_lr 2e-5 --deepspeed ./scripts/zero2.json --model_name_
+or_path /home1/hxl/disk/EAGLE/model/LLM/Llama-3.2-1B-Instruct --version v0 --data_path /home1/hxl/disk/EAG
+LE/dataset/Eagle-1.8M/eagle-1509586.json --mm_vision_encoder /home1/hxl/disk/EAGLE/model/Vision_Encoder/cl
+ip-vit-large-patch14-336 --mm_vision_select_layer -2 --mm_projector_type mlp2x_gelu --image_aspect_ratio p
+ad --group_by_modality_length False --bf16 True --output_dir ./checkpoints/train-vision-pr-llm --num_train
+_epochs 1 --per_device_train_batch_size 12 --per_device_eval_batch_size 4 --gradient_accumulation_steps 4
+--evaluation_strategy no --save_strategy steps --save_steps 50000 --save_total_limit 1 --learning_rate 2e-
+4 --weight_decay 0. --warmup_ratio 0.03 --lr_scheduler_type cosine --logging_steps 1 --tf32 True --model_m
+ax_length 2048 --gradient_checkpointing True --dataloader_num_workers 4 --dataloader_drop_last True --lazy
+_preprocess True
+[2025-01-20 16:14:42,477] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda
+(auto detect)
+[2025-01-20 16:14:44,360] [INFO] [launch.py:145:main] WORLD INFO DICT: {'localhost': [0, 1, 2, 3, 4]}
+[2025-01-20 16:14:44,360] [INFO] [launch.py:151:main] nnodes=1, num_local_procs=5, node_rank=0
+[2025-01-20 16:14:44,361] [INFO] [launch.py:162:main] global_rank_mapping=defaultdict(<class 'list'>, {'lo
+calhost': [0, 1, 2, 3, 4]})
+[2025-01-20 16:14:44,361] [INFO] [launch.py:163:main] dist_world_size=5
+[2025-01-20 16:14:44,361] [INFO] [launch.py:165:main] Setting CUDA_VISIBLE_DEVICES=0,1,2,3,4
+[2025-01-20 16:14:50,621] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda
+(auto detect)
+[2025-01-20 16:14:50,622] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda
+(auto detect)
+[2025-01-20 16:14:50,623] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda
+(auto detect)
+[2025-01-20 16:14:50,631] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda
+(auto detect)
+[2025-01-20 16:14:50,632] [INFO] [real_accelerator.py:161:get_accelerator] Setting ds_accelerator to cuda
+(auto detect)
+[2025-01-20 16:14:53,760] [INFO] [comm.py:637:init_distributed] cdb=None
+[2025-01-20 16:14:53,906] [INFO] [comm.py:637:init_distributed] cdb=None
+[2025-01-20 16:14:53,906] [INFO] [comm.py:668:init_distributed] Initializing TorchBackend in DeepSpeed wit
+h backend nccl
+[2025-01-20 16:14:53,913] [INFO] [comm.py:637:init_distributed] cdb=None
+[2025-01-20 16:14:53,954] [INFO] [comm.py:637:init_distributed] cdb=None
+[2025-01-20 16:14:54,219] [INFO] [comm.py:637:init_distributed] cdb=None
+You are using a model of type llama to instantiate a model of type multimodal. This is not supported for a
+ll configurations of models and can yield errors.
+Unrecognized keys in `rope_scaling` for 'rope_type'='llama3': {'name'}
+You are using a model of type llama to instantiate a model of type multimodal. This is not supported for a
+ll configurations of models and can yield errors.
+You are using a model of type llama to instantiate a model of type multimodal. This is not supported for a
+ll configurations of models and can yield errors.
+Unrecognized keys in `rope_scaling` for 'rope_type'='llama3': {'name'}
+Unrecognized keys in `rope_scaling` for 'rope_type'='llama3': {'name'}
+You are using a model of type llama to instantiate a model of type multimodal. This is not supported for a
+ll configurations of models and can yield errors.
+Unrecognized keys in `rope_scaling` for 'rope_type'='llama3': {'name'}
+You are using a model of type llama to instantiate a model of type multimodal. This is not supported for a
+ll configurations of models and can yield errors.
+Unrecognized keys in `rope_scaling` for 'rope_type'='llama3': {'name'}
+`LlamaRotaryEmbedding` can now be fully parameterized by passing the model config through the `config` arg
+ument. All other arguments will be removed in v4.46
+`LlamaRotaryEmbedding` can now be fully parameterized by passing the model config through the `config` arg
+ument. All other arguments will be removed in v4.46
+`LlamaRotaryEmbedding` can now be fully parameterized by passing the model config through the `config` arg
+ument. All other arguments will be removed in v4.46
+`LlamaRotaryEmbedding` can now be fully parameterized by passing the model config through the `config` arg
+ument. All other arguments will be removed in v4.46
+`LlamaRotaryEmbedding` can now be fully parameterized by passing the model config through the `config` arg
+ument. All other arguments will be removed in v4.46
+Some weights of MultimodalLlamaForCausalLM were not initialized from the model checkpoint at /home1/hxl/di
+sk/EAGLE/model/LLM/Llama-3.2-1B-Instruct and are newly initialized: ['model.layers.0.mlp.down_proj.lora_A.
+default.weight', 'model.layers.0.mlp.down_proj.lora_A.vision.weight', 'model.layers.0.mlp.down_proj.lora_B
+.default.weight', 'model.layers.0.mlp.down_proj.lora_B.vision.weight', 'model.layers.0.mlp.gate_proj.lora_
+A.default.weight', 'model.layers.0.mlp.gate_proj.lora_A.vision.weight', 'model.layers.0.mlp.gate_proj.lora
+_B.default.weight', 'model.layers.0.mlp.gate_proj.lora_B.vision.weight', 'model.layers.0.mlp.up_proj.lora_
+A.default.weight', 'model.layers.0.mlp.up_proj.lora_A.vision.weight', 'model.layers.0.mlp.up_proj.lora_B.d
+efault.weight', 'model.layers.0.mlp.up_proj.lora_B.vision.weight', 'model.layers.0.self_attn.k_proj.lora_A
+.default.weight', 'model.layers.0.self_attn.k_proj.lora_A.vision.weight', 'model.layers.0.self_attn.k_proj
+.lora_B.default.weight', 'model.layers.0.self_attn.k_proj.lora_B.vision.weight', 'model.layers.0.self_attn
+.o_proj.lora_A.default.weight', 'model.layers.0.self_attn.o_proj.lora_A.vision.weight', 'model.layers.0.se
+lf_attn.o_proj.lora_B.default.weight', 'model.layers.0.self_attn.o_proj.lora_B.vision.weight', 'model.laye
+rs.0.self_attn.q_proj.lora_A.default.weight', 'model.layers.0.self_attn.q_proj.lora_A.vision.weight', 'mod
+el.layers.0.self_attn.q_proj.lora_B.default.weight', 'model.layers.0.self_attn.q_proj.lora_B.vision.weight
+', 'model.layers.0.self_attn.v_proj.lora_A.default.weight', 'model.layers.0.self_attn.v_proj.lora_A.vision
+.weight', 'model.layers.0.self_attn.v_proj.lora_B.default.weight', 'model.layers.0.self_attn.v_proj.lora_B
+.vision.weight', 'model.layers.1.mlp.down_proj.lora_A.default.weight', 'model.layers.1.mlp.down_proj.lora_
+A.vision.weight', 'model.layers.1.mlp.down_proj.lora_B.default.weight', 'model.layers.1.mlp.down_proj.lora
+_B.vision.weight', 'model.layers.1.mlp.gate_proj.lora_A.default.weight', 'model.layers.1.mlp.gate_proj.lor
+a_A.vision.weight', 'model.layers.1.mlp.gate_proj.lora_B.default.weight', 'model.layers.1.mlp.gate_proj.lo
+ra_B.vision.weight', 'model.layers.1.mlp.up_proj.lora_A.default.weight', 'model.layers.1.mlp.up_proj.lora_
+A.vision.weight', 'model.layers.1.mlp.up_proj.lora_B.default.weight', 'model.layers.1.mlp.up_proj.lora_B.v
+ision.weight', 'model.layers.1.self_attn.k_proj.lora_A.default.weight', 'model.layers.1.self_attn.k_proj.l
+ora_A.vision.weight', 'model.layers.1.self_attn.k_proj.lora_B.default.weight', 'model.layers.1.self_attn.k
+_proj.lora_B.vision.weight', 'model.layers.1.self_attn.o_proj.lora_A.default.weight', 'model.layers.1.self
+_attn.o_proj.lora_A.vision.weight', 'model.layers.1.self_attn.o_proj.lora_B.default.weight', 'model.layers
+.1.self_attn.o_proj.lora_B.vision.weight', 'model.layers.1.self_attn.q_proj.lora_A.default.weight', 'model
+.layers.1.self_attn.q_proj.lora_A.vision.weight', 'model.layers.1.self_attn.q_proj.lora_B.default.weight',
+ 'model.layers.1.self_attn.q_proj.lora_B.vision.weight', 'model.layers.1.self_attn.v_proj.lora_A.default.w
+eight', 'model.layers.1.self_attn.v_proj.lora_A.vision.weight', 'model.layers.1.self_attn.v_proj.lora_B.de
+fault.weight', 'model.layers.1.self_attn.v_proj.lora_B.vision.weight', 'model.layers.10.mlp.down_proj.lora
+_A.default.weight', 'model.layers.10.mlp.down_proj.lora_A.vision.weight', 'model.layers.10.mlp.down_proj.l
+ora_B.default.weight', 'model.layers.10.mlp.down_proj.lora_B.vision.weight', 'model.layers.10.mlp.gate_pro
+j.lora_A.default.weight', 'model.layers.10.mlp.gate_proj.lora_A.vision.weight', 'model.layers.10.mlp.gate_
+proj.lora_B.default.weight', 'model.layers.10.mlp.gate_proj.lora_B.vision.weight', 'model.layers.10.mlp.up
+_proj.lora_A.default.weight', 'model.layers.10.mlp.up_proj.lora_A.vision.weight', 'model.layers.10.mlp.up_
+proj.lora_B.default.weight', 'model.layers.10.mlp.up_proj.lora_B.vision.weight', 'model.layers.10.self_att
+n.k_proj.lora_A.default.weight', 'model.layers.10.self_attn.k_proj.lora_A.vision.weight', 'model.layers.10
+.self_attn.k_proj.lora_B.default.weight', 'model.layers.10.self_attn.k_proj.lora_B.vision.weight', 'model.
+layers.10.self_attn.o_proj.lora_A.default.weight', 'model.layers.10.self_attn.o_proj.lora_A.vision.weight'
+, 'model.layers.10.self_attn.o_proj.lora_B.default.weight', 'model.layers.10.self_attn.o_proj.lora_B.visio
+n.weight', 'model.layers.10.self_attn.q_proj.lora_A.default.weight', 'model.layers.10.self_attn.q_proj.lor
+a_A.vision.weight', 'model.layers.10.self_attn.q_proj.lora_B.default.weight', 'model.layers.10.self_attn.q
+_proj.lora_B.vision.weight', 'model.layers.10.self_attn.v_proj.lora_A.default.weight', 'model.layers.10.se
+lf_attn.v_proj.lora_A.vision.weight', 'model.layers.10.self_attn.v_proj.lora_B.default.weight', 'model.lay
+ers.10.self_attn.v_proj.lora_B.vision.weight', 'model.layers.11.mlp.down_proj.lora_A.default.weight', 'mod
+el.layers.11.mlp.down_proj.lora_A.vision.weight', 'model.layers.11.mlp.down_proj.lora_B.default.weight', '
+model.layers.11.mlp.down_proj.lora_B.vision.weight', 'model.layers.11.mlp.gate_proj.lora_A.default.weight'
+, 'model.layers.11.mlp.gate_proj.lora_A.vision.weight', 'model.layers.11.mlp.gate_proj.lora_B.default.weig
+ht', 'model.layers.11.mlp.gate_proj.lora_B.vision.weight', 'model.layers.11.mlp.up_proj.lora_A.default.wei
+ght', 'model.layers.11.mlp.up_proj.lora_A.vision.weight', 'model.layers.11.mlp.up_proj.lora_B.default.weig
+ht', 'model.layers.11.mlp.up_proj.lora_B.vision.weight', 'model.layers.11.self_attn.k_proj.lora_A.default.
+weight', 'model.layers.11.self_attn.k_proj.lora_A.vision.weight', 'model.layers.11.self_attn.k_proj.lora_B
+.default.weight', 'model.layers.11.self_attn.k_proj.lora_B.vision.weight', 'model.layers.11.self_attn.o_pr
+oj.lora_A.default.weight', 'model.layers.11.self_attn.o_proj.lora_A.vision.weight', 'model.layers.11.self_
+attn.o_proj.lora_B.default.weight', 'model.layers.11.self_attn.o_proj.lora_B.vision.weight', 'model.layers
+.11.self_attn.q_proj.lora_A.default.weight', 'model.layers.11.self_attn.q_proj.lora_A.vision.weight', 'mod
+el.layers.11.self_attn.q_proj.lora_B.default.weight', 'model.layers.11.self_attn.q_proj.lora_B.vision.weig
+ht', 'model.layers.11.self_attn.v_proj.lora_A.default.weight', 'model.layers.11.self_attn.v_proj.lora_A.vi
+sion.weight', 'model.layers.11.self_attn.v_proj.lora_B.default.weight', 'model.layers.11.self_attn.v_proj.
+lora_B.vision.weight', 'model.layers.12.mlp.down_proj.lora_A.default.weight', 'model.layers.12.mlp.down_pr
+oj.lora_A.vision.weight', 'model.layers.12.mlp.down_proj.lora_B.default.weight', 'model.layers.12.mlp.down
+_proj.lora_B.vision.weight', 'model.layers.12.mlp.gate_proj.lora_A.default.weight', 'model.layers.12.mlp.g
+ate_proj.lora_A.vision.weight', 'model.layers.12.mlp.gate_proj.lora_B.default.weight', 'model.layers.12.ml
+p.gate_proj.lora_B.vision.weight', 'model.layers.12.mlp.up_proj.lora_A.default.weight', 'model.layers.12.m
+lp.up_proj.lora_A.vision.weight', 'model.layers.12.mlp.up_proj.lora_B.default.weight', 'model.layers.12.ml
+p.up_proj.lora_B.vision.weight', 'model.layers.12.self_attn.k_proj.lora_A.default.weight', 'model.layers.1
+2.self_attn.k_proj.lora_A.vision.weight', 'model.layers.12.self_attn.k_proj.lora_B.default.weight', 'model
+.layers.12.self_attn.k_proj.lora_B.vision.weight', 'model.layers.12.self_attn.o_proj.lora_A.default.weight
+', 'model.layers.12.self_attn.o_proj.lora_A.vision.weight', 'model.layers.12.self_attn.o_proj.lora_B.defau
+lt.weight', 'model.layers.12.self_attn.o_proj.lora_B.vision.weight', 'model.layers.12.self_attn.q_proj.lor
+a_A.default.weight', 'model.layers.12.self_attn.q_proj.lora_A.vision.weight', 'model.layers.12.self_attn.q
+_proj.lora_B.default.weight', 'model.layers.12.self_attn.q_proj.lora_B.vision.weight', 'model.layers.12.se
+lf_attn.v_proj.lora_A.default.weight', 'model.layers.12.self_attn.v_proj.lora_A.vision.weight', 'model.lay
+ers.12.self_attn.v_proj.lora_B.default.weight', 'model.layers.12.self_attn.v_proj.lora_B.vision.weight', '
+model.layers.13.mlp.down_proj.lora_A.default.weight', 'model.layers.13.mlp.down_proj.lora_A.vision.weight'
+, 'model.layers.13.mlp.down_proj.lora_B.default.weight', 'model.layers.13.mlp.down_proj.lora_B.vision.weig
+ht', 'model.layers.13.mlp.gate_proj.lora_A.default.weight', 'model.layers.13.mlp.gate_proj.lora_A.vision.w
+eight', 'model.layers.13.mlp.gate_proj.lora_B.default.weight', 'model.layers.13.mlp.gate_proj.lora_B.visio
+n.weight', 'model.layers.13.mlp.up_proj.lora_A.default.weight', 'model.layers.13.mlp.up_proj.lora_A.vision
+.weight', 'model.layers.13.mlp.up_proj.lora_B.default.weight', 'model.layers.13.mlp.up_proj.lora_B.vision.
+weight', 'model.layers.13.self_attn.k_proj.lora_A.default.weight', 'model.layers.13.self_attn.k_proj.lora_
+A.vision.weight', 'model.layers.13.self_attn.k_proj.lora_B.default.weight', 'model.layers.13.self_attn.k_p
+roj.lora_B.vision.weight', 'model.layers.13.self_attn.o_proj.lora_A.default.weight', 'model.layers.13.self
+_attn.o_proj.lora_A.vision.weight', 'model.layers.13.self_attn.o_proj.lora_B.default.weight', 'model.layer
+s.13.self_attn.o_proj.lora_B.vision.weight', 'model.layers.13.self_attn.q_proj.lora_A.default.weight', 'mo
+del.layers.13.self_attn.q_proj.lora_A.vision.weight', 'model.layers.13.self_attn.q_proj.lora_B.default.wei
+ght', 'model.layers.13.self_attn.q_proj.lora_B.vision.weight', 'model.layers.13.self_attn.v_proj.lora_A.de
+fault.weight', 'model.layers.13.self_attn.v_proj.lora_A.vision.weight', 'model.layers.13.self_attn.v_proj.
+lora_B.default.weight', 'model.layers.13.self_attn.v_proj.lora_B.vision.weight', 'model.layers.14.mlp.down
+_proj.lora_A.default.weight', 'model.layers.14.mlp.down_proj.lora_A.vision.weight', 'model.layers.14.mlp.d
+own_proj.lora_B.default.weight', 'model.layers.14.mlp.down_proj.lora_B.vision.weight', 'model.layers.14.ml
+p.gate_proj.lora_A.default.weight', 'model.layers.14.mlp.gate_proj.lora_A.vision.weight', 'model.layers.14
+.mlp.gate_proj.lora_B.default.weight', 'model.layers.14.mlp.gate_proj.lora_B.vision.weight', 'model.layers
+.14.mlp.up_proj.lora_A.default.weight', 'model.layers.14.mlp.up_proj.lora_A.vision.weight', 'model.layers.
+14.mlp.up_proj.lora_B.default.weight', 'model.layers.14.mlp.up_proj.lora_B.vision.weight', 'model.layers.1
+4.self_attn.k_proj.lora_A.default.weight', 'model.layers.14.self_attn.k_proj.lora_A.vision.weight', 'model
+.layers.14.self_attn.k_proj.lora_B.default.weight', 'model.layers.14.self_attn.k_proj.lora_B.vision.weight
+', 'model.layers.14.self_attn.o_proj.lora_A.default.weight', 'model.layers.14.self_attn.o_proj.lora_A.visi
+on.weight', 'model.layers.14.self_attn.o_proj.lora_B.default.weight', 'model.layers.14.self_attn.o_proj.lo
+ra_B.vision.weight', 'model.layers.14.self_attn.q_proj.lora_A.default.weight', 'model.layers.14.self_attn.
+q_proj.lora_A.vision.weight', 'model.layers.14.self_attn.q_proj.lora_B.default.weight', 'model.layers.14.s
+elf_attn.q_proj.lora_B.vision.weight', 'model.layers.14.self_attn.v_proj.lora_A.default.weight', 'model.la
+yers.14.self_attn.v_proj.lora_A.vision.weight', 'model.layers.14.self_attn.v_proj.lora_B.default.weight',
+'model.layers.14.self_attn.v_proj.lora_B.vision.weight', 'model.layers.15.mlp.down_proj.lora_A.default.wei
+ght', 'model.layers.15.mlp.down_proj.lora_A.vision.weight', 'model.layers.15.mlp.down_proj.lora_B.default.
+weight', 'model.layers.15.mlp.down_proj.lora_B.vision.weight', 'model.layers.15.mlp.gate_proj.lora_A.defau
+lt.weight', 'model.layers.15.mlp.gate_proj.lora_A.vision.weight', 'model.layers.15.mlp.gate_proj.lora_B.de
+fault.weight', 'model.layers.15.mlp.gate_proj.lora_B.vision.weight', 'model.layers.15.mlp.up_proj.lora_A.d
+efault.weight', 'model.layers.15.mlp.up_proj.lora_A.vision.weight', 'model.layers.15.mlp.up_proj.lora_B.de
+fault.weight', 'model.layers.15.mlp.up_proj.lora_B.vision.weight', 'model.layers.15.self_attn.k_proj.lora_
+A.default.weight', 'model.layers.15.self_attn.k_proj.lora_A.vision.weight', 'model.layers.15.self_attn.k_p
+roj.lora_B.default.weight', 'model.layers.15.self_attn.k_proj.lora_B.vision.weight', 'model.layers.15.self
+_attn.o_proj.lora_A.default.weight', 'model.layers.15.self_attn.o_proj.lora_A.vision.weight', 'model.layer
+s.15.self_attn.o_proj.lora_B.default.weight', 'model.layers.15.self_attn.o_proj.lora_B.vision.weight', 'mo
+del.layers.15.self_attn.q_proj.lora_A.default.weight', 'model.layers.15.self_attn.q_proj.lora_A.vision.wei
+ght', 'model.layers.15.self_attn.q_proj.lora_B.default.weight', 'model.layers.15.self_attn.q_proj.lora_B.v
+ision.weight', 'model.layers.15.self_attn.v_proj.lora_A.default.weight', 'model.layers.15.self_attn.v_proj
+.lora_A.vision.weight', 'model.layers.15.self_attn.v_proj.lora_B.default.weight', 'model.layers.15.self_at
+tn.v_proj.lora_B.vision.weight', 'model.layers.2.mlp.down_proj.lora_A.default.weight', 'model.layers.2.mlp
+.down_proj.lora_A.vision.weight', 'model.layers.2.mlp.down_proj.lora_B.default.weight', 'model.layers.2.ml
+p.down_proj.lora_B.vision.weight', 'model.layers.2.mlp.gate_proj.lora_A.default.weight', 'model.layers.2.m
+lp.gate_proj.lora_A.vision.weight', 'model.layers.2.mlp.gate_proj.lora_B.default.weight', 'model.layers.2.
+mlp.gate_proj.lora_B.vision.weight', 'model.layers.2.mlp.up_proj.lora_A.default.weight', 'model.layers.2.m
+lp.up_proj.lora_A.vision.weight', 'model.layers.2.mlp.up_proj.lora_B.default.weight', 'model.layers.2.mlp.
+up_proj.lora_B.vision.weight', 'model.layers.2.self_attn.k_proj.lora_A.default.weight', 'model.layers.2.se
+lf_attn.k_proj.lora_A.vision.weight', 'model.layers.2.self_attn.k_proj.lora_B.default.weight', 'model.laye
+rs.2.self_attn.k_proj.lora_B.vision.weight', 'model.layers.2.self_attn.o_proj.lora_A.default.weight', 'mod
+el.layers.2.self_attn.o_proj.lora_A.vision.weight', 'model.layers.2.self_attn.o_proj.lora_B.default.weight
+', 'model.layers.2.self_attn.o_proj.lora_B.vision.weight', 'model.layers.2.self_attn.q_proj.lora_A.default
+.weight', 'model.layers.2.self_attn.q_proj.lora_A.vision.weight', 'model.layers.2.self_attn.q_proj.lora_B.
+default.weight', 'model.layers.2.self_attn.q_proj.lora_B.vision.weight', 'model.layers.2.self_attn.v_proj.
+lora_A.default.weight', 'model.layers.2.self_attn.v_proj.lora_A.vision.weight', 'model.layers.2.self_attn.
+v_proj.lora_B.default.weight', 'model.layers.2.self_attn.v_proj.lora_B.vision.weight', 'model.layers.3.mlp
+.down_proj.lora_A.default.weight', 'model.layers.3.mlp.down_proj.lora_A.vision.weight', 'model.layers.3.ml
+p.down_proj.lora_B.default.weight', 'model.layers.3.mlp.down_proj.lora_B.vision.weight', 'model.layers.3.m
+lp.gate_proj.lora_A.default.weight', 'model.layers.3.mlp.gate_proj.lora_A.vision.weight', 'model.layers.3.
+mlp.gate_proj.lora_B.default.weight', 'model.layers.3.mlp.gate_proj.lora_B.vision.weight', 'model.layers.3
+.mlp.up_proj.lora_A.default.weight', 'model.layers.3.mlp.up_proj.lora_A.vision.weight', 'model.layers.3.ml
+p.up_proj.lora_B.default.weight', 'model.layers.3.mlp.up_proj.lora_B.vision.weight', 'model.layers.3.self_
+attn.k_proj.lora_A.default.weight', 'model.layers.3.self_attn.k_proj.lora_A.vision.weight', 'model.layers.
+3.self_attn.k_proj.lora_B.default.weight', 'model.layers.3.self_attn.k_proj.lora_B.vision.weight', 'model.
+layers.3.self_attn.o_proj.lora_A.default.weight', 'model.layers.3.self_attn.o_proj.lora_A.vision.weight',
+'model.layers.3.self_attn.o_proj.lora_B.default.weight', 'model.layers.3.self_attn.o_proj.lora_B.vision.we
+ight', 'model.layers.3.self_attn.q_proj.lora_A.default.weight', 'model.layers.3.self_attn.q_proj.lora_A.vi
+sion.weight', 'model.layers.3.self_attn.q_proj.lora_B.default.weight', 'model.layers.3.self_attn.q_proj.lo
+ra_B.vision.weight', 'model.layers.3.self_attn.v_proj.lora_A.default.weight', 'model.layers.3.self_attn.v_
+proj.lora_A.vision.weight', 'model.layers.3.self_attn.v_proj.lora_B.default.weight', 'model.layers.3.self_
+attn.v_proj.lora_B.vision.weight', 'model.layers.4.mlp.down_proj.lora_A.default.weight', 'model.layers.4.m
+lp.down_proj.lora_A.vision.weight', 'model.layers.4.mlp.down_proj.lora_B.default.weight', 'model.layers.4.
+mlp.down_proj.lora_B.vision.weight', 'model.layers.4.mlp.gate_proj.lora_A.default.weight', 'model.layers.4
+.mlp.gate_proj.lora_A.vision.weight', 'model.layers.4.mlp.gate_proj.lora_B.default.weight', 'model.layers.
+4.mlp.gate_proj.lora_B.vision.weight', 'model.layers.4.mlp.up_proj.lora_A.default.weight', 'model.layers.4
+.mlp.up_proj.lora_A.vision.weight', 'model.layers.4.mlp.up_proj.lora_B.default.weight', 'model.layers.4.ml
+p.up_proj.lora_B.vision.weight', 'model.layers.4.self_attn.k_proj.lora_A.default.weight', 'model.layers.4.
+self_attn.k_proj.lora_A.vision.weight', 'model.layers.4.self_attn.k_proj.lora_B.default.weight', 'model.la
+yers.4.self_attn.k_proj.lora_B.vision.weight', 'model.layers.4.self_attn.o_proj.lora_A.default.weight', 'm
+odel.layers.4.self_attn.o_proj.lora_A.vision.weight', 'model.layers.4.self_attn.o_proj.lora_B.default.weig
+ht', 'model.layers.4.self_attn.o_proj.lora_B.vision.weight', 'model.layers.4.self_attn.q_proj.lora_A.defau
+lt.weight', 'model.layers.4.self_attn.q_proj.lora_A.vision.weight', 'model.layers.4.self_attn.q_proj.lora_
+B.default.weight', 'model.layers.4.self_attn.q_proj.lora_B.vision.weight', 'model.layers.4.self_attn.v_pro
+j.lora_A.default.weight', 'model.layers.4.self_attn.v_proj.lora_A.vision.weight', 'model.layers.4.self_att
+n.v_proj.lora_B.default.weight', 'model.layers.4.self_attn.v_proj.lora_B.vision.weight', 'model.layers.5.m
+lp.down_proj.lora_A.default.weight', 'model.layers.5.mlp.down_proj.lora_A.vision.weight', 'model.layers.5.
+mlp.down_proj.lora_B.default.weight', 'model.layers.5.mlp.down_proj.lora_B.vision.weight', 'model.layers.5
+.mlp.gate_proj.lora_A.default.weight', 'model.layers.5.mlp.gate_proj.lora_A.vision.weight', 'model.layers.
+5.mlp.gate_proj.lora_B.default.weight', 'model.layers.5.mlp.gate_proj.lora_B.vision.weight', 'model.layers
+.5.mlp.up_proj.lora_A.default.weight', 'model.layers.5.mlp.up_proj.lora_A.vision.weight', 'model.layers.5.
+mlp.up_proj.lora_B.default.weight', 'model.layers.5.mlp.up_proj.lora_B.vision.weight', 'model.layers.5.sel
+f_attn.k_proj.lora_A.default.weight', 'model.layers.5.self_attn.k_proj.lora_A.vision.weight', 'model.layer
+s.5.self_attn.k_proj.lora_B.default.weight', 'model.layers.5.self_attn.k_proj.lora_B.vision.weight', 'mode
+l.layers.5.self_attn.o_proj.lora_A.default.weight', 'model.layers.5.self_attn.o_proj.lora_A.vision.weight'
+, 'model.layers.5.self_attn.o_proj.lora_B.default.weight', 'model.layers.5.self_attn.o_proj.lora_B.vision.
+weight', 'model.layers.5.self_attn.q_proj.lora_A.default.weight', 'model.layers.5.self_attn.q_proj.lora_A.
+vision.weight', 'model.layers.5.self_attn.q_proj.lora_B.default.weight', 'model.layers.5.self_attn.q_proj.
+lora_B.vision.weight', 'model.layers.5.self_attn.v_proj.lora_A.default.weight', 'model.layers.5.self_attn.
+v_proj.lora_A.vision.weight', 'model.layers.5.self_attn.v_proj.lora_B.default.weight', 'model.layers.5.sel
+f_attn.v_proj.lora_B.vision.weight', 'model.layers.6.mlp.down_proj.lora_A.default.weight', 'model.layers.6
+.mlp.down_proj.lora_A.vision.weight', 'model.layers.6.mlp.down_proj.lora_B.default.weight', 'model.layers.
+6.mlp.down_proj.lora_B.vision.weight', 'model.layers.6.mlp.gate_proj.lora_A.default.weight', 'model.layers
+.6.mlp.gate_proj.lora_A.vision.weight', 'model.layers.6.mlp.gate_proj.lora_B.default.weight', 'model.layer
+s.6.mlp.gate_proj.lora_B.vision.weight', 'model.layers.6.mlp.up_proj.lora_A.default.weight', 'model.layers
+.6.mlp.up_proj.lora_A.vision.weight', 'model.layers.6.mlp.up_proj.lora_B.default.weight', 'model.layers.6.
+mlp.up_proj.lora_B.vision.weight', 'model.layers.6.self_attn.k_proj.lora_A.default.weight', 'model.layers.
+6.self_attn.k_proj.lora_A.vision.weight', 'model.layers.6.self_attn.k_proj.lora_B.default.weight', 'model.
+layers.6.self_attn.k_proj.lora_B.vision.weight', 'model.layers.6.self_attn.o_proj.lora_A.default.weight',
+'model.layers.6.self_attn.o_proj.lora_A.vision.weight', 'model.layers.6.self_attn.o_proj.lora_B.default.we
+ight', 'model.layers.6.self_attn.o_proj.lora_B.vision.weight', 'model.layers.6.self_attn.q_proj.lora_A.def
+ault.weight', 'model.layers.6.self_attn.q_proj.lora_A.vision.weight', 'model.layers.6.self_attn.q_proj.lor
+a_B.default.weight', 'model.layers.6.self_attn.q_proj.lora_B.vision.weight', 'model.layers.6.self_attn.v_p
+roj.lora_A.default.weight', 'model.layers.6.self_attn.v_proj.lora_A.vision.weight', 'model.layers.6.self_a
+ttn.v_proj.lora_B.default.weight', 'model.layers.6.self_attn.v_proj.lora_B.vision.weight', 'model.layers.7
+.mlp.down_proj.lora_A.default.weight', 'model.layers.7.mlp.down_proj.lora_A.vision.weight', 'model.layers.
+7.mlp.down_proj.lora_B.default.weight', 'model.layers.7.mlp.down_proj.lora_B.vision.weight', 'model.layers
+.7.mlp.gate_proj.lora_A.default.weight', 'model.layers.7.mlp.gate_proj.lora_A.vision.weight', 'model.layer
+s.7.mlp.gate_proj.lora_B.default.weight', 'model.layers.7.mlp.gate_proj.lora_B.vision.weight', 'model.laye
+rs.7.mlp.up_proj.lora_A.default.weight', 'model.layers.7.mlp.up_proj.lora_A.vision.weight', 'model.layers.
+7.mlp.up_proj.lora_B.default.weight', 'model.layers.7.mlp.up_proj.lora_B.vision.weight', 'model.layers.7.s
+elf_attn.k_proj.lora_A.default.weight', 'model.layers.7.self_attn.k_proj.lora_A.vision.weight', 'model.lay
+ers.7.self_attn.k_proj.lora_B.default.weight', 'model.layers.7.self_attn.k_proj.lora_B.vision.weight', 'mo
+del.layers.7.self_attn.o_proj.lora_A.default.weight', 'model.layers.7.self_attn.o_proj.lora_A.vision.weigh
+t', 'model.layers.7.self_attn.o_proj.lora_B.default.weight', 'model.layers.7.self_attn.o_proj.lora_B.visio
+n.weight', 'model.layers.7.self_attn.q_proj.lora_A.default.weight', 'model.layers.7.self_attn.q_proj.lora_
+A.vision.weight', 'model.layers.7.self_attn.q_proj.lora_B.default.weight', 'model.layers.7.self_attn.q_pro
+j.lora_B.vision.weight', 'model.layers.7.self_attn.v_proj.lora_A.default.weight', 'model.layers.7.self_att
+n.v_proj.lora_A.vision.weight', 'model.layers.7.self_attn.v_proj.lora_B.default.weight', 'model.layers.7.s
+elf_attn.v_proj.lora_B.vision.weight', 'model.layers.8.mlp.down_proj.lora_A.default.weight', 'model.layers
+.8.mlp.down_proj.lora_A.vision.weight', 'model.layers.8.mlp.down_proj.lora_B.default.weight', 'model.layer
+s.8.mlp.down_proj.lora_B.vision.weight', 'model.layers.8.mlp.gate_proj.lora_A.default.weight', 'model.laye
+rs.8.mlp.gate_proj.lora_A.vision.weight', 'model.layers.8.mlp.gate_proj.lora_B.default.weight', 'model.lay
+ers.8.mlp.gate_proj.lora_B.vision.weight', 'model.layers.8.mlp.up_proj.lora_A.default.weight', 'model.laye
+rs.8.mlp.up_proj.lora_A.vision.weight', 'model.layers.8.mlp.up_proj.lora_B.default.weight', 'model.layers.
+8.mlp.up_proj.lora_B.vision.weight', 'model.layers.8.self_attn.k_proj.lora_A.default.weight', 'model.layer
+s.8.self_attn.k_proj.lora_A.vision.weight', 'model.layers.8.self_attn.k_proj.lora_B.default.weight', 'mode
+l.layers.8.self_attn.k_proj.lora_B.vision.weight', 'model.layers.8.self_attn.o_proj.lora_A.default.weight'
+, 'model.layers.8.self_attn.o_proj.lora_A.vision.weight', 'model.layers.8.self_attn.o_proj.lora_B.default.
+weight', 'model.layers.8.self_attn.o_proj.lora_B.vision.weight', 'model.layers.8.self_attn.q_proj.lora_A.d
+efault.weight', 'model.layers.8.self_attn.q_proj.lora_A.vision.weight', 'model.layers.8.self_attn.q_proj.l
+ora_B.default.weight', 'model.layers.8.self_attn.q_proj.lora_B.vision.weight', 'model.layers.8.self_attn.v
+_proj.lora_A.default.weight', 'model.layers.8.self_attn.v_proj.lora_A.vision.weight', 'model.layers.8.self
+_attn.v_proj.lora_B.default.weight', 'model.layers.8.self_attn.v_proj.lora_B.vision.weight', 'model.layers
+.9.mlp.down_proj.lora_A.default.weight', 'model.layers.9.mlp.down_proj.lora_A.vision.weight', 'model.layer
+s.9.mlp.down_proj.lora_B.default.weight', 'model.layers.9.mlp.down_proj.lora_B.vision.weight', 'model.laye
+rs.9.mlp.gate_proj.lora_A.default.weight', 'model.layers.9.mlp.gate_proj.lora_A.vision.weight', 'model.lay
+ers.9.mlp.gate_proj.lora_B.default.weight', 'model.layers.9.mlp.gate_proj.lora_B.vision.weight', 'model.la
+yers.9.mlp.up_proj.lora_A.default.weight', 'model.layers.9.mlp.up_proj.lora_A.vision.weight', 'model.layer
+s.9.mlp.up_proj.lora_B.default.weight', 'model.layers.9.mlp.up_proj.lora_B.vision.weight', 'model.layers.9
+.self_attn.k_proj.lora_A.default.weight', 'model.layers.9.self_attn.k_proj.lora_A.vision.weight', 'model.l
+ayers.9.self_attn.k_proj.lora_B.default.weight', 'model.layers.9.self_attn.k_proj.lora_B.vision.weight', '
+model.layers.9.self_attn.o_proj.lora_A.default.weight', 'model.layers.9.self_attn.o_proj.lora_A.vision.wei
+ght', 'model.layers.9.self_attn.o_proj.lora_B.default.weight', 'model.layers.9.self_attn.o_proj.lora_B.vis
+ion.weight', 'model.layers.9.self_attn.q_proj.lora_A.default.weight', 'model.layers.9.self_attn.q_proj.lor
+a_A.vision.weight', 'model.layers.9.self_attn.q_proj.lora_B.default.weight', 'model.layers.9.self_attn.q_p
+roj.lora_B.vision.weight', 'model.layers.9.self_attn.v_proj.lora_A.default.weight', 'model.layers.9.self_a
+ttn.v_proj.lora_A.vision.weight', 'model.layers.9.self_attn.v_proj.lora_B.default.weight', 'model.layers.9
+.self_attn.v_proj.lora_B.vision.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and infere
+nce.
+Some weights of MultimodalLlamaForCausalLM were not initialized from the model checkpoint at /home1/hxl/di
+sk/EAGLE/model/LLM/Llama-3.2-1B-Instruct and are newly initialized: ['model.layers.0.mlp.down_proj.lora_A.
+default.weight', 'model.layers.0.mlp.down_proj.lora_A.vision.weight', 'model.layers.0.mlp.down_proj.lora_B
+.default.weight', 'model.layers.0.mlp.down_proj.lora_B.vision.weight', 'model.layers.0.mlp.gate_proj.lora_
+A.default.weight', 'model.layers.0.mlp.gate_proj.lora_A.vision.weight', 'model.layers.0.mlp.gate_proj.lora
+_B.default.weight', 'model.layers.0.mlp.gate_proj.lora_B.vision.weight', 'model.layers.0.mlp.up_proj.lora_
+A.default.weight', 'model.layers.0.mlp.up_proj.lora_A.vision.weight', 'model.layers.0.mlp.up_proj.lora_B.d
+efault.weight', 'model.layers.0.mlp.up_proj.lora_B.vision.weight', 'model.layers.0.self_attn.k_proj.lora_A
+.default.weight', 'model.layers.0.self_attn.k_proj.lora_A.vision.weight', 'model.layers.0.self_attn.k_proj
+.lora_B.default.weight', 'model.layers.0.self_attn.k_proj.lora_B.vision.weight', 'model.layers.0.self_attn
+.o_proj.lora_A.default.weight', 'model.layers.0.self_attn.o_proj.lora_A.vision.weight', 'model.layers.0.se
+lf_attn.o_proj.lora_B.default.weight', 'model.layers.0.self_attn.o_proj.lora_B.vision.weight', 'model.laye
+rs.0.self_attn.q_proj.lora_A.default.weight', 'model.layers.0.self_attn.q_proj.lora_A.vision.weight', 'mod
+el.layers.0.self_attn.q_proj.lora_B.default.weight', 'model.layers.0.self_attn.q_proj.lora_B.vision.weight
+', 'model.layers.0.self_attn.v_proj.lora_A.default.weight', 'model.layers.0.self_attn.v_proj.lora_A.vision
+.weight', 'model.layers.0.self_attn.v_proj.lora_B.default.weight', 'model.layers.0.self_attn.v_proj.lora_B
+.vision.weight', 'model.layers.1.mlp.down_proj.lora_A.default.weight', 'model.layers.1.mlp.down_proj.lora_
+A.vision.weight', 'model.layers.1.mlp.down_proj.lora_B.default.weight', 'model.layers.1.mlp.down_proj.lora
+_B.vision.weight', 'model.layers.1.mlp.gate_proj.lora_A.default.weight', 'model.layers.1.mlp.gate_proj.lor
+a_A.vision.weight', 'model.layers.1.mlp.gate_proj.lora_B.default.weight', 'model.layers.1.mlp.gate_proj.lo
+ra_B.vision.weight', 'model.layers.1.mlp.up_proj.lora_A.default.weight', 'model.layers.1.mlp.up_proj.lora_
+A.vision.weight', 'model.layers.1.mlp.up_proj.lora_B.default.weight', 'model.layers.1.mlp.up_proj.lora_B.v
+ision.weight', 'model.layers.1.self_attn.k_proj.lora_A.default.weight', 'model.layers.1.self_attn.k_proj.l
+ora_A.vision.weight', 'model.layers.1.self_attn.k_proj.lora_B.default.weight', 'model.layers.1.self_attn.k
+_proj.lora_B.vision.weight', 'model.layers.1.self_attn.o_proj.lora_A.default.weight', 'model.layers.1.self
+_attn.o_proj.lora_A.vision.weight', 'model.layers.1.self_attn.o_proj.lora_B.default.weight', 'model.layers
+.1.self_attn.o_proj.lora_B.vision.weight', 'model.layers.1.self_attn.q_proj.lora_A.default.weight', 'model
+.layers.1.self_attn.q_proj.lora_A.vision.weight', 'model.layers.1.self_attn.q_proj.lora_B.default.weight',
+ 'model.layers.1.self_attn.q_proj.lora_B.vision.weight', 'model.layers.1.self_attn.v_proj.lora_A.default.w
+eight', 'model.layers.1.self_attn.v_proj.lora_A.vision.weight', 'model.layers.1.self_attn.v_proj.lora_B.de
+fault.weight', 'model.layers.1.self_attn.v_proj.lora_B.vision.weight', 'model.layers.10.mlp.down_proj.lora
+_A.default.weight', 'model.layers.10.mlp.down_proj.lora_A.vision.weight', 'model.layers.10.mlp.down_proj.l
+ora_B.default.weight', 'model.layers.10.mlp.down_proj.lora_B.vision.weight', 'model.layers.10.mlp.gate_pro
+j.lora_A.default.weight', 'model.layers.10.mlp.gate_proj.lora_A.vision.weight', 'model.layers.10.mlp.gate_
+proj.lora_B.default.weight', 'model.layers.10.mlp.gate_proj.lora_B.vision.weight', 'model.layers.10.mlp.up
+_proj.lora_A.default.weight', 'model.layers.10.mlp.up_proj.lora_A.vision.weight', 'model.layers.10.mlp.up_
+proj.lora_B.default.weight', 'model.layers.10.mlp.up_proj.lora_B.vision.weight', 'model.layers.10.self_att
+n.k_proj.lora_A.default.weight', 'model.layers.10.self_attn.k_proj.lora_A.vision.weight', 'model.layers.10
+.self_attn.k_proj.lora_B.default.weight', 'model.layers.10.self_attn.k_proj.lora_B.vision.weight', 'model.
+layers.10.self_attn.o_proj.lora_A.default.weight', 'model.layers.10.self_attn.o_proj.lora_A.vision.weight'
+, 'model.layers.10.self_attn.o_proj.lora_B.default.weight', 'model.layers.10.self_attn.o_proj.lora_B.visio
+n.weight', 'model.layers.10.self_attn.q_proj.lora_A.default.weight', 'model.layers.10.self_attn.q_proj.lor
+a_A.vision.weight', 'model.layers.10.self_attn.q_proj.lora_B.default.weight', 'model.layers.10.self_attn.q
+_proj.lora_B.vision.weight', 'model.layers.10.self_attn.v_proj.lora_A.default.weight', 'model.layers.10.se
+lf_attn.v_proj.lora_A.vision.weight', 'model.layers.10.self_attn.v_proj.lora_B.default.weight', 'model.lay
+ers.10.self_attn.v_proj.lora_B.vision.weight', 'model.layers.11.mlp.down_proj.lora_A.default.weight', 'mod
+el.layers.11.mlp.down_proj.lora_A.vision.weight', 'model.layers.11.mlp.down_proj.lora_B.default.weight', '
+model.layers.11.mlp.down_proj.lora_B.vision.weight', 'model.layers.11.mlp.gate_proj.lora_A.default.weight'
+, 'model.layers.11.mlp.gate_proj.lora_A.vision.weight', 'model.layers.11.mlp.gate_proj.lora_B.default.weig
+ht', 'model.layers.11.mlp.gate_proj.lora_B.vision.weight', 'model.layers.11.mlp.up_proj.lora_A.default.wei
+ght', 'model.layers.11.mlp.up_proj.lora_A.vision.weight', 'model.layers.11.mlp.up_proj.lora_B.default.weig
+ht', 'model.layers.11.mlp.up_proj.lora_B.vision.weight', 'model.layers.11.self_attn.k_proj.lora_A.default.
+weight', 'model.layers.11.self_attn.k_proj.lora_A.vision.weight', 'model.layers.11.self_attn.k_proj.lora_B
+.default.weight', 'model.layers.11.self_attn.k_proj.lora_B.vision.weight', 'model.layers.11.self_attn.o_pr
+oj.lora_A.default.weight', 'model.layers.11.self_attn.o_proj.lora_A.vision.weight', 'model.layers.11.self_
+attn.o_proj.lora_B.default.weight', 'model.layers.11.self_attn.o_proj.lora_B.vision.weight', 'model.layers
+.11.self_attn.q_proj.lora_A.default.weight', 'model.layers.11.self_attn.q_proj.lora_A.vision.weight', 'mod
+el.layers.11.self_attn.q_proj.lora_B.default.weight', 'model.layers.11.self_attn.q_proj.lora_B.vision.weig
+ht', 'model.layers.11.self_attn.v_proj.lora_A.default.weight', 'model.layers.11.self_attn.v_proj.lora_A.vi
+sion.weight', 'model.layers.11.self_attn.v_proj.lora_B.default.weight', 'model.layers.11.self_attn.v_proj.
+lora_B.vision.weight', 'model.layers.12.mlp.down_proj.lora_A.default.weight', 'model.layers.12.mlp.down_pr
+oj.lora_A.vision.weight', 'model.layers.12.mlp.down_proj.lora_B.default.weight', 'model.layers.12.mlp.down
+_proj.lora_B.vision.weight', 'model.layers.12.mlp.gate_proj.lora_A.default.weight', 'model.layers.12.mlp.g
+ate_proj.lora_A.vision.weight', 'model.layers.12.mlp.gate_proj.lora_B.default.weight', 'model.layers.12.ml
+p.gate_proj.lora_B.vision.weight', 'model.layers.12.mlp.up_proj.lora_A.default.weight', 'model.layers.12.m
+lp.up_proj.lora_A.vision.weight', 'model.layers.12.mlp.up_proj.lora_B.default.weight', 'model.layers.12.ml
+p.up_proj.lora_B.vision.weight', 'model.layers.12.self_attn.k_proj.lora_A.default.weight', 'model.layers.1
+2.self_attn.k_proj.lora_A.vision.weight', 'model.layers.12.self_attn.k_proj.lora_B.default.weight', 'model
+.layers.12.self_attn.k_proj.lora_B.vision.weight', 'model.layers.12.self_attn.o_proj.lora_A.default.weight
+', 'model.layers.12.self_attn.o_proj.lora_A.vision.weight', 'model.layers.12.self_attn.o_proj.lora_B.defau
+lt.weight', 'model.layers.12.self_attn.o_proj.lora_B.vision.weight', 'model.layers.12.self_attn.q_proj.lor
+a_A.default.weight', 'model.layers.12.self_attn.q_proj.lora_A.vision.weight', 'model.layers.12.self_attn.q
+_proj.lora_B.default.weight', 'model.layers.12.self_attn.q_proj.lora_B.vision.weight', 'model.layers.12.se
+lf_attn.v_proj.lora_A.default.weight', 'model.layers.12.self_attn.v_proj.lora_A.vision.weight', 'model.lay
+ers.12.self_attn.v_proj.lora_B.default.weight', 'model.layers.12.self_attn.v_proj.lora_B.vision.weight', '
+model.layers.13.mlp.down_proj.lora_A.default.weight', 'model.layers.13.mlp.down_proj.lora_A.vision.weight'
+, 'model.layers.13.mlp.down_proj.lora_B.default.weight', 'model.layers.13.mlp.down_proj.lora_B.vision.weig
+ht', 'model.layers.13.mlp.gate_proj.lora_A.default.weight', 'model.layers.13.mlp.gate_proj.lora_A.vision.w
+eight', 'model.layers.13.mlp.gate_proj.lora_B.default.weight', 'model.layers.13.mlp.gate_proj.lora_B.visio
+n.weight', 'model.layers.13.mlp.up_proj.lora_A.default.weight', 'model.layers.13.mlp.up_proj.lora_A.vision
+.weight', 'model.layers.13.mlp.up_proj.lora_B.default.weight', 'model.layers.13.mlp.up_proj.lora_B.vision.
+weight', 'model.layers.13.self_attn.k_proj.lora_A.default.weight', 'model.layers.13.self_attn.k_proj.lora_
+A.vision.weight', 'model.layers.13.self_attn.k_proj.lora_B.default.weight', 'model.layers.13.self_attn.k_p
+roj.lora_B.vision.weight', 'model.layers.13.self_attn.o_proj.lora_A.default.weight', 'model.layers.13.self
+_attn.o_proj.lora_A.vision.weight', 'model.layers.13.self_attn.o_proj.lora_B.default.weight', 'model.layer
+s.13.self_attn.o_proj.lora_B.vision.weight', 'model.layers.13.self_attn.q_proj.lora_A.default.weight', 'mo
+del.layers.13.self_attn.q_proj.lora_A.vision.weight', 'model.layers.13.self_attn.q_proj.lora_B.default.wei
+ght', 'model.layers.13.self_attn.q_proj.lora_B.vision.weight', 'model.layers.13.self_attn.v_proj.lora_A.de
+fault.weight', 'model.layers.13.self_attn.v_proj.lora_A.vision.weight', 'model.layers.13.self_attn.v_proj.
+lora_B.default.weight', 'model.layers.13.self_attn.v_proj.lora_B.vision.weight', 'model.layers.14.mlp.down
+_proj.lora_A.default.weight', 'model.layers.14.mlp.down_proj.lora_A.vision.weight', 'model.layers.14.mlp.d
+own_proj.lora_B.default.weight', 'model.layers.14.mlp.down_proj.lora_B.vision.weight', 'model.layers.14.ml
+p.gate_proj.lora_A.default.weight', 'model.layers.14.mlp.gate_proj.lora_A.vision.weight', 'model.layers.14
+.mlp.gate_proj.lora_B.default.weight', 'model.layers.14.mlp.gate_proj.lora_B.vision.weight', 'model.layers
+.14.mlp.up_proj.lora_A.default.weight', 'model.layers.14.mlp.up_proj.lora_A.vision.weight', 'model.layers.
+14.mlp.up_proj.lora_B.default.weight', 'model.layers.14.mlp.up_proj.lora_B.vision.weight', 'model.layers.1
+4.self_attn.k_proj.lora_A.default.weight', 'model.layers.14.self_attn.k_proj.lora_A.vision.weight', 'model
+.layers.14.self_attn.k_proj.lora_B.default.weight', 'model.layers.14.self_attn.k_proj.lora_B.vision.weight
+', 'model.layers.14.self_attn.o_proj.lora_A.default.weight', 'model.layers.14.self_attn.o_proj.lora_A.visi
+on.weight', 'model.layers.14.self_attn.o_proj.lora_B.default.weight', 'model.layers.14.self_attn.o_proj.lo
+ra_B.vision.weight', 'model.layers.14.self_attn.q_proj.lora_A.default.weight', 'model.layers.14.self_attn.
+q_proj.lora_A.vision.weight', 'model.layers.14.self_attn.q_proj.lora_B.default.weight', 'model.layers.14.s
+elf_attn.q_proj.lora_B.vision.weight', 'model.layers.14.self_attn.v_proj.lora_A.default.weight', 'model.la
+yers.14.self_attn.v_proj.lora_A.vision.weight', 'model.layers.14.self_attn.v_proj.lora_B.default.weight',
+'model.layers.14.self_attn.v_proj.lora_B.vision.weight', 'model.layers.15.mlp.down_proj.lora_A.default.wei
+ght', 'model.layers.15.mlp.down_proj.lora_A.vision.weight', 'model.layers.15.mlp.down_proj.lora_B.default.
+weight', 'model.layers.15.mlp.down_proj.lora_B.vision.weight', 'model.layers.15.mlp.gate_proj.lora_A.defau
+lt.weight', 'model.layers.15.mlp.gate_proj.lora_A.vision.weight', 'model.layers.15.mlp.gate_proj.lora_B.de
+fault.weight', 'model.layers.15.mlp.gate_proj.lora_B.vision.weight', 'model.layers.15.mlp.up_proj.lora_A.d
+efault.weight', 'model.layers.15.mlp.up_proj.lora_A.vision.weight', 'model.layers.15.mlp.up_proj.lora_B.de
+fault.weight', 'model.layers.15.mlp.up_proj.lora_B.vision.weight', 'model.layers.15.self_attn.k_proj.lora_
+A.default.weight', 'model.layers.15.self_attn.k_proj.lora_A.vision.weight', 'model.layers.15.self_attn.k_p
+roj.lora_B.default.weight', 'model.layers.15.self_attn.k_proj.lora_B.vision.weight', 'model.layers.15.self
+_attn.o_proj.lora_A.default.weight', 'model.layers.15.self_attn.o_proj.lora_A.vision.weight', 'model.layer
+s.15.self_attn.o_proj.lora_B.default.weight', 'model.layers.15.self_attn.o_proj.lora_B.vision.weight', 'mo
+del.layers.15.self_attn.q_proj.lora_A.default.weight', 'model.layers.15.self_attn.q_proj.lora_A.vision.wei
+ght', 'model.layers.15.self_attn.q_proj.lora_B.default.weight', 'model.layers.15.self_attn.q_proj.lora_B.v
+ision.weight', 'model.layers.15.self_attn.v_proj.lora_A.default.weight', 'model.layers.15.self_attn.v_proj
+.lora_A.vision.weight', 'model.layers.15.self_attn.v_proj.lora_B.default.weight', 'model.layers.15.self_at
+tn.v_proj.lora_B.vision.weight', 'model.layers.2.mlp.down_proj.lora_A.default.weight', 'model.layers.2.mlp
+.down_proj.lora_A.vision.weight', 'model.layers.2.mlp.down_proj.lora_B.default.weight', 'model.layers.2.ml
+p.down_proj.lora_B.vision.weight', 'model.layers.2.mlp.gate_proj.lora_A.default.weight', 'model.layers.2.m
+lp.gate_proj.lora_A.vision.weight', 'model.layers.2.mlp.gate_proj.lora_B.default.weight', 'model.layers.2.
+mlp.gate_proj.lora_B.vision.weight', 'model.layers.2.mlp.up_proj.lora_A.default.weight', 'model.layers.2.m
+lp.up_proj.lora_A.vision.weight', 'model.layers.2.mlp.up_proj.lora_B.default.weight', 'model.layers.2.mlp.
+up_proj.lora_B.vision.weight', 'model.layers.2.self_attn.k_proj.lora_A.default.weight', 'model.layers.2.se
+lf_attn.k_proj.lora_A.vision.weight', 'model.layers.2.self_attn.k_proj.lora_B.default.weight', 'model.laye
+rs.2.self_attn.k_proj.lora_B.vision.weight', 'model.layers.2.self_attn.o_proj.lora_A.default.weight', 'mod
+el.layers.2.self_attn.o_proj.lora_A.vision.weight', 'model.layers.2.self_attn.o_proj.lora_B.default.weight
+', 'model.layers.2.self_attn.o_proj.lora_B.vision.weight', 'model.layers.2.self_attn.q_proj.lora_A.default
+.weight', 'model.layers.2.self_attn.q_proj.lora_A.vision.weight', 'model.layers.2.self_attn.q_proj.lora_B.
+default.weight', 'model.layers.2.self_attn.q_proj.lora_B.vision.weight', 'model.layers.2.self_attn.v_proj.
+lora_A.default.weight', 'model.layers.2.self_attn.v_proj.lora_A.vision.weight', 'model.layers.2.self_attn.
+v_proj.lora_B.default.weight', 'model.layers.2.self_attn.v_proj.lora_B.vision.weight', 'model.layers.3.mlp
+.down_proj.lora_A.default.weight', 'model.layers.3.mlp.down_proj.lora_A.vision.weight', 'model.layers.3.ml
+p.down_proj.lora_B.default.weight', 'model.layers.3.mlp.down_proj.lora_B.vision.weight', 'model.layers.3.m
+lp.gate_proj.lora_A.default.weight', 'model.layers.3.mlp.gate_proj.lora_A.vision.weight', 'model.layers.3.
+mlp.gate_proj.lora_B.default.weight', 'model.layers.3.mlp.gate_proj.lora_B.vision.weight', 'model.layers.3
+.mlp.up_proj.lora_A.default.weight', 'model.layers.3.mlp.up_proj.lora_A.vision.weight', 'model.layers.3.ml
+p.up_proj.lora_B.default.weight', 'model.layers.3.mlp.up_proj.lora_B.vision.weight', 'model.layers.3.self_
+attn.k_proj.lora_A.default.weight', 'model.layers.3.self_attn.k_proj.lora_A.vision.weight', 'model.layers.
+3.self_attn.k_proj.lora_B.default.weight', 'model.layers.3.self_attn.k_proj.lora_B.vision.weight', 'model.
+layers.3.self_attn.o_proj.lora_A.default.weight', 'model.layers.3.self_attn.o_proj.lora_A.vision.weight',
+'model.layers.3.self_attn.o_proj.lora_B.default.weight', 'model.layers.3.self_attn.o_proj.lora_B.vision.we
+ight', 'model.layers.3.self_attn.q_proj.lora_A.default.weight', 'model.layers.3.self_attn.q_proj.lora_A.vi
+sion.weight', 'model.layers.3.self_attn.q_proj.lora_B.default.weight', 'model.layers.3.self_attn.q_proj.lo
+ra_B.vision.weight', 'model.layers.3.self_attn.v_proj.lora_A.default.weight', 'model.layers.3.self_attn.v_
+proj.lora_A.vision.weight', 'model.layers.3.self_attn.v_proj.lora_B.default.weight', 'model.layers.3.self_
+attn.v_proj.lora_B.vision.weight', 'model.layers.4.mlp.down_proj.lora_A.default.weight', 'model.layers.4.m
+lp.down_proj.lora_A.vision.weight', 'model.layers.4.mlp.down_proj.lora_B.default.weight', 'model.layers.4.
+mlp.down_proj.lora_B.vision.weight', 'model.layers.4.mlp.gate_proj.lora_A.default.weight', 'model.layers.4
+.mlp.gate_proj.lora_A.vision.weight', 'model.layers.4.mlp.gate_proj.lora_B.default.weight', 'model.layers.
+4.mlp.gate_proj.lora_B.vision.weight', 'model.layers.4.mlp.up_proj.lora_A.default.weight', 'model.layers.4
+.mlp.up_proj.lora_A.vision.weight', 'model.layers.4.mlp.up_proj.lora_B.default.weight', 'model.layers.4.ml
+p.up_proj.lora_B.vision.weight', 'model.layers.4.self_attn.k_proj.lora_A.default.weight', 'model.layers.4.
+self_attn.k_proj.lora_A.vision.weight', 'model.layers.4.self_attn.k_proj.lora_B.default.weight', 'model.la
+yers.4.self_attn.k_proj.lora_B.vision.weight', 'model.layers.4.self_attn.o_proj.lora_A.default.weight', 'm
+odel.layers.4.self_attn.o_proj.lora_A.vision.weight', 'model.layers.4.self_attn.o_proj.lora_B.default.weig
+ht', 'model.layers.4.self_attn.o_proj.lora_B.vision.weight', 'model.layers.4.self_attn.q_proj.lora_A.defau
+lt.weight', 'model.layers.4.self_attn.q_proj.lora_A.vision.weight', 'model.layers.4.self_attn.q_proj.lora_
+B.default.weight', 'model.layers.4.self_attn.q_proj.lora_B.vision.weight', 'model.layers.4.self_attn.v_pro
+j.lora_A.default.weight', 'model.layers.4.self_attn.v_proj.lora_A.vision.weight', 'model.layers.4.self_att
+n.v_proj.lora_B.default.weight', 'model.layers.4.self_attn.v_proj.lora_B.vision.weight', 'model.layers.5.m
+lp.down_proj.lora_A.default.weight', 'model.layers.5.mlp.down_proj.lora_A.vision.weight', 'model.layers.5.
+mlp.down_proj.lora_B.default.weight', 'model.layers.5.mlp.down_proj.lora_B.vision.weight', 'model.layers.5
+.mlp.gate_proj.lora_A.default.weight', 'model.layers.5.mlp.gate_proj.lora_A.vision.weight', 'model.layers.
+5.mlp.gate_proj.lora_B.default.weight', 'model.layers.5.mlp.gate_proj.lora_B.vision.weight', 'model.layers
+.5.mlp.up_proj.lora_A.default.weight', 'model.layers.5.mlp.up_proj.lora_A.vision.weight', 'model.layers.5.
+mlp.up_proj.lora_B.default.weight', 'model.layers.5.mlp.up_proj.lora_B.vision.weight', 'model.layers.5.sel
+f_attn.k_proj.lora_A.default.weight', 'model.layers.5.self_attn.k_proj.lora_A.vision.weight', 'model.layer
+s.5.self_attn.k_proj.lora_B.default.weight', 'model.layers.5.self_attn.k_proj.lora_B.vision.weight', 'mode
+l.layers.5.self_attn.o_proj.lora_A.default.weight', 'model.layers.5.self_attn.o_proj.lora_A.vision.weight'
+, 'model.layers.5.self_attn.o_proj.lora_B.default.weight', 'model.layers.5.self_attn.o_proj.lora_B.vision.
+weight', 'model.layers.5.self_attn.q_proj.lora_A.default.weight', 'model.layers.5.self_attn.q_proj.lora_A.
+vision.weight', 'model.layers.5.self_attn.q_proj.lora_B.default.weight', 'model.layers.5.self_attn.q_proj.
+lora_B.vision.weight', 'model.layers.5.self_attn.v_proj.lora_A.default.weight', 'model.layers.5.self_attn.
+v_proj.lora_A.vision.weight', 'model.layers.5.self_attn.v_proj.lora_B.default.weight', 'model.layers.5.sel
+f_attn.v_proj.lora_B.vision.weight', 'model.layers.6.mlp.down_proj.lora_A.default.weight', 'model.layers.6
+.mlp.down_proj.lora_A.vision.weight', 'model.layers.6.mlp.down_proj.lora_B.default.weight', 'model.layers.
+6.mlp.down_proj.lora_B.vision.weight', 'model.layers.6.mlp.gate_proj.lora_A.default.weight', 'model.layers
+.6.mlp.gate_proj.lora_A.vision.weight', 'model.layers.6.mlp.gate_proj.lora_B.default.weight', 'model.layer
+s.6.mlp.gate_proj.lora_B.vision.weight', 'model.layers.6.mlp.up_proj.lora_A.default.weight', 'model.layers
+.6.mlp.up_proj.lora_A.vision.weight', 'model.layers.6.mlp.up_proj.lora_B.default.weight', 'model.layers.6.
+mlp.up_proj.lora_B.vision.weight', 'model.layers.6.self_attn.k_proj.lora_A.default.weight', 'model.layers.
+6.self_attn.k_proj.lora_A.vision.weight', 'model.layers.6.self_attn.k_proj.lora_B.default.weight', 'model.
+layers.6.self_attn.k_proj.lora_B.vision.weight', 'model.layers.6.self_attn.o_proj.lora_A.default.weight',
+'model.layers.6.self_attn.o_proj.lora_A.vision.weight', 'model.layers.6.self_attn.o_proj.lora_B.default.we
+ight', 'model.layers.6.self_attn.o_proj.lora_B.vision.weight', 'model.layers.6.self_attn.q_proj.lora_A.def
+ault.weight', 'model.layers.6.self_attn.q_proj.lora_A.vision.weight', 'model.layers.6.self_attn.q_proj.lor
+a_B.default.weight', 'model.layers.6.self_attn.q_proj.lora_B.vision.weight', 'model.layers.6.self_attn.v_p
+roj.lora_A.default.weight', 'model.layers.6.self_attn.v_proj.lora_A.vision.weight', 'model.layers.6.self_a
+ttn.v_proj.lora_B.default.weight', 'model.layers.6.self_attn.v_proj.lora_B.vision.weight', 'model.layers.7
+.mlp.down_proj.lora_A.default.weight', 'model.layers.7.mlp.down_proj.lora_A.vision.weight', 'model.layers.
+7.mlp.down_proj.lora_B.default.weight', 'model.layers.7.mlp.down_proj.lora_B.vision.weight', 'model.layers
+.7.mlp.gate_proj.lora_A.default.weight', 'model.layers.7.mlp.gate_proj.lora_A.vision.weight', 'model.layer
+s.7.mlp.gate_proj.lora_B.default.weight', 'model.layers.7.mlp.gate_proj.lora_B.vision.weight', 'model.laye
+rs.7.mlp.up_proj.lora_A.default.weight', 'model.layers.7.mlp.up_proj.lora_A.vision.weight', 'model.layers.
+7.mlp.up_proj.lora_B.default.weight', 'model.layers.7.mlp.up_proj.lora_B.vision.weight', 'model.layers.7.s
+elf_attn.k_proj.lora_A.default.weight', 'model.layers.7.self_attn.k_proj.lora_A.vision.weight', 'model.lay
+ers.7.self_attn.k_proj.lora_B.default.weight', 'model.layers.7.self_attn.k_proj.lora_B.vision.weight', 'mo
+del.layers.7.self_attn.o_proj.lora_A.default.weight', 'model.layers.7.self_attn.o_proj.lora_A.vision.weigh
+t', 'model.layers.7.self_attn.o_proj.lora_B.default.weight', 'model.layers.7.self_attn.o_proj.lora_B.visio
+n.weight', 'model.layers.7.self_attn.q_proj.lora_A.default.weight', 'model.layers.7.self_attn.q_proj.lora_
+A.vision.weight', 'model.layers.7.self_attn.q_proj.lora_B.default.weight', 'model.layers.7.self_attn.q_pro
+j.lora_B.vision.weight', 'model.layers.7.self_attn.v_proj.lora_A.default.weight', 'model.layers.7.self_att
+n.v_proj.lora_A.vision.weight', 'model.layers.7.self_attn.v_proj.lora_B.default.weight', 'model.layers.7.s
+elf_attn.v_proj.lora_B.vision.weight', 'model.layers.8.mlp.down_proj.lora_A.default.weight', 'model.layers
+.8.mlp.down_proj.lora_A.vision.weight', 'model.layers.8.mlp.down_proj.lora_B.default.weight', 'model.layer
+s.8.mlp.down_proj.lora_B.vision.weight', 'model.layers.8.mlp.gate_proj.lora_A.default.weight', 'model.laye
+rs.8.mlp.gate_proj.lora_A.vision.weight', 'model.layers.8.mlp.gate_proj.lora_B.default.weight', 'model.lay
+ers.8.mlp.gate_proj.lora_B.vision.weight', 'model.layers.8.mlp.up_proj.lora_A.default.weight', 'model.laye
+rs.8.mlp.up_proj.lora_A.vision.weight', 'model.layers.8.mlp.up_proj.lora_B.default.weight', 'model.layers.
+8.mlp.up_proj.lora_B.vision.weight', 'model.layers.8.self_attn.k_proj.lora_A.default.weight', 'model.layer
+s.8.self_attn.k_proj.lora_A.vision.weight', 'model.layers.8.self_attn.k_proj.lora_B.default.weight', 'mode
+l.layers.8.self_attn.k_proj.lora_B.vision.weight', 'model.layers.8.self_attn.o_proj.lora_A.default.weight'
+, 'model.layers.8.self_attn.o_proj.lora_A.vision.weight', 'model.layers.8.self_attn.o_proj.lora_B.default.
+weight', 'model.layers.8.self_attn.o_proj.lora_B.vision.weight', 'model.layers.8.self_attn.q_proj.lora_A.d
+efault.weight', 'model.layers.8.self_attn.q_proj.lora_A.vision.weight', 'model.layers.8.self_attn.q_proj.l
+ora_B.default.weight', 'model.layers.8.self_attn.q_proj.lora_B.vision.weight', 'model.layers.8.self_attn.v
+_proj.lora_A.default.weight', 'model.layers.8.self_attn.v_proj.lora_A.vision.weight', 'model.layers.8.self
+_attn.v_proj.lora_B.default.weight', 'model.layers.8.self_attn.v_proj.lora_B.vision.weight', 'model.layers
+.9.mlp.down_proj.lora_A.default.weight', 'model.layers.9.mlp.down_proj.lora_A.vision.weight', 'model.layer
+s.9.mlp.down_proj.lora_B.default.weight', 'model.layers.9.mlp.down_proj.lora_B.vision.weight', 'model.laye
+rs.9.mlp.gate_proj.lora_A.default.weight', 'model.layers.9.mlp.gate_proj.lora_A.vision.weight', 'model.lay
+ers.9.mlp.gate_proj.lora_B.default.weight', 'model.layers.9.mlp.gate_proj.lora_B.vision.weight', 'model.la
+yers.9.mlp.up_proj.lora_A.default.weight', 'model.layers.9.mlp.up_proj.lora_A.vision.weight', 'model.layer
+s.9.mlp.up_proj.lora_B.default.weight', 'model.layers.9.mlp.up_proj.lora_B.vision.weight', 'model.layers.9
+.self_attn.k_proj.lora_A.default.weight', 'model.layers.9.self_attn.k_proj.lora_A.vision.weight', 'model.l
+ayers.9.self_attn.k_proj.lora_B.default.weight', 'model.layers.9.self_attn.k_proj.lora_B.vision.weight', '
+model.layers.9.self_attn.o_proj.lora_A.default.weight', 'model.layers.9.self_attn.o_proj.lora_A.vision.wei
+ght', 'model.layers.9.self_attn.o_proj.lora_B.default.weight', 'model.layers.9.self_attn.o_proj.lora_B.vis
+ion.weight', 'model.layers.9.self_attn.q_proj.lora_A.default.weight', 'model.layers.9.self_attn.q_proj.lor
+a_A.vision.weight', 'model.layers.9.self_attn.q_proj.lora_B.default.weight', 'model.layers.9.self_attn.q_p
+roj.lora_B.vision.weight', 'model.layers.9.self_attn.v_proj.lora_A.default.weight', 'model.layers.9.self_a
+ttn.v_proj.lora_A.vision.weight', 'model.layers.9.self_attn.v_proj.lora_B.default.weight', 'model.layers.9
+.self_attn.v_proj.lora_B.vision.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and infere
+nce.
+Some weights of MultimodalLlamaForCausalLM were not initialized from the model checkpoint at /home1/hxl/di
+sk/EAGLE/model/LLM/Llama-3.2-1B-Instruct and are newly initialized: ['model.layers.0.mlp.down_proj.lora_A.
+default.weight', 'model.layers.0.mlp.down_proj.lora_A.vision.weight', 'model.layers.0.mlp.down_proj.lora_B
+.default.weight', 'model.layers.0.mlp.down_proj.lora_B.vision.weight', 'model.layers.0.mlp.gate_proj.lora_
+A.default.weight', 'model.layers.0.mlp.gate_proj.lora_A.vision.weight', 'model.layers.0.mlp.gate_proj.lora
+_B.default.weight', 'model.layers.0.mlp.gate_proj.lora_B.vision.weight', 'model.layers.0.mlp.up_proj.lora_
+A.default.weight', 'model.layers.0.mlp.up_proj.lora_A.vision.weight', 'model.layers.0.mlp.up_proj.lora_B.d
+efault.weight', 'model.layers.0.mlp.up_proj.lora_B.vision.weight', 'model.layers.0.self_attn.k_proj.lora_A
+.default.weight', 'model.layers.0.self_attn.k_proj.lora_A.vision.weight', 'model.layers.0.self_attn.k_proj
+.lora_B.default.weight', 'model.layers.0.self_attn.k_proj.lora_B.vision.weight', 'model.layers.0.self_attn
+.o_proj.lora_A.default.weight', 'model.layers.0.self_attn.o_proj.lora_A.vision.weight', 'model.layers.0.se
+lf_attn.o_proj.lora_B.default.weight', 'model.layers.0.self_attn.o_proj.lora_B.vision.weight', 'model.laye
+rs.0.self_attn.q_proj.lora_A.default.weight', 'model.layers.0.self_attn.q_proj.lora_A.vision.weight', 'mod
+el.layers.0.self_attn.q_proj.lora_B.default.weight', 'model.layers.0.self_attn.q_proj.lora_B.vision.weight
+', 'model.layers.0.self_attn.v_proj.lora_A.default.weight', 'model.layers.0.self_attn.v_proj.lora_A.vision
+.weight', 'model.layers.0.self_attn.v_proj.lora_B.default.weight', 'model.layers.0.self_attn.v_proj.lora_B
+.vision.weight', 'model.layers.1.mlp.down_proj.lora_A.default.weight', 'model.layers.1.mlp.down_proj.lora_
+A.vision.weight', 'model.layers.1.mlp.down_proj.lora_B.default.weight', 'model.layers.1.mlp.down_proj.lora
+_B.vision.weight', 'model.layers.1.mlp.gate_proj.lora_A.default.weight', 'model.layers.1.mlp.gate_proj.lor
+a_A.vision.weight', 'model.layers.1.mlp.gate_proj.lora_B.default.weight', 'model.layers.1.mlp.gate_proj.lo
+ra_B.vision.weight', 'model.layers.1.mlp.up_proj.lora_A.default.weight', 'model.layers.1.mlp.up_proj.lora_
+A.vision.weight', 'model.layers.1.mlp.up_proj.lora_B.default.weight', 'model.layers.1.mlp.up_proj.lora_B.v
+ision.weight', 'model.layers.1.self_attn.k_proj.lora_A.default.weight', 'model.layers.1.self_attn.k_proj.l
+ora_A.vision.weight', 'model.layers.1.self_attn.k_proj.lora_B.default.weight', 'model.layers.1.self_attn.k
+_proj.lora_B.vision.weight', 'model.layers.1.self_attn.o_proj.lora_A.default.weight', 'model.layers.1.self
+_attn.o_proj.lora_A.vision.weight', 'model.layers.1.self_attn.o_proj.lora_B.default.weight', 'model.layers
+.1.self_attn.o_proj.lora_B.vision.weight', 'model.layers.1.self_attn.q_proj.lora_A.default.weight', 'model
+.layers.1.self_attn.q_proj.lora_A.vision.weight', 'model.layers.1.self_attn.q_proj.lora_B.default.weight',
+ 'model.layers.1.self_attn.q_proj.lora_B.vision.weight', 'model.layers.1.self_attn.v_proj.lora_A.default.w
+eight', 'model.layers.1.self_attn.v_proj.lora_A.vision.weight', 'model.layers.1.self_attn.v_proj.lora_B.de
+fault.weight', 'model.layers.1.self_attn.v_proj.lora_B.vision.weight', 'model.layers.10.mlp.down_proj.lora
+_A.default.weight', 'model.layers.10.mlp.down_proj.lora_A.vision.weight', 'model.layers.10.mlp.down_proj.l
+ora_B.default.weight', 'model.layers.10.mlp.down_proj.lora_B.vision.weight', 'model.layers.10.mlp.gate_pro
+j.lora_A.default.weight', 'model.layers.10.mlp.gate_proj.lora_A.vision.weight', 'model.layers.10.mlp.gate_
+proj.lora_B.default.weight', 'model.layers.10.mlp.gate_proj.lora_B.vision.weight', 'model.layers.10.mlp.up
+_proj.lora_A.default.weight', 'model.layers.10.mlp.up_proj.lora_A.vision.weight', 'model.layers.10.mlp.up_
+proj.lora_B.default.weight', 'model.layers.10.mlp.up_proj.lora_B.vision.weight', 'model.layers.10.self_att
+n.k_proj.lora_A.default.weight', 'model.layers.10.self_attn.k_proj.lora_A.vision.weight', 'model.layers.10
+.self_attn.k_proj.lora_B.default.weight', 'model.layers.10.self_attn.k_proj.lora_B.vision.weight', 'model.
+layers.10.self_attn.o_proj.lora_A.default.weight', 'model.layers.10.self_attn.o_proj.lora_A.vision.weight'
+, 'model.layers.10.self_attn.o_proj.lora_B.default.weight', 'model.layers.10.self_attn.o_proj.lora_B.visio
+n.weight', 'model.layers.10.self_attn.q_proj.lora_A.default.weight', 'model.layers.10.self_attn.q_proj.lor
+a_A.vision.weight', 'model.layers.10.self_attn.q_proj.lora_B.default.weight', 'model.layers.10.self_attn.q
+_proj.lora_B.vision.weight', 'model.layers.10.self_attn.v_proj.lora_A.default.weight', 'model.layers.10.se
+lf_attn.v_proj.lora_A.vision.weight', 'model.layers.10.self_attn.v_proj.lora_B.default.weight', 'model.lay
+ers.10.self_attn.v_proj.lora_B.vision.weight', 'model.layers.11.mlp.down_proj.lora_A.default.weight', 'mod
+el.layers.11.mlp.down_proj.lora_A.vision.weight', 'model.layers.11.mlp.down_proj.lora_B.default.weight', '
+model.layers.11.mlp.down_proj.lora_B.vision.weight', 'model.layers.11.mlp.gate_proj.lora_A.default.weight'
+, 'model.layers.11.mlp.gate_proj.lora_A.vision.weight', 'model.layers.11.mlp.gate_proj.lora_B.default.weig
+ht', 'model.layers.11.mlp.gate_proj.lora_B.vision.weight', 'model.layers.11.mlp.up_proj.lora_A.default.wei
+ght', 'model.layers.11.mlp.up_proj.lora_A.vision.weight', 'model.layers.11.mlp.up_proj.lora_B.default.weig
+ht', 'model.layers.11.mlp.up_proj.lora_B.vision.weight', 'model.layers.11.self_attn.k_proj.lora_A.default.
+weight', 'model.layers.11.self_attn.k_proj.lora_A.vision.weight', 'model.layers.11.self_attn.k_proj.lora_B
+.default.weight', 'model.layers.11.self_attn.k_proj.lora_B.vision.weight', 'model.layers.11.self_attn.o_pr
+oj.lora_A.default.weight', 'model.layers.11.self_attn.o_proj.lora_A.vision.weight', 'model.layers.11.self_
+attn.o_proj.lora_B.default.weight', 'model.layers.11.self_attn.o_proj.lora_B.vision.weight', 'model.layers
+.11.self_attn.q_proj.lora_A.default.weight', 'model.layers.11.self_attn.q_proj.lora_A.vision.weight', 'mod
+el.layers.11.self_attn.q_proj.lora_B.default.weight', 'model.layers.11.self_attn.q_proj.lora_B.vision.weig
+ht', 'model.layers.11.self_attn.v_proj.lora_A.default.weight', 'model.layers.11.self_attn.v_proj.lora_A.vi
+sion.weight', 'model.layers.11.self_attn.v_proj.lora_B.default.weight', 'model.layers.11.self_attn.v_proj.
+lora_B.vision.weight', 'model.layers.12.mlp.down_proj.lora_A.default.weight', 'model.layers.12.mlp.down_pr
+oj.lora_A.vision.weight', 'model.layers.12.mlp.down_proj.lora_B.default.weight', 'model.layers.12.mlp.down
+_proj.lora_B.vision.weight', 'model.layers.12.mlp.gate_proj.lora_A.default.weight', 'model.layers.12.mlp.g
+ate_proj.lora_A.vision.weight', 'model.layers.12.mlp.gate_proj.lora_B.default.weight', 'model.layers.12.ml
+p.gate_proj.lora_B.vision.weight', 'model.layers.12.mlp.up_proj.lora_A.default.weight', 'model.layers.12.m
+lp.up_proj.lora_A.vision.weight', 'model.layers.12.mlp.up_proj.lora_B.default.weight', 'model.layers.12.ml
+p.up_proj.lora_B.vision.weight', 'model.layers.12.self_attn.k_proj.lora_A.default.weight', 'model.layers.1
+2.self_attn.k_proj.lora_A.vision.weight', 'model.layers.12.self_attn.k_proj.lora_B.default.weight', 'model
+.layers.12.self_attn.k_proj.lora_B.vision.weight', 'model.layers.12.self_attn.o_proj.lora_A.default.weight
+', 'model.layers.12.self_attn.o_proj.lora_A.vision.weight', 'model.layers.12.self_attn.o_proj.lora_B.defau
+lt.weight', 'model.layers.12.self_attn.o_proj.lora_B.vision.weight', 'model.layers.12.self_attn.q_proj.lor
+a_A.default.weight', 'model.layers.12.self_attn.q_proj.lora_A.vision.weight', 'model.layers.12.self_attn.q
+_proj.lora_B.default.weight', 'model.layers.12.self_attn.q_proj.lora_B.vision.weight', 'model.layers.12.se
+lf_attn.v_proj.lora_A.default.weight', 'model.layers.12.self_attn.v_proj.lora_A.vision.weight', 'model.lay
+ers.12.self_attn.v_proj.lora_B.default.weight', 'model.layers.12.self_attn.v_proj.lora_B.vision.weight', '
+model.layers.13.mlp.down_proj.lora_A.default.weight', 'model.layers.13.mlp.down_proj.lora_A.vision.weight'
+, 'model.layers.13.mlp.down_proj.lora_B.default.weight', 'model.layers.13.mlp.down_proj.lora_B.vision.weig
+ht', 'model.layers.13.mlp.gate_proj.lora_A.default.weight', 'model.layers.13.mlp.gate_proj.lora_A.vision.w
+eight', 'model.layers.13.mlp.gate_proj.lora_B.default.weight', 'model.layers.13.mlp.gate_proj.lora_B.visio
+n.weight', 'model.layers.13.mlp.up_proj.lora_A.default.weight', 'model.layers.13.mlp.up_proj.lora_A.vision
+.weight', 'model.layers.13.mlp.up_proj.lora_B.default.weight', 'model.layers.13.mlp.up_proj.lora_B.vision.
+weight', 'model.layers.13.self_attn.k_proj.lora_A.default.weight', 'model.layers.13.self_attn.k_proj.lora_
+A.vision.weight', 'model.layers.13.self_attn.k_proj.lora_B.default.weight', 'model.layers.13.self_attn.k_p
+roj.lora_B.vision.weight', 'model.layers.13.self_attn.o_proj.lora_A.default.weight', 'model.layers.13.self
+_attn.o_proj.lora_A.vision.weight', 'model.layers.13.self_attn.o_proj.lora_B.default.weight', 'model.layer
+s.13.self_attn.o_proj.lora_B.vision.weight', 'model.layers.13.self_attn.q_proj.lora_A.default.weight', 'mo
+del.layers.13.self_attn.q_proj.lora_A.vision.weight', 'model.layers.13.self_attn.q_proj.lora_B.default.wei
+ght', 'model.layers.13.self_attn.q_proj.lora_B.vision.weight', 'model.layers.13.self_attn.v_proj.lora_A.de
+fault.weight', 'model.layers.13.self_attn.v_proj.lora_A.vision.weight', 'model.layers.13.self_attn.v_proj.
+lora_B.default.weight', 'model.layers.13.self_attn.v_proj.lora_B.vision.weight', 'model.layers.14.mlp.down
+_proj.lora_A.default.weight', 'model.layers.14.mlp.down_proj.lora_A.vision.weight', 'model.layers.14.mlp.d
+own_proj.lora_B.default.weight', 'model.layers.14.mlp.down_proj.lora_B.vision.weight', 'model.layers.14.ml
+p.gate_proj.lora_A.default.weight', 'model.layers.14.mlp.gate_proj.lora_A.vision.weight', 'model.layers.14
+.mlp.gate_proj.lora_B.default.weight', 'model.layers.14.mlp.gate_proj.lora_B.vision.weight', 'model.layers
+.14.mlp.up_proj.lora_A.default.weight', 'model.layers.14.mlp.up_proj.lora_A.vision.weight', 'model.layers.
+14.mlp.up_proj.lora_B.default.weight', 'model.layers.14.mlp.up_proj.lora_B.vision.weight', 'model.layers.1
+4.self_attn.k_proj.lora_A.default.weight', 'model.layers.14.self_attn.k_proj.lora_A.vision.weight', 'model
+.layers.14.self_attn.k_proj.lora_B.default.weight', 'model.layers.14.self_attn.k_proj.lora_B.vision.weight
+', 'model.layers.14.self_attn.o_proj.lora_A.default.weight', 'model.layers.14.self_attn.o_proj.lora_A.visi
+on.weight', 'model.layers.14.self_attn.o_proj.lora_B.default.weight', 'model.layers.14.self_attn.o_proj.lo
+ra_B.vision.weight', 'model.layers.14.self_attn.q_proj.lora_A.default.weight', 'model.layers.14.self_attn.
+q_proj.lora_A.vision.weight', 'model.layers.14.self_attn.q_proj.lora_B.default.weight', 'model.layers.14.s
+elf_attn.q_proj.lora_B.vision.weight', 'model.layers.14.self_attn.v_proj.lora_A.default.weight', 'model.la
+yers.14.self_attn.v_proj.lora_A.vision.weight', 'model.layers.14.self_attn.v_proj.lora_B.default.weight',
+'model.layers.14.self_attn.v_proj.lora_B.vision.weight', 'model.layers.15.mlp.down_proj.lora_A.default.wei
+ght', 'model.layers.15.mlp.down_proj.lora_A.vision.weight', 'model.layers.15.mlp.down_proj.lora_B.default.
+weight', 'model.layers.15.mlp.down_proj.lora_B.vision.weight', 'model.layers.15.mlp.gate_proj.lora_A.defau
+lt.weight', 'model.layers.15.mlp.gate_proj.lora_A.vision.weight', 'model.layers.15.mlp.gate_proj.lora_B.de
+fault.weight', 'model.layers.15.mlp.gate_proj.lora_B.vision.weight', 'model.layers.15.mlp.up_proj.lora_A.d
+efault.weight', 'model.layers.15.mlp.up_proj.lora_A.vision.weight', 'model.layers.15.mlp.up_proj.lora_B.de
+fault.weight', 'model.layers.15.mlp.up_proj.lora_B.vision.weight', 'model.layers.15.self_attn.k_proj.lora_
+A.default.weight', 'model.layers.15.self_attn.k_proj.lora_A.vision.weight', 'model.layers.15.self_attn.k_p
+roj.lora_B.default.weight', 'model.layers.15.self_attn.k_proj.lora_B.vision.weight', 'model.layers.15.self
+_attn.o_proj.lora_A.default.weight', 'model.layers.15.self_attn.o_proj.lora_A.vision.weight', 'model.layer
+s.15.self_attn.o_proj.lora_B.default.weight', 'model.layers.15.self_attn.o_proj.lora_B.vision.weight', 'mo
+del.layers.15.self_attn.q_proj.lora_A.default.weight', 'model.layers.15.self_attn.q_proj.lora_A.vision.wei
+ght', 'model.layers.15.self_attn.q_proj.lora_B.default.weight', 'model.layers.15.self_attn.q_proj.lora_B.v
+ision.weight', 'model.layers.15.self_attn.v_proj.lora_A.default.weight', 'model.layers.15.self_attn.v_proj
+.lora_A.vision.weight', 'model.layers.15.self_attn.v_proj.lora_B.default.weight', 'model.layers.15.self_at
+tn.v_proj.lora_B.vision.weight', 'model.layers.2.mlp.down_proj.lora_A.default.weight', 'model.layers.2.mlp
+.down_proj.lora_A.vision.weight', 'model.layers.2.mlp.down_proj.lora_B.default.weight', 'model.layers.2.ml
+p.down_proj.lora_B.vision.weight', 'model.layers.2.mlp.gate_proj.lora_A.default.weight', 'model.layers.2.m
+lp.gate_proj.lora_A.vision.weight', 'model.layers.2.mlp.gate_proj.lora_B.default.weight', 'model.layers.2.
+mlp.gate_proj.lora_B.vision.weight', 'model.layers.2.mlp.up_proj.lora_A.default.weight', 'model.layers.2.m
+lp.up_proj.lora_A.vision.weight', 'model.layers.2.mlp.up_proj.lora_B.default.weight', 'model.layers.2.mlp.
+up_proj.lora_B.vision.weight', 'model.layers.2.self_attn.k_proj.lora_A.default.weight', 'model.layers.2.se
+lf_attn.k_proj.lora_A.vision.weight', 'model.layers.2.self_attn.k_proj.lora_B.default.weight', 'model.laye
+rs.2.self_attn.k_proj.lora_B.vision.weight', 'model.layers.2.self_attn.o_proj.lora_A.default.weight', 'mod
+el.layers.2.self_attn.o_proj.lora_A.vision.weight', 'model.layers.2.self_attn.o_proj.lora_B.default.weight
+', 'model.layers.2.self_attn.o_proj.lora_B.vision.weight', 'model.layers.2.self_attn.q_proj.lora_A.default
+.weight', 'model.layers.2.self_attn.q_proj.lora_A.vision.weight', 'model.layers.2.self_attn.q_proj.lora_B.
+default.weight', 'model.layers.2.self_attn.q_proj.lora_B.vision.weight', 'model.layers.2.self_attn.v_proj.
+lora_A.default.weight', 'model.layers.2.self_attn.v_proj.lora_A.vision.weight', 'model.layers.2.self_attn.
+v_proj.lora_B.default.weight', 'model.layers.2.self_attn.v_proj.lora_B.vision.weight', 'model.layers.3.mlp
+.down_proj.lora_A.default.weight', 'model.layers.3.mlp.down_proj.lora_A.vision.weight', 'model.layers.3.ml
+p.down_proj.lora_B.default.weight', 'model.layers.3.mlp.down_proj.lora_B.vision.weight', 'model.layers.3.m
+lp.gate_proj.lora_A.default.weight', 'model.layers.3.mlp.gate_proj.lora_A.vision.weight', 'model.layers.3.
+mlp.gate_proj.lora_B.default.weight', 'model.layers.3.mlp.gate_proj.lora_B.vision.weight', 'model.layers.3
+.mlp.up_proj.lora_A.default.weight', 'model.layers.3.mlp.up_proj.lora_A.vision.weight', 'model.layers.3.ml
+p.up_proj.lora_B.default.weight', 'model.layers.3.mlp.up_proj.lora_B.vision.weight', 'model.layers.3.self_
+attn.k_proj.lora_A.default.weight', 'model.layers.3.self_attn.k_proj.lora_A.vision.weight', 'model.layers.
+3.self_attn.k_proj.lora_B.default.weight', 'model.layers.3.self_attn.k_proj.lora_B.vision.weight', 'model.
+layers.3.self_attn.o_proj.lora_A.default.weight', 'model.layers.3.self_attn.o_proj.lora_A.vision.weight',
+'model.layers.3.self_attn.o_proj.lora_B.default.weight', 'model.layers.3.self_attn.o_proj.lora_B.vision.we
+ight', 'model.layers.3.self_attn.q_proj.lora_A.default.weight', 'model.layers.3.self_attn.q_proj.lora_A.vi
+sion.weight', 'model.layers.3.self_attn.q_proj.lora_B.default.weight', 'model.layers.3.self_attn.q_proj.lo
+ra_B.vision.weight', 'model.layers.3.self_attn.v_proj.lora_A.default.weight', 'model.layers.3.self_attn.v_
+proj.lora_A.vision.weight', 'model.layers.3.self_attn.v_proj.lora_B.default.weight', 'model.layers.3.self_
+attn.v_proj.lora_B.vision.weight', 'model.layers.4.mlp.down_proj.lora_A.default.weight', 'model.layers.4.m
+lp.down_proj.lora_A.vision.weight', 'model.layers.4.mlp.down_proj.lora_B.default.weight', 'model.layers.4.
+mlp.down_proj.lora_B.vision.weight', 'model.layers.4.mlp.gate_proj.lora_A.default.weight', 'model.layers.4
+.mlp.gate_proj.lora_A.vision.weight', 'model.layers.4.mlp.gate_proj.lora_B.default.weight', 'model.layers.
+4.mlp.gate_proj.lora_B.vision.weight', 'model.layers.4.mlp.up_proj.lora_A.default.weight', 'model.layers.4
+.mlp.up_proj.lora_A.vision.weight', 'model.layers.4.mlp.up_proj.lora_B.default.weight', 'model.layers.4.ml
+p.up_proj.lora_B.vision.weight', 'model.layers.4.self_attn.k_proj.lora_A.default.weight', 'model.layers.4.
+self_attn.k_proj.lora_A.vision.weight', 'model.layers.4.self_attn.k_proj.lora_B.default.weight', 'model.la
+yers.4.self_attn.k_proj.lora_B.vision.weight', 'model.layers.4.self_attn.o_proj.lora_A.default.weight', 'm
+odel.layers.4.self_attn.o_proj.lora_A.vision.weight', 'model.layers.4.self_attn.o_proj.lora_B.default.weig
+ht', 'model.layers.4.self_attn.o_proj.lora_B.vision.weight', 'model.layers.4.self_attn.q_proj.lora_A.defau
+lt.weight', 'model.layers.4.self_attn.q_proj.lora_A.vision.weight', 'model.layers.4.self_attn.q_proj.lora_
+B.default.weight', 'model.layers.4.self_attn.q_proj.lora_B.vision.weight', 'model.layers.4.self_attn.v_pro
+j.lora_A.default.weight', 'model.layers.4.self_attn.v_proj.lora_A.vision.weight', 'model.layers.4.self_att
+n.v_proj.lora_B.default.weight', 'model.layers.4.self_attn.v_proj.lora_B.vision.weight', 'model.layers.5.m
+lp.down_proj.lora_A.default.weight', 'model.layers.5.mlp.down_proj.lora_A.vision.weight', 'model.layers.5.
+mlp.down_proj.lora_B.default.weight', 'model.layers.5.mlp.down_proj.lora_B.vision.weight', 'model.layers.5
+.mlp.gate_proj.lora_A.default.weight', 'model.layers.5.mlp.gate_proj.lora_A.vision.weight', 'model.layers.
+5.mlp.gate_proj.lora_B.default.weight', 'model.layers.5.mlp.gate_proj.lora_B.vision.weight', 'model.layers
+.5.mlp.up_proj.lora_A.default.weight', 'model.layers.5.mlp.up_proj.lora_A.vision.weight', 'model.layers.5.
+mlp.up_proj.lora_B.default.weight', 'model.layers.5.mlp.up_proj.lora_B.vision.weight', 'model.layers.5.sel
+f_attn.k_proj.lora_A.default.weight', 'model.layers.5.self_attn.k_proj.lora_A.vision.weight', 'model.layer
+s.5.self_attn.k_proj.lora_B.default.weight', 'model.layers.5.self_attn.k_proj.lora_B.vision.weight', 'mode
+l.layers.5.self_attn.o_proj.lora_A.default.weight', 'model.layers.5.self_attn.o_proj.lora_A.vision.weight'
+, 'model.layers.5.self_attn.o_proj.lora_B.default.weight', 'model.layers.5.self_attn.o_proj.lora_B.vision.
+weight', 'model.layers.5.self_attn.q_proj.lora_A.default.weight', 'model.layers.5.self_attn.q_proj.lora_A.
+vision.weight', 'model.layers.5.self_attn.q_proj.lora_B.default.weight', 'model.layers.5.self_attn.q_proj.
+lora_B.vision.weight', 'model.layers.5.self_attn.v_proj.lora_A.default.weight', 'model.layers.5.self_attn.
+v_proj.lora_A.vision.weight', 'model.layers.5.self_attn.v_proj.lora_B.default.weight', 'model.layers.5.sel
+f_attn.v_proj.lora_B.vision.weight', 'model.layers.6.mlp.down_proj.lora_A.default.weight', 'model.layers.6
+.mlp.down_proj.lora_A.vision.weight', 'model.layers.6.mlp.down_proj.lora_B.default.weight', 'model.layers.
+6.mlp.down_proj.lora_B.vision.weight', 'model.layers.6.mlp.gate_proj.lora_A.default.weight', 'model.layers
+.6.mlp.gate_proj.lora_A.vision.weight', 'model.layers.6.mlp.gate_proj.lora_B.default.weight', 'model.layer
+s.6.mlp.gate_proj.lora_B.vision.weight', 'model.layers.6.mlp.up_proj.lora_A.default.weight', 'model.layers
+.6.mlp.up_proj.lora_A.vision.weight', 'model.layers.6.mlp.up_proj.lora_B.default.weight', 'model.layers.6.
+mlp.up_proj.lora_B.vision.weight', 'model.layers.6.self_attn.k_proj.lora_A.default.weight', 'model.layers.
+6.self_attn.k_proj.lora_A.vision.weight', 'model.layers.6.self_attn.k_proj.lora_B.default.weight', 'model.
+layers.6.self_attn.k_proj.lora_B.vision.weight', 'model.layers.6.self_attn.o_proj.lora_A.default.weight',
+'model.layers.6.self_attn.o_proj.lora_A.vision.weight', 'model.layers.6.self_attn.o_proj.lora_B.default.we
+ight', 'model.layers.6.self_attn.o_proj.lora_B.vision.weight', 'model.layers.6.self_attn.q_proj.lora_A.def
+ault.weight', 'model.layers.6.self_attn.q_proj.lora_A.vision.weight', 'model.layers.6.self_attn.q_proj.lor
+a_B.default.weight', 'model.layers.6.self_attn.q_proj.lora_B.vision.weight', 'model.layers.6.self_attn.v_p
+roj.lora_A.default.weight', 'model.layers.6.self_attn.v_proj.lora_A.vision.weight', 'model.layers.6.self_a
+ttn.v_proj.lora_B.default.weight', 'model.layers.6.self_attn.v_proj.lora_B.vision.weight', 'model.layers.7
+.mlp.down_proj.lora_A.default.weight', 'model.layers.7.mlp.down_proj.lora_A.vision.weight', 'model.layers.
+7.mlp.down_proj.lora_B.default.weight', 'model.layers.7.mlp.down_proj.lora_B.vision.weight', 'model.layers
+.7.mlp.gate_proj.lora_A.default.weight', 'model.layers.7.mlp.gate_proj.lora_A.vision.weight', 'model.layer
+s.7.mlp.gate_proj.lora_B.default.weight', 'model.layers.7.mlp.gate_proj.lora_B.vision.weight', 'model.laye
+rs.7.mlp.up_proj.lora_A.default.weight', 'model.layers.7.mlp.up_proj.lora_A.vision.weight', 'model.layers.
+7.mlp.up_proj.lora_B.default.weight', 'model.layers.7.mlp.up_proj.lora_B.vision.weight', 'model.layers.7.s
+elf_attn.k_proj.lora_A.default.weight', 'model.layers.7.self_attn.k_proj.lora_A.vision.weight', 'model.lay
+ers.7.self_attn.k_proj.lora_B.default.weight', 'model.layers.7.self_attn.k_proj.lora_B.vision.weight', 'mo
+del.layers.7.self_attn.o_proj.lora_A.default.weight', 'model.layers.7.self_attn.o_proj.lora_A.vision.weigh
+t', 'model.layers.7.self_attn.o_proj.lora_B.default.weight', 'model.layers.7.self_attn.o_proj.lora_B.visio
+n.weight', 'model.layers.7.self_attn.q_proj.lora_A.default.weight', 'model.layers.7.self_attn.q_proj.lora_
+A.vision.weight', 'model.layers.7.self_attn.q_proj.lora_B.default.weight', 'model.layers.7.self_attn.q_pro
+j.lora_B.vision.weight', 'model.layers.7.self_attn.v_proj.lora_A.default.weight', 'model.layers.7.self_att
+n.v_proj.lora_A.vision.weight', 'model.layers.7.self_attn.v_proj.lora_B.default.weight', 'model.layers.7.s
+elf_attn.v_proj.lora_B.vision.weight', 'model.layers.8.mlp.down_proj.lora_A.default.weight', 'model.layers
+.8.mlp.down_proj.lora_A.vision.weight', 'model.layers.8.mlp.down_proj.lora_B.default.weight', 'model.layer
+s.8.mlp.down_proj.lora_B.vision.weight', 'model.layers.8.mlp.gate_proj.lora_A.default.weight', 'model.laye
+rs.8.mlp.gate_proj.lora_A.vision.weight', 'model.layers.8.mlp.gate_proj.lora_B.default.weight', 'model.lay
+ers.8.mlp.gate_proj.lora_B.vision.weight', 'model.layers.8.mlp.up_proj.lora_A.default.weight', 'model.laye
+rs.8.mlp.up_proj.lora_A.vision.weight', 'model.layers.8.mlp.up_proj.lora_B.default.weight', 'model.layers.
+8.mlp.up_proj.lora_B.vision.weight', 'model.layers.8.self_attn.k_proj.lora_A.default.weight', 'model.layer
+s.8.self_attn.k_proj.lora_A.vision.weight', 'model.layers.8.self_attn.k_proj.lora_B.default.weight', 'mode
+l.layers.8.self_attn.k_proj.lora_B.vision.weight', 'model.layers.8.self_attn.o_proj.lora_A.default.weight'
+, 'model.layers.8.self_attn.o_proj.lora_A.vision.weight', 'model.layers.8.self_attn.o_proj.lora_B.default.
+weight', 'model.layers.8.self_attn.o_proj.lora_B.vision.weight', 'model.layers.8.self_attn.q_proj.lora_A.d
+efault.weight', 'model.layers.8.self_attn.q_proj.lora_A.vision.weight', 'model.layers.8.self_attn.q_proj.l
+ora_B.default.weight', 'model.layers.8.self_attn.q_proj.lora_B.vision.weight', 'model.layers.8.self_attn.v
+_proj.lora_A.default.weight', 'model.layers.8.self_attn.v_proj.lora_A.vision.weight', 'model.layers.8.self
+_attn.v_proj.lora_B.default.weight', 'model.layers.8.self_attn.v_proj.lora_B.vision.weight', 'model.layers
+.9.mlp.down_proj.lora_A.default.weight', 'model.layers.9.mlp.down_proj.lora_A.vision.weight', 'model.layer
+s.9.mlp.down_proj.lora_B.default.weight', 'model.layers.9.mlp.down_proj.lora_B.vision.weight', 'model.laye
+rs.9.mlp.gate_proj.lora_A.default.weight', 'model.layers.9.mlp.gate_proj.lora_A.vision.weight', 'model.lay
+ers.9.mlp.gate_proj.lora_B.default.weight', 'model.layers.9.mlp.gate_proj.lora_B.vision.weight', 'model.la
+yers.9.mlp.up_proj.lora_A.default.weight', 'model.layers.9.mlp.up_proj.lora_A.vision.weight', 'model.layer
+s.9.mlp.up_proj.lora_B.default.weight', 'model.layers.9.mlp.up_proj.lora_B.vision.weight', 'model.layers.9
+.self_attn.k_proj.lora_A.default.weight', 'model.layers.9.self_attn.k_proj.lora_A.vision.weight', 'model.l
+ayers.9.self_attn.k_proj.lora_B.default.weight', 'model.layers.9.self_attn.k_proj.lora_B.vision.weight', '
+model.layers.9.self_attn.o_proj.lora_A.default.weight', 'model.layers.9.self_attn.o_proj.lora_A.vision.wei
+ght', 'model.layers.9.self_attn.o_proj.lora_B.default.weight', 'model.layers.9.self_attn.o_proj.lora_B.vis
+ion.weight', 'model.layers.9.self_attn.q_proj.lora_A.default.weight', 'model.layers.9.self_attn.q_proj.lor
+a_A.vision.weight', 'model.layers.9.self_attn.q_proj.lora_B.default.weight', 'model.layers.9.self_attn.q_p
+roj.lora_B.vision.weight', 'model.layers.9.self_attn.v_proj.lora_A.default.weight', 'model.layers.9.self_a
+ttn.v_proj.lora_A.vision.weight', 'model.layers.9.self_attn.v_proj.lora_B.default.weight', 'model.layers.9
+.self_attn.v_proj.lora_B.vision.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and infere
+nce.
+Some weights of MultimodalLlamaForCausalLM were not initialized from the model checkpoint at /home1/hxl/di
+sk/EAGLE/model/LLM/Llama-3.2-1B-Instruct and are newly initialized: ['model.layers.0.mlp.down_proj.lora_A.
+default.weight', 'model.layers.0.mlp.down_proj.lora_A.vision.weight', 'model.layers.0.mlp.down_proj.lora_B
+.default.weight', 'model.layers.0.mlp.down_proj.lora_B.vision.weight', 'model.layers.0.mlp.gate_proj.lora_
+A.default.weight', 'model.layers.0.mlp.gate_proj.lora_A.vision.weight', 'model.layers.0.mlp.gate_proj.lora
+_B.default.weight', 'model.layers.0.mlp.gate_proj.lora_B.vision.weight', 'model.layers.0.mlp.up_proj.lora_
+A.default.weight', 'model.layers.0.mlp.up_proj.lora_A.vision.weight', 'model.layers.0.mlp.up_proj.lora_B.d
+efault.weight', 'model.layers.0.mlp.up_proj.lora_B.vision.weight', 'model.layers.0.self_attn.k_proj.lora_A
+.default.weight', 'model.layers.0.self_attn.k_proj.lora_A.vision.weight', 'model.layers.0.self_attn.k_proj
+.lora_B.default.weight', 'model.layers.0.self_attn.k_proj.lora_B.vision.weight', 'model.layers.0.self_attn
+.o_proj.lora_A.default.weight', 'model.layers.0.self_attn.o_proj.lora_A.vision.weight', 'model.layers.0.se
+lf_attn.o_proj.lora_B.default.weight', 'model.layers.0.self_attn.o_proj.lora_B.vision.weight', 'model.laye
+rs.0.self_attn.q_proj.lora_A.default.weight', 'model.layers.0.self_attn.q_proj.lora_A.vision.weight', 'mod
+el.layers.0.self_attn.q_proj.lora_B.default.weight', 'model.layers.0.self_attn.q_proj.lora_B.vision.weight
+', 'model.layers.0.self_attn.v_proj.lora_A.default.weight', 'model.layers.0.self_attn.v_proj.lora_A.vision
+.weight', 'model.layers.0.self_attn.v_proj.lora_B.default.weight', 'model.layers.0.self_attn.v_proj.lora_B
+.vision.weight', 'model.layers.1.mlp.down_proj.lora_A.default.weight', 'model.layers.1.mlp.down_proj.lora_
+A.vision.weight', 'model.layers.1.mlp.down_proj.lora_B.default.weight', 'model.layers.1.mlp.down_proj.lora
+_B.vision.weight', 'model.layers.1.mlp.gate_proj.lora_A.default.weight', 'model.layers.1.mlp.gate_proj.lor
+a_A.vision.weight', 'model.layers.1.mlp.gate_proj.lora_B.default.weight', 'model.layers.1.mlp.gate_proj.lo
+ra_B.vision.weight', 'model.layers.1.mlp.up_proj.lora_A.default.weight', 'model.layers.1.mlp.up_proj.lora_
+A.vision.weight', 'model.layers.1.mlp.up_proj.lora_B.default.weight', 'model.layers.1.mlp.up_proj.lora_B.v
+ision.weight', 'model.layers.1.self_attn.k_proj.lora_A.default.weight', 'model.layers.1.self_attn.k_proj.l
+ora_A.vision.weight', 'model.layers.1.self_attn.k_proj.lora_B.default.weight', 'model.layers.1.self_attn.k
+_proj.lora_B.vision.weight', 'model.layers.1.self_attn.o_proj.lora_A.default.weight', 'model.layers.1.self
+_attn.o_proj.lora_A.vision.weight', 'model.layers.1.self_attn.o_proj.lora_B.default.weight', 'model.layers
+.1.self_attn.o_proj.lora_B.vision.weight', 'model.layers.1.self_attn.q_proj.lora_A.default.weight', 'model
+.layers.1.self_attn.q_proj.lora_A.vision.weight', 'model.layers.1.self_attn.q_proj.lora_B.default.weight',
+ 'model.layers.1.self_attn.q_proj.lora_B.vision.weight', 'model.layers.1.self_attn.v_proj.lora_A.default.w
+eight', 'model.layers.1.self_attn.v_proj.lora_A.vision.weight', 'model.layers.1.self_attn.v_proj.lora_B.de
+fault.weight', 'model.layers.1.self_attn.v_proj.lora_B.vision.weight', 'model.layers.10.mlp.down_proj.lora
+_A.default.weight', 'model.layers.10.mlp.down_proj.lora_A.vision.weight', 'model.layers.10.mlp.down_proj.l
+ora_B.default.weight', 'model.layers.10.mlp.down_proj.lora_B.vision.weight', 'model.layers.10.mlp.gate_pro
+j.lora_A.default.weight', 'model.layers.10.mlp.gate_proj.lora_A.vision.weight', 'model.layers.10.mlp.gate_
+proj.lora_B.default.weight', 'model.layers.10.mlp.gate_proj.lora_B.vision.weight', 'model.layers.10.mlp.up
+_proj.lora_A.default.weight', 'model.layers.10.mlp.up_proj.lora_A.vision.weight', 'model.layers.10.mlp.up_
+proj.lora_B.default.weight', 'model.layers.10.mlp.up_proj.lora_B.vision.weight', 'model.layers.10.self_att
+n.k_proj.lora_A.default.weight', 'model.layers.10.self_attn.k_proj.lora_A.vision.weight', 'model.layers.10
+.self_attn.k_proj.lora_B.default.weight', 'model.layers.10.self_attn.k_proj.lora_B.vision.weight', 'model.
+layers.10.self_attn.o_proj.lora_A.default.weight', 'model.layers.10.self_attn.o_proj.lora_A.vision.weight'
+, 'model.layers.10.self_attn.o_proj.lora_B.default.weight', 'model.layers.10.self_attn.o_proj.lora_B.visio
+n.weight', 'model.layers.10.self_attn.q_proj.lora_A.default.weight', 'model.layers.10.self_attn.q_proj.lor
+a_A.vision.weight', 'model.layers.10.self_attn.q_proj.lora_B.default.weight', 'model.layers.10.self_attn.q
+_proj.lora_B.vision.weight', 'model.layers.10.self_attn.v_proj.lora_A.default.weight', 'model.layers.10.se
+lf_attn.v_proj.lora_A.vision.weight', 'model.layers.10.self_attn.v_proj.lora_B.default.weight', 'model.lay
+ers.10.self_attn.v_proj.lora_B.vision.weight', 'model.layers.11.mlp.down_proj.lora_A.default.weight', 'mod
+el.layers.11.mlp.down_proj.lora_A.vision.weight', 'model.layers.11.mlp.down_proj.lora_B.default.weight', '
+model.layers.11.mlp.down_proj.lora_B.vision.weight', 'model.layers.11.mlp.gate_proj.lora_A.default.weight'
+, 'model.layers.11.mlp.gate_proj.lora_A.vision.weight', 'model.layers.11.mlp.gate_proj.lora_B.default.weig
+ht', 'model.layers.11.mlp.gate_proj.lora_B.vision.weight', 'model.layers.11.mlp.up_proj.lora_A.default.wei
+ght', 'model.layers.11.mlp.up_proj.lora_A.vision.weight', 'model.layers.11.mlp.up_proj.lora_B.default.weig
+ht', 'model.layers.11.mlp.up_proj.lora_B.vision.weight', 'model.layers.11.self_attn.k_proj.lora_A.default.
+weight', 'model.layers.11.self_attn.k_proj.lora_A.vision.weight', 'model.layers.11.self_attn.k_proj.lora_B
+.default.weight', 'model.layers.11.self_attn.k_proj.lora_B.vision.weight', 'model.layers.11.self_attn.o_pr
+oj.lora_A.default.weight', 'model.layers.11.self_attn.o_proj.lora_A.vision.weight', 'model.layers.11.self_
+attn.o_proj.lora_B.default.weight', 'model.layers.11.self_attn.o_proj.lora_B.vision.weight', 'model.layers
+.11.self_attn.q_proj.lora_A.default.weight', 'model.layers.11.self_attn.q_proj.lora_A.vision.weight', 'mod
+el.layers.11.self_attn.q_proj.lora_B.default.weight', 'model.layers.11.self_attn.q_proj.lora_B.vision.weig
+ht', 'model.layers.11.self_attn.v_proj.lora_A.default.weight', 'model.layers.11.self_attn.v_proj.lora_A.vi
+sion.weight', 'model.layers.11.self_attn.v_proj.lora_B.default.weight', 'model.layers.11.self_attn.v_proj.
+lora_B.vision.weight', 'model.layers.12.mlp.down_proj.lora_A.default.weight', 'model.layers.12.mlp.down_pr
+oj.lora_A.vision.weight', 'model.layers.12.mlp.down_proj.lora_B.default.weight', 'model.layers.12.mlp.down
+_proj.lora_B.vision.weight', 'model.layers.12.mlp.gate_proj.lora_A.default.weight', 'model.layers.12.mlp.g
+ate_proj.lora_A.vision.weight', 'model.layers.12.mlp.gate_proj.lora_B.default.weight', 'model.layers.12.ml
+p.gate_proj.lora_B.vision.weight', 'model.layers.12.mlp.up_proj.lora_A.default.weight', 'model.layers.12.m
+lp.up_proj.lora_A.vision.weight', 'model.layers.12.mlp.up_proj.lora_B.default.weight', 'model.layers.12.ml
+p.up_proj.lora_B.vision.weight', 'model.layers.12.self_attn.k_proj.lora_A.default.weight', 'model.layers.1
+2.self_attn.k_proj.lora_A.vision.weight', 'model.layers.12.self_attn.k_proj.lora_B.default.weight', 'model
+.layers.12.self_attn.k_proj.lora_B.vision.weight', 'model.layers.12.self_attn.o_proj.lora_A.default.weight
+', 'model.layers.12.self_attn.o_proj.lora_A.vision.weight', 'model.layers.12.self_attn.o_proj.lora_B.defau
+lt.weight', 'model.layers.12.self_attn.o_proj.lora_B.vision.weight', 'model.layers.12.self_attn.q_proj.lor
+a_A.default.weight', 'model.layers.12.self_attn.q_proj.lora_A.vision.weight', 'model.layers.12.self_attn.q
+_proj.lora_B.default.weight', 'model.layers.12.self_attn.q_proj.lora_B.vision.weight', 'model.layers.12.se
+lf_attn.v_proj.lora_A.default.weight', 'model.layers.12.self_attn.v_proj.lora_A.vision.weight', 'model.lay
+ers.12.self_attn.v_proj.lora_B.default.weight', 'model.layers.12.self_attn.v_proj.lora_B.vision.weight', '
+model.layers.13.mlp.down_proj.lora_A.default.weight', 'model.layers.13.mlp.down_proj.lora_A.vision.weight'
+, 'model.layers.13.mlp.down_proj.lora_B.default.weight', 'model.layers.13.mlp.down_proj.lora_B.vision.weig
+ht', 'model.layers.13.mlp.gate_proj.lora_A.default.weight', 'model.layers.13.mlp.gate_proj.lora_A.vision.w
+eight', 'model.layers.13.mlp.gate_proj.lora_B.default.weight', 'model.layers.13.mlp.gate_proj.lora_B.visio
+n.weight', 'model.layers.13.mlp.up_proj.lora_A.default.weight', 'model.layers.13.mlp.up_proj.lora_A.vision
+.weight', 'model.layers.13.mlp.up_proj.lora_B.default.weight', 'model.layers.13.mlp.up_proj.lora_B.vision.
+weight', 'model.layers.13.self_attn.k_proj.lora_A.default.weight', 'model.layers.13.self_attn.k_proj.lora_
+A.vision.weight', 'model.layers.13.self_attn.k_proj.lora_B.default.weight', 'model.layers.13.self_attn.k_p
+roj.lora_B.vision.weight', 'model.layers.13.self_attn.o_proj.lora_A.default.weight', 'model.layers.13.self
+_attn.o_proj.lora_A.vision.weight', 'model.layers.13.self_attn.o_proj.lora_B.default.weight', 'model.layer
+s.13.self_attn.o_proj.lora_B.vision.weight', 'model.layers.13.self_attn.q_proj.lora_A.default.weight', 'mo
+del.layers.13.self_attn.q_proj.lora_A.vision.weight', 'model.layers.13.self_attn.q_proj.lora_B.default.wei
+ght', 'model.layers.13.self_attn.q_proj.lora_B.vision.weight', 'model.layers.13.self_attn.v_proj.lora_A.de
+fault.weight', 'model.layers.13.self_attn.v_proj.lora_A.vision.weight', 'model.layers.13.self_attn.v_proj.
+lora_B.default.weight', 'model.layers.13.self_attn.v_proj.lora_B.vision.weight', 'model.layers.14.mlp.down
+_proj.lora_A.default.weight', 'model.layers.14.mlp.down_proj.lora_A.vision.weight', 'model.layers.14.mlp.d
+own_proj.lora_B.default.weight', 'model.layers.14.mlp.down_proj.lora_B.vision.weight', 'model.layers.14.ml
+p.gate_proj.lora_A.default.weight', 'model.layers.14.mlp.gate_proj.lora_A.vision.weight', 'model.layers.14
+.mlp.gate_proj.lora_B.default.weight', 'model.layers.14.mlp.gate_proj.lora_B.vision.weight', 'model.layers
+.14.mlp.up_proj.lora_A.default.weight', 'model.layers.14.mlp.up_proj.lora_A.vision.weight', 'model.layers.
+14.mlp.up_proj.lora_B.default.weight', 'model.layers.14.mlp.up_proj.lora_B.vision.weight', 'model.layers.1
+4.self_attn.k_proj.lora_A.default.weight', 'model.layers.14.self_attn.k_proj.lora_A.vision.weight', 'model
+.layers.14.self_attn.k_proj.lora_B.default.weight', 'model.layers.14.self_attn.k_proj.lora_B.vision.weight
+', 'model.layers.14.self_attn.o_proj.lora_A.default.weight', 'model.layers.14.self_attn.o_proj.lora_A.visi
+on.weight', 'model.layers.14.self_attn.o_proj.lora_B.default.weight', 'model.layers.14.self_attn.o_proj.lo
+ra_B.vision.weight', 'model.layers.14.self_attn.q_proj.lora_A.default.weight', 'model.layers.14.self_attn.
+q_proj.lora_A.vision.weight', 'model.layers.14.self_attn.q_proj.lora_B.default.weight', 'model.layers.14.s
+elf_attn.q_proj.lora_B.vision.weight', 'model.layers.14.self_attn.v_proj.lora_A.default.weight', 'model.la
+yers.14.self_attn.v_proj.lora_A.vision.weight', 'model.layers.14.self_attn.v_proj.lora_B.default.weight',
+'model.layers.14.self_attn.v_proj.lora_B.vision.weight', 'model.layers.15.mlp.down_proj.lora_A.default.wei
+ght', 'model.layers.15.mlp.down_proj.lora_A.vision.weight', 'model.layers.15.mlp.down_proj.lora_B.default.
+weight', 'model.layers.15.mlp.down_proj.lora_B.vision.weight', 'model.layers.15.mlp.gate_proj.lora_A.defau
+lt.weight', 'model.layers.15.mlp.gate_proj.lora_A.vision.weight', 'model.layers.15.mlp.gate_proj.lora_B.de
+fault.weight', 'model.layers.15.mlp.gate_proj.lora_B.vision.weight', 'model.layers.15.mlp.up_proj.lora_A.d
+efault.weight', 'model.layers.15.mlp.up_proj.lora_A.vision.weight', 'model.layers.15.mlp.up_proj.lora_B.de
+fault.weight', 'model.layers.15.mlp.up_proj.lora_B.vision.weight', 'model.layers.15.self_attn.k_proj.lora_
+A.default.weight', 'model.layers.15.self_attn.k_proj.lora_A.vision.weight', 'model.layers.15.self_attn.k_p
+roj.lora_B.default.weight', 'model.layers.15.self_attn.k_proj.lora_B.vision.weight', 'model.layers.15.self
+_attn.o_proj.lora_A.default.weight', 'model.layers.15.self_attn.o_proj.lora_A.vision.weight', 'model.layer
+s.15.self_attn.o_proj.lora_B.default.weight', 'model.layers.15.self_attn.o_proj.lora_B.vision.weight', 'mo
+del.layers.15.self_attn.q_proj.lora_A.default.weight', 'model.layers.15.self_attn.q_proj.lora_A.vision.wei
+ght', 'model.layers.15.self_attn.q_proj.lora_B.default.weight', 'model.layers.15.self_attn.q_proj.lora_B.v
+ision.weight', 'model.layers.15.self_attn.v_proj.lora_A.default.weight', 'model.layers.15.self_attn.v_proj
+.lora_A.vision.weight', 'model.layers.15.self_attn.v_proj.lora_B.default.weight', 'model.layers.15.self_at
+tn.v_proj.lora_B.vision.weight', 'model.layers.2.mlp.down_proj.lora_A.default.weight', 'model.layers.2.mlp
+.down_proj.lora_A.vision.weight', 'model.layers.2.mlp.down_proj.lora_B.default.weight', 'model.layers.2.ml
+p.down_proj.lora_B.vision.weight', 'model.layers.2.mlp.gate_proj.lora_A.default.weight', 'model.layers.2.m
+lp.gate_proj.lora_A.vision.weight', 'model.layers.2.mlp.gate_proj.lora_B.default.weight', 'model.layers.2.
+mlp.gate_proj.lora_B.vision.weight', 'model.layers.2.mlp.up_proj.lora_A.default.weight', 'model.layers.2.m
+lp.up_proj.lora_A.vision.weight', 'model.layers.2.mlp.up_proj.lora_B.default.weight', 'model.layers.2.mlp.
+up_proj.lora_B.vision.weight', 'model.layers.2.self_attn.k_proj.lora_A.default.weight', 'model.layers.2.se
+lf_attn.k_proj.lora_A.vision.weight', 'model.layers.2.self_attn.k_proj.lora_B.default.weight', 'model.laye
+rs.2.self_attn.k_proj.lora_B.vision.weight', 'model.layers.2.self_attn.o_proj.lora_A.default.weight', 'mod
+el.layers.2.self_attn.o_proj.lora_A.vision.weight', 'model.layers.2.self_attn.o_proj.lora_B.default.weight
+', 'model.layers.2.self_attn.o_proj.lora_B.vision.weight', 'model.layers.2.self_attn.q_proj.lora_A.default
+.weight', 'model.layers.2.self_attn.q_proj.lora_A.vision.weight', 'model.layers.2.self_attn.q_proj.lora_B.
+default.weight', 'model.layers.2.self_attn.q_proj.lora_B.vision.weight', 'model.layers.2.self_attn.v_proj.
+lora_A.default.weight', 'model.layers.2.self_attn.v_proj.lora_A.vision.weight', 'model.layers.2.self_attn.
+v_proj.lora_B.default.weight', 'model.layers.2.self_attn.v_proj.lora_B.vision.weight', 'model.layers.3.mlp
+.down_proj.lora_A.default.weight', 'model.layers.3.mlp.down_proj.lora_A.vision.weight', 'model.layers.3.ml
+p.down_proj.lora_B.default.weight', 'model.layers.3.mlp.down_proj.lora_B.vision.weight', 'model.layers.3.m
+lp.gate_proj.lora_A.default.weight', 'model.layers.3.mlp.gate_proj.lora_A.vision.weight', 'model.layers.3.
+mlp.gate_proj.lora_B.default.weight', 'model.layers.3.mlp.gate_proj.lora_B.vision.weight', 'model.layers.3
+.mlp.up_proj.lora_A.default.weight', 'model.layers.3.mlp.up_proj.lora_A.vision.weight', 'model.layers.3.ml
+p.up_proj.lora_B.default.weight', 'model.layers.3.mlp.up_proj.lora_B.vision.weight', 'model.layers.3.self_
+attn.k_proj.lora_A.default.weight', 'model.layers.3.self_attn.k_proj.lora_A.vision.weight', 'model.layers.
+3.self_attn.k_proj.lora_B.default.weight', 'model.layers.3.self_attn.k_proj.lora_B.vision.weight', 'model.
+layers.3.self_attn.o_proj.lora_A.default.weight', 'model.layers.3.self_attn.o_proj.lora_A.vision.weight',
+'model.layers.3.self_attn.o_proj.lora_B.default.weight', 'model.layers.3.self_attn.o_proj.lora_B.vision.we
+ight', 'model.layers.3.self_attn.q_proj.lora_A.default.weight', 'model.layers.3.self_attn.q_proj.lora_A.vi
+sion.weight', 'model.layers.3.self_attn.q_proj.lora_B.default.weight', 'model.layers.3.self_attn.q_proj.lo
+ra_B.vision.weight', 'model.layers.3.self_attn.v_proj.lora_A.default.weight', 'model.layers.3.self_attn.v_
+proj.lora_A.vision.weight', 'model.layers.3.self_attn.v_proj.lora_B.default.weight', 'model.layers.3.self_
+attn.v_proj.lora_B.vision.weight', 'model.layers.4.mlp.down_proj.lora_A.default.weight', 'model.layers.4.m
+lp.down_proj.lora_A.vision.weight', 'model.layers.4.mlp.down_proj.lora_B.default.weight', 'model.layers.4.
+mlp.down_proj.lora_B.vision.weight', 'model.layers.4.mlp.gate_proj.lora_A.default.weight', 'model.layers.4
+.mlp.gate_proj.lora_A.vision.weight', 'model.layers.4.mlp.gate_proj.lora_B.default.weight', 'model.layers.
+4.mlp.gate_proj.lora_B.vision.weight', 'model.layers.4.mlp.up_proj.lora_A.default.weight', 'model.layers.4
+.mlp.up_proj.lora_A.vision.weight', 'model.layers.4.mlp.up_proj.lora_B.default.weight', 'model.layers.4.ml
+p.up_proj.lora_B.vision.weight', 'model.layers.4.self_attn.k_proj.lora_A.default.weight', 'model.layers.4.
+self_attn.k_proj.lora_A.vision.weight', 'model.layers.4.self_attn.k_proj.lora_B.default.weight', 'model.la
+yers.4.self_attn.k_proj.lora_B.vision.weight', 'model.layers.4.self_attn.o_proj.lora_A.default.weight', 'm
+odel.layers.4.self_attn.o_proj.lora_A.vision.weight', 'model.layers.4.self_attn.o_proj.lora_B.default.weig
+ht', 'model.layers.4.self_attn.o_proj.lora_B.vision.weight', 'model.layers.4.self_attn.q_proj.lora_A.defau
+lt.weight', 'model.layers.4.self_attn.q_proj.lora_A.vision.weight', 'model.layers.4.self_attn.q_proj.lora_
+B.default.weight', 'model.layers.4.self_attn.q_proj.lora_B.vision.weight', 'model.layers.4.self_attn.v_pro
+j.lora_A.default.weight', 'model.layers.4.self_attn.v_proj.lora_A.vision.weight', 'model.layers.4.self_att
+n.v_proj.lora_B.default.weight', 'model.layers.4.self_attn.v_proj.lora_B.vision.weight', 'model.layers.5.m
+lp.down_proj.lora_A.default.weight', 'model.layers.5.mlp.down_proj.lora_A.vision.weight', 'model.layers.5.
+mlp.down_proj.lora_B.default.weight', 'model.layers.5.mlp.down_proj.lora_B.vision.weight', 'model.layers.5
+.mlp.gate_proj.lora_A.default.weight', 'model.layers.5.mlp.gate_proj.lora_A.vision.weight', 'model.layers.
+5.mlp.gate_proj.lora_B.default.weight', 'model.layers.5.mlp.gate_proj.lora_B.vision.weight', 'model.layers
+.5.mlp.up_proj.lora_A.default.weight', 'model.layers.5.mlp.up_proj.lora_A.vision.weight', 'model.layers.5.
+mlp.up_proj.lora_B.default.weight', 'model.layers.5.mlp.up_proj.lora_B.vision.weight', 'model.layers.5.sel
+f_attn.k_proj.lora_A.default.weight', 'model.layers.5.self_attn.k_proj.lora_A.vision.weight', 'model.layer
+s.5.self_attn.k_proj.lora_B.default.weight', 'model.layers.5.self_attn.k_proj.lora_B.vision.weight', 'mode
+l.layers.5.self_attn.o_proj.lora_A.default.weight', 'model.layers.5.self_attn.o_proj.lora_A.vision.weight'
+, 'model.layers.5.self_attn.o_proj.lora_B.default.weight', 'model.layers.5.self_attn.o_proj.lora_B.vision.
+weight', 'model.layers.5.self_attn.q_proj.lora_A.default.weight', 'model.layers.5.self_attn.q_proj.lora_A.
+vision.weight', 'model.layers.5.self_attn.q_proj.lora_B.default.weight', 'model.layers.5.self_attn.q_proj.
+lora_B.vision.weight', 'model.layers.5.self_attn.v_proj.lora_A.default.weight', 'model.layers.5.self_attn.
+v_proj.lora_A.vision.weight', 'model.layers.5.self_attn.v_proj.lora_B.default.weight', 'model.layers.5.sel
+f_attn.v_proj.lora_B.vision.weight', 'model.layers.6.mlp.down_proj.lora_A.default.weight', 'model.layers.6
+.mlp.down_proj.lora_A.vision.weight', 'model.layers.6.mlp.down_proj.lora_B.default.weight', 'model.layers.
+6.mlp.down_proj.lora_B.vision.weight', 'model.layers.6.mlp.gate_proj.lora_A.default.weight', 'model.layers
+.6.mlp.gate_proj.lora_A.vision.weight', 'model.layers.6.mlp.gate_proj.lora_B.default.weight', 'model.layer
+s.6.mlp.gate_proj.lora_B.vision.weight', 'model.layers.6.mlp.up_proj.lora_A.default.weight', 'model.layers
+.6.mlp.up_proj.lora_A.vision.weight', 'model.layers.6.mlp.up_proj.lora_B.default.weight', 'model.layers.6.
+mlp.up_proj.lora_B.vision.weight', 'model.layers.6.self_attn.k_proj.lora_A.default.weight', 'model.layers.
+6.self_attn.k_proj.lora_A.vision.weight', 'model.layers.6.self_attn.k_proj.lora_B.default.weight', 'model.
+layers.6.self_attn.k_proj.lora_B.vision.weight', 'model.layers.6.self_attn.o_proj.lora_A.default.weight',
+'model.layers.6.self_attn.o_proj.lora_A.vision.weight', 'model.layers.6.self_attn.o_proj.lora_B.default.we
+ight', 'model.layers.6.self_attn.o_proj.lora_B.vision.weight', 'model.layers.6.self_attn.q_proj.lora_A.def
+ault.weight', 'model.layers.6.self_attn.q_proj.lora_A.vision.weight', 'model.layers.6.self_attn.q_proj.lor
+a_B.default.weight', 'model.layers.6.self_attn.q_proj.lora_B.vision.weight', 'model.layers.6.self_attn.v_p
+roj.lora_A.default.weight', 'model.layers.6.self_attn.v_proj.lora_A.vision.weight', 'model.layers.6.self_a
+ttn.v_proj.lora_B.default.weight', 'model.layers.6.self_attn.v_proj.lora_B.vision.weight', 'model.layers.7
+.mlp.down_proj.lora_A.default.weight', 'model.layers.7.mlp.down_proj.lora_A.vision.weight', 'model.layers.
+7.mlp.down_proj.lora_B.default.weight', 'model.layers.7.mlp.down_proj.lora_B.vision.weight', 'model.layers
+.7.mlp.gate_proj.lora_A.default.weight', 'model.layers.7.mlp.gate_proj.lora_A.vision.weight', 'model.layer
+s.7.mlp.gate_proj.lora_B.default.weight', 'model.layers.7.mlp.gate_proj.lora_B.vision.weight', 'model.laye
+rs.7.mlp.up_proj.lora_A.default.weight', 'model.layers.7.mlp.up_proj.lora_A.vision.weight', 'model.layers.
+7.mlp.up_proj.lora_B.default.weight', 'model.layers.7.mlp.up_proj.lora_B.vision.weight', 'model.layers.7.s
+elf_attn.k_proj.lora_A.default.weight', 'model.layers.7.self_attn.k_proj.lora_A.vision.weight', 'model.lay
+ers.7.self_attn.k_proj.lora_B.default.weight', 'model.layers.7.self_attn.k_proj.lora_B.vision.weight', 'mo
+del.layers.7.self_attn.o_proj.lora_A.default.weight', 'model.layers.7.self_attn.o_proj.lora_A.vision.weigh
+t', 'model.layers.7.self_attn.o_proj.lora_B.default.weight', 'model.layers.7.self_attn.o_proj.lora_B.visio
+n.weight', 'model.layers.7.self_attn.q_proj.lora_A.default.weight', 'model.layers.7.self_attn.q_proj.lora_
+A.vision.weight', 'model.layers.7.self_attn.q_proj.lora_B.default.weight', 'model.layers.7.self_attn.q_pro
+j.lora_B.vision.weight', 'model.layers.7.self_attn.v_proj.lora_A.default.weight', 'model.layers.7.self_att
+n.v_proj.lora_A.vision.weight', 'model.layers.7.self_attn.v_proj.lora_B.default.weight', 'model.layers.7.s
+elf_attn.v_proj.lora_B.vision.weight', 'model.layers.8.mlp.down_proj.lora_A.default.weight', 'model.layers
+.8.mlp.down_proj.lora_A.vision.weight', 'model.layers.8.mlp.down_proj.lora_B.default.weight', 'model.layer
+s.8.mlp.down_proj.lora_B.vision.weight', 'model.layers.8.mlp.gate_proj.lora_A.default.weight', 'model.laye
+rs.8.mlp.gate_proj.lora_A.vision.weight', 'model.layers.8.mlp.gate_proj.lora_B.default.weight', 'model.lay
+ers.8.mlp.gate_proj.lora_B.vision.weight', 'model.layers.8.mlp.up_proj.lora_A.default.weight', 'model.laye
+rs.8.mlp.up_proj.lora_A.vision.weight', 'model.layers.8.mlp.up_proj.lora_B.default.weight', 'model.layers.
+8.mlp.up_proj.lora_B.vision.weight', 'model.layers.8.self_attn.k_proj.lora_A.default.weight', 'model.layer
+s.8.self_attn.k_proj.lora_A.vision.weight', 'model.layers.8.self_attn.k_proj.lora_B.default.weight', 'mode
+l.layers.8.self_attn.k_proj.lora_B.vision.weight', 'model.layers.8.self_attn.o_proj.lora_A.default.weight'
+, 'model.layers.8.self_attn.o_proj.lora_A.vision.weight', 'model.layers.8.self_attn.o_proj.lora_B.default.
+weight', 'model.layers.8.self_attn.o_proj.lora_B.vision.weight', 'model.layers.8.self_attn.q_proj.lora_A.d
+efault.weight', 'model.layers.8.self_attn.q_proj.lora_A.vision.weight', 'model.layers.8.self_attn.q_proj.l
+ora_B.default.weight', 'model.layers.8.self_attn.q_proj.lora_B.vision.weight', 'model.layers.8.self_attn.v
+_proj.lora_A.default.weight', 'model.layers.8.self_attn.v_proj.lora_A.vision.weight', 'model.layers.8.self
+_attn.v_proj.lora_B.default.weight', 'model.layers.8.self_attn.v_proj.lora_B.vision.weight', 'model.layers
+.9.mlp.down_proj.lora_A.default.weight', 'model.layers.9.mlp.down_proj.lora_A.vision.weight', 'model.layer
+s.9.mlp.down_proj.lora_B.default.weight', 'model.layers.9.mlp.down_proj.lora_B.vision.weight', 'model.laye
+rs.9.mlp.gate_proj.lora_A.default.weight', 'model.layers.9.mlp.gate_proj.lora_A.vision.weight', 'model.lay
+ers.9.mlp.gate_proj.lora_B.default.weight', 'model.layers.9.mlp.gate_proj.lora_B.vision.weight', 'model.la
+yers.9.mlp.up_proj.lora_A.default.weight', 'model.layers.9.mlp.up_proj.lora_A.vision.weight', 'model.layer
+s.9.mlp.up_proj.lora_B.default.weight', 'model.layers.9.mlp.up_proj.lora_B.vision.weight', 'model.layers.9
+.self_attn.k_proj.lora_A.default.weight', 'model.layers.9.self_attn.k_proj.lora_A.vision.weight', 'model.l
+ayers.9.self_attn.k_proj.lora_B.default.weight', 'model.layers.9.self_attn.k_proj.lora_B.vision.weight', '
+model.layers.9.self_attn.o_proj.lora_A.default.weight', 'model.layers.9.self_attn.o_proj.lora_A.vision.wei
+ght', 'model.layers.9.self_attn.o_proj.lora_B.default.weight', 'model.layers.9.self_attn.o_proj.lora_B.vis
+ion.weight', 'model.layers.9.self_attn.q_proj.lora_A.default.weight', 'model.layers.9.self_attn.q_proj.lor
+a_A.vision.weight', 'model.layers.9.self_attn.q_proj.lora_B.default.weight', 'model.layers.9.self_attn.q_p
+roj.lora_B.vision.weight', 'model.layers.9.self_attn.v_proj.lora_A.default.weight', 'model.layers.9.self_a
+ttn.v_proj.lora_A.vision.weight', 'model.layers.9.self_attn.v_proj.lora_B.default.weight', 'model.layers.9
+.self_attn.v_proj.lora_B.vision.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and infere
+nce.
+Some weights of MultimodalLlamaForCausalLM were not initialized from the model checkpoint at /home1/hxl/di
+sk/EAGLE/model/LLM/Llama-3.2-1B-Instruct and are newly initialized: ['model.layers.0.mlp.down_proj.lora_A.
+default.weight', 'model.layers.0.mlp.down_proj.lora_A.vision.weight', 'model.layers.0.mlp.down_proj.lora_B
+.default.weight', 'model.layers.0.mlp.down_proj.lora_B.vision.weight', 'model.layers.0.mlp.gate_proj.lora_
+A.default.weight', 'model.layers.0.mlp.gate_proj.lora_A.vision.weight', 'model.layers.0.mlp.gate_proj.lora
+_B.default.weight', 'model.layers.0.mlp.gate_proj.lora_B.vision.weight', 'model.layers.0.mlp.up_proj.lora_
+A.default.weight', 'model.layers.0.mlp.up_proj.lora_A.vision.weight', 'model.layers.0.mlp.up_proj.lora_B.d
+efault.weight', 'model.layers.0.mlp.up_proj.lora_B.vision.weight', 'model.layers.0.self_attn.k_proj.lora_A
+.default.weight', 'model.layers.0.self_attn.k_proj.lora_A.vision.weight', 'model.layers.0.self_attn.k_proj
+.lora_B.default.weight', 'model.layers.0.self_attn.k_proj.lora_B.vision.weight', 'model.layers.0.self_attn
+.o_proj.lora_A.default.weight', 'model.layers.0.self_attn.o_proj.lora_A.vision.weight', 'model.layers.0.se
+lf_attn.o_proj.lora_B.default.weight', 'model.layers.0.self_attn.o_proj.lora_B.vision.weight', 'model.laye
+rs.0.self_attn.q_proj.lora_A.default.weight', 'model.layers.0.self_attn.q_proj.lora_A.vision.weight', 'mod
+el.layers.0.self_attn.q_proj.lora_B.default.weight', 'model.layers.0.self_attn.q_proj.lora_B.vision.weight
+', 'model.layers.0.self_attn.v_proj.lora_A.default.weight', 'model.layers.0.self_attn.v_proj.lora_A.vision
+.weight', 'model.layers.0.self_attn.v_proj.lora_B.default.weight', 'model.layers.0.self_attn.v_proj.lora_B
+.vision.weight', 'model.layers.1.mlp.down_proj.lora_A.default.weight', 'model.layers.1.mlp.down_proj.lora_
+A.vision.weight', 'model.layers.1.mlp.down_proj.lora_B.default.weight', 'model.layers.1.mlp.down_proj.lora
+_B.vision.weight', 'model.layers.1.mlp.gate_proj.lora_A.default.weight', 'model.layers.1.mlp.gate_proj.lor
+a_A.vision.weight', 'model.layers.1.mlp.gate_proj.lora_B.default.weight', 'model.layers.1.mlp.gate_proj.lo
+ra_B.vision.weight', 'model.layers.1.mlp.up_proj.lora_A.default.weight', 'model.layers.1.mlp.up_proj.lora_
+A.vision.weight', 'model.layers.1.mlp.up_proj.lora_B.default.weight', 'model.layers.1.mlp.up_proj.lora_B.v
+ision.weight', 'model.layers.1.self_attn.k_proj.lora_A.default.weight', 'model.layers.1.self_attn.k_proj.l
+ora_A.vision.weight', 'model.layers.1.self_attn.k_proj.lora_B.default.weight', 'model.layers.1.self_attn.k
+_proj.lora_B.vision.weight', 'model.layers.1.self_attn.o_proj.lora_A.default.weight', 'model.layers.1.self
+_attn.o_proj.lora_A.vision.weight', 'model.layers.1.self_attn.o_proj.lora_B.default.weight', 'model.layers
+.1.self_attn.o_proj.lora_B.vision.weight', 'model.layers.1.self_attn.q_proj.lora_A.default.weight', 'model
+.layers.1.self_attn.q_proj.lora_A.vision.weight', 'model.layers.1.self_attn.q_proj.lora_B.default.weight',
+ 'model.layers.1.self_attn.q_proj.lora_B.vision.weight', 'model.layers.1.self_attn.v_proj.lora_A.default.w
+eight', 'model.layers.1.self_attn.v_proj.lora_A.vision.weight', 'model.layers.1.self_attn.v_proj.lora_B.de
+fault.weight', 'model.layers.1.self_attn.v_proj.lora_B.vision.weight', 'model.layers.10.mlp.down_proj.lora
+_A.default.weight', 'model.layers.10.mlp.down_proj.lora_A.vision.weight', 'model.layers.10.mlp.down_proj.l
+ora_B.default.weight', 'model.layers.10.mlp.down_proj.lora_B.vision.weight', 'model.layers.10.mlp.gate_pro
+j.lora_A.default.weight', 'model.layers.10.mlp.gate_proj.lora_A.vision.weight', 'model.layers.10.mlp.gate_
+proj.lora_B.default.weight', 'model.layers.10.mlp.gate_proj.lora_B.vision.weight', 'model.layers.10.mlp.up
+_proj.lora_A.default.weight', 'model.layers.10.mlp.up_proj.lora_A.vision.weight', 'model.layers.10.mlp.up_
+proj.lora_B.default.weight', 'model.layers.10.mlp.up_proj.lora_B.vision.weight', 'model.layers.10.self_att
+n.k_proj.lora_A.default.weight', 'model.layers.10.self_attn.k_proj.lora_A.vision.weight', 'model.layers.10
+.self_attn.k_proj.lora_B.default.weight', 'model.layers.10.self_attn.k_proj.lora_B.vision.weight', 'model.
+layers.10.self_attn.o_proj.lora_A.default.weight', 'model.layers.10.self_attn.o_proj.lora_A.vision.weight'
+, 'model.layers.10.self_attn.o_proj.lora_B.default.weight', 'model.layers.10.self_attn.o_proj.lora_B.visio
+n.weight', 'model.layers.10.self_attn.q_proj.lora_A.default.weight', 'model.layers.10.self_attn.q_proj.lor
+a_A.vision.weight', 'model.layers.10.self_attn.q_proj.lora_B.default.weight', 'model.layers.10.self_attn.q
+_proj.lora_B.vision.weight', 'model.layers.10.self_attn.v_proj.lora_A.default.weight', 'model.layers.10.se
+lf_attn.v_proj.lora_A.vision.weight', 'model.layers.10.self_attn.v_proj.lora_B.default.weight', 'model.lay
+ers.10.self_attn.v_proj.lora_B.vision.weight', 'model.layers.11.mlp.down_proj.lora_A.default.weight', 'mod
+el.layers.11.mlp.down_proj.lora_A.vision.weight', 'model.layers.11.mlp.down_proj.lora_B.default.weight', '
+model.layers.11.mlp.down_proj.lora_B.vision.weight', 'model.layers.11.mlp.gate_proj.lora_A.default.weight'
+, 'model.layers.11.mlp.gate_proj.lora_A.vision.weight', 'model.layers.11.mlp.gate_proj.lora_B.default.weig
+ht', 'model.layers.11.mlp.gate_proj.lora_B.vision.weight', 'model.layers.11.mlp.up_proj.lora_A.default.wei
+ght', 'model.layers.11.mlp.up_proj.lora_A.vision.weight', 'model.layers.11.mlp.up_proj.lora_B.default.weig
+ht', 'model.layers.11.mlp.up_proj.lora_B.vision.weight', 'model.layers.11.self_attn.k_proj.lora_A.default.
+weight', 'model.layers.11.self_attn.k_proj.lora_A.vision.weight', 'model.layers.11.self_attn.k_proj.lora_B
+.default.weight', 'model.layers.11.self_attn.k_proj.lora_B.vision.weight', 'model.layers.11.self_attn.o_pr
+oj.lora_A.default.weight', 'model.layers.11.self_attn.o_proj.lora_A.vision.weight', 'model.layers.11.self_
+attn.o_proj.lora_B.default.weight', 'model.layers.11.self_attn.o_proj.lora_B.vision.weight', 'model.layers
+.11.self_attn.q_proj.lora_A.default.weight', 'model.layers.11.self_attn.q_proj.lora_A.vision.weight', 'mod
+el.layers.11.self_attn.q_proj.lora_B.default.weight', 'model.layers.11.self_attn.q_proj.lora_B.vision.weig
+ht', 'model.layers.11.self_attn.v_proj.lora_A.default.weight', 'model.layers.11.self_attn.v_proj.lora_A.vi
+sion.weight', 'model.layers.11.self_attn.v_proj.lora_B.default.weight', 'model.layers.11.self_attn.v_proj.
+lora_B.vision.weight', 'model.layers.12.mlp.down_proj.lora_A.default.weight', 'model.layers.12.mlp.down_pr
+oj.lora_A.vision.weight', 'model.layers.12.mlp.down_proj.lora_B.default.weight', 'model.layers.12.mlp.down
+_proj.lora_B.vision.weight', 'model.layers.12.mlp.gate_proj.lora_A.default.weight', 'model.layers.12.mlp.g
+ate_proj.lora_A.vision.weight', 'model.layers.12.mlp.gate_proj.lora_B.default.weight', 'model.layers.12.ml
+p.gate_proj.lora_B.vision.weight', 'model.layers.12.mlp.up_proj.lora_A.default.weight', 'model.layers.12.m
+lp.up_proj.lora_A.vision.weight', 'model.layers.12.mlp.up_proj.lora_B.default.weight', 'model.layers.12.ml
+p.up_proj.lora_B.vision.weight', 'model.layers.12.self_attn.k_proj.lora_A.default.weight', 'model.layers.1
+2.self_attn.k_proj.lora_A.vision.weight', 'model.layers.12.self_attn.k_proj.lora_B.default.weight', 'model
+.layers.12.self_attn.k_proj.lora_B.vision.weight', 'model.layers.12.self_attn.o_proj.lora_A.default.weight
+', 'model.layers.12.self_attn.o_proj.lora_A.vision.weight', 'model.layers.12.self_attn.o_proj.lora_B.defau
+lt.weight', 'model.layers.12.self_attn.o_proj.lora_B.vision.weight', 'model.layers.12.self_attn.q_proj.lor
+a_A.default.weight', 'model.layers.12.self_attn.q_proj.lora_A.vision.weight', 'model.layers.12.self_attn.q
+_proj.lora_B.default.weight', 'model.layers.12.self_attn.q_proj.lora_B.vision.weight', 'model.layers.12.se
+lf_attn.v_proj.lora_A.default.weight', 'model.layers.12.self_attn.v_proj.lora_A.vision.weight', 'model.lay
+ers.12.self_attn.v_proj.lora_B.default.weight', 'model.layers.12.self_attn.v_proj.lora_B.vision.weight', '
+model.layers.13.mlp.down_proj.lora_A.default.weight', 'model.layers.13.mlp.down_proj.lora_A.vision.weight'
+, 'model.layers.13.mlp.down_proj.lora_B.default.weight', 'model.layers.13.mlp.down_proj.lora_B.vision.weig
+ht', 'model.layers.13.mlp.gate_proj.lora_A.default.weight', 'model.layers.13.mlp.gate_proj.lora_A.vision.w
+eight', 'model.layers.13.mlp.gate_proj.lora_B.default.weight', 'model.layers.13.mlp.gate_proj.lora_B.visio
+n.weight', 'model.layers.13.mlp.up_proj.lora_A.default.weight', 'model.layers.13.mlp.up_proj.lora_A.vision
+.weight', 'model.layers.13.mlp.up_proj.lora_B.default.weight', 'model.layers.13.mlp.up_proj.lora_B.vision.
+weight', 'model.layers.13.self_attn.k_proj.lora_A.default.weight', 'model.layers.13.self_attn.k_proj.lora_
+A.vision.weight', 'model.layers.13.self_attn.k_proj.lora_B.default.weight', 'model.layers.13.self_attn.k_p
+roj.lora_B.vision.weight', 'model.layers.13.self_attn.o_proj.lora_A.default.weight', 'model.layers.13.self
+_attn.o_proj.lora_A.vision.weight', 'model.layers.13.self_attn.o_proj.lora_B.default.weight', 'model.layer
+s.13.self_attn.o_proj.lora_B.vision.weight', 'model.layers.13.self_attn.q_proj.lora_A.default.weight', 'mo
+del.layers.13.self_attn.q_proj.lora_A.vision.weight', 'model.layers.13.self_attn.q_proj.lora_B.default.wei
+ght', 'model.layers.13.self_attn.q_proj.lora_B.vision.weight', 'model.layers.13.self_attn.v_proj.lora_A.de
+fault.weight', 'model.layers.13.self_attn.v_proj.lora_A.vision.weight', 'model.layers.13.self_attn.v_proj.
+lora_B.default.weight', 'model.layers.13.self_attn.v_proj.lora_B.vision.weight', 'model.layers.14.mlp.down
+_proj.lora_A.default.weight', 'model.layers.14.mlp.down_proj.lora_A.vision.weight', 'model.layers.14.mlp.d
+own_proj.lora_B.default.weight', 'model.layers.14.mlp.down_proj.lora_B.vision.weight', 'model.layers.14.ml
+p.gate_proj.lora_A.default.weight', 'model.layers.14.mlp.gate_proj.lora_A.vision.weight', 'model.layers.14
+.mlp.gate_proj.lora_B.default.weight', 'model.layers.14.mlp.gate_proj.lora_B.vision.weight', 'model.layers
+.14.mlp.up_proj.lora_A.default.weight', 'model.layers.14.mlp.up_proj.lora_A.vision.weight', 'model.layers.
+14.mlp.up_proj.lora_B.default.weight', 'model.layers.14.mlp.up_proj.lora_B.vision.weight', 'model.layers.1
+4.self_attn.k_proj.lora_A.default.weight', 'model.layers.14.self_attn.k_proj.lora_A.vision.weight', 'model
+.layers.14.self_attn.k_proj.lora_B.default.weight', 'model.layers.14.self_attn.k_proj.lora_B.vision.weight
+', 'model.layers.14.self_attn.o_proj.lora_A.default.weight', 'model.layers.14.self_attn.o_proj.lora_A.visi
+on.weight', 'model.layers.14.self_attn.o_proj.lora_B.default.weight', 'model.layers.14.self_attn.o_proj.lo
+ra_B.vision.weight', 'model.layers.14.self_attn.q_proj.lora_A.default.weight', 'model.layers.14.self_attn.
+q_proj.lora_A.vision.weight', 'model.layers.14.self_attn.q_proj.lora_B.default.weight', 'model.layers.14.s
+elf_attn.q_proj.lora_B.vision.weight', 'model.layers.14.self_attn.v_proj.lora_A.default.weight', 'model.la
+yers.14.self_attn.v_proj.lora_A.vision.weight', 'model.layers.14.self_attn.v_proj.lora_B.default.weight',
+'model.layers.14.self_attn.v_proj.lora_B.vision.weight', 'model.layers.15.mlp.down_proj.lora_A.default.wei
+ght', 'model.layers.15.mlp.down_proj.lora_A.vision.weight', 'model.layers.15.mlp.down_proj.lora_B.default.
+weight', 'model.layers.15.mlp.down_proj.lora_B.vision.weight', 'model.layers.15.mlp.gate_proj.lora_A.defau
+lt.weight', 'model.layers.15.mlp.gate_proj.lora_A.vision.weight', 'model.layers.15.mlp.gate_proj.lora_B.de
+fault.weight', 'model.layers.15.mlp.gate_proj.lora_B.vision.weight', 'model.layers.15.mlp.up_proj.lora_A.d
+efault.weight', 'model.layers.15.mlp.up_proj.lora_A.vision.weight', 'model.layers.15.mlp.up_proj.lora_B.de
+fault.weight', 'model.layers.15.mlp.up_proj.lora_B.vision.weight', 'model.layers.15.self_attn.k_proj.lora_
+A.default.weight', 'model.layers.15.self_attn.k_proj.lora_A.vision.weight', 'model.layers.15.self_attn.k_p
+roj.lora_B.default.weight', 'model.layers.15.self_attn.k_proj.lora_B.vision.weight', 'model.layers.15.self
+_attn.o_proj.lora_A.default.weight', 'model.layers.15.self_attn.o_proj.lora_A.vision.weight', 'model.layer
+s.15.self_attn.o_proj.lora_B.default.weight', 'model.layers.15.self_attn.o_proj.lora_B.vision.weight', 'mo
+del.layers.15.self_attn.q_proj.lora_A.default.weight', 'model.layers.15.self_attn.q_proj.lora_A.vision.wei
+ght', 'model.layers.15.self_attn.q_proj.lora_B.default.weight', 'model.layers.15.self_attn.q_proj.lora_B.v
+ision.weight', 'model.layers.15.self_attn.v_proj.lora_A.default.weight', 'model.layers.15.self_attn.v_proj
+.lora_A.vision.weight', 'model.layers.15.self_attn.v_proj.lora_B.default.weight', 'model.layers.15.self_at
+tn.v_proj.lora_B.vision.weight', 'model.layers.2.mlp.down_proj.lora_A.default.weight', 'model.layers.2.mlp
+.down_proj.lora_A.vision.weight', 'model.layers.2.mlp.down_proj.lora_B.default.weight', 'model.layers.2.ml
+p.down_proj.lora_B.vision.weight', 'model.layers.2.mlp.gate_proj.lora_A.default.weight', 'model.layers.2.m
+lp.gate_proj.lora_A.vision.weight', 'model.layers.2.mlp.gate_proj.lora_B.default.weight', 'model.layers.2.
+mlp.gate_proj.lora_B.vision.weight', 'model.layers.2.mlp.up_proj.lora_A.default.weight', 'model.layers.2.m
+lp.up_proj.lora_A.vision.weight', 'model.layers.2.mlp.up_proj.lora_B.default.weight', 'model.layers.2.mlp.
+up_proj.lora_B.vision.weight', 'model.layers.2.self_attn.k_proj.lora_A.default.weight', 'model.layers.2.se
+lf_attn.k_proj.lora_A.vision.weight', 'model.layers.2.self_attn.k_proj.lora_B.default.weight', 'model.laye
+rs.2.self_attn.k_proj.lora_B.vision.weight', 'model.layers.2.self_attn.o_proj.lora_A.default.weight', 'mod
+el.layers.2.self_attn.o_proj.lora_A.vision.weight', 'model.layers.2.self_attn.o_proj.lora_B.default.weight
+', 'model.layers.2.self_attn.o_proj.lora_B.vision.weight', 'model.layers.2.self_attn.q_proj.lora_A.default
+.weight', 'model.layers.2.self_attn.q_proj.lora_A.vision.weight', 'model.layers.2.self_attn.q_proj.lora_B.
+default.weight', 'model.layers.2.self_attn.q_proj.lora_B.vision.weight', 'model.layers.2.self_attn.v_proj.
+lora_A.default.weight', 'model.layers.2.self_attn.v_proj.lora_A.vision.weight', 'model.layers.2.self_attn.
+v_proj.lora_B.default.weight', 'model.layers.2.self_attn.v_proj.lora_B.vision.weight', 'model.layers.3.mlp
+.down_proj.lora_A.default.weight', 'model.layers.3.mlp.down_proj.lora_A.vision.weight', 'model.layers.3.ml
+p.down_proj.lora_B.default.weight', 'model.layers.3.mlp.down_proj.lora_B.vision.weight', 'model.layers.3.m
+lp.gate_proj.lora_A.default.weight', 'model.layers.3.mlp.gate_proj.lora_A.vision.weight', 'model.layers.3.
+mlp.gate_proj.lora_B.default.weight', 'model.layers.3.mlp.gate_proj.lora_B.vision.weight', 'model.layers.3
+.mlp.up_proj.lora_A.default.weight', 'model.layers.3.mlp.up_proj.lora_A.vision.weight', 'model.layers.3.ml
+p.up_proj.lora_B.default.weight', 'model.layers.3.mlp.up_proj.lora_B.vision.weight', 'model.layers.3.self_
+attn.k_proj.lora_A.default.weight', 'model.layers.3.self_attn.k_proj.lora_A.vision.weight', 'model.layers.
+3.self_attn.k_proj.lora_B.default.weight', 'model.layers.3.self_attn.k_proj.lora_B.vision.weight', 'model.
+layers.3.self_attn.o_proj.lora_A.default.weight', 'model.layers.3.self_attn.o_proj.lora_A.vision.weight',
+'model.layers.3.self_attn.o_proj.lora_B.default.weight', 'model.layers.3.self_attn.o_proj.lora_B.vision.we
+ight', 'model.layers.3.self_attn.q_proj.lora_A.default.weight', 'model.layers.3.self_attn.q_proj.lora_A.vi
+sion.weight', 'model.layers.3.self_attn.q_proj.lora_B.default.weight', 'model.layers.3.self_attn.q_proj.lo
+ra_B.vision.weight', 'model.layers.3.self_attn.v_proj.lora_A.default.weight', 'model.layers.3.self_attn.v_
+proj.lora_A.vision.weight', 'model.layers.3.self_attn.v_proj.lora_B.default.weight', 'model.layers.3.self_
+attn.v_proj.lora_B.vision.weight', 'model.layers.4.mlp.down_proj.lora_A.default.weight', 'model.layers.4.m
+lp.down_proj.lora_A.vision.weight', 'model.layers.4.mlp.down_proj.lora_B.default.weight', 'model.layers.4.
+mlp.down_proj.lora_B.vision.weight', 'model.layers.4.mlp.gate_proj.lora_A.default.weight', 'model.layers.4
+.mlp.gate_proj.lora_A.vision.weight', 'model.layers.4.mlp.gate_proj.lora_B.default.weight', 'model.layers.
+4.mlp.gate_proj.lora_B.vision.weight', 'model.layers.4.mlp.up_proj.lora_A.default.weight', 'model.layers.4
+.mlp.up_proj.lora_A.vision.weight', 'model.layers.4.mlp.up_proj.lora_B.default.weight', 'model.layers.4.ml
+p.up_proj.lora_B.vision.weight', 'model.layers.4.self_attn.k_proj.lora_A.default.weight', 'model.layers.4.
+self_attn.k_proj.lora_A.vision.weight', 'model.layers.4.self_attn.k_proj.lora_B.default.weight', 'model.la
+yers.4.self_attn.k_proj.lora_B.vision.weight', 'model.layers.4.self_attn.o_proj.lora_A.default.weight', 'm
+odel.layers.4.self_attn.o_proj.lora_A.vision.weight', 'model.layers.4.self_attn.o_proj.lora_B.default.weig
+ht', 'model.layers.4.self_attn.o_proj.lora_B.vision.weight', 'model.layers.4.self_attn.q_proj.lora_A.defau
+lt.weight', 'model.layers.4.self_attn.q_proj.lora_A.vision.weight', 'model.layers.4.self_attn.q_proj.lora_
+B.default.weight', 'model.layers.4.self_attn.q_proj.lora_B.vision.weight', 'model.layers.4.self_attn.v_pro
+j.lora_A.default.weight', 'model.layers.4.self_attn.v_proj.lora_A.vision.weight', 'model.layers.4.self_att
+n.v_proj.lora_B.default.weight', 'model.layers.4.self_attn.v_proj.lora_B.vision.weight', 'model.layers.5.m
+lp.down_proj.lora_A.default.weight', 'model.layers.5.mlp.down_proj.lora_A.vision.weight', 'model.layers.5.
+mlp.down_proj.lora_B.default.weight', 'model.layers.5.mlp.down_proj.lora_B.vision.weight', 'model.layers.5
+.mlp.gate_proj.lora_A.default.weight', 'model.layers.5.mlp.gate_proj.lora_A.vision.weight', 'model.layers.
+5.mlp.gate_proj.lora_B.default.weight', 'model.layers.5.mlp.gate_proj.lora_B.vision.weight', 'model.layers
+.5.mlp.up_proj.lora_A.default.weight', 'model.layers.5.mlp.up_proj.lora_A.vision.weight', 'model.layers.5.
+mlp.up_proj.lora_B.default.weight', 'model.layers.5.mlp.up_proj.lora_B.vision.weight', 'model.layers.5.sel
+f_attn.k_proj.lora_A.default.weight', 'model.layers.5.self_attn.k_proj.lora_A.vision.weight', 'model.layer
+s.5.self_attn.k_proj.lora_B.default.weight', 'model.layers.5.self_attn.k_proj.lora_B.vision.weight', 'mode
+l.layers.5.self_attn.o_proj.lora_A.default.weight', 'model.layers.5.self_attn.o_proj.lora_A.vision.weight'
+, 'model.layers.5.self_attn.o_proj.lora_B.default.weight', 'model.layers.5.self_attn.o_proj.lora_B.vision.
+weight', 'model.layers.5.self_attn.q_proj.lora_A.default.weight', 'model.layers.5.self_attn.q_proj.lora_A.
+vision.weight', 'model.layers.5.self_attn.q_proj.lora_B.default.weight', 'model.layers.5.self_attn.q_proj.
+lora_B.vision.weight', 'model.layers.5.self_attn.v_proj.lora_A.default.weight', 'model.layers.5.self_attn.
+v_proj.lora_A.vision.weight', 'model.layers.5.self_attn.v_proj.lora_B.default.weight', 'model.layers.5.sel
+f_attn.v_proj.lora_B.vision.weight', 'model.layers.6.mlp.down_proj.lora_A.default.weight', 'model.layers.6
+.mlp.down_proj.lora_A.vision.weight', 'model.layers.6.mlp.down_proj.lora_B.default.weight', 'model.layers.
+6.mlp.down_proj.lora_B.vision.weight', 'model.layers.6.mlp.gate_proj.lora_A.default.weight', 'model.layers
+.6.mlp.gate_proj.lora_A.vision.weight', 'model.layers.6.mlp.gate_proj.lora_B.default.weight', 'model.layer
+s.6.mlp.gate_proj.lora_B.vision.weight', 'model.layers.6.mlp.up_proj.lora_A.default.weight', 'model.layers
+.6.mlp.up_proj.lora_A.vision.weight', 'model.layers.6.mlp.up_proj.lora_B.default.weight', 'model.layers.6.
+mlp.up_proj.lora_B.vision.weight', 'model.layers.6.self_attn.k_proj.lora_A.default.weight', 'model.layers.
+6.self_attn.k_proj.lora_A.vision.weight', 'model.layers.6.self_attn.k_proj.lora_B.default.weight', 'model.
+layers.6.self_attn.k_proj.lora_B.vision.weight', 'model.layers.6.self_attn.o_proj.lora_A.default.weight',
+'model.layers.6.self_attn.o_proj.lora_A.vision.weight', 'model.layers.6.self_attn.o_proj.lora_B.default.we
+ight', 'model.layers.6.self_attn.o_proj.lora_B.vision.weight', 'model.layers.6.self_attn.q_proj.lora_A.def
+ault.weight', 'model.layers.6.self_attn.q_proj.lora_A.vision.weight', 'model.layers.6.self_attn.q_proj.lor
+a_B.default.weight', 'model.layers.6.self_attn.q_proj.lora_B.vision.weight', 'model.layers.6.self_attn.v_p
+roj.lora_A.default.weight', 'model.layers.6.self_attn.v_proj.lora_A.vision.weight', 'model.layers.6.self_a
+ttn.v_proj.lora_B.default.weight', 'model.layers.6.self_attn.v_proj.lora_B.vision.weight', 'model.layers.7
+.mlp.down_proj.lora_A.default.weight', 'model.layers.7.mlp.down_proj.lora_A.vision.weight', 'model.layers.
+7.mlp.down_proj.lora_B.default.weight', 'model.layers.7.mlp.down_proj.lora_B.vision.weight', 'model.layers
+.7.mlp.gate_proj.lora_A.default.weight', 'model.layers.7.mlp.gate_proj.lora_A.vision.weight', 'model.layer
+s.7.mlp.gate_proj.lora_B.default.weight', 'model.layers.7.mlp.gate_proj.lora_B.vision.weight', 'model.laye
+rs.7.mlp.up_proj.lora_A.default.weight', 'model.layers.7.mlp.up_proj.lora_A.vision.weight', 'model.layers.
+7.mlp.up_proj.lora_B.default.weight', 'model.layers.7.mlp.up_proj.lora_B.vision.weight', 'model.layers.7.s
+elf_attn.k_proj.lora_A.default.weight', 'model.layers.7.self_attn.k_proj.lora_A.vision.weight', 'model.lay
+ers.7.self_attn.k_proj.lora_B.default.weight', 'model.layers.7.self_attn.k_proj.lora_B.vision.weight', 'mo
+del.layers.7.self_attn.o_proj.lora_A.default.weight', 'model.layers.7.self_attn.o_proj.lora_A.vision.weigh
+t', 'model.layers.7.self_attn.o_proj.lora_B.default.weight', 'model.layers.7.self_attn.o_proj.lora_B.visio
+n.weight', 'model.layers.7.self_attn.q_proj.lora_A.default.weight', 'model.layers.7.self_attn.q_proj.lora_
+A.vision.weight', 'model.layers.7.self_attn.q_proj.lora_B.default.weight', 'model.layers.7.self_attn.q_pro
+j.lora_B.vision.weight', 'model.layers.7.self_attn.v_proj.lora_A.default.weight', 'model.layers.7.self_att
+n.v_proj.lora_A.vision.weight', 'model.layers.7.self_attn.v_proj.lora_B.default.weight', 'model.layers.7.s
+elf_attn.v_proj.lora_B.vision.weight', 'model.layers.8.mlp.down_proj.lora_A.default.weight', 'model.layers
+.8.mlp.down_proj.lora_A.vision.weight', 'model.layers.8.mlp.down_proj.lora_B.default.weight', 'model.layer
+s.8.mlp.down_proj.lora_B.vision.weight', 'model.layers.8.mlp.gate_proj.lora_A.default.weight', 'model.laye
+rs.8.mlp.gate_proj.lora_A.vision.weight', 'model.layers.8.mlp.gate_proj.lora_B.default.weight', 'model.lay
+ers.8.mlp.gate_proj.lora_B.vision.weight', 'model.layers.8.mlp.up_proj.lora_A.default.weight', 'model.laye
+rs.8.mlp.up_proj.lora_A.vision.weight', 'model.layers.8.mlp.up_proj.lora_B.default.weight', 'model.layers.
+8.mlp.up_proj.lora_B.vision.weight', 'model.layers.8.self_attn.k_proj.lora_A.default.weight', 'model.layer
+s.8.self_attn.k_proj.lora_A.vision.weight', 'model.layers.8.self_attn.k_proj.lora_B.default.weight', 'mode
+l.layers.8.self_attn.k_proj.lora_B.vision.weight', 'model.layers.8.self_attn.o_proj.lora_A.default.weight'
+, 'model.layers.8.self_attn.o_proj.lora_A.vision.weight', 'model.layers.8.self_attn.o_proj.lora_B.default.
+weight', 'model.layers.8.self_attn.o_proj.lora_B.vision.weight', 'model.layers.8.self_attn.q_proj.lora_A.d
+efault.weight', 'model.layers.8.self_attn.q_proj.lora_A.vision.weight', 'model.layers.8.self_attn.q_proj.l
+ora_B.default.weight', 'model.layers.8.self_attn.q_proj.lora_B.vision.weight', 'model.layers.8.self_attn.v
+_proj.lora_A.default.weight', 'model.layers.8.self_attn.v_proj.lora_A.vision.weight', 'model.layers.8.self
+_attn.v_proj.lora_B.default.weight', 'model.layers.8.self_attn.v_proj.lora_B.vision.weight', 'model.layers
+.9.mlp.down_proj.lora_A.default.weight', 'model.layers.9.mlp.down_proj.lora_A.vision.weight', 'model.layer
+s.9.mlp.down_proj.lora_B.default.weight', 'model.layers.9.mlp.down_proj.lora_B.vision.weight', 'model.laye
+rs.9.mlp.gate_proj.lora_A.default.weight', 'model.layers.9.mlp.gate_proj.lora_A.vision.weight', 'model.lay
+ers.9.mlp.gate_proj.lora_B.default.weight', 'model.layers.9.mlp.gate_proj.lora_B.vision.weight', 'model.la
+yers.9.mlp.up_proj.lora_A.default.weight', 'model.layers.9.mlp.up_proj.lora_A.vision.weight', 'model.layer
+s.9.mlp.up_proj.lora_B.default.weight', 'model.layers.9.mlp.up_proj.lora_B.vision.weight', 'model.layers.9
+.self_attn.k_proj.lora_A.default.weight', 'model.layers.9.self_attn.k_proj.lora_A.vision.weight', 'model.l
+ayers.9.self_attn.k_proj.lora_B.default.weight', 'model.layers.9.self_attn.k_proj.lora_B.vision.weight', '
+model.layers.9.self_attn.o_proj.lora_A.default.weight', 'model.layers.9.self_attn.o_proj.lora_A.vision.wei
+ght', 'model.layers.9.self_attn.o_proj.lora_B.default.weight', 'model.layers.9.self_attn.o_proj.lora_B.vis
+ion.weight', 'model.layers.9.self_attn.q_proj.lora_A.default.weight', 'model.layers.9.self_attn.q_proj.lor
+a_A.vision.weight', 'model.layers.9.self_attn.q_proj.lora_B.default.weight', 'model.layers.9.self_attn.q_p
+roj.lora_B.vision.weight', 'model.layers.9.self_attn.v_proj.lora_A.default.weight', 'model.layers.9.self_a
+ttn.v_proj.lora_A.vision.weight', 'model.layers.9.self_attn.v_proj.lora_B.default.weight', 'model.layers.9
+.self_attn.v_proj.lora_B.vision.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and infere
+nce.
+Trainable Parameters:
+model.layers.0.self_attn.q_proj.lora_A.default.weight
+model.layers.0.self_attn.q_proj.lora_B.default.weight
+model.layers.0.self_attn.k_proj.lora_A.default.weight
+model.layers.0.self_attn.k_proj.lora_B.default.weight
+model.layers.0.self_attn.v_proj.lora_A.default.weight
+model.layers.0.self_attn.v_proj.lora_B.default.weight
+model.layers.0.self_attn.o_proj.lora_A.default.weight
+model.layers.0.self_attn.o_proj.lora_B.default.weight
+model.layers.0.mlp.gate_proj.lora_A.default.weight
+model.layers.0.mlp.gate_proj.lora_B.default.weight
+model.layers.0.mlp.up_proj.lora_A.default.weight
+model.layers.0.mlp.up_proj.lora_B.default.weight
+model.layers.0.mlp.down_proj.lora_A.default.weight
+model.layers.0.mlp.down_proj.lora_B.default.weight
+model.layers.1.self_attn.q_proj.lora_A.default.weight
+model.layers.1.self_attn.q_proj.lora_B.default.weight
+model.layers.1.self_attn.k_proj.lora_A.default.weight
+model.layers.1.self_attn.k_proj.lora_B.default.weight
+model.layers.1.self_attn.v_proj.lora_A.default.weight
+model.layers.1.self_attn.v_proj.lora_B.default.weight
+model.layers.1.self_attn.o_proj.lora_A.default.weight
+model.layers.1.self_attn.o_proj.lora_B.default.weight
+model.layers.1.mlp.gate_proj.lora_A.default.weight
+model.layers.1.mlp.gate_proj.lora_B.default.weight
+model.layers.1.mlp.up_proj.lora_A.default.weight
+model.layers.1.mlp.up_proj.lora_B.default.weight
+model.layers.1.mlp.down_proj.lora_A.default.weight
+model.layers.1.mlp.down_proj.lora_B.default.weight
+model.layers.2.self_attn.q_proj.lora_A.default.weight
+model.layers.2.self_attn.q_proj.lora_B.default.weight
+model.layers.2.self_attn.k_proj.lora_A.default.weight
+model.layers.2.self_attn.k_proj.lora_B.default.weight
+model.layers.2.self_attn.v_proj.lora_A.default.weight
+model.layers.2.self_attn.v_proj.lora_B.default.weight
+model.layers.2.self_attn.o_proj.lora_A.default.weight
+model.layers.2.self_attn.o_proj.lora_B.default.weight
+model.layers.2.mlp.gate_proj.lora_A.default.weight
+model.layers.2.mlp.gate_proj.lora_B.default.weight
+model.layers.2.mlp.up_proj.lora_A.default.weight
+model.layers.2.mlp.up_proj.lora_B.default.weight
+model.layers.2.mlp.down_proj.lora_A.default.weight
+model.layers.2.mlp.down_proj.lora_B.default.weight
+model.layers.3.self_attn.q_proj.lora_A.default.weight
+model.layers.3.self_attn.q_proj.lora_B.default.weight
+model.layers.3.self_attn.k_proj.lora_A.default.weight
+model.layers.3.self_attn.k_proj.lora_B.default.weight
+model.layers.3.self_attn.v_proj.lora_A.default.weight
+model.layers.3.self_attn.v_proj.lora_B.default.weight
+model.layers.3.self_attn.o_proj.lora_A.default.weight
+model.layers.3.self_attn.o_proj.lora_B.default.weight
+model.layers.3.mlp.gate_proj.lora_A.default.weight
+model.layers.3.mlp.gate_proj.lora_B.default.weight
+model.layers.3.mlp.up_proj.lora_A.default.weight
+model.layers.3.mlp.up_proj.lora_B.default.weight
+model.layers.3.mlp.down_proj.lora_A.default.weight
+model.layers.3.mlp.down_proj.lora_B.default.weight
+model.layers.4.self_attn.q_proj.lora_A.default.weight
+model.layers.4.self_attn.q_proj.lora_B.default.weight
+model.layers.4.self_attn.k_proj.lora_A.default.weight
+model.layers.4.self_attn.k_proj.lora_B.default.weight
+model.layers.4.self_attn.v_proj.lora_A.default.weight
+model.layers.4.self_attn.v_proj.lora_B.default.weight
+model.layers.4.self_attn.o_proj.lora_A.default.weight
+model.layers.4.self_attn.o_proj.lora_B.default.weight
+model.layers.4.mlp.gate_proj.lora_A.default.weight
+model.layers.4.mlp.gate_proj.lora_B.default.weight
+model.layers.4.mlp.up_proj.lora_A.default.weight
+model.layers.4.mlp.up_proj.lora_B.default.weight
+model.layers.4.mlp.down_proj.lora_A.default.weight
+model.layers.4.mlp.down_proj.lora_B.default.weight
+model.layers.5.self_attn.q_proj.lora_A.default.weight
+model.layers.5.self_attn.q_proj.lora_B.default.weight
+model.layers.5.self_attn.k_proj.lora_A.default.weight
+model.layers.5.self_attn.k_proj.lora_B.default.weight
+model.layers.5.self_attn.v_proj.lora_A.default.weight
+model.layers.5.self_attn.v_proj.lora_B.default.weight
+model.layers.5.self_attn.o_proj.lora_A.default.weight
+model.layers.5.self_attn.o_proj.lora_B.default.weight
+model.layers.5.mlp.gate_proj.lora_A.default.weight
+model.layers.5.mlp.gate_proj.lora_B.default.weight
+model.layers.5.mlp.up_proj.lora_A.default.weight
+model.layers.5.mlp.up_proj.lora_B.default.weight
+model.layers.5.mlp.down_proj.lora_A.default.weight
+model.layers.5.mlp.down_proj.lora_B.default.weight
+model.layers.6.self_attn.q_proj.lora_A.default.weight
+model.layers.6.self_attn.q_proj.lora_B.default.weight
+model.layers.6.self_attn.k_proj.lora_A.default.weight
+model.layers.6.self_attn.k_proj.lora_B.default.weight
+model.layers.6.self_attn.v_proj.lora_A.default.weight
+model.layers.6.self_attn.v_proj.lora_B.default.weight
+model.layers.6.self_attn.o_proj.lora_A.default.weight
+model.layers.6.self_attn.o_proj.lora_B.default.weight
+model.layers.6.mlp.gate_proj.lora_A.default.weight
+model.layers.6.mlp.gate_proj.lora_B.default.weight
+model.layers.6.mlp.up_proj.lora_A.default.weight
+model.layers.6.mlp.up_proj.lora_B.default.weight
+model.layers.6.mlp.down_proj.lora_A.default.weight
+model.layers.6.mlp.down_proj.lora_B.default.weight
+model.layers.7.self_attn.q_proj.lora_A.default.weight
+model.layers.7.self_attn.q_proj.lora_B.default.weight
+model.layers.7.self_attn.k_proj.lora_A.default.weight
+model.layers.7.self_attn.k_proj.lora_B.default.weight
+model.layers.7.self_attn.v_proj.lora_A.default.weight
+model.layers.7.self_attn.v_proj.lora_B.default.weight
+model.layers.7.self_attn.o_proj.lora_A.default.weight
+model.layers.7.self_attn.o_proj.lora_B.default.weight
+model.layers.7.mlp.gate_proj.lora_A.default.weight
+model.layers.7.mlp.gate_proj.lora_B.default.weight
+model.layers.7.mlp.up_proj.lora_A.default.weight
+model.layers.7.mlp.up_proj.lora_B.default.weight
+model.layers.7.mlp.down_proj.lora_A.default.weight
+model.layers.7.mlp.down_proj.lora_B.default.weight
+model.layers.8.self_attn.q_proj.lora_A.default.weight
+model.layers.8.self_attn.q_proj.lora_B.default.weight
+model.layers.8.self_attn.k_proj.lora_A.default.weight
+model.layers.8.self_attn.k_proj.lora_B.default.weight
+model.layers.8.self_attn.v_proj.lora_A.default.weight
+model.layers.8.self_attn.v_proj.lora_B.default.weight
+model.layers.8.self_attn.o_proj.lora_A.default.weight
+model.layers.8.self_attn.o_proj.lora_B.default.weight
+model.layers.8.mlp.gate_proj.lora_A.default.weight
+model.layers.8.mlp.gate_proj.lora_B.default.weight
+model.layers.8.mlp.up_proj.lora_A.default.weight
+model.layers.8.mlp.up_proj.lora_B.default.weight
+model.layers.8.mlp.down_proj.lora_A.default.weight
+model.layers.8.mlp.down_proj.lora_B.default.weight
+model.layers.9.self_attn.q_proj.lora_A.default.weight
+model.layers.9.self_attn.q_proj.lora_B.default.weight
+model.layers.9.self_attn.k_proj.lora_A.default.weight
+model.layers.9.self_attn.k_proj.lora_B.default.weight
+model.layers.9.self_attn.v_proj.lora_A.default.weight
+model.layers.9.self_attn.v_proj.lora_B.default.weight
+model.layers.9.self_attn.o_proj.lora_A.default.weight
+model.layers.9.self_attn.o_proj.lora_B.default.weight
+model.layers.9.mlp.gate_proj.lora_A.default.weight
+model.layers.9.mlp.gate_proj.lora_B.default.weight
+model.layers.9.mlp.up_proj.lora_A.default.weight
+model.layers.9.mlp.up_proj.lora_B.default.weight
+model.layers.9.mlp.down_proj.lora_A.default.weight
+model.layers.9.mlp.down_proj.lora_B.default.weight
+model.layers.10.self_attn.q_proj.lora_A.default.weight
+model.layers.10.self_attn.q_proj.lora_B.default.weight
+model.layers.10.self_attn.k_proj.lora_A.default.weight
+model.layers.10.self_attn.k_proj.lora_B.default.weight
+model.layers.10.self_attn.v_proj.lora_A.default.weight
+model.layers.10.self_attn.v_proj.lora_B.default.weight
+model.layers.10.self_attn.o_proj.lora_A.default.weight
+model.layers.10.self_attn.o_proj.lora_B.default.weight
+model.layers.10.mlp.gate_proj.lora_A.default.weight
+model.layers.10.mlp.gate_proj.lora_B.default.weight
+model.layers.10.mlp.up_proj.lora_A.default.weight
+model.layers.10.mlp.up_proj.lora_B.default.weight
+model.layers.10.mlp.down_proj.lora_A.default.weight
+model.layers.10.mlp.down_proj.lora_B.default.weight
+model.layers.11.self_attn.q_proj.lora_A.default.weight
+model.layers.11.self_attn.q_proj.lora_B.default.weight
+model.layers.11.self_attn.k_proj.lora_A.default.weight
+model.layers.11.self_attn.k_proj.lora_B.default.weight
+model.layers.11.self_attn.v_proj.lora_A.default.weight
+model.layers.11.self_attn.v_proj.lora_B.default.weight
+model.layers.11.self_attn.o_proj.lora_A.default.weight
+model.layers.11.self_attn.o_proj.lora_B.default.weight
+model.layers.11.mlp.gate_proj.lora_A.default.weight
+model.layers.11.mlp.gate_proj.lora_B.default.weight
+model.layers.11.mlp.up_proj.lora_A.default.weight
+model.layers.11.mlp.up_proj.lora_B.default.weight
+model.layers.11.mlp.down_proj.lora_A.default.weight
+model.layers.11.mlp.down_proj.lora_B.default.weight
+model.layers.12.self_attn.q_proj.lora_A.default.weight
+model.layers.12.self_attn.q_proj.lora_B.default.weight
+model.layers.12.self_attn.k_proj.lora_A.default.weight
+model.layers.12.self_attn.k_proj.lora_B.default.weight
+model.layers.12.self_attn.v_proj.lora_A.default.weight
+model.layers.12.self_attn.v_proj.lora_B.default.weight
+model.layers.12.self_attn.o_proj.lora_A.default.weight
+model.layers.12.self_attn.o_proj.lora_B.default.weight
+model.layers.12.mlp.gate_proj.lora_A.default.weight
+model.layers.12.mlp.gate_proj.lora_B.default.weight
+model.layers.12.mlp.up_proj.lora_A.default.weight
+model.layers.12.mlp.up_proj.lora_B.default.weight
+model.layers.12.mlp.down_proj.lora_A.default.weight
+model.layers.12.mlp.down_proj.lora_B.default.weight
+model.layers.13.self_attn.q_proj.lora_A.default.weight
+model.layers.13.self_attn.q_proj.lora_B.default.weight
+model.layers.13.self_attn.k_proj.lora_A.default.weight
+model.layers.13.self_attn.k_proj.lora_B.default.weight
+model.layers.13.self_attn.v_proj.lora_A.default.weight
+model.layers.13.self_attn.v_proj.lora_B.default.weight
+model.layers.13.self_attn.o_proj.lora_A.default.weight
+model.layers.13.self_attn.o_proj.lora_B.default.weight
+model.layers.13.mlp.gate_proj.lora_A.default.weight
+model.layers.13.mlp.gate_proj.lora_B.default.weight
+model.layers.13.mlp.up_proj.lora_A.default.weight
+model.layers.13.mlp.up_proj.lora_B.default.weight
+model.layers.13.mlp.down_proj.lora_A.default.weight
+model.layers.13.mlp.down_proj.lora_B.default.weight
+model.layers.14.self_attn.q_proj.lora_A.default.weight
+model.layers.14.self_attn.q_proj.lora_B.default.weight
+model.layers.14.self_attn.k_proj.lora_A.default.weight
+model.layers.14.self_attn.k_proj.lora_B.default.weight
+model.layers.14.self_attn.v_proj.lora_A.default.weight
+model.layers.14.self_attn.v_proj.lora_B.default.weight
+model.layers.14.self_attn.o_proj.lora_A.default.weight
+model.layers.14.self_attn.o_proj.lora_B.default.weight
+model.layers.14.mlp.gate_proj.lora_A.default.weight
+model.layers.14.mlp.gate_proj.lora_B.default.weight
+model.layers.14.mlp.up_proj.lora_A.default.weight
+model.layers.14.mlp.up_proj.lora_B.default.weight
+model.layers.14.mlp.down_proj.lora_A.default.weight
+model.layers.14.mlp.down_proj.lora_B.default.weight
+model.layers.15.self_attn.q_proj.lora_A.default.weight
+model.layers.15.self_attn.q_proj.lora_B.default.weight
+model.layers.15.self_attn.k_proj.lora_A.default.weight
+model.layers.15.self_attn.k_proj.lora_B.default.weight
+model.layers.15.self_attn.v_proj.lora_A.default.weight
+model.layers.15.self_attn.v_proj.lora_B.default.weight
+model.layers.15.self_attn.o_proj.lora_A.default.weight
+model.layers.15.self_attn.o_proj.lora_B.default.weight
+model.layers.15.mlp.gate_proj.lora_A.default.weight
+model.layers.15.mlp.gate_proj.lora_B.default.weight
+model.layers.15.mlp.up_proj.lora_A.default.weight
+model.layers.15.mlp.up_proj.lora_B.default.weight
+model.layers.15.mlp.down_proj.lora_A.default.weight
+model.layers.15.mlp.down_proj.lora_B.default.weight
+model.modal_projectors.vision.0.weight
+model.modal_projectors.vision.0.bias
+model.modal_projectors.vision.2.weight
+model.modal_projectors.vision.2.bias
+['model.modal_projectors.vision.0.weight', 'model.modal_projectors.vision.0.bias', 'model.modal_projectors
+.vision.2.weight', 'model.modal_projectors.vision.2.bias']
+['model.modal_projectors.vision.0.weight', 'model.modal_projectors.vision.0.bias', 'model.modal_projectors
+.vision.2.weight', 'model.modal_projectors.vision.2.bias']
+model.layers.0.self_attn.q_proj.lora_A.default.weight normal w/ decay
+model.layers.0.self_attn.q_proj.lora_B.default.weight normal w/ decay
+model.layers.0.self_attn.k_proj.lora_A.default.weight normal w/ decay
+model.layers.0.self_attn.k_proj.lora_B.default.weight normal w/ decay
+model.layers.0.self_attn.v_proj.lora_A.default.weight normal w/ decay
+model.layers.0.self_attn.v_proj.lora_B.default.weight normal w/ decay
+model.layers.0.self_attn.o_proj.lora_A.default.weight normal w/ decay
+model.layers.0.self_attn.o_proj.lora_B.default.weight normal w/ decay
+model.layers.0.mlp.gate_proj.lora_A.default.weight normal w/ decay
+model.layers.0.mlp.gate_proj.lora_B.default.weight normal w/ decay
+model.layers.0.mlp.up_proj.lora_A.default.weight normal w/ decay
+model.layers.0.mlp.up_proj.lora_B.default.weight normal w/ decay
+model.layers.0.mlp.down_proj.lora_A.default.weight normal w/ decay
+model.layers.0.mlp.down_proj.lora_B.default.weight normal w/ decay
+model.layers.1.self_attn.q_proj.lora_A.default.weight normal w/ decay
+model.layers.1.self_attn.q_proj.lora_B.default.weight normal w/ decay
+model.layers.1.self_attn.k_proj.lora_A.default.weight normal w/ decay
+model.layers.1.self_attn.k_proj.lora_B.default.weight normal w/ decay
+model.layers.1.self_attn.v_proj.lora_A.default.weight normal w/ decay
+model.layers.1.self_attn.v_proj.lora_B.default.weight normal w/ decay
+model.layers.1.self_attn.o_proj.lora_A.default.weight normal w/ decay
+model.layers.1.self_attn.o_proj.lora_B.default.weight normal w/ decay
+model.layers.1.mlp.gate_proj.lora_A.default.weight normal w/ decay
+model.layers.1.mlp.gate_proj.lora_B.default.weight normal w/ decay
+model.layers.1.mlp.up_proj.lora_A.default.weight normal w/ decay
+model.layers.1.mlp.up_proj.lora_B.default.weight normal w/ decay
+model.layers.1.mlp.down_proj.lora_A.default.weight normal w/ decay
+model.layers.1.mlp.down_proj.lora_B.default.weight normal w/ decay
+model.layers.2.self_attn.q_proj.lora_A.default.weight normal w/ decay
+model.layers.2.self_attn.q_proj.lora_B.default.weight normal w/ decay
+model.layers.2.self_attn.k_proj.lora_A.default.weight normal w/ decay
+model.layers.2.self_attn.k_proj.lora_B.default.weight normal w/ decay
+model.layers.2.self_attn.v_proj.lora_A.default.weight normal w/ decay
+model.layers.2.self_attn.v_proj.lora_B.default.weight normal w/ decay
+model.layers.2.self_attn.o_proj.lora_A.default.weight normal w/ decay
+model.layers.2.self_attn.o_proj.lora_B.default.weight normal w/ decay
+model.layers.2.mlp.gate_proj.lora_A.default.weight normal w/ decay
+model.layers.2.mlp.gate_proj.lora_B.default.weight normal w/ decay
+model.layers.2.mlp.up_proj.lora_A.default.weight normal w/ decay
+model.layers.2.mlp.up_proj.lora_B.default.weight normal w/ decay
+model.layers.2.mlp.down_proj.lora_A.default.weight normal w/ decay
+model.layers.2.mlp.down_proj.lora_B.default.weight normal w/ decay
+model.layers.3.self_attn.q_proj.lora_A.default.weight normal w/ decay
+model.layers.3.self_attn.q_proj.lora_B.default.weight normal w/ decay
+model.layers.3.self_attn.k_proj.lora_A.default.weight normal w/ decay
+model.layers.3.self_attn.k_proj.lora_B.default.weight normal w/ decay
+model.layers.3.self_attn.v_proj.lora_A.default.weight normal w/ decay
+model.layers.3.self_attn.v_proj.lora_B.default.weight normal w/ decay
+model.layers.3.self_attn.o_proj.lora_A.default.weight normal w/ decay
+model.layers.3.self_attn.o_proj.lora_B.default.weight normal w/ decay
+model.layers.3.mlp.gate_proj.lora_A.default.weight normal w/ decay
+model.layers.3.mlp.gate_proj.lora_B.default.weight normal w/ decay
+model.layers.3.mlp.up_proj.lora_A.default.weight normal w/ decay
+model.layers.3.mlp.up_proj.lora_B.default.weight normal w/ decay
+model.layers.3.mlp.down_proj.lora_A.default.weight normal w/ decay
+model.layers.3.mlp.down_proj.lora_B.default.weight normal w/ decay
+model.layers.4.self_attn.q_proj.lora_A.default.weight normal w/ decay
+model.layers.4.self_attn.q_proj.lora_B.default.weight normal w/ decay
+model.layers.4.self_attn.k_proj.lora_A.default.weight normal w/ decay
+model.layers.4.self_attn.k_proj.lora_B.default.weight normal w/ decay
+model.layers.4.self_attn.v_proj.lora_A.default.weight normal w/ decay
+model.layers.4.self_attn.v_proj.lora_B.default.weight normal w/ decay
+model.layers.4.self_attn.o_proj.lora_A.default.weight normal w/ decay
+model.layers.4.self_attn.o_proj.lora_B.default.weight normal w/ decay
+model.layers.4.mlp.gate_proj.lora_A.default.weight normal w/ decay
+model.layers.4.mlp.gate_proj.lora_B.default.weight normal w/ decay
+model.layers.4.mlp.up_proj.lora_A.default.weight normal w/ decay
+model.layers.4.mlp.up_proj.lora_B.default.weight normal w/ decay
+model.layers.4.mlp.down_proj.lora_A.default.weight normal w/ decay
+model.layers.4.mlp.down_proj.lora_B.default.weight normal w/ decay
+model.layers.5.self_attn.q_proj.lora_A.default.weight normal w/ decay
+model.layers.5.self_attn.q_proj.lora_B.default.weight normal w/ decay
+model.layers.5.self_attn.k_proj.lora_A.default.weight normal w/ decay
+model.layers.5.self_attn.k_proj.lora_B.default.weight normal w/ decay
+model.layers.5.self_attn.v_proj.lora_A.default.weight normal w/ decay
+model.layers.5.self_attn.v_proj.lora_B.default.weight normal w/ decay
+model.layers.5.self_attn.o_proj.lora_A.default.weight normal w/ decay
+model.layers.5.self_attn.o_proj.lora_B.default.weight normal w/ decay
+model.layers.5.mlp.gate_proj.lora_A.default.weight normal w/ decay
+model.layers.5.mlp.gate_proj.lora_B.default.weight normal w/ decay
+model.layers.5.mlp.up_proj.lora_A.default.weight normal w/ decay
+model.layers.5.mlp.up_proj.lora_B.default.weight normal w/ decay
+model.layers.5.mlp.down_proj.lora_A.default.weight normal w/ decay
+model.layers.5.mlp.down_proj.lora_B.default.weight normal w/ decay
+model.layers.6.self_attn.q_proj.lora_A.default.weight normal w/ decay
+model.layers.6.self_attn.q_proj.lora_B.default.weight normal w/ decay
+model.layers.6.self_attn.k_proj.lora_A.default.weight normal w/ decay
+model.layers.6.self_attn.k_proj.lora_B.default.weight normal w/ decay
+model.layers.6.self_attn.v_proj.lora_A.default.weight normal w/ decay
+model.layers.6.self_attn.v_proj.lora_B.default.weight normal w/ decay
+model.layers.6.self_attn.o_proj.lora_A.default.weight normal w/ decay
+model.layers.6.self_attn.o_proj.lora_B.default.weight normal w/ decay
+model.layers.6.mlp.gate_proj.lora_A.default.weight normal w/ decay
+model.layers.6.mlp.gate_proj.lora_B.default.weight normal w/ decay
+model.layers.6.mlp.up_proj.lora_A.default.weight normal w/ decay
+model.layers.6.mlp.up_proj.lora_B.default.weight normal w/ decay
+model.layers.6.mlp.down_proj.lora_A.default.weight normal w/ decay
+model.layers.6.mlp.down_proj.lora_B.default.weight normal w/ decay
+model.layers.7.self_attn.q_proj.lora_A.default.weight normal w/ decay
+model.layers.7.self_attn.q_proj.lora_B.default.weight normal w/ decay
+model.layers.7.self_attn.k_proj.lora_A.default.weight normal w/ decay
+model.layers.7.self_attn.k_proj.lora_B.default.weight normal w/ decay
+model.layers.7.self_attn.v_proj.lora_A.default.weight normal w/ decay
+model.layers.7.self_attn.v_proj.lora_B.default.weight normal w/ decay
+model.layers.7.self_attn.o_proj.lora_A.default.weight normal w/ decay
+model.layers.7.self_attn.o_proj.lora_B.default.weight normal w/ decay
+model.layers.7.mlp.gate_proj.lora_A.default.weight normal w/ decay
+model.layers.7.mlp.gate_proj.lora_B.default.weight normal w/ decay
+model.layers.7.mlp.up_proj.lora_A.default.weight normal w/ decay
+model.layers.7.mlp.up_proj.lora_B.default.weight normal w/ decay
+model.layers.7.mlp.down_proj.lora_A.default.weight normal w/ decay
+model.layers.7.mlp.down_proj.lora_B.default.weight normal w/ decay
+model.layers.8.self_attn.q_proj.lora_A.default.weight normal w/ decay
+model.layers.8.self_attn.q_proj.lora_B.default.weight normal w/ decay
+model.layers.8.self_attn.k_proj.lora_A.default.weight normal w/ decay
+model.layers.8.self_attn.k_proj.lora_B.default.weight normal w/ decay
+model.layers.8.self_attn.v_proj.lora_A.default.weight normal w/ decay
+model.layers.8.self_attn.v_proj.lora_B.default.weight normal w/ decay
+model.layers.8.self_attn.o_proj.lora_A.default.weight normal w/ decay
+model.layers.8.self_attn.o_proj.lora_B.default.weight normal w/ decay
+model.layers.8.mlp.gate_proj.lora_A.default.weight normal w/ decay
+model.layers.8.mlp.gate_proj.lora_B.default.weight normal w/ decay
+model.layers.8.mlp.up_proj.lora_A.default.weight normal w/ decay
+model.layers.8.mlp.up_proj.lora_B.default.weight normal w/ decay
+model.layers.8.mlp.down_proj.lora_A.default.weight normal w/ decay
+model.layers.8.mlp.down_proj.lora_B.default.weight normal w/ decay
+model.layers.9.self_attn.q_proj.lora_A.default.weight normal w/ decay
+model.layers.9.self_attn.q_proj.lora_B.default.weight normal w/ decay
+model.layers.9.self_attn.k_proj.lora_A.default.weight normal w/ decay
+model.layers.9.self_attn.k_proj.lora_B.default.weight normal w/ decay
+model.layers.9.self_attn.v_proj.lora_A.default.weight normal w/ decay
+model.layers.9.self_attn.v_proj.lora_B.default.weight normal w/ decay
+model.layers.9.self_attn.o_proj.lora_A.default.weight normal w/ decay
+model.layers.9.self_attn.o_proj.lora_B.default.weight normal w/ decay
+model.layers.9.mlp.gate_proj.lora_A.default.weight normal w/ decay
+model.layers.9.mlp.gate_proj.lora_B.default.weight normal w/ decay
+model.layers.9.mlp.up_proj.lora_A.default.weight normal w/ decay
+model.layers.9.mlp.up_proj.lora_B.default.weight normal w/ decay
+model.layers.9.mlp.down_proj.lora_A.default.weight normal w/ decay
+model.layers.9.mlp.down_proj.lora_B.default.weight normal w/ decay
+model.layers.10.self_attn.q_proj.lora_A.default.weight normal w/ decay
+model.layers.10.self_attn.q_proj.lora_B.default.weight normal w/ decay
+model.layers.10.self_attn.k_proj.lora_A.default.weight normal w/ decay
+model.layers.10.self_attn.k_proj.lora_B.default.weight normal w/ decay
+model.layers.10.self_attn.v_proj.lora_A.default.weight normal w/ decay
+model.layers.10.self_attn.v_proj.lora_B.default.weight normal w/ decay
+model.layers.10.self_attn.o_proj.lora_A.default.weight normal w/ decay
+model.layers.10.self_attn.o_proj.lora_B.default.weight normal w/ decay
+model.layers.10.mlp.gate_proj.lora_A.default.weight normal w/ decay
+model.layers.10.mlp.gate_proj.lora_B.default.weight normal w/ decay
+model.layers.10.mlp.up_proj.lora_A.default.weight normal w/ decay
+model.layers.10.mlp.up_proj.lora_B.default.weight normal w/ decay
+model.layers.10.mlp.down_proj.lora_A.default.weight normal w/ decay
+model.layers.10.mlp.down_proj.lora_B.default.weight normal w/ decay
+model.layers.11.self_attn.q_proj.lora_A.default.weight normal w/ decay
+model.layers.11.self_attn.q_proj.lora_B.default.weight normal w/ decay
+model.layers.11.self_attn.k_proj.lora_A.default.weight normal w/ decay
+model.layers.11.self_attn.k_proj.lora_B.default.weight normal w/ decay
+model.layers.11.self_attn.v_proj.lora_A.default.weight normal w/ decay
+model.layers.11.self_attn.v_proj.lora_B.default.weight normal w/ decay
+model.layers.11.self_attn.o_proj.lora_A.default.weight normal w/ decay
+model.layers.11.self_attn.o_proj.lora_B.default.weight normal w/ decay
+model.layers.11.mlp.gate_proj.lora_A.default.weight normal w/ decay
+model.layers.11.mlp.gate_proj.lora_B.default.weight normal w/ decay
+model.layers.11.mlp.up_proj.lora_A.default.weight normal w/ decay
+model.layers.11.mlp.up_proj.lora_B.default.weight normal w/ decay
+model.layers.11.mlp.down_proj.lora_A.default.weight normal w/ decay
+model.layers.11.mlp.down_proj.lora_B.default.weight normal w/ decay
+model.layers.12.self_attn.q_proj.lora_A.default.weight normal w/ decay
+model.layers.12.self_attn.q_proj.lora_B.default.weight normal w/ decay
+model.layers.12.self_attn.k_proj.lora_A.default.weight normal w/ decay
+model.layers.12.self_attn.k_proj.lora_B.default.weight normal w/ decay
+model.layers.12.self_attn.v_proj.lora_A.default.weight normal w/ decay
+model.layers.12.self_attn.v_proj.lora_B.default.weight normal w/ decay
+model.layers.12.self_attn.o_proj.lora_A.default.weight normal w/ decay
+model.layers.12.self_attn.o_proj.lora_B.default.weight normal w/ decay
+model.layers.12.mlp.gate_proj.lora_A.default.weight normal w/ decay
+model.layers.12.mlp.gate_proj.lora_B.default.weight normal w/ decay
+model.layers.12.mlp.up_proj.lora_A.default.weight normal w/ decay
+model.layers.12.mlp.up_proj.lora_B.default.weight normal w/ decay
+model.layers.12.mlp.down_proj.lora_A.default.weight normal w/ decay
+model.layers.12.mlp.down_proj.lora_B.default.weight normal w/ decay
+model.layers.13.self_attn.q_proj.lora_A.default.weight normal w/ decay
+model.layers.13.self_attn.q_proj.lora_B.default.weight normal w/ decay
+model.layers.13.self_attn.k_proj.lora_A.default.weight normal w/ decay
+model.layers.13.self_attn.k_proj.lora_B.default.weight normal w/ decay
+model.layers.13.self_attn.v_proj.lora_A.default.weight normal w/ decay
+model.layers.13.self_attn.v_proj.lora_B.default.weight normal w/ decay
+model.layers.13.self_attn.o_proj.lora_A.default.weight normal w/ decay
+model.layers.13.self_attn.o_proj.lora_B.default.weight normal w/ decay
+model.layers.13.mlp.gate_proj.lora_A.default.weight normal w/ decay
+model.layers.13.mlp.gate_proj.lora_B.default.weight normal w/ decay
+model.layers.13.mlp.up_proj.lora_A.default.weight normal w/ decay
+model.layers.13.mlp.up_proj.lora_B.default.weight normal w/ decay
+model.layers.13.mlp.down_proj.lora_A.default.weight normal w/ decay
+model.layers.13.mlp.down_proj.lora_B.default.weight normal w/ decay
+model.layers.14.self_attn.q_proj.lora_A.default.weight normal w/ decay
+model.layers.14.self_attn.q_proj.lora_B.default.weight normal w/ decay
+model.layers.14.self_attn.k_proj.lora_A.default.weight normal w/ decay
+model.layers.14.self_attn.k_proj.lora_B.default.weight normal w/ decay
+model.layers.14.self_attn.v_proj.lora_A.default.weight normal w/ decay
+model.layers.14.self_attn.v_proj.lora_B.default.weight normal w/ decay
+model.layers.14.self_attn.o_proj.lora_A.default.weight normal w/ decay
+model.layers.14.self_attn.o_proj.lora_B.default.weight normal w/ decay
+model.layers.14.mlp.gate_proj.lora_A.default.weight normal w/ decay
+model.layers.14.mlp.gate_proj.lora_B.default.weight normal w/ decay
+model.layers.14.mlp.up_proj.lora_A.default.weight normal w/ decay
+model.layers.14.mlp.up_proj.lora_B.default.weight normal w/ decay
+model.layers.14.mlp.down_proj.lora_A.default.weight normal w/ decay
+model.layers.14.mlp.down_proj.lora_B.default.weight normal w/ decay
+model.layers.15.self_attn.q_proj.lora_A.default.weight normal w/ decay
+model.layers.15.self_attn.q_proj.lora_B.default.weight normal w/ decay
+model.layers.15.self_attn.k_proj.lora_A.default.weight normal w/ decay
+model.layers.15.self_attn.k_proj.lora_B.default.weight normal w/ decay
+model.layers.15.self_attn.v_proj.lora_A.default.weight normal w/ decay
+model.layers.15.self_attn.v_proj.lora_B.default.weight normal w/ decay
+model.layers.15.self_attn.o_proj.lora_A.default.weight normal w/ decay
+model.layers.15.self_attn.o_proj.lora_B.default.weight normal w/ decay
+model.layers.15.mlp.gate_proj.lora_A.default.weight normal w/ decay
+model.layers.15.mlp.gate_proj.lora_B.default.weight normal w/ decay
+model.layers.15.mlp.up_proj.lora_A.default.weight normal w/ decay
+model.layers.15.mlp.up_proj.lora_B.default.weight normal w/ decay
+model.layers.15.mlp.down_proj.lora_A.default.weight normal w/ decay
+model.layers.15.mlp.down_proj.lora_B.default.weight normal w/ decay
+model.modal_projectors.vision.0.weight projector w/o decay 2e-05
+model.modal_projectors.vision.0.bias projector w decay 2e-05
+model.modal_projectors.vision.2.weight projector w/o decay 2e-05
+model.modal_projectors.vision.2.bias projector w decay 2e-05
+['model.modal_projectors.vision.0.weight', 'model.modal_projectors.vision.0.bias', 'model.modal_projectors
+.vision.2.weight', 'model.modal_projectors.vision.2.bias']
+['model.modal_projectors.vision.0.weight', 'model.modal_projectors.vision.0.bias', 'model.modal_projectors
+.vision.2.weight', 'model.modal_projectors.vision.2.bias']
+['model.modal_projectors.vision.0.weight', 'model.modal_projectors.vision.0.bias', 'model.modal_projectors
+.vision.2.weight', 'model.modal_projectors.vision.2.bias']
+wandb: WARNING The `run_name` is currently set to the same value as `TrainingArguments.output_dir`. If thi
+s was not intended, please specify a different run name by setting the `TrainingArguments.run_name` parame
+ter.
+git root error: Cmd('git') failed due to: exit code(128)
+  cmdline: git rev-parse --show-toplevel
+  stderr: 'fatal: detected dubious ownership in repository at '/home1/hxl/disk2/MLLM/ModelCompose'
+To add an exception for this directory, call:
+
+        git config --global --add safe.directory /home1/hxl/disk2/MLLM/ModelCompose'
+wandb: (1) Create a W&B account
+wandb: (2) Use an existing W&B account
+wandb: (3) Don't visualize my results
+wandb: Enter your choice: 3
+wandb: You chose "Don't visualize my results"
+wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more informat
+ion.
+wandb: Tracking run with wandb version 0.19.3
+wandb: W&B syncing is set to `offline` in this directory.
+wandb: Run `wandb online` or set WANDB_MODE=online to enable cloud syncing.
+{'loss': 8.1906, 'grad_norm': 211.70608573170458, 'learning_rate': 1.0582010582010582e-06, 'epoch': 0.0}
+{'loss': 8.2594, 'grad_norm': 235.72681420591283, 'learning_rate': 2.1164021164021164e-06, 'epoch': 0.0}
+{'loss': 8.4, 'grad_norm': 258.750941178089, 'learning_rate': 3.1746031746031746e-06, 'epoch': 0.0}
+  0%|                                                                 | 3/6289 [00:31<17:20:33,  9.93s/it]

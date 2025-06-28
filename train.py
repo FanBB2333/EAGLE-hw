@@ -73,6 +73,28 @@ class ModelArguments:
     tune_mm_mlp_adapter: bool = field(default=False)
     vision_tower: Optional[str] = field(default=None)
     mm_vision_select_layer: Optional[int] = field(default=-1)   # default to the last layer
+    
+    # BEGIN
+    # Copied from CuMo
+    num_experts: Optional[int] = field(default=1) 
+    num_selected: Optional[int] = field(default=1) 
+    num_layers: Optional[int] = field(default=3) 
+    balance_loss_coef: Optional[float] = field(default=0.0) 
+    router_z_loss_coef: Optional[float] = field(default=0.0) 
+    dropout: Optional[bool] = field(default=False)
+    mlp_smoe: Optional[bool] = field(default=False)
+    clip_smoe: Optional[bool] = field(default=False)
+    scales: Optional[str] = field(default=None)
+
+    # Add audio
+    audio_tower: Optional[str] = field(default=None) # audio encoder pretrained path
+    mm_audio_select_layer: Optional[int] = field(default=-1)   # default to the last layer
+    mm_audio_select_feature: Optional[str] = field(default="patch")
+    pretrain_mm_audio_projection: Optional[str] = field(default=None)
+    mm_audio_projector_type: Optional[str] = field(default='linear')
+    #END
+    
+
     pretrain_mm_mlp_adapter: Optional[str] = field(default=None)
     mm_projector_type: Optional[str] = field(default='linear')
     mm_use_im_start_end: bool = field(default=False)
@@ -88,6 +110,9 @@ class DataArguments:
     is_multimodal: bool = False
     image_folder: Optional[str] = field(default=None)
     image_aspect_ratio: str = 'square'
+    # BEGIN
+    audio_folder: Optional[str] = field(default=None)
+    # END
 
 @dataclass
 class TrainingArguments(transformers.TrainingArguments):
@@ -869,7 +894,8 @@ class LazySupervisedDataset(Dataset):
         self.data_args = data_args
 
     def __len__(self):
-        return len(self.list_data_dict)
+        return 2
+        # return len(self.list_data_dict)
 
     @property
     def lengths(self):
@@ -997,6 +1023,9 @@ def train(attn_implementation=None):
     local_rank = training_args.local_rank
     compute_dtype = (torch.float16 if training_args.fp16 else (torch.bfloat16 if training_args.bf16 else torch.float32))
 
+    # Copied from CuMo
+    if model_args.scales is not None:
+        model_args.scales = [int(i) for i in model_args.scales.split(',')]
 
     bnb_model_from_pretrained_args = {}
     if training_args.bits in [4, 8]:
@@ -1034,6 +1063,9 @@ def train(attn_implementation=None):
             **bnb_model_from_pretrained_args
         )
     model.config.use_cache = False
+
+    # Copied from CuMo, maybe useless
+    model.config.mlp_smoe = model_args.mlp_smoe
 
     if model_args.freeze_backbone:
         model.model.requires_grad_(False)
@@ -1145,6 +1177,42 @@ def train(attn_implementation=None):
         training_args.use_im_start_end = model_args.mm_use_im_start_end
         model.config.mm_use_im_patch_token = model_args.mm_use_im_patch_token
         model.initialize_vision_tokenizer(model_args, tokenizer=tokenizer)
+    # # BEGIN
+    # # Add sample codes here
+    # sample_dataset = LazySupervisedDataset(tokenizer=tokenizer,data_path=data_args.data_path,data_args=data_args)
+    # print(sample_dataset[0])
+    # return
+    # # END
+    # BEGIN
+    if model_args.audio_tower is not None:
+        model.set_modal('audio')
+        model.get_model().initialize_audio_modules(
+            model_args=model_args,
+            fsdp=training_args.fsdp
+        )
+        audio_tower = model.get_audio_tower()
+        audio_tower.to(
+            dtype=torch.bfloat16 if training_args.bf16 else torch.float16, 
+            device=training_args.device
+        )
+
+        model.config.tune_mm_audio_projection = training_args.tune_mm_audio_projection = model_args.tune_mm_audio_projection
+        if model_args.tune_mm_audio_projection:
+            model.requires_grad_(False)
+            for p in model.get_model().mm_audio_projector.parameters():
+                p.requires_grad = True
+
+        model.config.freeze_mm_audio_projection = training_args.freeze_mm_audio_projection
+        if training_args.freeze_mm_audio_projection:
+            for p in model.get_model().mm_audio_projector.parameters():
+                p.requires_grad = False
+
+        if training_args.bits in [4, 8]:
+            model.get_model().mm_audio_projector.to(dtype=compute_dtype, device=training_args.device)
+        
+        model.config.mm_audio_projector_lr = training_args.mm_audio_projector_lr
+
+    # END
 
     for name, param in model.named_parameters():
         if 'align_stages' in name:

@@ -43,11 +43,30 @@ gradio_tmp/*
 unit_test*.*
 
 # Custom
+apex/*
+backup/*
 OneLLM/*
 LLaMA-Factory/*
 lmms_eval_old/*
-lmms_eval-main/*
+lmms-eval-main/*
+lmms_eval_2506/*
 assets/*
 pytorch-image-models/*
 flash-attention/*
 .cache/*
+dataset/*
+runs/*
+model/*
+
+
+
+upload/*
+Degrade/*
+databackup/*
+hhz/*
+chenxn/*
+fzy/*
+qbs/*
+
+*.tar.gz
+tools/upload_hf_model.py

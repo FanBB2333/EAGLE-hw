@@ -1,0 +1,8 @@
+[32m2024-12-09 14:14:51.192[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate[0m:[36m294[0m - [1mVerbosity set to INFO[0m
+{'group': 'mix_evals_image2text', 'task': ['mix_evals_image2text_mc', 'mix_evals_image2text_freeform']}
+{'type': 'group', 'task': -1, 'yaml_path': '/home1/hxl/disk/EAGLE/lmms_eval/tasks/mix_evals/image2text/mix_evals_image2text.yaml'}
+[32m2024-12-09 14:14:53.420[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m377[0m - [1mEvaluation tracker args: {'output_path': './output/eval/'}[0m
+[32m2024-12-09 14:14:53.421[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m466[0m - [1mSelected Tasks: ['youcook2_val'][0m
+[32m2024-12-09 14:14:53.422[0m | [1mINFO    [0m | [36mlmms_eval.evaluator[0m:[36msimple_evaluate[0m:[36m155[0m - [1mSetting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234[0m
+[32m2024-12-09 14:15:11.427[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mbuild_all_requests[0m:[36m425[0m - [1mBuilding contexts for youcook2_val on rank 0...[0m
+[32m2024-12-09 14:15:11.633[0m | [1mINFO    [0m | [36mlmms_eval.evaluator[0m:[36mevaluate[0m:[36m446[0m - [1mRunning generate_until requests[0m

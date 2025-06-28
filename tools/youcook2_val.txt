@@ -1,0 +1,27 @@
+Schema:
+id: string
+video_url: string
+recipe_type: string
+segment: fixed_size_list<item: float>[2]
+  child 0, item: float
+sentence: string
+video_path: string
+youtube_id: string
+-- schema metadata --
+huggingface: '{"info": {"features": {"id": {"dtype": "string", "_type": "' + 371
+
+Table Contents:
+                 id  ...   youtube_id
+0     xHr8X2Wpmno_0  ...  xHr8X2Wpmno
+1     xHr8X2Wpmno_1  ...  xHr8X2Wpmno
+2     xHr8X2Wpmno_2  ...  xHr8X2Wpmno
+3     xHr8X2Wpmno_3  ...  xHr8X2Wpmno
+4     xHr8X2Wpmno_4  ...  xHr8X2Wpmno
+...             ...  ...          ...
+3172  oDsUh1es_lo_1  ...  oDsUh1es_lo
+3173  oDsUh1es_lo_2  ...  oDsUh1es_lo
+3174  oDsUh1es_lo_3  ...  oDsUh1es_lo
+3175  oDsUh1es_lo_4  ...  oDsUh1es_lo
+3176  oDsUh1es_lo_5  ...  oDsUh1es_lo
+
+[3177 rows x 7 columns]

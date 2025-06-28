@@ -1,0 +1,17 @@
+(layers): ModuleList(
+    (0-31): 32 x TransformerBlock(
+    (attention): Attention(
+        (wq): Linear(in_features=4096, out_features=4096, bias=False)
+        (wk): Linear(in_features=4096, out_features=4096, bias=False)
+        (wv): Linear(in_features=4096, out_features=4096, bias=False)
+        (wo): Linear(in_features=4096, out_features=4096, bias=False)
+    )
+    (feed_forward): FeedForward(
+        (w1): Linear(in_features=4096, out_features=11008, bias=False)
+        (w2): Linear(in_features=11008, out_features=4096, bias=False)
+        (w3): Linear(in_features=4096, out_features=11008, bias=False)
+    )
+    (attention_norm): RMSNorm()
+    (ffn_norm): RMSNorm()
+    )
+)

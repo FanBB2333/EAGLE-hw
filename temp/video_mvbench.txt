@@ -1,0 +1,121 @@
+[32m2024-12-09 14:30:48.267[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate[0m:[36m294[0m - [1mVerbosity set to INFO[0m
+{'group': 'mix_evals_image2text', 'task': ['mix_evals_image2text_mc', 'mix_evals_image2text_freeform']}
+{'type': 'group', 'task': -1, 'yaml_path': '/home1/hxl/disk/EAGLE/lmms_eval/tasks/mix_evals/image2text/mix_evals_image2text.yaml'}
+[32m2024-12-09 14:30:50.571[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m377[0m - [1mEvaluation tracker args: {'output_path': './output/eval/'}[0m
+[32m2024-12-09 14:30:50.572[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m466[0m - [1mSelected Tasks: ['mvbench'][0m
+[32m2024-12-09 14:30:50.573[0m | [1mINFO    [0m | [36mlmms_eval.evaluator[0m:[36msimple_evaluate[0m:[36m155[0m - [1mSetting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234[0m
+[32m2024-12-09 14:30:53.604[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mdownload[0m:[36m1013[0m - [1mRemoved existing symbolic link: /home1/hxl/disk/EAGLE/.cache/huggingface/mvbench_video[0m
+[32m2024-12-09 14:30:53.605[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mdownload[0m:[36m1016[0m - [1mSymbolic link created successfully: /home1/hxl/disk/EAGLE/.cache/huggingface/hub/datasets--OpenGVLab--MVBench/snapshots/a776e554280b99b70f00cc3eacd69a65e0727efc -> /home1/hxl/disk/EAGLE/.cache/huggingface/mvbench_video[0m
+[32m2024-12-09 14:31:01.806[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mdownload[0m:[36m1013[0m - [1mRemoved existing symbolic link: /home1/hxl/disk/EAGLE/.cache/huggingface/mvbench_video[0m
+[32m2024-12-09 14:31:01.807[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mdownload[0m:[36m1016[0m - [1mSymbolic link created successfully: /home1/hxl/disk/EAGLE/.cache/huggingface/hub/datasets--OpenGVLab--MVBench/snapshots/a776e554280b99b70f00cc3eacd69a65e0727efc -> /home1/hxl/disk/EAGLE/.cache/huggingface/mvbench_video[0m
+[32m2024-12-09 14:31:10.486[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mdownload[0m:[36m1013[0m - [1mRemoved existing symbolic link: /home1/hxl/disk/EAGLE/.cache/huggingface/mvbench_video[0m
+[32m2024-12-09 14:31:10.486[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mdownload[0m:[36m1016[0m - [1mSymbolic link created successfully: /home1/hxl/disk/EAGLE/.cache/huggingface/hub/datasets--OpenGVLab--MVBench/snapshots/a776e554280b99b70f00cc3eacd69a65e0727efc -> /home1/hxl/disk/EAGLE/.cache/huggingface/mvbench_video[0m
+[32m2024-12-09 14:31:16.209[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mdownload[0m:[36m1013[0m - [1mRemoved existing symbolic link: /home1/hxl/disk/EAGLE/.cache/huggingface/mvbench_video[0m
+[32m2024-12-09 14:31:16.210[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mdownload[0m:[36m1016[0m - [1mSymbolic link created successfully: /home1/hxl/disk/EAGLE/.cache/huggingface/hub/datasets--OpenGVLab--MVBench/snapshots/a776e554280b99b70f00cc3eacd69a65e0727efc -> /home1/hxl/disk/EAGLE/.cache/huggingface/mvbench_video[0m
+[32m2024-12-09 14:31:23.572[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mdownload[0m:[36m1013[0m - [1mRemoved existing symbolic link: /home1/hxl/disk/EAGLE/.cache/huggingface/mvbench_video[0m
+[32m2024-12-09 14:31:23.572[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mdownload[0m:[36m1016[0m - [1mSymbolic link created successfully: /home1/hxl/disk/EAGLE/.cache/huggingface/hub/datasets--OpenGVLab--MVBench/snapshots/a776e554280b99b70f00cc3eacd69a65e0727efc -> /home1/hxl/disk/EAGLE/.cache/huggingface/mvbench_video[0m
+[32m2024-12-09 14:31:29.514[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mdownload[0m:[36m1013[0m - [1mRemoved existing symbolic link: /home1/hxl/disk/EAGLE/.cache/huggingface/mvbench_video[0m
+[32m2024-12-09 14:31:29.514[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mdownload[0m:[36m1016[0m - [1mSymbolic link created successfully: /home1/hxl/disk/EAGLE/.cache/huggingface/hub/datasets--OpenGVLab--MVBench/snapshots/a776e554280b99b70f00cc3eacd69a65e0727efc -> /home1/hxl/disk/EAGLE/.cache/huggingface/mvbench_video[0m
+[32m2024-12-09 14:31:33.523[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mdownload[0m:[36m1013[0m - [1mRemoved existing symbolic link: /home1/hxl/disk/EAGLE/.cache/huggingface/mvbench_video[0m
+[32m2024-12-09 14:31:33.523[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mdownload[0m:[36m1016[0m - [1mSymbolic link created successfully: /home1/hxl/disk/EAGLE/.cache/huggingface/hub/datasets--OpenGVLab--MVBench/snapshots/a776e554280b99b70f00cc3eacd69a65e0727efc -> /home1/hxl/disk/EAGLE/.cache/huggingface/mvbench_video[0m
+[32m2024-12-09 14:31:37.637[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mdownload[0m:[36m1013[0m - [1mRemoved existing symbolic link: /home1/hxl/disk/EAGLE/.cache/huggingface/mvbench_video[0m
+[32m2024-12-09 14:31:37.637[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mdownload[0m:[36m1016[0m - [1mSymbolic link created successfully: /home1/hxl/disk/EAGLE/.cache/huggingface/hub/datasets--OpenGVLab--MVBench/snapshots/a776e554280b99b70f00cc3eacd69a65e0727efc -> /home1/hxl/disk/EAGLE/.cache/huggingface/mvbench_video[0m
+[32m2024-12-09 14:31:43.828[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mdownload[0m:[36m1013[0m - [1mRemoved existing symbolic link: /home1/hxl/disk/EAGLE/.cache/huggingface/mvbench_video[0m
+[32m2024-12-09 14:31:43.829[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mdownload[0m:[36m1016[0m - [1mSymbolic link created successfully: /home1/hxl/disk/EAGLE/.cache/huggingface/hub/datasets--OpenGVLab--MVBench/snapshots/a776e554280b99b70f00cc3eacd69a65e0727efc -> /home1/hxl/disk/EAGLE/.cache/huggingface/mvbench_video[0m
+[32m2024-12-09 14:31:47.985[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mdownload[0m:[36m1013[0m - [1mRemoved existing symbolic link: /home1/hxl/disk/EAGLE/.cache/huggingface/mvbench_video[0m
+[32m2024-12-09 14:31:47.985[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mdownload[0m:[36m1016[0m - [1mSymbolic link created successfully: /home1/hxl/disk/EAGLE/.cache/huggingface/hub/datasets--OpenGVLab--MVBench/snapshots/a776e554280b99b70f00cc3eacd69a65e0727efc -> /home1/hxl/disk/EAGLE/.cache/huggingface/mvbench_video[0m
+[32m2024-12-09 14:31:54.825[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mdownload[0m:[36m1013[0m - [1mRemoved existing symbolic link: /home1/hxl/disk/EAGLE/.cache/huggingface/mvbench_video[0m
+[32m2024-12-09 14:31:54.825[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mdownload[0m:[36m1016[0m - [1mSymbolic link created successfully: /home1/hxl/disk/EAGLE/.cache/huggingface/hub/datasets--OpenGVLab--MVBench/snapshots/a776e554280b99b70f00cc3eacd69a65e0727efc -> /home1/hxl/disk/EAGLE/.cache/huggingface/mvbench_video[0m
+[32m2024-12-09 14:31:58.739[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mdownload[0m:[36m1013[0m - [1mRemoved existing symbolic link: /home1/hxl/disk/EAGLE/.cache/huggingface/mvbench_video[0m
+[32m2024-12-09 14:31:58.739[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mdownload[0m:[36m1016[0m - [1mSymbolic link created successfully: /home1/hxl/disk/EAGLE/.cache/huggingface/hub/datasets--OpenGVLab--MVBench/snapshots/a776e554280b99b70f00cc3eacd69a65e0727efc -> /home1/hxl/disk/EAGLE/.cache/huggingface/mvbench_video[0m
+[32m2024-12-09 14:32:03.947[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mdownload[0m:[36m1013[0m - [1mRemoved existing symbolic link: /home1/hxl/disk/EAGLE/.cache/huggingface/mvbench_video[0m
+[32m2024-12-09 14:32:03.947[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mdownload[0m:[36m1016[0m - [1mSymbolic link created successfully: /home1/hxl/disk/EAGLE/.cache/huggingface/hub/datasets--OpenGVLab--MVBench/snapshots/a776e554280b99b70f00cc3eacd69a65e0727efc -> /home1/hxl/disk/EAGLE/.cache/huggingface/mvbench_video[0m
+[32m2024-12-09 14:32:08.939[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mdownload[0m:[36m1013[0m - [1mRemoved existing symbolic link: /home1/hxl/disk/EAGLE/.cache/huggingface/mvbench_video[0m
+[32m2024-12-09 14:32:08.939[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mdownload[0m:[36m1016[0m - [1mSymbolic link created successfully: /home1/hxl/disk/EAGLE/.cache/huggingface/hub/datasets--OpenGVLab--MVBench/snapshots/a776e554280b99b70f00cc3eacd69a65e0727efc -> /home1/hxl/disk/EAGLE/.cache/huggingface/mvbench_video[0m
+[32m2024-12-09 14:32:13.562[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mdownload[0m:[36m1013[0m - [1mRemoved existing symbolic link: /home1/hxl/disk/EAGLE/.cache/huggingface/mvbench_video[0m
+[32m2024-12-09 14:32:13.562[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mdownload[0m:[36m1016[0m - [1mSymbolic link created successfully: /home1/hxl/disk/EAGLE/.cache/huggingface/hub/datasets--OpenGVLab--MVBench/snapshots/a776e554280b99b70f00cc3eacd69a65e0727efc -> /home1/hxl/disk/EAGLE/.cache/huggingface/mvbench_video[0m
+[32m2024-12-09 14:32:19.062[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mdownload[0m:[36m1013[0m - [1mRemoved existing symbolic link: /home1/hxl/disk/EAGLE/.cache/huggingface/mvbench_video[0m
+[32m2024-12-09 14:32:19.063[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mdownload[0m:[36m1016[0m - [1mSymbolic link created successfully: /home1/hxl/disk/EAGLE/.cache/huggingface/hub/datasets--OpenGVLab--MVBench/snapshots/a776e554280b99b70f00cc3eacd69a65e0727efc -> /home1/hxl/disk/EAGLE/.cache/huggingface/mvbench_video[0m
+[32m2024-12-09 14:32:26.121[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mdownload[0m:[36m1013[0m - [1mRemoved existing symbolic link: /home1/hxl/disk/EAGLE/.cache/huggingface/mvbench_video[0m
+[32m2024-12-09 14:32:26.121[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mdownload[0m:[36m1016[0m - [1mSymbolic link created successfully: /home1/hxl/disk/EAGLE/.cache/huggingface/hub/datasets--OpenGVLab--MVBench/snapshots/a776e554280b99b70f00cc3eacd69a65e0727efc -> /home1/hxl/disk/EAGLE/.cache/huggingface/mvbench_video[0m
+[32m2024-12-09 14:32:31.671[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mdownload[0m:[36m1013[0m - [1mRemoved existing symbolic link: /home1/hxl/disk/EAGLE/.cache/huggingface/mvbench_video[0m
+[32m2024-12-09 14:32:31.671[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mdownload[0m:[36m1016[0m - [1mSymbolic link created successfully: /home1/hxl/disk/EAGLE/.cache/huggingface/hub/datasets--OpenGVLab--MVBench/snapshots/a776e554280b99b70f00cc3eacd69a65e0727efc -> /home1/hxl/disk/EAGLE/.cache/huggingface/mvbench_video[0m
+[32m2024-12-09 14:32:35.945[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mdownload[0m:[36m1013[0m - [1mRemoved existing symbolic link: /home1/hxl/disk/EAGLE/.cache/huggingface/mvbench_video[0m
+[32m2024-12-09 14:32:35.946[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mdownload[0m:[36m1016[0m - [1mSymbolic link created successfully: /home1/hxl/disk/EAGLE/.cache/huggingface/hub/datasets--OpenGVLab--MVBench/snapshots/a776e554280b99b70f00cc3eacd69a65e0727efc -> /home1/hxl/disk/EAGLE/.cache/huggingface/mvbench_video[0m
+[32m2024-12-09 14:32:40.606[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mdownload[0m:[36m1013[0m - [1mRemoved existing symbolic link: /home1/hxl/disk/EAGLE/.cache/huggingface/mvbench_video[0m
+[32m2024-12-09 14:32:40.606[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mdownload[0m:[36m1016[0m - [1mSymbolic link created successfully: /home1/hxl/disk/EAGLE/.cache/huggingface/hub/datasets--OpenGVLab--MVBench/snapshots/a776e554280b99b70f00cc3eacd69a65e0727efc -> /home1/hxl/disk/EAGLE/.cache/huggingface/mvbench_video[0m
+[32m2024-12-09 14:32:50.973[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mbuild_all_requests[0m:[36m425[0m - [1mBuilding contexts for mvbench_action_sequence on rank 0...[0m
+[32m2024-12-09 14:32:50.985[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mbuild_all_requests[0m:[36m425[0m - [1mBuilding contexts for mvbench_moving_count on rank 0...[0m
+[32m2024-12-09 14:32:50.995[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mbuild_all_requests[0m:[36m425[0m - [1mBuilding contexts for mvbench_action_prediction on rank 0...[0m
+[32m2024-12-09 14:32:51.007[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mbuild_all_requests[0m:[36m425[0m - [1mBuilding contexts for mvbench_episodic_reasoning on rank 0...[0m
+[32m2024-12-09 14:32:51.022[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mbuild_all_requests[0m:[36m425[0m - [1mBuilding contexts for mvbench_action_antonym on rank 0...[0m
+[32m2024-12-09 14:32:51.031[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mbuild_all_requests[0m:[36m425[0m - [1mBuilding contexts for mvbench_action_count on rank 0...[0m
+[32m2024-12-09 14:32:51.041[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mbuild_all_requests[0m:[36m425[0m - [1mBuilding contexts for mvbench_scene_transition on rank 0...[0m
+[32m2024-12-09 14:32:51.050[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mbuild_all_requests[0m:[36m425[0m - [1mBuilding contexts for mvbench_object_shuffle on rank 0...[0m
+[32m2024-12-09 14:32:51.060[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mbuild_all_requests[0m:[36m425[0m - [1mBuilding contexts for mvbench_object_existence on rank 0...[0m
+[32m2024-12-09 14:32:51.069[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mbuild_all_requests[0m:[36m425[0m - [1mBuilding contexts for mvbench_fine_grained_pose on rank 0...[0m
+[32m2024-12-09 14:32:51.079[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mbuild_all_requests[0m:[36m425[0m - [1mBuilding contexts for mvbench_unexpected_action on rank 0...[0m
+[32m2024-12-09 14:32:51.089[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mbuild_all_requests[0m:[36m425[0m - [1mBuilding contexts for mvbench_moving_direction on rank 0...[0m
+[32m2024-12-09 14:32:51.098[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mbuild_all_requests[0m:[36m425[0m - [1mBuilding contexts for mvbench_state_change on rank 0...[0m
+[32m2024-12-09 14:32:51.107[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mbuild_all_requests[0m:[36m425[0m - [1mBuilding contexts for mvbench_object_interaction on rank 0...[0m
+[32m2024-12-09 14:32:51.121[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mbuild_all_requests[0m:[36m425[0m - [1mBuilding contexts for mvbench_character_order on rank 0...[0m
+[32m2024-12-09 14:32:51.130[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mbuild_all_requests[0m:[36m425[0m - [1mBuilding contexts for mvbench_action_localization on rank 0...[0m
+[32m2024-12-09 14:32:51.143[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mbuild_all_requests[0m:[36m425[0m - [1mBuilding contexts for mvbench_counterfactual_inference on rank 0...[0m
+[32m2024-12-09 14:32:51.153[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mbuild_all_requests[0m:[36m425[0m - [1mBuilding contexts for mvbench_fine_grained_action on rank 0...[0m
+[32m2024-12-09 14:32:51.162[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mbuild_all_requests[0m:[36m425[0m - [1mBuilding contexts for mvbench_moving_attribute on rank 0...[0m
+[32m2024-12-09 14:32:51.172[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mbuild_all_requests[0m:[36m425[0m - [1mBuilding contexts for mvbench_egocentric_navigation on rank 0...[0m
+[32m2024-12-09 14:32:51.181[0m | [1mINFO    [0m | [36mlmms_eval.evaluator[0m:[36mevaluate[0m:[36m446[0m - [1mRunning generate_until requests[0m
+[15:46:26] /github/workspace/src/video/ffmpeg/threaded_decoder.cc:104: Check failed: run_.load()
+Error with ['/home1/hxl/disk/EAGLE/.cache/huggingface/mvbench_video/perception/videos/video_2702.mp4']
+Results None
+'NoneType' object is not iterable
+[32m2024-12-09 18:53:05.858[0m | [1mINFO    [0m | [36mlmms_eval.loggers.evaluation_tracker[0m:[36msave_results_aggregated[0m:[36m188[0m - [1mSaving results aggregated[0m
+[32m2024-12-09 18:53:05.910[0m | [1mINFO    [0m | [36mlmms_eval.loggers.evaluation_tracker[0m:[36msave_results_samples[0m:[36m255[0m - [1mSaving per-sample results for: mvbench_action_antonym[0m
+[32m2024-12-09 18:53:05.926[0m | [1mINFO    [0m | [36mlmms_eval.loggers.evaluation_tracker[0m:[36msave_results_samples[0m:[36m255[0m - [1mSaving per-sample results for: mvbench_action_count[0m
+[32m2024-12-09 18:53:05.941[0m | [1mINFO    [0m | [36mlmms_eval.loggers.evaluation_tracker[0m:[36msave_results_samples[0m:[36m255[0m - [1mSaving per-sample results for: mvbench_action_localization[0m
+[32m2024-12-09 18:53:05.957[0m | [1mINFO    [0m | [36mlmms_eval.loggers.evaluation_tracker[0m:[36msave_results_samples[0m:[36m255[0m - [1mSaving per-sample results for: mvbench_action_prediction[0m
+[32m2024-12-09 18:53:05.969[0m | [1mINFO    [0m | [36mlmms_eval.loggers.evaluation_tracker[0m:[36msave_results_samples[0m:[36m255[0m - [1mSaving per-sample results for: mvbench_action_sequence[0m
+[32m2024-12-09 18:53:05.979[0m | [1mINFO    [0m | [36mlmms_eval.loggers.evaluation_tracker[0m:[36msave_results_samples[0m:[36m255[0m - [1mSaving per-sample results for: mvbench_character_order[0m
+[32m2024-12-09 18:53:05.987[0m | [1mINFO    [0m | [36mlmms_eval.loggers.evaluation_tracker[0m:[36msave_results_samples[0m:[36m255[0m - [1mSaving per-sample results for: mvbench_counterfactual_inference[0m
+[32m2024-12-09 18:53:05.995[0m | [1mINFO    [0m | [36mlmms_eval.loggers.evaluation_tracker[0m:[36msave_results_samples[0m:[36m255[0m - [1mSaving per-sample results for: mvbench_egocentric_navigation[0m
+[32m2024-12-09 18:53:06.002[0m | [1mINFO    [0m | [36mlmms_eval.loggers.evaluation_tracker[0m:[36msave_results_samples[0m:[36m255[0m - [1mSaving per-sample results for: mvbench_episodic_reasoning[0m
+[32m2024-12-09 18:53:06.011[0m | [1mINFO    [0m | [36mlmms_eval.loggers.evaluation_tracker[0m:[36msave_results_samples[0m:[36m255[0m - [1mSaving per-sample results for: mvbench_fine_grained_action[0m
+[32m2024-12-09 18:53:06.017[0m | [1mINFO    [0m | [36mlmms_eval.loggers.evaluation_tracker[0m:[36msave_results_samples[0m:[36m255[0m - [1mSaving per-sample results for: mvbench_fine_grained_pose[0m
+[32m2024-12-09 18:53:06.023[0m | [1mINFO    [0m | [36mlmms_eval.loggers.evaluation_tracker[0m:[36msave_results_samples[0m:[36m255[0m - [1mSaving per-sample results for: mvbench_moving_attribute[0m
+[32m2024-12-09 18:53:06.029[0m | [1mINFO    [0m | [36mlmms_eval.loggers.evaluation_tracker[0m:[36msave_results_samples[0m:[36m255[0m - [1mSaving per-sample results for: mvbench_moving_count[0m
+[32m2024-12-09 18:53:06.035[0m | [1mINFO    [0m | [36mlmms_eval.loggers.evaluation_tracker[0m:[36msave_results_samples[0m:[36m255[0m - [1mSaving per-sample results for: mvbench_moving_direction[0m
+[32m2024-12-09 18:53:06.041[0m | [1mINFO    [0m | [36mlmms_eval.loggers.evaluation_tracker[0m:[36msave_results_samples[0m:[36m255[0m - [1mSaving per-sample results for: mvbench_object_existence[0m
+[32m2024-12-09 18:53:06.047[0m | [1mINFO    [0m | [36mlmms_eval.loggers.evaluation_tracker[0m:[36msave_results_samples[0m:[36m255[0m - [1mSaving per-sample results for: mvbench_object_interaction[0m
+[32m2024-12-09 18:53:06.053[0m | [1mINFO    [0m | [36mlmms_eval.loggers.evaluation_tracker[0m:[36msave_results_samples[0m:[36m255[0m - [1mSaving per-sample results for: mvbench_object_shuffle[0m
+[32m2024-12-09 18:53:06.060[0m | [1mINFO    [0m | [36mlmms_eval.loggers.evaluation_tracker[0m:[36msave_results_samples[0m:[36m255[0m - [1mSaving per-sample results for: mvbench_scene_transition[0m
+[32m2024-12-09 18:53:06.066[0m | [1mINFO    [0m | [36mlmms_eval.loggers.evaluation_tracker[0m:[36msave_results_samples[0m:[36m255[0m - [1mSaving per-sample results for: mvbench_state_change[0m
+[32m2024-12-09 18:53:06.073[0m | [1mINFO    [0m | [36mlmms_eval.loggers.evaluation_tracker[0m:[36msave_results_samples[0m:[36m255[0m - [1mSaving per-sample results for: mvbench_unexpected_action[0m
+eagle (pretrained=./checkpoints/final_result1/video_finetune_1epoch,conv_template=llama3), gen_kwargs: (), limit: None, num_fewshot: None, batch_size: 1
+|               Tasks               |Version|Filter|n-shot|     Metric     |   | Value |   |Stderr|
+|-----------------------------------|-------|------|-----:|----------------|---|------:|---|------|
+|mvbench                            |    N/A|      |      |                |   |       |   |      |
+| - mvbench_action_antonym          |Yaml   |none  |     0|mvbench_accuracy|↑  |30.0000|±  |   N/A|
+| - mvbench_action_count            |Yaml   |none  |     0|mvbench_accuracy|↑  |20.0000|±  |   N/A|
+| - mvbench_action_localization     |Yaml   |none  |     0|mvbench_accuracy|↑  |26.5000|±  |   N/A|
+| - mvbench_action_prediction       |Yaml   |none  |     0|mvbench_accuracy|↑  |20.0000|±  |   N/A|
+| - mvbench_action_sequence         |Yaml   |none  |     0|mvbench_accuracy|↑  | 8.5000|±  |   N/A|
+| - mvbench_character_order         |Yaml   |none  |     0|mvbench_accuracy|↑  |19.0000|±  |   N/A|
+| - mvbench_counterfactual_inference|Yaml   |none  |     0|mvbench_accuracy|↑  |19.0000|±  |   N/A|
+| - mvbench_egocentric_navigation   |Yaml   |none  |     0|mvbench_accuracy|↑  |25.0000|±  |   N/A|
+| - mvbench_episodic_reasoning      |Yaml   |none  |     0|mvbench_accuracy|↑  | 4.5000|±  |   N/A|
+| - mvbench_fine_grained_action     |Yaml   |none  |     0|mvbench_accuracy|↑  |23.0000|±  |   N/A|
+| - mvbench_fine_grained_pose       |Yaml   |none  |     0|mvbench_accuracy|↑  |20.0000|±  |   N/A|
+| - mvbench_moving_attribute        |Yaml   |none  |     0|mvbench_accuracy|↑  |16.0804|±  |   N/A|
+| - mvbench_moving_count            |Yaml   |none  |     0|mvbench_accuracy|↑  |20.0000|±  |   N/A|
+| - mvbench_moving_direction        |Yaml   |none  |     0|mvbench_accuracy|↑  |27.0000|±  |   N/A|
+| - mvbench_object_existence        |Yaml   |none  |     0|mvbench_accuracy|↑  |31.0000|±  |   N/A|
+| - mvbench_object_interaction      |Yaml   |none  |     0|mvbench_accuracy|↑  | 7.5000|±  |   N/A|
+| - mvbench_object_shuffle          |Yaml   |none  |     0|mvbench_accuracy|↑  |21.0000|±  |   N/A|
+| - mvbench_scene_transition        |Yaml   |none  |     0|mvbench_accuracy|↑  |17.5000|±  |   N/A|
+| - mvbench_state_change            |Yaml   |none  |     0|mvbench_accuracy|↑  |15.5000|±  |   N/A|
+| - mvbench_unexpected_action       |Yaml   |none  |     0|mvbench_accuracy|↑  |14.5000|±  |   N/A|
+
+./checkpoints/final_result1/video_finetune_1epoch
+mvbench
+./checkpoints/final_result1/video_finetune_1epoch
+mvbench

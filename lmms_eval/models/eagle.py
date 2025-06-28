@@ -1,5 +1,6 @@
 import torch
 from PIL import Image
+import numpy as np
 
 torch.backends.cuda.matmul.allow_tf32 = True
 
@@ -14,6 +15,8 @@ from lmms_eval.api.model import lmms
 from lmms_eval.api.registry import register_model
 from lmms_eval.utils import stop_sequences_criteria
 
+from eval.utils import replace_dir
+
 from accelerate import Accelerator, DistributedType, InitProcessGroupKwargs
 from accelerate.state import AcceleratorState
 from typing import List, Optional, Union, Tuple
@@ -23,13 +26,13 @@ warnings.filterwarnings("ignore")
 
 eval_logger = logging.getLogger("lmms-eval")
 
-try:
-    from eagle.model.builder import load_pretrained_model
-    from eagle.mm_utils import get_model_name_from_path, process_images, tokenizer_image_token
-    from eagle.constants import IMAGE_TOKEN_INDEX, DEFAULT_IMAGE_TOKEN, DEFAULT_IM_START_TOKEN, DEFAULT_IM_END_TOKEN, IGNORE_INDEX
-    from eagle.conversation import conv_templates, SeparatorStyle
-except ImportError:
-    eval_logger.error("Please add a symbolic link pointing to the eagle folder of repo ")
+# try:
+from eagle.model.builder import load_pretrained_model
+from eagle.mm_utils import get_model_name_from_path, process_images, tokenizer_image_token
+from eagle.constants import IMAGE_TOKEN_INDEX, DEFAULT_IMAGE_TOKEN, DEFAULT_IM_START_TOKEN, DEFAULT_IM_END_TOKEN, IGNORE_INDEX
+from eagle.conversation import conv_templates, SeparatorStyle
+# except ImportError:
+#     eval_logger.error("Please add a symbolic link pointing to the eagle folder of repo ")
 
 from transformers.integrations.deepspeed import (
     is_deepspeed_zero3_enabled,
@@ -104,6 +107,13 @@ class Eagle(lmms):
             self.device_map = device_map
 
         self._tokenizer, self._model, self._image_processor, self._max_length = load_pretrained_model(pretrained, None, get_model_name_from_path(pretrained), device_map=self.device_map, use_flash_attention_2=use_flash_attention_2)
+        # BEGIN hxl add self modality
+        self.modality = 'image'
+        if 'video' in pretrained:
+            self.modality = 'video'
+        elif 'audio' in pretrained:
+            self.modality = 'audio'
+        # END
         self._config = self._model.config
         self.model.eval()
         self.model.tie_weights()
@@ -296,13 +306,22 @@ class Eagle(lmms):
         re_ords = utils.Collator([reg.args for reg in requests], _collate, grouping=True)
         chunks = re_ords.get_batched(n=self.batch_size, batch_fn=None)
         num_iters = len(requests) // self.batch_size if len(requests) % self.batch_size == 0 else len(requests) // self.batch_size + 1
-        pbar = tqdm(total=num_iters, disable=(self.rank != 0), desc="Model Responding")
+        task_flag = ''
         for chunk in chunks:
+            # print(chunk)
+            _, _, _, _, task_flag, _ = zip(*chunk)
+            break
+        pbar = tqdm(total=num_iters, disable=(self.rank != 0), desc="Model Responding")
+        context_list = []
+        doc_id_list = []
+        for chunk in chunks:
+            # print(chunk)
             contexts, all_gen_kwargs, doc_to_visual, doc_id, task, split = zip(*chunk)
             task = task[0]
             split = split[0]
             visuals = [doc_to_visual[0](self.task_dict[task][split][ids]) for ids in doc_id]
             visuals = self.flatten(visuals)
+            # print(visuals)
             # we assume all gen kwargs in the batch are the same
             # this is safe to assume because the `grouper` object ensures it.
             gen_kwargs = all_gen_kwargs[0]
@@ -323,14 +342,35 @@ class Eagle(lmms):
                 self._config.image_aspect_ratio = gen_kwargs.pop("image_aspect_ratio")
                 eval_logger.info(f"Setting image aspect ratio: {self._config.image_aspect_ratio}")
         
-            if visuals:
-                image_tensor = process_images(visuals, self._image_processor, self._config)
-                if type(image_tensor) is list:
-                    image_tensor = [_image.to(dtype=torch.float16, device=self.device) for _image in image_tensor]
+            # BEGIN hxl add try
+            try:
+                if visuals:
+                    # print(len(visuals[0]['array']))
+                    # BEGIN hxl, replace npy in cache
+                    # print(visuals)
+                    # if isinstance(visuals[0], str):
+                    #     replace_visuals = replace_dir(visuals[0])
+                    #     if replace_visuals != '':
+                    #         image_tensor = torch.from_numpy(np.load(replace_visuals)).unsqueeze(0)
+                    #     else:
+                    #         print('ignore', visuals)
+                    #         continue
+                    #         image_tensor = process_images(visuals, self._image_processor, self._config)
+                    # END
+                    # else:
+                    image_tensor = process_images(visuals, self._image_processor, self._config)
+                    # print(image_tensor.shape)
+                    if type(image_tensor) is list:
+                        image_tensor = [_image.to(dtype=torch.float16, device=self.device) for _image in image_tensor]
+                    else:
+                        image_tensor = image_tensor.to(dtype=torch.float16, device=self.device)
                 else:
-                    image_tensor = image_tensor.to(dtype=torch.float16, device=self.device)
-            else:
-                image_tensor = None
+                    image_tensor = None
+            except Exception as e:
+                print(e)
+                print('Error with', visuals)
+                continue
+            # END
 
             # prompts_input = contexts[0]
 
@@ -370,7 +410,11 @@ class Eagle(lmms):
 
             # input_ids = tokenizer_image_token(prompt, self.tokenizer, IMAGE_TOKEN_INDEX, return_tensors="pt").unsqueeze(0).to(self.device)
             # preconfigure gen_kwargs with defaults
-            gen_kwargs["image_sizes"] = [visuals[idx].size for idx in range(len(visuals))]
+
+            # BEGIN hxl images_sizes are useless for other modal
+            # gen_kwargs["image_sizes"] = [visuals[idx].size for idx in range(len(visuals))]
+            gen_kwargs["image_sizes"] = [0]
+            # END
             if "max_new_tokens" not in gen_kwargs:
                 gen_kwargs["max_new_tokens"] = 1024
             if "temperature" not in gen_kwargs:
@@ -385,7 +429,14 @@ class Eagle(lmms):
             input_ids = self.pad_sequence(input_ids_list, batch_first=True, padding_value=pad_token_ids).to(self.device)
             attention_masks = input_ids.ne(pad_token_ids).to(self.device)
 
+            # BEGIN hxl
+            # Add try and add modal
             try:
+                if 'image_grid_thw' in image_tensor:
+                    image_grid_thw = image_tensor['image_grid_thw']
+                    image_tensor = image_tensor['pixel_values']
+                else:
+                    image_grid_thw = None
                 cont = self.model.generate(
                     input_ids,
                     attention_mask=attention_masks,
@@ -398,18 +449,44 @@ class Eagle(lmms):
                     num_beams=gen_kwargs["num_beams"],
                     max_new_tokens=gen_kwargs["max_new_tokens"],
                     use_cache=self.use_cache,
+                    modality=self.modality,
+                    image_grid_thw=image_grid_thw,
                 )
                 text_outputs = self.tokenizer.batch_decode(cont, skip_special_tokens=True)
+            # print(image_tensor.shape)
             except Exception as e:
                 eval_logger.error(f"Error {e} in generating")
                 cont = ""
                 text_outputs = [""]
+                raise e
 
             res.extend(text_outputs)
+            context_list.extend(contexts)
+            doc_id_list.extend(doc_id)
             self.cache_hook.add_partial("generate_until", (context, gen_kwargs), text_outputs)
             pbar.update(1)
+            # print(res)
 
         res = re_ords.get_original(res)
 
         pbar.close()
+        # BEGIN hxl get result
+        save_list = []
+        for text, context, doc in zip(res, context_list, doc_id_list):
+            save_list.append({
+                "text_output": text,
+                "context": context,
+                "doc_id": doc
+            })
+        from datetime import datetime
+        import os
+        # 获取当前日期，格式化为字符串（例如：2023-10-05）
+        current_date = datetime.now().strftime("%Y%m%d")
+        output_dir = f'output/eval/{current_date}'
+        os.makedirs(output_dir, exist_ok=True)
+        with open(f'{output_dir}/{task_flag}.json', 'w') as json_file:
+            import json
+            json.dump(save_list, json_file, indent=4)
+            print('result dumped')
+        # END hxl
         return res

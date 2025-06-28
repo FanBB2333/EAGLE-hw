@@ -40,7 +40,13 @@ from eagle.constants import DEFAULT_IMAGE_PATCH_TOKEN, DEFAULT_IM_START_TOKEN, D
 
 
 def load_pretrained_model(model_path, model_base, model_name, load_8bit=False, load_4bit=False, device_map="auto", device="cuda", use_flash_attn=False, **kwargs):
+    # BEGIN hxl
+    if device_map == "":
+        device_map = "auto"
+
     kwargs = {"device_map": device_map, **kwargs}
+
+    # END hxl
 
     if device != "cuda":
         kwargs['device_map'] = {"": device}
@@ -117,6 +123,9 @@ def load_pretrained_model(model_path, model_base, model_name, load_8bit=False, l
                 low_cpu_mem_usage=True,
                 **kwargs
             )
+            if tokenizer == False:
+                tokenizer = AutoTokenizer.from_pretrained(model_path)
+                
     else:
         # Load language model
         if model_base is not None:
@@ -141,7 +150,11 @@ def load_pretrained_model(model_path, model_base, model_name, load_8bit=False, l
             # model = AutoModelForCausalLM.from_pretrained(model_path, low_cpu_mem_usage=True, **kwargs)
 
     image_processor = None
-
+    # print(f"tokenizer: {type(tokenizer)}, {tokenizer}")
+    # print(f"model_path: {type(model_path)}, {model_path}")
+    # print(f"model_name: {type(model_name)}, {model_name}")
+    # print(f"model_base: {type(model_base)}, {model_base}")
+    # print(f"model: {type(model)}, {model}")
     if 'eagle' in model_name.lower():
         mm_use_im_start_end = getattr(model.config, "mm_use_im_start_end", False)
         mm_use_im_patch_token = getattr(model.config, "mm_use_im_patch_token", True)
@@ -157,6 +170,17 @@ def load_pretrained_model(model_path, model_base, model_name, load_8bit=False, l
         if device_map != 'auto':
             vision_tower.to(device=device_map, dtype=torch.float16)
         image_processor = vision_tower.image_processor
+    # BRGIN hxl
+    # load for other modal
+    else:
+        vision_tower = model.get_vision_tower()
+        if not vision_tower.is_loaded:
+            vision_tower.load_model(device_map=device_map)
+        if device_map != 'auto' and device_map != '':
+            vision_tower.to(device=device_map, dtype=torch.float16)
+        image_processor = vision_tower.image_processor
+    # END hxl
+
 
     if hasattr(model.config, "max_sequence_length"):
         context_len = model.config.max_sequence_length
@@ -164,3 +188,63 @@ def load_pretrained_model(model_path, model_base, model_name, load_8bit=False, l
         context_len = 2048
 
     return tokenizer, model, image_processor, context_len
+
+# BEGIN hxl
+def load_audio_pretrained_model(
+    model_path, 
+    model_base, 
+    model_name, 
+    load_8bit=False, 
+    load_4bit=False, 
+    device_map="auto", 
+    device="cuda", 
+    use_flash_attn=False, 
+    **kwargs 
+):
+    kwargs = {
+        "device_map": device_map,
+        **kwargs
+    }
+    if device != "cuda":
+        kwargs['device_map'] = {"": device}
+
+    # Keep unchange, maybe useless
+    if load_8bit:
+        kwargs['load_in_8bit'] = True
+    elif load_4bit:
+        kwargs['load_in_4bit'] = True
+        kwargs['quantization_config'] = BitsAndBytesConfig(
+            load_in_4bit=True,
+            bnb_4bit_compute_dtype=torch.float16,
+            bnb_4bit_use_double_quant=True,
+            bnb_4bit_quant_type='nf4'
+        )
+    else:
+        kwargs['torch_dtype'] = torch.float16
+
+    if use_flash_attn:
+        kwargs['attn_implementation'] = 'flash_attention_2'
+
+    # Always load the same model struct temporarilly
+    model = EagleLlamaForCausalLM.from_pretrained(
+        model_path,
+        low_cpu_mem_usage=True,
+        **kwargs
+    )
+    audio_tower = getattr(model, 'mm_audio_tower', False)
+    if audio_tower:
+        if 'LanguageBind_Audio_FT' in audio_tower:
+            from eagle.model.multimodal_encoder.audio_models.processing_audio import LanguageBindAudioProcessor
+            from eagle.model.multimodal_encoder.audio_models.tokenization_audio import LanguageBindAudioTokenizer
+            from eagle.model.multimodal_encoder.audio_models.configuration_audio import LanguageBindAudioConfig
+            tokenizer = LanguageBindAudioTokenizer.from_pretrained(audio_tower)
+            config = LanguageBindAudioConfig.from_pretrained(audio_tower)
+            audio_processor = LanguageBindAudioProcessor(config, tokenizer)
+    if hasattr(model.config, "max_sequence_length"):
+        context_len = model.config.max_sequence_length
+    else:
+        context_len = 512
+
+    return tokenizer, model, audio_processor, context_len
+
+# END hxl

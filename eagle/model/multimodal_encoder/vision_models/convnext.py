@@ -524,368 +524,369 @@ def _cfgv2(url='', **kwargs):
 default_cfgs = generate_default_cfgs({
     # timm specific variants
     'convnext_tiny.in12k_ft_in1k': _cfg(
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         crop_pct=0.95, test_input_size=(3, 288, 288), test_crop_pct=1.0),
     'convnext_small.in12k_ft_in1k': _cfg(
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         crop_pct=0.95, test_input_size=(3, 288, 288), test_crop_pct=1.0),
 
     'convnext_atto.d2_in1k': _cfg(
         url='https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-rsb-weights/convnext_atto_d2-01bb0f51.pth',
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         test_input_size=(3, 288, 288), test_crop_pct=0.95),
     'convnext_atto_ols.a2_in1k': _cfg(
         url='https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-rsb-weights/convnext_atto_ols_a2-78d1c8f3.pth',
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         test_input_size=(3, 288, 288), test_crop_pct=0.95),
     'convnext_femto.d1_in1k': _cfg(
         url='https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-rsb-weights/convnext_femto_d1-d71d5b4c.pth',
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         test_input_size=(3, 288, 288), test_crop_pct=0.95),
     'convnext_femto_ols.d1_in1k': _cfg(
         url='https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-rsb-weights/convnext_femto_ols_d1-246bf2ed.pth',
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         test_input_size=(3, 288, 288), test_crop_pct=0.95),
     'convnext_pico.d1_in1k': _cfg(
         url='https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-rsb-weights/convnext_pico_d1-10ad7f0d.pth',
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         test_input_size=(3, 288, 288), test_crop_pct=0.95),
     'convnext_pico_ols.d1_in1k': _cfg(
         url='https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-rsb-weights/convnext_pico_ols_d1-611f0ca7.pth',
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         crop_pct=0.95, test_input_size=(3, 288, 288), test_crop_pct=1.0),
     'convnext_nano.in12k_ft_in1k': _cfg(
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         crop_pct=0.95, test_input_size=(3, 288, 288), test_crop_pct=1.0),
     'convnext_nano.d1h_in1k': _cfg(
         url='https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-rsb-weights/convnext_nano_d1h-7eb4bdea.pth',
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         crop_pct=0.95, test_input_size=(3, 288, 288), test_crop_pct=1.0),
     'convnext_nano_ols.d1h_in1k': _cfg(
         url='https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-rsb-weights/convnext_nano_ols_d1h-ae424a9a.pth',
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         crop_pct=0.95, test_input_size=(3, 288, 288), test_crop_pct=1.0),
     'convnext_tiny_hnf.a2h_in1k': _cfg(
         url='https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-rsb-weights/convnext_tiny_hnf_a2h-ab7e9df2.pth',
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         crop_pct=0.95, test_input_size=(3, 288, 288), test_crop_pct=1.0),
 
     'convnext_tiny.in12k_ft_in1k_384': _cfg(
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
        input_size=(3, 384, 384), pool_size=(12, 12),  crop_pct=1.0, crop_mode='squash'),
     'convnext_small.in12k_ft_in1k_384': _cfg(
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         input_size=(3, 384, 384), pool_size=(12, 12), crop_pct=1.0,  crop_mode='squash'),
 
     'convnext_nano.in12k': _cfg(
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         crop_pct=0.95, num_classes=11821),
     'convnext_tiny.in12k': _cfg(
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         crop_pct=0.95, num_classes=11821),
     'convnext_small.in12k': _cfg(
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         crop_pct=0.95, num_classes=11821),
 
     'convnext_tiny.fb_in22k_ft_in1k': _cfg(
         url='https://dl.fbaipublicfiles.com/convnext/convnext_tiny_22k_1k_224.pth',
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         test_input_size=(3, 288, 288), test_crop_pct=1.0),
     'convnext_small.fb_in22k_ft_in1k': _cfg(
         url='https://dl.fbaipublicfiles.com/convnext/convnext_small_22k_1k_224.pth',
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         test_input_size=(3, 288, 288), test_crop_pct=1.0),
     'convnext_base.fb_in22k_ft_in1k': _cfg(
         url='https://dl.fbaipublicfiles.com/convnext/convnext_base_22k_1k_224.pth',
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         test_input_size=(3, 288, 288), test_crop_pct=1.0),
     'convnext_large.fb_in22k_ft_in1k': _cfg(
         url='https://dl.fbaipublicfiles.com/convnext/convnext_large_22k_1k_224.pth',
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         test_input_size=(3, 288, 288), test_crop_pct=1.0),
     'convnext_xlarge.fb_in22k_ft_in1k': _cfg(
         url='https://dl.fbaipublicfiles.com/convnext/convnext_xlarge_22k_1k_224_ema.pth',
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         test_input_size=(3, 288, 288), test_crop_pct=1.0),
 
     'convnext_tiny.fb_in1k': _cfg(
         url="https://dl.fbaipublicfiles.com/convnext/convnext_tiny_1k_224_ema.pth",
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         test_input_size=(3, 288, 288), test_crop_pct=1.0),
     'convnext_small.fb_in1k': _cfg(
         url="https://dl.fbaipublicfiles.com/convnext/convnext_small_1k_224_ema.pth",
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         test_input_size=(3, 288, 288), test_crop_pct=1.0),
     'convnext_base.fb_in1k': _cfg(
         url="https://dl.fbaipublicfiles.com/convnext/convnext_base_1k_224_ema.pth",
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         test_input_size=(3, 288, 288), test_crop_pct=1.0),
     'convnext_large.fb_in1k': _cfg(
         url="https://dl.fbaipublicfiles.com/convnext/convnext_large_1k_224_ema.pth",
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         test_input_size=(3, 288, 288), test_crop_pct=1.0),
 
     'convnext_tiny.fb_in22k_ft_in1k_384': _cfg(
         url='https://dl.fbaipublicfiles.com/convnext/convnext_tiny_22k_1k_384.pth',
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         input_size=(3, 384, 384), pool_size=(12, 12), crop_pct=1.0, crop_mode='squash'),
     'convnext_small.fb_in22k_ft_in1k_384': _cfg(
         url='https://dl.fbaipublicfiles.com/convnext/convnext_small_22k_1k_384.pth',
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         input_size=(3, 384, 384), pool_size=(12, 12), crop_pct=1.0, crop_mode='squash'),
     'convnext_base.fb_in22k_ft_in1k_384': _cfg(
         url='https://dl.fbaipublicfiles.com/convnext/convnext_base_22k_1k_384.pth',
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         input_size=(3, 384, 384), pool_size=(12, 12), crop_pct=1.0, crop_mode='squash'),
     'convnext_large.fb_in22k_ft_in1k_384': _cfg(
         url='https://dl.fbaipublicfiles.com/convnext/convnext_large_22k_1k_384.pth',
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         input_size=(3, 384, 384), pool_size=(12, 12), crop_pct=1.0, crop_mode='squash'),
     'convnext_xlarge.fb_in22k_ft_in1k_384': _cfg(
         url='https://dl.fbaipublicfiles.com/convnext/convnext_xlarge_22k_1k_384_ema.pth',
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         input_size=(3, 384, 384), pool_size=(12, 12), crop_pct=1.0, crop_mode='squash'),
 
     'convnext_tiny.fb_in22k': _cfg(
         url="https://dl.fbaipublicfiles.com/convnext/convnext_tiny_22k_224.pth",
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         num_classes=21841),
     'convnext_small.fb_in22k': _cfg(
         url="https://dl.fbaipublicfiles.com/convnext/convnext_small_22k_224.pth",
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         num_classes=21841),
     'convnext_base.fb_in22k': _cfg(
         url="https://dl.fbaipublicfiles.com/convnext/convnext_base_22k_224.pth",
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         num_classes=21841),
     'convnext_large.fb_in22k': _cfg(
         url="https://dl.fbaipublicfiles.com/convnext/convnext_large_22k_224.pth",
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         num_classes=21841),
     'convnext_xlarge.fb_in22k': _cfg(
         url="https://dl.fbaipublicfiles.com/convnext/convnext_xlarge_22k_224.pth",
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         num_classes=21841),
 
     'convnextv2_nano.fcmae_ft_in22k_in1k': _cfgv2(
         url='https://dl.fbaipublicfiles.com/convnext/convnextv2/im22k/convnextv2_nano_22k_224_ema.pt',
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         test_input_size=(3, 288, 288), test_crop_pct=1.0),
     'convnextv2_nano.fcmae_ft_in22k_in1k_384': _cfgv2(
         url='https://dl.fbaipublicfiles.com/convnext/convnextv2/im22k/convnextv2_nano_22k_384_ema.pt',
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         input_size=(3, 384, 384), pool_size=(12, 12), crop_pct=1.0, crop_mode='squash'),
     'convnextv2_tiny.fcmae_ft_in22k_in1k': _cfgv2(
         url="https://dl.fbaipublicfiles.com/convnext/convnextv2/im22k/convnextv2_tiny_22k_224_ema.pt",
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         test_input_size=(3, 288, 288), test_crop_pct=1.0),
     'convnextv2_tiny.fcmae_ft_in22k_in1k_384': _cfgv2(
         url="https://dl.fbaipublicfiles.com/convnext/convnextv2/im22k/convnextv2_tiny_22k_384_ema.pt",
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         input_size=(3, 384, 384), pool_size=(12, 12), crop_pct=1.0, crop_mode='squash'),
     'convnextv2_base.fcmae_ft_in22k_in1k': _cfgv2(
         url="https://dl.fbaipublicfiles.com/convnext/convnextv2/im22k/convnextv2_base_22k_224_ema.pt",
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         test_input_size=(3, 288, 288), test_crop_pct=1.0),
     'convnextv2_base.fcmae_ft_in22k_in1k_384': _cfgv2(
         url="https://dl.fbaipublicfiles.com/convnext/convnextv2/im22k/convnextv2_base_22k_384_ema.pt",
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         input_size=(3, 384, 384), pool_size=(12, 12), crop_pct=1.0, crop_mode='squash'),
     'convnextv2_large.fcmae_ft_in22k_in1k': _cfgv2(
         url="https://dl.fbaipublicfiles.com/convnext/convnextv2/im22k/convnextv2_large_22k_224_ema.pt",
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         test_input_size=(3, 288, 288), test_crop_pct=1.0),
     'convnextv2_large.fcmae_ft_in22k_in1k_384': _cfgv2(
         url="https://dl.fbaipublicfiles.com/convnext/convnextv2/im22k/convnextv2_large_22k_384_ema.pt",
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         input_size=(3, 384, 384), pool_size=(12, 12), crop_pct=1.0, crop_mode='squash'),
     'convnextv2_huge.fcmae_ft_in22k_in1k_384': _cfgv2(
         url="https://dl.fbaipublicfiles.com/convnext/convnextv2/im22k/convnextv2_huge_22k_384_ema.pt",
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         input_size=(3, 384, 384), pool_size=(12, 12), crop_pct=1.0, crop_mode='squash'),
     'convnextv2_huge.fcmae_ft_in22k_in1k_512': _cfgv2(
         url="https://dl.fbaipublicfiles.com/convnext/convnextv2/im22k/convnextv2_huge_22k_512_ema.pt",
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         input_size=(3, 512, 512), pool_size=(15, 15), crop_pct=1.0, crop_mode='squash'),
 
     'convnextv2_atto.fcmae_ft_in1k': _cfgv2(
         url='https://dl.fbaipublicfiles.com/convnext/convnextv2/im1k/convnextv2_atto_1k_224_ema.pt',
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         test_input_size=(3, 288, 288), test_crop_pct=0.95),
     'convnextv2_femto.fcmae_ft_in1k': _cfgv2(
         url='https://dl.fbaipublicfiles.com/convnext/convnextv2/im1k/convnextv2_femto_1k_224_ema.pt',
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         test_input_size=(3, 288, 288), test_crop_pct=0.95),
     'convnextv2_pico.fcmae_ft_in1k': _cfgv2(
         url='https://dl.fbaipublicfiles.com/convnext/convnextv2/im1k/convnextv2_pico_1k_224_ema.pt',
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         test_input_size=(3, 288, 288), test_crop_pct=0.95),
     'convnextv2_nano.fcmae_ft_in1k': _cfgv2(
         url='https://dl.fbaipublicfiles.com/convnext/convnextv2/im1k/convnextv2_nano_1k_224_ema.pt',
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         test_input_size=(3, 288, 288), test_crop_pct=1.0),
     'convnextv2_tiny.fcmae_ft_in1k': _cfgv2(
         url="https://dl.fbaipublicfiles.com/convnext/convnextv2/im1k/convnextv2_tiny_1k_224_ema.pt",
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         test_input_size=(3, 288, 288), test_crop_pct=1.0),
     'convnextv2_base.fcmae_ft_in1k': _cfgv2(
         url="https://dl.fbaipublicfiles.com/convnext/convnextv2/im1k/convnextv2_base_1k_224_ema.pt",
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         test_input_size=(3, 288, 288), test_crop_pct=1.0),
     'convnextv2_large.fcmae_ft_in1k': _cfgv2(
         url="https://dl.fbaipublicfiles.com/convnext/convnextv2/im1k/convnextv2_large_1k_224_ema.pt",
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         test_input_size=(3, 288, 288), test_crop_pct=1.0),
     'convnextv2_huge.fcmae_ft_in1k': _cfgv2(
         url="https://dl.fbaipublicfiles.com/convnext/convnextv2/im1k/convnextv2_huge_1k_224_ema.pt",
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         test_input_size=(3, 288, 288), test_crop_pct=1.0),
 
     'convnextv2_atto.fcmae': _cfgv2(
         url='https://dl.fbaipublicfiles.com/convnext/convnextv2/pt_only/convnextv2_atto_1k_224_fcmae.pt',
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         num_classes=0),
     'convnextv2_femto.fcmae': _cfgv2(
         url='https://dl.fbaipublicfiles.com/convnext/convnextv2/pt_only/convnextv2_femto_1k_224_fcmae.pt',
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         num_classes=0),
     'convnextv2_pico.fcmae': _cfgv2(
         url='https://dl.fbaipublicfiles.com/convnext/convnextv2/pt_only/convnextv2_pico_1k_224_fcmae.pt',
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         num_classes=0),
     'convnextv2_nano.fcmae': _cfgv2(
         url='https://dl.fbaipublicfiles.com/convnext/convnextv2/pt_only/convnextv2_nano_1k_224_fcmae.pt',
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         num_classes=0),
     'convnextv2_tiny.fcmae': _cfgv2(
         url="https://dl.fbaipublicfiles.com/convnext/convnextv2/pt_only/convnextv2_tiny_1k_224_fcmae.pt",
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         num_classes=0),
     'convnextv2_base.fcmae': _cfgv2(
         url="https://dl.fbaipublicfiles.com/convnext/convnextv2/pt_only/convnextv2_base_1k_224_fcmae.pt",
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         num_classes=0),
     'convnextv2_large.fcmae': _cfgv2(
         url="https://dl.fbaipublicfiles.com/convnext/convnextv2/pt_only/convnextv2_large_1k_224_fcmae.pt",
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         num_classes=0),
     'convnextv2_huge.fcmae': _cfgv2(
         url="https://dl.fbaipublicfiles.com/convnext/convnextv2/pt_only/convnextv2_huge_1k_224_fcmae.pt",
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         num_classes=0),
 
     'convnextv2_small.untrained': _cfg(),
 
     # CLIP weights, fine-tuned on in1k or in12k + in1k
     'convnext_base.clip_laion2b_augreg_ft_in12k_in1k': _cfg(
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         mean=OPENAI_CLIP_MEAN, std=OPENAI_CLIP_STD,
         input_size=(3, 256, 256), pool_size=(8, 8), crop_pct=1.0),
     'convnext_base.clip_laion2b_augreg_ft_in12k_in1k_384': _cfg(
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         mean=OPENAI_CLIP_MEAN, std=OPENAI_CLIP_STD,
         input_size=(3, 384, 384), pool_size=(12, 12), crop_pct=1.0, crop_mode='squash'),
     'convnext_large_mlp.clip_laion2b_soup_ft_in12k_in1k_320': _cfg(
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         mean=OPENAI_CLIP_MEAN, std=OPENAI_CLIP_STD,
         input_size=(3, 320, 320), pool_size=(10, 10), crop_pct=1.0),
     'convnext_large_mlp.clip_laion2b_soup_ft_in12k_in1k_384': _cfg(
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         mean=OPENAI_CLIP_MEAN, std=OPENAI_CLIP_STD,
         input_size=(3, 384, 384), pool_size=(12, 12), crop_pct=1.0, crop_mode='squash'),
 
     'convnext_base.clip_laion2b_augreg_ft_in1k': _cfg(
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         mean=OPENAI_CLIP_MEAN, std=OPENAI_CLIP_STD,
         input_size=(3, 256, 256), pool_size=(8, 8), crop_pct=1.0),
     'convnext_base.clip_laiona_augreg_ft_in1k_384': _cfg(
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         mean=OPENAI_CLIP_MEAN, std=OPENAI_CLIP_STD,
         input_size=(3, 384, 384), pool_size=(12, 12), crop_pct=1.0),
     'convnext_large_mlp.clip_laion2b_augreg_ft_in1k': _cfg(
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         mean=OPENAI_CLIP_MEAN, std=OPENAI_CLIP_STD,
         input_size=(3, 256, 256), pool_size=(8, 8), crop_pct=1.0
     ),
     'convnext_large_mlp.clip_laion2b_augreg_ft_in1k_384': _cfg(
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         mean=OPENAI_CLIP_MEAN, std=OPENAI_CLIP_STD,
         input_size=(3, 384, 384), pool_size=(12, 12), crop_pct=1.0, crop_mode='squash'
     ),
     'convnext_xxlarge.clip_laion2b_soup_ft_in1k': _cfg(
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         mean=OPENAI_CLIP_MEAN, std=OPENAI_CLIP_STD,
         input_size=(3, 256, 256), pool_size=(8, 8), crop_pct=1.0),
 
     'convnext_base.clip_laion2b_augreg_ft_in12k': _cfg(
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         mean=OPENAI_CLIP_MEAN, std=OPENAI_CLIP_STD, num_classes=11821,
         input_size=(3, 256, 256), pool_size=(8, 8), crop_pct=1.0),
     'convnext_large_mlp.clip_laion2b_soup_ft_in12k_320': _cfg(
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         mean=OPENAI_CLIP_MEAN, std=OPENAI_CLIP_STD, num_classes=11821,
         input_size=(3, 320, 320), pool_size=(10, 10), crop_pct=1.0),
     'convnext_large_mlp.clip_laion2b_augreg_ft_in12k_384': _cfg(
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         mean=OPENAI_CLIP_MEAN, std=OPENAI_CLIP_STD, num_classes=11821,
         input_size=(3, 384, 384), pool_size=(12, 12), crop_pct=1.0, crop_mode='squash'),
     'convnext_large_mlp.clip_laion2b_soup_ft_in12k_384': _cfg(
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         mean=OPENAI_CLIP_MEAN, std=OPENAI_CLIP_STD, num_classes=11821,
         input_size=(3, 384, 384), pool_size=(12, 12), crop_pct=1.0, crop_mode='squash'),
     'convnext_xxlarge.clip_laion2b_soup_ft_in12k': _cfg(
-        hf_hub_id='timm/',
+        hf_hub_id='./model/Vision_Encoder/timm/',
         mean=OPENAI_CLIP_MEAN, std=OPENAI_CLIP_STD, num_classes=11821,
         input_size=(3, 256, 256), pool_size=(8, 8), crop_pct=1.0),
 
     # CLIP original image tower weights
     'convnext_base.clip_laion2b': _cfg(
-        hf_hub_id='laion/CLIP-convnext_base_w-laion2B-s13B-b82K',
+        hf_hub_id='./model/Vision_Encoder/laion/CLIP-convnext_base_w-laion2B-s13B-b82K',
         hf_hub_filename='open_clip_pytorch_model.bin',
         mean=OPENAI_CLIP_MEAN, std=OPENAI_CLIP_STD,
         input_size=(3, 256, 256), pool_size=(8, 8), crop_pct=1.0, num_classes=640),
     'convnext_base.clip_laion2b_augreg': _cfg(
-        hf_hub_id='laion/CLIP-convnext_base_w-laion2B-s13B-b82K-augreg',
+        hf_hub_id='./model/Vision_Encoder/laion/CLIP-convnext_base_w-laion2B-s13B-b82K-augreg',
         hf_hub_filename='open_clip_pytorch_model.bin',
         mean=OPENAI_CLIP_MEAN, std=OPENAI_CLIP_STD,
         input_size=(3, 256, 256), pool_size=(8, 8), crop_pct=1.0, num_classes=640),
     'convnext_base.clip_laiona': _cfg(
-        hf_hub_id='laion/CLIP-convnext_base_w-laion_aesthetic-s13B-b82K',
+        hf_hub_id='./model/Vision_Encoder/laion/CLIP-convnext_base_w-laion_aesthetic-s13B-b82K',
         hf_hub_filename='open_clip_pytorch_model.bin',
         mean=OPENAI_CLIP_MEAN, std=OPENAI_CLIP_STD,
         input_size=(3, 256, 256), pool_size=(8, 8), crop_pct=1.0, num_classes=640),
     'convnext_base.clip_laiona_320': _cfg(
-        hf_hub_id='laion/CLIP-convnext_base_w_320-laion_aesthetic-s13B-b82K',
+        hf_hub_id='./model/Vision_Encoder/laion/CLIP-convnext_base_w_320-laion_aesthetic-s13B-b82K',
         hf_hub_filename='open_clip_pytorch_model.bin',
         mean=OPENAI_CLIP_MEAN, std=OPENAI_CLIP_STD,
         input_size=(3, 320, 320), pool_size=(10, 10), crop_pct=1.0, num_classes=640),
     'convnext_base.clip_laiona_augreg_320': _cfg(
-        hf_hub_id='laion/CLIP-convnext_base_w_320-laion_aesthetic-s13B-b82K-augreg',
+        hf_hub_id='./model/Vision_Encoder/laion/CLIP-convnext_base_w_320-laion_aesthetic-s13B-b82K-augreg',
         hf_hub_filename='open_clip_pytorch_model.bin',
         mean=OPENAI_CLIP_MEAN, std=OPENAI_CLIP_STD,
         input_size=(3, 320, 320), pool_size=(10, 10), crop_pct=1.0, num_classes=640),
     'convnext_large_mlp.clip_laion2b_augreg': _cfg(
-        hf_hub_id='laion/CLIP-convnext_large_d.laion2B-s26B-b102K-augreg',
+        hf_hub_id='./model/Vision_Encoder/laion/CLIP-convnext_large_d.laion2B-s26B-b102K-augreg',
         hf_hub_filename='open_clip_pytorch_model.bin',
         mean=OPENAI_CLIP_MEAN, std=OPENAI_CLIP_STD,
         input_size=(3, 256, 256), pool_size=(8, 8), crop_pct=1.0, num_classes=768),
     'convnext_large_mlp.clip_laion2b_ft_320': _cfg(
-        hf_hub_id='laion/CLIP-convnext_large_d_320.laion2B-s29B-b131K-ft',
+        hf_hub_id='./model/Vision_Encoder/laion/CLIP-convnext_large_d_320.laion2B-s29B-b131K-ft',
         hf_hub_filename='open_clip_pytorch_model.bin',
         mean=OPENAI_CLIP_MEAN, std=OPENAI_CLIP_STD,
         input_size=(3, 320, 320), pool_size=(10, 10), crop_pct=1.0, num_classes=768),
     'convnext_large_mlp.clip_laion2b_ft_soup_320': _cfg(
-        hf_hub_id='laion/CLIP-convnext_large_d_320.laion2B-s29B-b131K-ft-soup',
+        hf_hub_id='./model/Vision_Encoder/laion/CLIP-convnext_large_d_320.laion2B-s29B-b131K-ft-soup',
         hf_hub_filename='open_clip_pytorch_model.bin',
         mean=OPENAI_CLIP_MEAN, std=OPENAI_CLIP_STD,
         input_size=(3, 320, 320), pool_size=(10, 10), crop_pct=1.0, num_classes=768),
     'convnext_xxlarge.clip_laion2b_soup': _cfg(
-        hf_hub_id='laion/CLIP-convnext_xxlarge-laion2B-s34B-b82K-augreg-soup',
-        hf_hub_filename='open_clip_pytorch_model.bin',
+        # hf_hub_id='./model/Vision_Encoder/laion/CLIP-convnext_xxlarge-laion2B-s34B-b82K-augreg-soup',
+        # hf_hub_filename='open_clip_pytorch_model.bin',
+        file='./model/Vision_Encoder/laion/CLIP-convnext_xxlarge-laion2B-s34B-b82K-augreg-soup/open_clip_pytorch_model.bin',
         mean=OPENAI_CLIP_MEAN, std=OPENAI_CLIP_STD,
         input_size=(3, 256, 256), pool_size=(8, 8), crop_pct=1.0, num_classes=1024),
     'convnext_xxlarge.clip_laion2b_rewind': _cfg(
-        hf_hub_id='laion/CLIP-convnext_xxlarge-laion2B-s34B-b82K-augreg-rewind',
+        hf_hub_id='./model/Vision_Encoder/laion/CLIP-convnext_xxlarge-laion2B-s34B-b82K-augreg-rewind',
         hf_hub_filename='open_clip_pytorch_model.bin',
         mean=OPENAI_CLIP_MEAN, std=OPENAI_CLIP_STD,
         input_size=(3, 256, 256), pool_size=(8, 8), crop_pct=1.0, num_classes=1024),
@@ -1011,8 +1012,8 @@ default_cfgs = generate_default_cfgs({
 #     return model
 
 
-# @register_model
-def convnext_xxlarge(pretrained=False, **kwargs) -> ConvNeXt:
+@register_model
+def convnext_xxlarge(vision_tower_name, pretrained=False, **kwargs) -> ConvNeXt:
     model_args = dict(depths=[3, 4, 30, 3], dims=[384, 768, 1536, 3072], norm_eps=kwargs.pop('norm_eps', 1e-5))
     model = _create_convnext('convnext_xxlarge', pretrained=pretrained, **dict(model_args, **kwargs))
     return model

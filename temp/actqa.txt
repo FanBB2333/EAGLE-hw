@@ -1,0 +1,1962 @@
+ower.LanguageBindVideo.vision_model.encoder.layers.17.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo
+.vision_model.encoder.layers.17.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encode
+r.layers.17.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.17.s
+elf_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.17.self_attn.ou
+t_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.17.self_attn.out_proj.weig
+ht', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.17.self_attn.q_proj.bias', 'model.v
+ision_tower.LanguageBindVideo.vision_model.encoder.layers.17.self_attn.q_proj.weight', 'model.vision_tower
+.LanguageBindVideo.vision_model.encoder.layers.17.self_attn.v_proj.bias', 'model.vision_tower.LanguageBind
+Video.vision_model.encoder.layers.17.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.visio
+n_model.encoder.layers.17.temporal_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.e
+ncoder.layers.17.temporal_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.
+layers.17.temporal_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.
+17.temporal_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.17.te
+mporal_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.17.temporal_at
+tn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.17.temporal_attn.v_pr
+oj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.17.temporal_attn.v_proj.weight
+', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.17.temporal_embedding', 'model.vision
+_tower.LanguageBindVideo.vision_model.encoder.layers.17.temporal_layer_norm1.bias', 'model.vision_tower.La
+nguageBindVideo.vision_model.encoder.layers.17.temporal_layer_norm1.weight', 'model.vision_tower.LanguageB
+indVideo.vision_model.encoder.layers.18.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_mo
+del.encoder.layers.18.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.laye
+rs.18.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.18.layer_norm2.
+weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.18.mlp.fc1.bias', 'model.vision
+_tower.LanguageBindVideo.vision_model.encoder.layers.18.mlp.fc1.weight', 'model.vision_tower.LanguageBindV
+ideo.vision_model.encoder.layers.18.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.enco
+der.layers.18.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.18.self_a
+ttn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.18.self_attn.k_proj.we
+ight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.18.self_attn.out_proj.bias', 'mod
+el.vision_tower.LanguageBindVideo.vision_model.encoder.layers.18.self_attn.out_proj.weight', 'model.vision
+_tower.LanguageBindVideo.vision_model.encoder.layers.18.self_attn.q_proj.bias', 'model.vision_tower.Langua
+geBindVideo.vision_model.encoder.layers.18.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo
+.vision_model.encoder.layers.18.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model
+.encoder.layers.18.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.la
+yers.18.temporal_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.18.t
+emporal_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.18.temporal
+_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.18.temporal_attn.o
+ut_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.18.temporal_attn.q_proj
+.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.18.temporal_attn.q_proj.weight',
+ 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.18.temporal_attn.v_proj.bias', 'model.v
+ision_tower.LanguageBindVideo.vision_model.encoder.layers.18.temporal_attn.v_proj.weight', 'model.vision_t
+ower.LanguageBindVideo.vision_model.encoder.layers.18.temporal_embedding', 'model.vision_tower.LanguageBin
+dVideo.vision_model.encoder.layers.18.temporal_layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vi
+sion_model.encoder.layers.18.temporal_layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_mo
+del.encoder.layers.19.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers
+.19.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.19.layer_norm2.
+bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.19.layer_norm2.weight', 'model.vi
+sion_tower.LanguageBindVideo.vision_model.encoder.layers.19.mlp.fc1.bias', 'model.vision_tower.LanguageBin
+dVideo.vision_model.encoder.layers.19.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.
+encoder.layers.19.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.19.mlp.
+fc2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.19.self_attn.k_proj.bias',
+'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.19.self_attn.k_proj.weight', 'model.visi
+on_tower.LanguageBindVideo.vision_model.encoder.layers.19.self_attn.out_proj.bias', 'model.vision_tower.La
+nguageBindVideo.vision_model.encoder.layers.19.self_attn.out_proj.weight', 'model.vision_tower.LanguageBin
+dVideo.vision_model.encoder.layers.19.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision
+_model.encoder.layers.19.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.enco
+der.layers.19.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.19
+.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.19.temporal_a
+ttn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.19.temporal_attn.k_pro
+j.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.19.temporal_attn.out_proj.bia
+s', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.19.temporal_attn.out_proj.weight', '
+model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.19.temporal_attn.q_proj.bias', 'model.vis
+ion_tower.LanguageBindVideo.vision_model.encoder.layers.19.temporal_attn.q_proj.weight', 'model.vision_tow
+er.LanguageBindVideo.vision_model.encoder.layers.19.temporal_attn.v_proj.bias', 'model.vision_tower.Langua
+geBindVideo.vision_model.encoder.layers.19.temporal_attn.v_proj.weight', 'model.vision_tower.LanguageBindV
+ideo.vision_model.encoder.layers.19.temporal_embedding', 'model.vision_tower.LanguageBindVideo.vision_mode
+l.encoder.layers.19.temporal_layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder
+.layers.19.temporal_layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers
+.2.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.2.layer_norm1.weig
+ht', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.2.layer_norm2.bias', 'model.vision_
+tower.LanguageBindVideo.vision_model.encoder.layers.2.layer_norm2.weight', 'model.vision_tower.LanguageBin
+dVideo.vision_model.encoder.layers.2.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.enc
+oder.layers.2.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.2.mlp.fc2
+.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.2.mlp.fc2.weight', 'model.vision
+_tower.LanguageBindVideo.vision_model.encoder.layers.2.self_attn.k_proj.bias', 'model.vision_tower.Languag
+eBindVideo.vision_model.encoder.layers.2.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.v
+ision_model.encoder.layers.2.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.
+encoder.layers.2.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.la
+yers.2.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.2.self_at
+tn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.2.self_attn.v_proj.bi
+as', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.2.self_attn.v_proj.weight', 'model.
+vision_tower.LanguageBindVideo.vision_model.encoder.layers.2.temporal_attn.k_proj.bias', 'model.vision_tow
+er.LanguageBindVideo.vision_model.encoder.layers.2.temporal_attn.k_proj.weight', 'model.vision_tower.Langu
+ageBindVideo.vision_model.encoder.layers.2.temporal_attn.out_proj.bias', 'model.vision_tower.LanguageBindV
+ideo.vision_model.encoder.layers.2.temporal_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.v
+ision_model.encoder.layers.2.temporal_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_mode
+l.encoder.layers.2.temporal_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encode
+r.layers.2.temporal_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.2
+.temporal_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.2.tempora
+l_embedding', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.2.temporal_layer_norm1.bia
+s', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.2.temporal_layer_norm1.weight', 'mod
+el.vision_tower.LanguageBindVideo.vision_model.encoder.layers.20.layer_norm1.bias', 'model.vision_tower.La
+nguageBindVideo.vision_model.encoder.layers.20.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.
+vision_model.encoder.layers.20.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encod
+er.layers.20.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.20.mlp
+.fc1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.20.mlp.fc1.weight', 'model.v
+ision_tower.LanguageBindVideo.vision_model.encoder.layers.20.mlp.fc2.bias', 'model.vision_tower.LanguageBi
+ndVideo.vision_model.encoder.layers.20.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.vision_model
+.encoder.layers.20.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.laye
+rs.20.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.20.self_
+attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.20.self_attn.out_pr
+oj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.20.self_attn.q_proj.bias', '
+model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.20.self_attn.q_proj.weight', 'model.visio
+n_tower.LanguageBindVideo.vision_model.encoder.layers.20.self_attn.v_proj.bias', 'model.vision_tower.Langu
+ageBindVideo.vision_model.encoder.layers.20.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVide
+o.vision_model.encoder.layers.20.temporal_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_
+model.encoder.layers.20.temporal_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.e
+ncoder.layers.20.temporal_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.
+layers.20.temporal_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layer
+s.20.temporal_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.20.temp
+oral_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.20.temporal_at
+tn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.20.temporal_attn.v_proj
+.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.20.temporal_embedding', 'model
+.vision_tower.LanguageBindVideo.vision_model.encoder.layers.20.temporal_layer_norm1.bias', 'model.vision_t
+ower.LanguageBindVideo.vision_model.encoder.layers.20.temporal_layer_norm1.weight', 'model.vision_tower.La
+nguageBindVideo.vision_model.encoder.layers.21.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vi
+sion_model.encoder.layers.21.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encod
+er.layers.21.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.layer
+_norm2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.mlp.fc1.bias', 'model
+.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.mlp.fc1.weight', 'model.vision_tower.Langua
+geBindVideo.vision_model.encoder.layers.21.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.vision_mod
+el.encoder.layers.21.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21
+.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.self_attn.k_
+proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.self_attn.out_proj.bias
+', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.self_attn.out_proj.weight', 'model
+.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.self_attn.q_proj.bias', 'model.vision_tower
+.LanguageBindVideo.vision_model.encoder.layers.21.self_attn.q_proj.weight', 'model.vision_tower.LanguageBi
+ndVideo.vision_model.encoder.layers.21.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.visio
+n_model.encoder.layers.21.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.enc
+oder.layers.21.temporal_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.laye
+rs.21.temporal_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.t
+emporal_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.temporal
+_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.temporal_attn
+.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.temporal_attn.q_proj.w
+eight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.temporal_attn.v_proj.bias', '
+model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.temporal_attn.v_proj.weight', 'model.v
+ision_tower.LanguageBindVideo.vision_model.encoder.layers.21.temporal_embedding', 'model.vision_tower.Lang
+uageBindVideo.vision_model.encoder.layers.21.temporal_layer_norm1.bias', 'model.vision_tower.LanguageBindV
+ideo.vision_model.encoder.layers.21.temporal_layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vi
+sion_model.encoder.layers.22.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder
+.layers.22.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.22.layer
+_norm2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.22.layer_norm2.weight', 'm
+odel.vision_tower.LanguageBindVideo.vision_model.encoder.layers.22.mlp.fc1.bias', 'model.vision_tower.Lang
+uageBindVideo.vision_model.encoder.layers.22.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.vision
+_model.encoder.layers.22.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.
+22.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.22.self_attn.k_proj.
+bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.22.self_attn.k_proj.weight', 'mod
+el.vision_tower.LanguageBindVideo.vision_model.encoder.layers.22.self_attn.out_proj.bias', 'model.vision_t
+ower.LanguageBindVideo.vision_model.encoder.layers.22.self_attn.out_proj.weight', 'model.vision_tower.Lang
+uageBindVideo.vision_model.encoder.layers.22.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo
+.vision_model.encoder.layers.22.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_mod
+el.encoder.layers.22.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.la
+yers.22.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.22.tem
+poral_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.22.temporal_att
+n.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.22.temporal_attn.out_p
+roj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.22.temporal_attn.out_proj.wei
+ght', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.22.temporal_attn.q_proj.bias', 'mo
+del.vision_tower.LanguageBindVideo.vision_model.encoder.layers.22.temporal_attn.q_proj.weight', 'model.vis
+ion_tower.LanguageBindVideo.vision_model.encoder.layers.22.temporal_attn.v_proj.bias', 'model.vision_tower
+.LanguageBindVideo.vision_model.encoder.layers.22.temporal_attn.v_proj.weight', 'model.vision_tower.Langua
+geBindVideo.vision_model.encoder.layers.22.temporal_embedding', 'model.vision_tower.LanguageBindVideo.visi
+on_model.encoder.layers.22.temporal_layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.
+encoder.layers.22.temporal_layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder
+.layers.23.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.23.layer_n
+orm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.23.layer_norm2.bias', 'mod
+el.vision_tower.LanguageBindVideo.vision_model.encoder.layers.23.layer_norm2.weight', 'model.vision_tower.
+LanguageBindVideo.vision_model.encoder.layers.23.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.visi
+on_model.encoder.layers.23.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.lay
+ers.23.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.23.mlp.fc2.weight'
+, 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.23.self_attn.k_proj.bias', 'model.visi
+on_tower.LanguageBindVideo.vision_model.encoder.layers.23.self_attn.k_proj.weight', 'model.vision_tower.La
+nguageBindVideo.vision_model.encoder.layers.23.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindV
+ideo.vision_model.encoder.layers.23.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.visi
+on_model.encoder.layers.23.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.enco
+der.layers.23.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.
+23.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.23.self_attn.
+v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.23.temporal_attn.k_proj.
+bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.23.temporal_attn.k_proj.weight',
+'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.23.temporal_attn.out_proj.bias', 'model.
+vision_tower.LanguageBindVideo.vision_model.encoder.layers.23.temporal_attn.out_proj.weight', 'model.visio
+n_tower.LanguageBindVideo.vision_model.encoder.layers.23.temporal_attn.q_proj.bias', 'model.vision_tower.L
+anguageBindVideo.vision_model.encoder.layers.23.temporal_attn.q_proj.weight', 'model.vision_tower.Language
+BindVideo.vision_model.encoder.layers.23.temporal_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo
+.vision_model.encoder.layers.23.temporal_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision
+_model.encoder.layers.23.temporal_embedding', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.l
+ayers.23.temporal_layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.23.
+temporal_layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.layer_no
+rm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.layer_norm1.weight', 'model
+.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.layer_norm2.bias', 'model.vision_tower.Langu
+ageBindVideo.vision_model.encoder.layers.3.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.visi
+on_model.encoder.layers.3.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers
+.3.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.mlp.fc2.bias', 'mo
+del.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.mlp.fc2.weight', 'model.vision_tower.Lang
+uageBindVideo.vision_model.encoder.layers.3.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.
+vision_model.encoder.layers.3.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model
+.encoder.layers.3.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.lay
+ers.3.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.self
+_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.self_attn.q_proj.w
+eight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.self_attn.v_proj.bias', 'model
+.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.self_attn.v_proj.weight', 'model.vision_towe
+r.LanguageBindVideo.vision_model.encoder.layers.3.temporal_attn.k_proj.bias', 'model.vision_tower.Language
+BindVideo.vision_model.encoder.layers.3.temporal_attn.k_proj.weight', 'model.vision_tower.LanguageBindVide
+o.vision_model.encoder.layers.3.temporal_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision
+_model.encoder.layers.3.temporal_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model
+.encoder.layers.3.temporal_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.l
+ayers.3.temporal_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.
+temporal_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.temporal_a
+ttn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.temporal_embedding
+', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.temporal_layer_norm1.bias', 'model.
+vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.temporal_layer_norm1.weight', 'model.vision_t
+ower.LanguageBindVideo.vision_model.encoder.layers.4.layer_norm1.bias', 'model.vision_tower.LanguageBindVi
+deo.vision_model.encoder.layers.4.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.
+encoder.layers.4.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.la
+yer_norm2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.mlp.fc1.bias', 'mod
+el.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.mlp.fc1.weight', 'model.vision_tower.Langu
+ageBindVideo.vision_model.encoder.layers.4.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.vision_mod
+el.encoder.layers.4.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.s
+elf_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.self_attn.k_pro
+j.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.self_attn.out_proj.bias', '
+model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.self_attn.out_proj.weight', 'model.visi
+on_tower.LanguageBindVideo.vision_model.encoder.layers.4.self_attn.q_proj.bias', 'model.vision_tower.Langu
+ageBindVideo.vision_model.encoder.layers.4.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo
+.vision_model.encoder.layers.4.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.
+encoder.layers.4.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.laye
+rs.4.temporal_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.tempo
+ral_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.temporal_attn
+.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.temporal_attn.out_pro
+j.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.temporal_attn.q_proj.bias',
+ 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.temporal_attn.q_proj.weight', 'model.
+vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.temporal_attn.v_proj.bias', 'model.vision_tow
+er.LanguageBindVideo.vision_model.encoder.layers.4.temporal_attn.v_proj.weight', 'model.vision_tower.Langu
+ageBindVideo.vision_model.encoder.layers.4.temporal_embedding', 'model.vision_tower.LanguageBindVideo.visi
+on_model.encoder.layers.4.temporal_layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.e
+ncoder.layers.4.temporal_layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.l
+ayers.5.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.5.layer_norm1
+.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.5.layer_norm2.bias', 'model.vi
+sion_tower.LanguageBindVideo.vision_model.encoder.layers.5.layer_norm2.weight', 'model.vision_tower.Langua
+geBindVideo.vision_model.encoder.layers.5.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.vision_mode
+l.encoder.layers.5.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.5.ml
+p.fc2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.5.mlp.fc2.weight', 'model.v
+ision_tower.LanguageBindVideo.vision_model.encoder.layers.5.self_attn.k_proj.bias', 'model.vision_tower.La
+nguageBindVideo.vision_model.encoder.layers.5.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVi
+deo.vision_model.encoder.layers.5.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_m
+odel.encoder.layers.5.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encod
+er.layers.5.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.5.se
+lf_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.5.self_attn.v_pr
+oj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.5.self_attn.v_proj.weight', 'm
+odel.vision_tower.LanguageBindVideo.vision_model.encoder.layers.5.temporal_attn.k_proj.bias', 'model.visio
+n_tower.LanguageBindVideo.vision_model.encoder.layers.5.temporal_attn.k_proj.weight', 'model.vision_tower.
+LanguageBindVideo.vision_model.encoder.layers.5.temporal_attn.out_proj.bias', 'model.vision_tower.Language
+BindVideo.vision_model.encoder.layers.5.temporal_attn.out_proj.weight', 'model.vision_tower.LanguageBindVi
+deo.vision_model.encoder.layers.5.temporal_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision
+_model.encoder.layers.5.temporal_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.e
+ncoder.layers.5.temporal_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.lay
+ers.5.temporal_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.5.te
+mporal_embedding', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.5.temporal_layer_norm
+1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.5.temporal_layer_norm1.weight',
+ 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.6.layer_norm1.bias', 'model.vision_towe
+r.LanguageBindVideo.vision_model.encoder.layers.6.layer_norm1.weight', 'model.vision_tower.LanguageBindVid
+eo.vision_model.encoder.layers.6.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.enc
+oder.layers.6.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.6.mlp
+.fc1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.6.mlp.fc1.weight', 'model.vi
+sion_tower.LanguageBindVideo.vision_model.encoder.layers.6.mlp.fc2.bias', 'model.vision_tower.LanguageBind
+Video.vision_model.encoder.layers.6.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.en
+coder.layers.6.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.6
+.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.6.self_attn.o
+ut_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.6.self_attn.out_proj.weig
+ht', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.6.self_attn.q_proj.bias', 'model.vi
+sion_tower.LanguageBindVideo.vision_model.encoder.layers.6.self_attn.q_proj.weight', 'model.vision_tower.L
+anguageBindVideo.vision_model.encoder.layers.6.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVid
+eo.vision_model.encoder.layers.6.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_mo
+del.encoder.layers.6.temporal_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encode
+r.layers.6.temporal_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers
+.6.temporal_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.6.tempo
+ral_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.6.temporal_at
+tn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.6.temporal_attn.q_proj.
+weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.6.temporal_attn.v_proj.bias', '
+model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.6.temporal_attn.v_proj.weight', 'model.vi
+sion_tower.LanguageBindVideo.vision_model.encoder.layers.6.temporal_embedding', 'model.vision_tower.Langua
+geBindVideo.vision_model.encoder.layers.6.temporal_layer_norm1.bias', 'model.vision_tower.LanguageBindVide
+o.vision_model.encoder.layers.6.temporal_layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision
+_model.encoder.layers.7.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.laye
+rs.7.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.7.layer_norm2.
+bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.7.layer_norm2.weight', 'model.vis
+ion_tower.LanguageBindVideo.vision_model.encoder.layers.7.mlp.fc1.bias', 'model.vision_tower.LanguageBindV
+ideo.vision_model.encoder.layers.7.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.enc
+oder.layers.7.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.7.mlp.fc2.w
+eight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.7.self_attn.k_proj.bias', 'model
+.vision_tower.LanguageBindVideo.vision_model.encoder.layers.7.self_attn.k_proj.weight', 'model.vision_towe
+r.LanguageBindVideo.vision_model.encoder.layers.7.self_attn.out_proj.bias', 'model.vision_tower.LanguageBi
+ndVideo.vision_model.encoder.layers.7.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vi
+sion_model.encoder.layers.7.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.enc
+oder.layers.7.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.
+7.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.7.self_attn.v_
+proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.7.temporal_attn.k_proj.bia
+s', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.7.temporal_attn.k_proj.weight', 'mod
+el.vision_tower.LanguageBindVideo.vision_model.encoder.layers.7.temporal_attn.out_proj.bias', 'model.visio
+n_tower.LanguageBindVideo.vision_model.encoder.layers.7.temporal_attn.out_proj.weight', 'model.vision_towe
+r.LanguageBindVideo.vision_model.encoder.layers.7.temporal_attn.q_proj.bias', 'model.vision_tower.Language
+BindVideo.vision_model.encoder.layers.7.temporal_attn.q_proj.weight', 'model.vision_tower.LanguageBindVide
+o.vision_model.encoder.layers.7.temporal_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_m
+odel.encoder.layers.7.temporal_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.enc
+oder.layers.7.temporal_embedding', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.7.tem
+poral_layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.7.temporal_laye
+r_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.8.layer_norm1.bias', 'm
+odel.vision_tower.LanguageBindVideo.vision_model.encoder.layers.8.layer_norm1.weight', 'model.vision_tower
+.LanguageBindVideo.vision_model.encoder.layers.8.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.
+vision_model.encoder.layers.8.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.enco
+der.layers.8.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.8.mlp.fc1.we
+ight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.8.mlp.fc2.bias', 'model.vision_to
+wer.LanguageBindVideo.vision_model.encoder.layers.8.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo
+.vision_model.encoder.layers.8.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.
+encoder.layers.8.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.laye
+rs.8.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.8.self_at
+tn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.8.self_attn.q_proj.
+bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.8.self_attn.q_proj.weight', 'mode
+l.vision_tower.LanguageBindVideo.vision_model.encoder.layers.8.self_attn.v_proj.bias', 'model.vision_tower
+.LanguageBindVideo.vision_model.encoder.layers.8.self_attn.v_proj.weight', 'model.vision_tower.LanguageBin
+dVideo.vision_model.encoder.layers.8.temporal_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vis
+ion_model.encoder.layers.8.temporal_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_mode
+l.encoder.layers.8.temporal_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encode
+r.layers.8.temporal_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.laye
+rs.8.temporal_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.8.tempo
+ral_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.8.temporal_attn
+.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.8.temporal_attn.v_proj.we
+ight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.8.temporal_embedding', 'model.vis
+ion_tower.LanguageBindVideo.vision_model.encoder.layers.8.temporal_layer_norm1.bias', 'model.vision_tower.
+LanguageBindVideo.vision_model.encoder.layers.8.temporal_layer_norm1.weight', 'model.vision_tower.Language
+BindVideo.vision_model.encoder.layers.9.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_mo
+del.encoder.layers.9.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layer
+s.9.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.9.layer_norm2.wei
+ght', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.9.mlp.fc1.bias', 'model.vision_tow
+er.LanguageBindVideo.vision_model.encoder.layers.9.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.
+vision_model.encoder.layers.9.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.la
+yers.9.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.9.self_attn.k_pr
+oj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.9.self_attn.k_proj.weight', 'm
+odel.vision_tower.LanguageBindVideo.vision_model.encoder.layers.9.self_attn.out_proj.bias', 'model.vision_
+tower.LanguageBindVideo.vision_model.encoder.layers.9.self_attn.out_proj.weight', 'model.vision_tower.Lang
+uageBindVideo.vision_model.encoder.layers.9.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.
+vision_model.encoder.layers.9.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model
+.encoder.layers.9.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layer
+s.9.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.9.temporal
+_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.9.temporal_attn.k_pr
+oj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.9.temporal_attn.out_proj.bia
+s', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.9.temporal_attn.out_proj.weight', 'm
+odel.vision_tower.LanguageBindVideo.vision_model.encoder.layers.9.temporal_attn.q_proj.bias', 'model.visio
+n_tower.LanguageBindVideo.vision_model.encoder.layers.9.temporal_attn.q_proj.weight', 'model.vision_tower.
+LanguageBindVideo.vision_model.encoder.layers.9.temporal_attn.v_proj.bias', 'model.vision_tower.LanguageBi
+ndVideo.vision_model.encoder.layers.9.temporal_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.
+vision_model.encoder.layers.9.temporal_embedding', 'model.vision_tower.LanguageBindVideo.vision_model.enco
+der.layers.9.temporal_layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers
+.9.temporal_layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.post_layernorm.bias',
+'model.vision_tower.LanguageBindVideo.vision_model.post_layernorm.weight', 'model.vision_tower.LanguageBin
+dVideo.vision_model.pre_layrnorm.bias', 'model.vision_tower.LanguageBindVideo.vision_model.pre_layrnorm.we
+ight', 'model.vision_tower.LanguageBindVideo.visual_projection.weight']
+- This IS expected if you are initializing EagleLlamaForCausalLM from the checkpoint of a model trained on
+ another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a
+ BertForPreTraining model).
+- This IS NOT expected if you are initializing EagleLlamaForCausalLM from the checkpoint of a model that y
+ou expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequen
+ceClassification model).
+2025-01-08 11:07:11.271 | INFO     | lmms_eval.api.task:build_all_requests:425 - Building contexts for act
+ivitynetqa on rank 0...
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████
+██████████████████████████████████████████████████████████████████████████████████████████████████████████
+█████████████████████████| 8000/8000 [00:00<00:00, 75261.49it/s]
+2025-01-08 11:07:11.620 | INFO     | lmms_eval.evaluator:evaluate:446 - Running generate_until requests
+Model Responding:   0%|
+
+                                       | 0/8000 [00:00<?, ?it/s]Starting from v4.46, the `logits` model ou
+tput will have the same type as the model (except at train time, where it will always be FP32)
+Model Responding:   0%|
+
+                             | 1/8000 [00:01<4:16:36,  1.92s/it]['Male.']
+Model Responding:   0%|
+
+                             | 2/8000 [00:02<2:41:29,  1.21s/it]['Male.', "The horse's leg is black."]
+Model Responding:   0%|
+
+                             | 3/8000 [00:04<3:01:15,  1.36s/it]['Male.', "The horse's leg is black.", 'Th
+e word on the wall is blue.']
+Model Responding:   0%|
+
+                             | 4/8000 [00:05<2:43:48,  1.23s/it]['Male.', "The horse's leg is black.", 'Th
+e word on the wall is blue.', 'The black and white jacket is placed on the table.']
+Model Responding:   0%|▏
+
+                             | 5/8000 [00:06<3:01:44,  1.36s/it]['Male.', "The horse's leg is black.", 'Th
+e word on the wall is blue.', 'The black and white jacket is placed on the table.', 'The person on the lef
+t side of the bald head is holding a beer.']
+Model Responding:   0%|▏
+
+                             | 6/8000 [00:07<2:30:53,  1.13s/it]['Male.', "The horse's leg is black.", 'Th
+e word on the wall is blue.', 'The black and white jacket is placed on the table.', 'The person on the lef
+t side of the bald head is holding a beer.', 'Male.']
+Model Responding:   0%|▏
+
+                             | 7/8000 [00:14<7:07:42,  3.21s/it]['Male.', "The horse's leg is black.", 'Th
+e word on the wall is blue.', 'The black and white jacket is placed on the table.', 'The person on the lef
+t side of the bald head is holding a beer.', 'Male.', 'The person who started wearing blue clothes is the
+one who is riding the camel.']
+Model Responding:   0%|▏
+
+                             | 8/8000 [00:16<5:37:49,  2.54s/it]['Male.', "The horse's leg is black.", 'Th
+e word on the wall is blue.', 'The black and white jacket is placed on the table.', 'The person on the lef
+t side of the bald head is holding a beer.', 'Male.', 'The person who started wearing blue clothes is the
+one who is riding the camel.', 'The woman with yellow hair first takes a hairpin.']
+Model Responding:   0%|▏
+
+                             | 9/8000 [00:16<4:19:21,  1.95s/it]['Male.', "The horse's leg is black.", 'Th
+e word on the wall is blue.', 'The black and white jacket is placed on the table.', 'The person on the lef
+t side of the bald head is holding a beer.', 'Male.', 'The person who started wearing blue clothes is the
+one who is riding the camel.', 'The woman with yellow hair first takes a hairpin.', 'Yes, the container is
+ darkened when the liquid in the smoking container is used up.']
+Model Responding:   0%|▎
+
+                            | 10/8000 [00:19<4:39:07,  2.10s/it]['Male.', "The horse's leg is black.", 'Th
+e word on the wall is blue.', 'The black and white jacket is placed on the table.', 'The person on the lef
+t side of the bald head is holding a beer.', 'Male.', 'The person who started wearing blue clothes is the
+one who is riding the camel.', 'The woman with yellow hair first takes a hairpin.', 'Yes, the container is
+ darkened when the liquid in the smoking container is used up.', 'The blue shoe trainer was used to hold t
+he frisbee before the dog was trained to take it.']
+Model Responding:   0%|▎
+
+                            | 11/8000 [00:20<4:13:14,  1.90s/it]['Male.', "The horse's leg is black.", 'Th
+e word on the wall is blue.', 'The black and white jacket is placed on the table.', 'The person on the lef
+t side of the bald head is holding a beer.', 'Male.', 'The person who started wearing blue clothes is the
+one who is riding the camel.', 'The woman with yellow hair first takes a hairpin.', 'Yes, the container is
+ darkened when the liquid in the smoking container is used up.', 'The blue shoe trainer was used to hold t
+he frisbee before the dog was trained to take it.', 'The first person fed the fish and then they swam away
+.']
+Model Responding:   0%|▎
+
+                            | 12/8000 [00:21<3:28:07,  1.56s/it]['Male.', "The horse's leg is black.", 'Th
+e word on the wall is blue.', 'The black and white jacket is placed on the table.', 'The person on the lef
+t side of the bald head is holding a beer.', 'Male.', 'The person who started wearing blue clothes is the
+one who is riding the camel.', 'The woman with yellow hair first takes a hairpin.', 'Yes, the container is
+ darkened when the liquid in the smoking container is used up.', 'The blue shoe trainer was used to hold t
+he frisbee before the dog was trained to take it.', 'The first person fed the fish and then they swam away
+.', 'He fell off the boat.']
+Model Responding:   0%|▎
+
+                            | 13/8000 [00:22<3:03:02,  1.37s/it]['Male.', "The horse's leg is black.", 'Th
+e word on the wall is blue.', 'The black and white jacket is placed on the table.', 'The person on the lef
+t side of the bald head is holding a beer.', 'Male.', 'The person who started wearing blue clothes is the
+one who is riding the camel.', 'The woman with yellow hair first takes a hairpin.', 'Yes, the container is
+ darkened when the liquid in the smoking container is used up.', 'The blue shoe trainer was used to hold t
+he frisbee before the dog was trained to take it.', 'The first person fed the fish and then they swam away
+.', 'He fell off the boat.', 'The person in the white threw a punch at the man in front of him.']
+Model Responding:   0%|▍
+
+                            | 14/8000 [00:23<2:41:28,  1.21s/it]['Male.', "The horse's leg is black.", 'Th
+e word on the wall is blue.', 'The black and white jacket is placed on the table.', 'The person on the lef
+t side of the bald head is holding a beer.', 'Male.', 'The person who started wearing blue clothes is the
+one who is riding the camel.', 'The woman with yellow hair first takes a hairpin.', 'Yes, the container is
+ darkened when the liquid in the smoking container is used up.', 'The blue shoe trainer was used to hold t
+he frisbee before the dog was trained to take it.', 'The first person fed the fish and then they swam away
+.', 'He fell off the boat.', 'The person in the white threw a punch at the man in front of him.', 'Black.'
+]
+Model Responding:   0%|▍
+
+                            | 15/8000 [00:23<2:17:58,  1.04s/it]['Male.', "The horse's leg is black.", 'Th
+e word on the wall is blue.', 'The black and white jacket is placed on the table.', 'The person on the lef
+t side of the bald head is holding a beer.', 'Male.', 'The person who started wearing blue clothes is the
+one who is riding the camel.', 'The woman with yellow hair first takes a hairpin.', 'Yes, the container is
+ darkened when the liquid in the smoking container is used up.', 'The blue shoe trainer was used to hold t
+he frisbee before the dog was trained to take it.', 'The first person fed the fish and then they swam away
+.', 'He fell off the boat.', 'The person in the white threw a punch at the man in front of him.', 'Black.'
+, 'The person who started wearing red clothes at the beginning of the video is a man.']
+Model Responding:   0%|▍
+
+                            | 16/8000 [00:24<1:50:11,  1.21it/s]['Male.', "The horse's leg is black.", 'Th
+e word on the wall is blue.', 'The black and white jacket is placed on the table.', 'The person on the lef
+t side of the bald head is holding a beer.', 'Male.', 'The person who started wearing blue clothes is the
+one who is riding the camel.', 'The woman with yellow hair first takes a hairpin.', 'Yes, the container is
+ darkened when the liquid in the smoking container is used up.', 'The blue shoe trainer was used to hold t
+he frisbee before the dog was trained to take it.', 'The first person fed the fish and then they swam away
+.', 'He fell off the boat.', 'The person in the white threw a punch at the man in front of him.', 'Black.'
+, 'The person who started wearing red clothes at the beginning of the video is a man.', 'The things under
+the feet of the purple dressed person are a ball.']
+Model Responding:   0%|▍
+
+                            | 17/8000 [00:25<1:57:37,  1.13it/s]['Male.', "The horse's leg is black.", 'Th
+e word on the wall is blue.', 'The black and white jacket is placed on the table.', 'The person on the lef
+t side of the bald head is holding a beer.', 'Male.', 'The person who started wearing blue clothes is the
+one who is riding the camel.', 'The woman with yellow hair first takes a hairpin.', 'Yes, the container is
+ darkened when the liquid in the smoking container is used up.', 'The blue shoe trainer was used to hold t
+he frisbee before the dog was trained to take it.', 'The first person fed the fish and then they swam away
+.', 'He fell off the boat.', 'The person in the white threw a punch at the man in front of him.', 'Black.'
+, 'The person who started wearing red clothes at the beginning of the video is a man.', 'The things under
+the feet of the purple dressed person are a ball.', 'The person wearing a hat is wearing a hat.']
+Model Responding:   0%|▍
+
+                            | 18/8000 [00:26<2:03:16,  1.08it/s]['Male.', "The horse's leg is black.", 'Th
+e word on the wall is blue.', 'The black and white jacket is placed on the table.', 'The person on the lef
+t side of the bald head is holding a beer.', 'Male.', 'The person who started wearing blue clothes is the
+one who is riding the camel.', 'The woman with yellow hair first takes a hairpin.', 'Yes, the container is
+ darkened when the liquid in the smoking container is used up.', 'The blue shoe trainer was used to hold t
+he frisbee before the dog was trained to take it.', 'The first person fed the fish and then they swam away
+.', 'He fell off the boat.', 'The person in the white threw a punch at the man in front of him.', 'Black.'
+, 'The person who started wearing red clothes at the beginning of the video is a man.', 'The things under
+the feet of the purple dressed person are a ball.', 'The person wearing a hat is wearing a hat.', 'Yes, th
+e person in the video throws the bowl out and lets the dog hold it back.']
+Model Responding:   0%|▌
+
+                            | 19/8000 [00:27<2:06:19,  1.05it/s]['Male.', "The horse's leg is black.", 'Th
+e word on the wall is blue.', 'The black and white jacket is placed on the table.', 'The person on the lef
+t side of the bald head is holding a beer.', 'Male.', 'The person who started wearing blue clothes is the
+one who is riding the camel.', 'The woman with yellow hair first takes a hairpin.', 'Yes, the container is
+ darkened when the liquid in the smoking container is used up.', 'The blue shoe trainer was used to hold t
+he frisbee before the dog was trained to take it.', 'The first person fed the fish and then they swam away
+.', 'He fell off the boat.', 'The person in the white threw a punch at the man in front of him.', 'Black.'
+, 'The person who started wearing red clothes at the beginning of the video is a man.', 'The things under
+the feet of the purple dressed person are a ball.', 'The person wearing a hat is wearing a hat.', 'Yes, th
+e person in the video throws the bowl out and lets the dog hold it back.', 'Yes, the person in the video t
+hrows the dishes out and lets the dogs hold them back.']
+Model Responding:   0%|▌
+
+                            | 20/8000 [00:28<2:07:07,  1.05it/s]['Male.', "The horse's leg is black.", 'Th
+e word on the wall is blue.', 'The black and white jacket is placed on the table.', 'The person on the lef
+t side of the bald head is holding a beer.', 'Male.', 'The person who started wearing blue clothes is the
+one who is riding the camel.', 'The woman with yellow hair first takes a hairpin.', 'Yes, the container is
+ darkened when the liquid in the smoking container is used up.', 'The blue shoe trainer was used to hold t
+he frisbee before the dog was trained to take it.', 'The first person fed the fish and then they swam away
+.', 'He fell off the boat.', 'The person in the white threw a punch at the man in front of him.', 'Black.'
+, 'The person who started wearing red clothes at the beginning of the video is a man.', 'The things under
+the feet of the purple dressed person are a ball.', 'The person wearing a hat is wearing a hat.', 'Yes, th
+e person in the video throws the bowl out and lets the dog hold it back.', 'Yes, the person in the video t
+hrows the dishes out and lets the dogs hold them back.', 'The person in the video wipes the table with the
+ left hand.']
+Model Responding:   0%|▌
+
+                            | 21/8000 [00:28<1:55:26,  1.15it/s]['Male.', "The horse's leg is black.", 'Th
+e word on the wall is blue.', 'The black and white jacket is placed on the table.', 'The person on the lef
+t side of the bald head is holding a beer.', 'Male.', 'The person who started wearing blue clothes is the
+one who is riding the camel.', 'The woman with yellow hair first takes a hairpin.', 'Yes, the container is
+ darkened when the liquid in the smoking container is used up.', 'The blue shoe trainer was used to hold t
+he frisbee before the dog was trained to take it.', 'The first person fed the fish and then they swam away
+.', 'He fell off the boat.', 'The person in the white threw a punch at the man in front of him.', 'Black.'
+, 'The person who started wearing red clothes at the beginning of the video is a man.', 'The things under
+the feet of the purple dressed person are a ball.', 'The person wearing a hat is wearing a hat.', 'Yes, th
+e person in the video throws the bowl out and lets the dog hold it back.', 'Yes, the person in the video t
+hrows the dishes out and lets the dogs hold them back.', 'The person in the video wipes the table with the
+ left hand.', 'Yes.']
+Model Responding:   0%|▌
+
+                            | 22/8000 [00:29<1:35:50,  1.39it/s]['Male.', "The horse's leg is black.", 'Th
+e word on the wall is blue.', 'The black and white jacket is placed on the table.', 'The person on the lef
+t side of the bald head is holding a beer.', 'Male.', 'The person who started wearing blue clothes is the
+one who is riding the camel.', 'The woman with yellow hair first takes a hairpin.', 'Yes, the container is
+ darkened when the liquid in the smoking container is used up.', 'The blue shoe trainer was used to hold t
+he frisbee before the dog was trained to take it.', 'The first person fed the fish and then they swam away
+.', 'He fell off the boat.', 'The person in the white threw a punch at the man in front of him.', 'Black.'
+, 'The person who started wearing red clothes at the beginning of the video is a man.', 'The things under
+the feet of the purple dressed person are a ball.', 'The person wearing a hat is wearing a hat.', 'Yes, th
+e person in the video throws the bowl out and lets the dog hold it back.', 'Yes, the person in the video t
+hrows the dishes out and lets the dogs hold them back.', 'The person in the video wipes the table with the
+ left hand.', 'Yes.', 'Nothing happened.']
+Model Responding:   0%|▌
+
+                            | 23/8000 [00:32<3:26:03,  1.55s/it]['Male.', "The horse's leg is black.", 'Th
+e word on the wall is blue.', 'The black and white jacket is placed on the table.', 'The person on the lef
+t side of the bald head is holding a beer.', 'Male.', 'The person who started wearing blue clothes is the
+one who is riding the camel.', 'The woman with yellow hair first takes a hairpin.', 'Yes, the container is
+ darkened when the liquid in the smoking container is used up.', 'The blue shoe trainer was used to hold t
+he frisbee before the dog was trained to take it.', 'The first person fed the fish and then they swam away
+.', 'He fell off the boat.', 'The person in the white threw a punch at the man in front of him.', 'Black.'
+, 'The person who started wearing red clothes at the beginning of the video is a man.', 'The things under
+the feet of the purple dressed person are a ball.', 'The person wearing a hat is wearing a hat.', 'Yes, th
+e person in the video throws the bowl out and lets the dog hold it back.', 'Yes, the person in the video t
+hrows the dishes out and lets the dogs hold them back.', 'The person in the video wipes the table with the
+ left hand.', 'Yes.', 'Nothing happened.', 'They both fell down.']
+Model Responding:   0%|▋
+
+                            | 24/8000 [00:33<2:44:53,  1.24s/it]['Male.', "The horse's leg is black.", 'Th
+e word on the wall is blue.', 'The black and white jacket is placed on the table.', 'The person on the lef
+t side of the bald head is holding a beer.', 'Male.', 'The person who started wearing blue clothes is the
+one who is riding the camel.', 'The woman with yellow hair first takes a hairpin.', 'Yes, the container is
+ darkened when the liquid in the smoking container is used up.', 'The blue shoe trainer was used to hold t
+he frisbee before the dog was trained to take it.', 'The first person fed the fish and then they swam away
+.', 'He fell off the boat.', 'The person in the white threw a punch at the man in front of him.', 'Black.'
+, 'The person who started wearing red clothes at the beginning of the video is a man.', 'The things under
+the feet of the purple dressed person are a ball.', 'The person wearing a hat is wearing a hat.', 'Yes, th
+e person in the video throws the bowl out and lets the dog hold it back.', 'Yes, the person in the video t
+hrows the dishes out and lets the dogs hold them back.', 'The person in the video wipes the table with the
+ left hand.', 'Yes.', 'Nothing happened.', 'They both fell down.', 'The boy in red was standing near the o
+ld person in blue.']
+Model Responding:   0%|▋
+
+                            | 25/8000 [00:33<2:16:02,  1.02s/it]['Male.', "The horse's leg is black.", 'Th
+e word on the wall is blue.', 'The black and white jacket is placed on the table.', 'The person on the lef
+t side of the bald head is holding a beer.', 'Male.', 'The person who started wearing blue clothes is the
+one who is riding the camel.', 'The woman with yellow hair first takes a hairpin.', 'Yes, the container is
+ darkened when the liquid in the smoking container is used up.', 'The blue shoe trainer was used to hold t
+he frisbee before the dog was trained to take it.', 'The first person fed the fish and then they swam away
+.', 'He fell off the boat.', 'The person in the white threw a punch at the man in front of him.', 'Black.'
+, 'The person who started wearing red clothes at the beginning of the video is a man.', 'The things under
+the feet of the purple dressed person are a ball.', 'The person wearing a hat is wearing a hat.', 'Yes, th
+e person in the video throws the bowl out and lets the dog hold it back.', 'Yes, the person in the video t
+hrows the dishes out and lets the dogs hold them back.', 'The person in the video wipes the table with the
+ left hand.', 'Yes.', 'Nothing happened.', 'They both fell down.', 'The boy in red was standing near the o
+ld person in blue.', 'The person in white was practicing martial arts before the person in black started.'
+]
+Model Responding:   0%|▋
+
+                            | 26/8000 [00:34<2:01:12,  1.10it/s]['Male.', "The horse's leg is black.", 'Th
+e word on the wall is blue.', 'The black and white jacket is placed on the table.', 'The person on the lef
+t side of the bald head is holding a beer.', 'Male.', 'The person who started wearing blue clothes is the
+one who is riding the camel.', 'The woman with yellow hair first takes a hairpin.', 'Yes, the container is
+ darkened when the liquid in the smoking container is used up.', 'The blue shoe trainer was used to hold t
+he frisbee before the dog was trained to take it.', 'The first person fed the fish and then they swam away
+.', 'He fell off the boat.', 'The person in the white threw a punch at the man in front of him.', 'Black.'
+, 'The person who started wearing red clothes at the beginning of the video is a man.', 'The things under
+the feet of the purple dressed person are a ball.', 'The person wearing a hat is wearing a hat.', 'Yes, th
+e person in the video throws the bowl out and lets the dog hold it back.', 'Yes, the person in the video t
+hrows the dishes out and lets the dogs hold them back.', 'The person in the video wipes the table with the
+ left hand.', 'Yes.', 'Nothing happened.', 'They both fell down.', 'The boy in red was standing near the o
+ld person in blue.', 'The person in white was practicing martial arts before the person in black started.'
+, 'The person in white was practicing for the first time.']
+Model Responding:   0%|▋
+
+                            | 27/8000 [00:36<3:01:49,  1.37s/it]['Male.', "The horse's leg is black.", 'Th
+e word on the wall is blue.', 'The black and white jacket is placed on the table.', 'The person on the lef
+t side of the bald head is holding a beer.', 'Male.', 'The person who started wearing blue clothes is the
+one who is riding the camel.', 'The woman with yellow hair first takes a hairpin.', 'Yes, the container is
+ darkened when the liquid in the smoking container is used up.', 'The blue shoe trainer was used to hold t
+he frisbee before the dog was trained to take it.', 'The first person fed the fish and then they swam away
+.', 'He fell off the boat.', 'The person in the white threw a punch at the man in front of him.', 'Black.'
+, 'The person who started wearing red clothes at the beginning of the video is a man.', 'The things under
+the feet of the purple dressed person are a ball.', 'The person wearing a hat is wearing a hat.', 'Yes, th
+e person in the video throws the bowl out and lets the dog hold it back.', 'Yes, the person in the video t
+hrows the dishes out and lets the dogs hold them back.', 'The person in the video wipes the table with the
+ left hand.', 'Yes.', 'Nothing happened.', 'They both fell down.', 'The boy in red was standing near the o
+ld person in blue.', 'The person in white was practicing martial arts before the person in black started.'
+, 'The person in white was practicing for the first time.', 'The person in white shirt continued to move h
+is hands in a circular motion.']
+Model Responding:   0%|▊
+
+                            | 28/8000 [00:40<4:15:23,  1.92s/it]['Male.', "The horse's leg is black.", 'Th
+e word on the wall is blue.', 'The black and white jacket is placed on the table.', 'The person on the lef
+t side of the bald head is holding a beer.', 'Male.', 'The person who started wearing blue clothes is the
+one who is riding the camel.', 'The woman with yellow hair first takes a hairpin.', 'Yes, the container is
+ darkened when the liquid in the smoking container is used up.', 'The blue shoe trainer was used to hold t
+he frisbee before the dog was trained to take it.', 'The first person fed the fish and then they swam away
+.', 'He fell off the boat.', 'The person in the white threw a punch at the man in front of him.', 'Black.'
+, 'The person who started wearing red clothes at the beginning of the video is a man.', 'The things under
+the feet of the purple dressed person are a ball.', 'The person wearing a hat is wearing a hat.', 'Yes, th
+e person in the video throws the bowl out and lets the dog hold it back.', 'Yes, the person in the video t
+hrows the dishes out and lets the dogs hold them back.', 'The person in the video wipes the table with the
+ left hand.', 'Yes.', 'Nothing happened.', 'They both fell down.', 'The boy in red was standing near the o
+ld person in blue.', 'The person in white was practicing martial arts before the person in black started.'
+, 'The person in white was practicing for the first time.', 'The person in white shirt continued to move h
+is hands in a circular motion.', 'They got out of the water.']
+Model Responding:   0%|▊
+
+                            | 29/8000 [00:40<3:16:08,  1.48s/it]['Male.', "The horse's leg is black.", 'Th
+e word on the wall is blue.', 'The black and white jacket is placed on the table.', 'The person on the lef
+t side of the bald head is holding a beer.', 'Male.', 'The person who started wearing blue clothes is the
+one who is riding the camel.', 'The woman with yellow hair first takes a hairpin.', 'Yes, the container is
+ darkened when the liquid in the smoking container is used up.', 'The blue shoe trainer was used to hold t
+he frisbee before the dog was trained to take it.', 'The first person fed the fish and then they swam away
+.', 'He fell off the boat.', 'The person in the white threw a punch at the man in front of him.', 'Black.'
+, 'The person who started wearing red clothes at the beginning of the video is a man.', 'The things under
+the feet of the purple dressed person are a ball.', 'The person wearing a hat is wearing a hat.', 'Yes, th
+e person in the video throws the bowl out and lets the dog hold it back.', 'Yes, the person in the video t
+hrows the dishes out and lets the dogs hold them back.', 'The person in the video wipes the table with the
+ left hand.', 'Yes.', 'Nothing happened.', 'They both fell down.', 'The boy in red was standing near the o
+ld person in blue.', 'The person in white was practicing martial arts before the person in black started.'
+, 'The person in white was practicing for the first time.', 'The person in white shirt continued to move h
+is hands in a circular motion.', 'They got out of the water.', 'The man sticks his toothbrush on the back
+of the beam in the video.']
+Model Responding:   0%|▊
+
+                            | 30/8000 [00:41<2:51:29,  1.29s/it]['Male.', "The horse's leg is black.", 'Th
+e word on the wall is blue.', 'The black and white jacket is placed on the table.', 'The person on the lef
+t side of the bald head is holding a beer.', 'Male.', 'The person who started wearing blue clothes is the
+one who is riding the camel.', 'The woman with yellow hair first takes a hairpin.', 'Yes, the container is
+ darkened when the liquid in the smoking container is used up.', 'The blue shoe trainer was used to hold t
+he frisbee before the dog was trained to take it.', 'The first person fed the fish and then they swam away
+.', 'He fell off the boat.', 'The person in the white threw a punch at the man in front of him.', 'Black.'
+, 'The person who started wearing red clothes at the beginning of the video is a man.', 'The things under
+the feet of the purple dressed person are a ball.', 'The person wearing a hat is wearing a hat.', 'Yes, th
+e person in the video throws the bowl out and lets the dog hold it back.', 'Yes, the person in the video t
+hrows the dishes out and lets the dogs hold them back.', 'The person in the video wipes the table with the
+ left hand.', 'Yes.', 'Nothing happened.', 'They both fell down.', 'The boy in red was standing near the o
+ld person in blue.', 'The person in white was practicing martial arts before the person in black started.'
+, 'The person in white was practicing for the first time.', 'The person in white shirt continued to move h
+is hands in a circular motion.', 'They got out of the water.', 'The man sticks his toothbrush on the back
+of the beam in the video.', 'The person in blue shorts raises the pole to the top of his head.']
+Model Responding:   0%|▊
+
+                            | 31/8000 [00:41<2:21:54,  1.07s/it]['Male.', "The horse's leg is black.", 'Th
+e word on the wall is blue.', 'The black and white jacket is placed on the table.', 'The person on the lef
+t side of the bald head is holding a beer.', 'Male.', 'The person who started wearing blue clothes is the
+one who is riding the camel.', 'The woman with yellow hair first takes a hairpin.', 'Yes, the container is
+ darkened when the liquid in the smoking container is used up.', 'The blue shoe trainer was used to hold t
+he frisbee before the dog was trained to take it.', 'The first person fed the fish and then they swam away
+.', 'He fell off the boat.', 'The person in the white threw a punch at the man in front of him.', 'Black.'
+, 'The person who started wearing red clothes at the beginning of the video is a man.', 'The things under
+the feet of the purple dressed person are a ball.', 'The person wearing a hat is wearing a hat.', 'Yes, th
+e person in the video throws the bowl out and lets the dog hold it back.', 'Yes, the person in the video t
+hrows the dishes out and lets the dogs hold them back.', 'The person in the video wipes the table with the
+ left hand.', 'Yes.', 'Nothing happened.', 'They both fell down.', 'The boy in red was standing near the o
+ld person in blue.', 'The person in white was practicing martial arts before the person in black started.'
+, 'The person in white was practicing for the first time.', 'The person in white shirt continued to move h
+is hands in a circular motion.', 'They got out of the water.', 'The man sticks his toothbrush on the back
+of the beam in the video.', 'The person in blue shorts raises the pole to the top of his head.', 'The pers
+on with the yellow brush washes the front leg of the horse.']
+Model Responding:   0%|▊
+
+                            | 32/8000 [00:42<2:00:38,  1.10it/s]['Male.', "The horse's leg is black.", 'Th
+e word on the wall is blue.', 'The black and white jacket is placed on the table.', 'The person on the lef
+t side of the bald head is holding a beer.', 'Male.', 'The person who started wearing blue clothes is the
+one who is riding the camel.', 'The woman with yellow hair first takes a hairpin.', 'Yes, the container is
+ darkened when the liquid in the smoking container is used up.', 'The blue shoe trainer was used to hold t
+he frisbee before the dog was trained to take it.', 'The first person fed the fish and then they swam away
+.', 'He fell off the boat.', 'The person in the white threw a punch at the man in front of him.', 'Black.'
+, 'The person who started wearing red clothes at the beginning of the video is a man.', 'The things under
+the feet of the purple dressed person are a ball.', 'The person wearing a hat is wearing a hat.', 'Yes, th
+e person in the video throws the bowl out and lets the dog hold it back.', 'Yes, the person in the video t
+hrows the dishes out and lets the dogs hold them back.', 'The person in the video wipes the table with the
+ left hand.', 'Yes.', 'Nothing happened.', 'They both fell down.', 'The boy in red was standing near the o
+ld person in blue.', 'The person in white was practicing martial arts before the person in black started.'
+, 'The person in white was practicing for the first time.', 'The person in white shirt continued to move h
+is hands in a circular motion.', 'They got out of the water.', 'The man sticks his toothbrush on the back
+of the beam in the video.', 'The person in blue shorts raises the pole to the top of his head.', 'The pers
+on with the yellow brush washes the front leg of the horse.', 'The person who started the video is standin
+g in front of a white car.']
+Model Responding:   0%|▉
+
+                            | 33/8000 [00:43<1:49:56,  1.21it/s]['Male.', "The horse's leg is black.", 'Th
+e word on the wall is blue.', 'The black and white jacket is placed on the table.', 'The person on the lef
+t side of the bald head is holding a beer.', 'Male.', 'The person who started wearing blue clothes is the
+one who is riding the camel.', 'The woman with yellow hair first takes a hairpin.', 'Yes, the container is
+ darkened when the liquid in the smoking container is used up.', 'The blue shoe trainer was used to hold t
+he frisbee before the dog was trained to take it.', 'The first person fed the fish and then they swam away
+.', 'He fell off the boat.', 'The person in the white threw a punch at the man in front of him.', 'Black.'
+, 'The person who started wearing red clothes at the beginning of the video is a man.', 'The things under
+the feet of the purple dressed person are a ball.', 'The person wearing a hat is wearing a hat.', 'Yes, th
+e person in the video throws the bowl out and lets the dog hold it back.', 'Yes, the person in the video t
+hrows the dishes out and lets the dogs hold them back.', 'The person in the video wipes the table with the
+ left hand.', 'Yes.', 'Nothing happened.', 'They both fell down.', 'The boy in red was standing near the o
+ld person in blue.', 'The person in white was practicing martial arts before the person in black started.'
+, 'The person in white was practicing for the first time.', 'The person in white shirt continued to move h
+is hands in a circular motion.', 'They got out of the water.', 'The man sticks his toothbrush on the back
+of the beam in the video.', 'The person in blue shorts raises the pole to the top of his head.', 'The pers
+on with the yellow brush washes the front leg of the horse.', 'The person who started the video is standin
+g in front of a white car.', 'The person in front of the skates is a hockey player.']
+Model Responding:   0%|▉
+
+                            | 34/8000 [00:43<1:36:57,  1.37it/s]['Male.', "The horse's leg is black.", 'Th
+e word on the wall is blue.', 'The black and white jacket is placed on the table.', 'The person on the lef
+t side of the bald head is holding a beer.', 'Male.', 'The person who started wearing blue clothes is the
+one who is riding the camel.', 'The woman with yellow hair first takes a hairpin.', 'Yes, the container is
+ darkened when the liquid in the smoking container is used up.', 'The blue shoe trainer was used to hold t
+he frisbee before the dog was trained to take it.', 'The first person fed the fish and then they swam away
+.', 'He fell off the boat.', 'The person in the white threw a punch at the man in front of him.', 'Black.'
+, 'The person who started wearing red clothes at the beginning of the video is a man.', 'The things under
+the feet of the purple dressed person are a ball.', 'The person wearing a hat is wearing a hat.', 'Yes, th
+e person in the video throws the bowl out and lets the dog hold it back.', 'Yes, the person in the video t
+hrows the dishes out and lets the dogs hold them back.', 'The person in the video wipes the table with the
+ left hand.', 'Yes.', 'Nothing happened.', 'They both fell down.', 'The boy in red was standing near the o
+ld person in blue.', 'The person in white was practicing martial arts before the person in black started.'
+, 'The person in white was practicing for the first time.', 'The person in white shirt continued to move h
+is hands in a circular motion.', 'They got out of the water.', 'The man sticks his toothbrush on the back
+of the beam in the video.', 'The person in blue shorts raises the pole to the top of his head.', 'The pers
+on with the yellow brush washes the front leg of the horse.', 'The person who started the video is standin
+g in front of a white car.', 'The person in front of the skates is a hockey player.', 'The person wearing
+white clothes is playing tennis.']
+Model Responding:   0%|▉
+
+                            | 35/8000 [00:46<3:20:58,  1.51s/it]['Male.', "The horse's leg is black.", 'Th
+e word on the wall is blue.', 'The black and white jacket is placed on the table.', 'The person on the lef
+t side of the bald head is holding a beer.', 'Male.', 'The person who started wearing blue clothes is the
+one who is riding the camel.', 'The woman with yellow hair first takes a hairpin.', 'Yes, the container is
+ darkened when the liquid in the smoking container is used up.', 'The blue shoe trainer was used to hold t
+he frisbee before the dog was trained to take it.', 'The first person fed the fish and then they swam away
+.', 'He fell off the boat.', 'The person in the white threw a punch at the man in front of him.', 'Black.'
+, 'The person who started wearing red clothes at the beginning of the video is a man.', 'The things under
+the feet of the purple dressed person are a ball.', 'The person wearing a hat is wearing a hat.', 'Yes, th
+e person in the video throws the bowl out and lets the dog hold it back.', 'Yes, the person in the video t
+hrows the dishes out and lets the dogs hold them back.', 'The person in the video wipes the table with the
+ left hand.', 'Yes.', 'Nothing happened.', 'They both fell down.', 'The boy in red was standing near the o
+ld person in blue.', 'The person in white was practicing martial arts before the person in black started.'
+, 'The person in white was practicing for the first time.', 'The person in white shirt continued to move h
+is hands in a circular motion.', 'They got out of the water.', 'The man sticks his toothbrush on the back
+of the beam in the video.', 'The person in blue shorts raises the pole to the top of his head.', 'The pers
+on with the yellow brush washes the front leg of the horse.', 'The person who started the video is standin
+g in front of a white car.', 'The person in front of the skates is a hockey player.', 'The person wearing
+white clothes is playing tennis.', 'The red pants are at the beginning of the video.']
+Model Responding:   0%|▉
+
+                            | 36/8000 [00:47<2:50:33,  1.28s/it]['Male.', "The horse's leg is black.", 'Th
+e word on the wall is blue.', 'The black and white jacket is placed on the table.', 'The person on the lef
+t side of the bald head is holding a beer.', 'Male.', 'The person who started wearing blue clothes is the
+one who is riding the camel.', 'The woman with yellow hair first takes a hairpin.', 'Yes, the container is
+ darkened when the liquid in the smoking container is used up.', 'The blue shoe trainer was used to hold t
+he frisbee before the dog was trained to take it.', 'The first person fed the fish and then they swam away
+.', 'He fell off the boat.', 'The person in the white threw a punch at the man in front of him.', 'Black.'
+, 'The person who started wearing red clothes at the beginning of the video is a man.', 'The things under
+the feet of the purple dressed person are a ball.', 'The person wearing a hat is wearing a hat.', 'Yes, th
+e person in the video throws the bowl out and lets the dog hold it back.', 'Yes, the person in the video t
+hrows the dishes out and lets the dogs hold them back.', 'The person in the video wipes the table with the
+ left hand.', 'Yes.', 'Nothing happened.', 'They both fell down.', 'The boy in red was standing near the o
+ld person in blue.', 'The person in white was practicing martial arts before the person in black started.'
+, 'The person in white was practicing for the first time.', 'The person in white shirt continued to move h
+is hands in a circular motion.', 'They got out of the water.', 'The man sticks his toothbrush on the back
+of the beam in the video.', 'The person in blue shorts raises the pole to the top of his head.', 'The pers
+on with the yellow brush washes the front leg of the horse.', 'The person who started the video is standin
+g in front of a white car.', 'The person in front of the skates is a hockey player.', 'The person wearing
+white clothes is playing tennis.', 'The red pants are at the beginning of the video.', 'Male.']
+Model Responding:   0%|█
+
+                            | 37/8000 [00:48<2:44:50,  1.24s/it]['Male.', "The horse's leg is black.", 'Th
+e word on the wall is blue.', 'The black and white jacket is placed on the table.', 'The person on the lef
+t side of the bald head is holding a beer.', 'Male.', 'The person who started wearing blue clothes is the
+one who is riding the camel.', 'The woman with yellow hair first takes a hairpin.', 'Yes, the container is
+ darkened when the liquid in the smoking container is used up.', 'The blue shoe trainer was used to hold t
+he frisbee before the dog was trained to take it.', 'The first person fed the fish and then they swam away
+.', 'He fell off the boat.', 'The person in the white threw a punch at the man in front of him.', 'Black.'
+, 'The person who started wearing red clothes at the beginning of the video is a man.', 'The things under
+the feet of the purple dressed person are a ball.', 'The person wearing a hat is wearing a hat.', 'Yes, th
+e person in the video throws the bowl out and lets the dog hold it back.', 'Yes, the person in the video t
+hrows the dishes out and lets the dogs hold them back.', 'The person in the video wipes the table with the
+ left hand.', 'Yes.', 'Nothing happened.', 'They both fell down.', 'The boy in red was standing near the o
+ld person in blue.', 'The person in white was practicing martial arts before the person in black started.'
+, 'The person in white was practicing for the first time.', 'The person in white shirt continued to move h
+is hands in a circular motion.', 'They got out of the water.', 'The man sticks his toothbrush on the back
+of the beam in the video.', 'The person in blue shorts raises the pole to the top of his head.', 'The pers
+on with the yellow brush washes the front leg of the horse.', 'The person who started the video is standin
+g in front of a white car.', 'The person in front of the skates is a hockey player.', 'The person wearing
+white clothes is playing tennis.', 'The red pants are at the beginning of the video.', 'Male.', 'The perso
+n who first digs the ground with a spade is on the left side.']
+Model Responding:   0%|█
+
+                            | 38/8000 [00:50<3:04:14,  1.39s/it]['Male.', "The horse's leg is black.", 'Th
+e word on the wall is blue.', 'The black and white jacket is placed on the table.', 'The person on the lef
+t side of the bald head is holding a beer.', 'Male.', 'The person who started wearing blue clothes is the
+one who is riding the camel.', 'The woman with yellow hair first takes a hairpin.', 'Yes, the container is
+ darkened when the liquid in the smoking container is used up.', 'The blue shoe trainer was used to hold t
+he frisbee before the dog was trained to take it.', 'The first person fed the fish and then they swam away
+.', 'He fell off the boat.', 'The person in the white threw a punch at the man in front of him.', 'Black.'
+, 'The person who started wearing red clothes at the beginning of the video is a man.', 'The things under
+the feet of the purple dressed person are a ball.', 'The person wearing a hat is wearing a hat.', 'Yes, th
+e person in the video throws the bowl out and lets the dog hold it back.', 'Yes, the person in the video t
+hrows the dishes out and lets the dogs hold them back.', 'The person in the video wipes the table with the
+ left hand.', 'Yes.', 'Nothing happened.', 'They both fell down.', 'The boy in red was standing near the o
+ld person in blue.', 'The person in white was practicing martial arts before the person in black started.'
+, 'The person in white was practicing for the first time.', 'The person in white shirt continued to move h
+is hands in a circular motion.', 'They got out of the water.', 'The man sticks his toothbrush on the back
+of the beam in the video.', 'The person in blue shorts raises the pole to the top of his head.', 'The pers
+on with the yellow brush washes the front leg of the horse.', 'The person who started the video is standin
+g in front of a white car.', 'The person in front of the skates is a hockey player.', 'The person wearing
+white clothes is playing tennis.', 'The red pants are at the beginning of the video.', 'Male.', 'The perso
+n who first digs the ground with a spade is on the left side.', 'The relationship between the bald head in
+ the video and the person across the table is that they are playing beer pong together.']
+Model Responding:   0%|█
+
+                            | 39/8000 [00:55<5:30:26,  2.49s/it]['Male.', "The horse's leg is black.", 'Th
+e word on the wall is blue.', 'The black and white jacket is placed on the table.', 'The person on the lef
+t side of the bald head is holding a beer.', 'Male.', 'The person who started wearing blue clothes is the
+one who is riding the camel.', 'The woman with yellow hair first takes a hairpin.', 'Yes, the container is
+ darkened when the liquid in the smoking container is used up.', 'The blue shoe trainer was used to hold t
+he frisbee before the dog was trained to take it.', 'The first person fed the fish and then they swam away
+.', 'He fell off the boat.', 'The person in the white threw a punch at the man in front of him.', 'Black.'
+, 'The person who started wearing red clothes at the beginning of the video is a man.', 'The things under
+the feet of the purple dressed person are a ball.', 'The person wearing a hat is wearing a hat.', 'Yes, th
+e person in the video throws the bowl out and lets the dog hold it back.', 'Yes, the person in the video t
+hrows the dishes out and lets the dogs hold them back.', 'The person in the video wipes the table with the
+ left hand.', 'Yes.', 'Nothing happened.', 'They both fell down.', 'The boy in red was standing near the o
+ld person in blue.', 'The person in white was practicing martial arts before the person in black started.'
+, 'The person in white was practicing for the first time.', 'The person in white shirt continued to move h
+is hands in a circular motion.', 'They got out of the water.', 'The man sticks his toothbrush on the back
+of the beam in the video.', 'The person in blue shorts raises the pole to the top of his head.', 'The pers
+on with the yellow brush washes the front leg of the horse.', 'The person who started the video is standin
+g in front of a white car.', 'The person in front of the skates is a hockey player.', 'The person wearing
+white clothes is playing tennis.', 'The red pants are at the beginning of the video.', 'Male.', 'The perso
+n who first digs the ground with a spade is on the left side.', 'The relationship between the bald head in
+ the video and the person across the table is that they are playing beer pong together.', 'The owner of th
+e dog is the man who is walking the dog on the road.']
+^CTraceback (most recent call last):
+  File "/home1/hxl/miniconda3/envs/eagle/bin/accelerate", line 8, in <module>
+    sys.exit(main())
+  File "/home1/hxl/miniconda3/envs/eagle/lib/python3.10/site-packages/accelerate/commands/accelerate_cli.p
+y", line 48, in main
+    args.func(args)
+  File "/home1/hxl/miniconda3/envs/eagle/lib/python3.10/site-packages/accelerate/commands/launch.py", line
+ 1168, in launch_command
+    simple_launcher(args)
+  File "/home1/hxl/miniconda3/envs/eagle/lib/python3.10/site-packages/accelerate/commands/launch.py", line
+ 760, in simple_launcher
+    process.wait()
+  File "/home1/hxl/miniconda3/envs/eagle/lib/python3.10/subprocess.py", line 1209, in wait
+    return self._wait(timeout=timeout)
+  File "/home1/hxl/miniconda3/envs/eagle/lib/python3.10/subprocess.py", line 1959, in _wait
+    (pid, sts) = self._try_wait(0)
+  File "/home1/hxl/miniconda3/envs/eagle/lib/python3.10/subprocess.py", line 1917, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home1/hxl/disk/EAGLE/evaluate_lmms_eval.py", line 535, in <module>
+    cli_evaluate()
+  File "/home1/hxl/disk/EAGLE/evaluate_lmms_eval.py", line 332, in cli_evaluate
+    results, samples = cli_evaluate_single(args)
+  File "/home1/hxl/disk/EAGLE/evaluate_lmms_eval.py", line 473, in cli_evaluate_single
+    results = evaluator.simple_evaluate(
+  File "/home1/hxl/disk/EAGLE/lmms_eval/utils.py", line 533, in _wrapper
+    return fn(*args, **kwargs)
+  File "/home1/hxl/disk/EAGLE/lmms_eval/evaluator.py", line 243, in simple_evaluate
+    results = evaluate(
+  File "/home1/hxl/disk/EAGLE/lmms_eval/utils.py", line 533, in _wrapper
+    return fn(*args, **kwargs)
+  File "/home1/hxl/disk/EAGLE/lmms_eval/evaluator.py", line 457, in evaluate
+    resps = getattr(lm, reqtype)(cloned_reqs)  # Choiszt run generate until
+  File "/home1/hxl/disk/EAGLE/lmms_eval/models/eagle.py", line 345, in generate_until
+    image_tensor = process_images(visuals, self._image_processor, self._config)
+  File "/home1/hxl/disk/EAGLE/eagle/mm_utils.py", line 202, in process_images
+    return image_processor(images, return_tensors='pt')['pixel_values']
+  File "/home1/hxl/disk/EAGLE/eagle/model/multimodal_encoder/languagebind/video/processing_video.py", line
+ 140, in __call__
+    image_features = [self.image_processor(image, self.transform,
+  File "/home1/hxl/disk/EAGLE/eagle/model/multimodal_encoder/languagebind/video/processing_video.py", line
+ 140, in <listcomp>
+    image_features = [self.image_processor(image, self.transform,
+  File "/home1/hxl/disk/EAGLE/eagle/model/multimodal_encoder/languagebind/video/processing_video.py", line
+ 97, in load_and_transform_video
+    video_data = decord_vr.get_batch(frame_id_list)
+  File "/home1/hxl/miniconda3/envs/eagle/lib/python3.10/site-packages/decord/video_reader.py", line 175, i
+n get_batch
+    arr = _CAPI_VideoReaderGetBatch(self._handle, indices)
+  File "/home1/hxl/miniconda3/envs/eagle/lib/python3.10/site-packages/decord/_ffi/_ctypes/function.py", li
+ne 173, in __call__
+    check_call(_LIB.DECORDFuncCall(
+KeyboardInterrupt
+
+Model Responding:   0%|█
+
+                            | 39/8000 [00:57<3:16:40,  1.48s/it]
+bash scripts/eval_lmms_eval/eval-video.sh
+The following values were not passed to `accelerate launch` and had defaults used instead:
+        `--num_machines` was set to a value of `1`
+        `--mixed_precision` was set to a value of `'no'`
+        `--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+Import Error: from .onellm import OneLLM
+2025-01-08 11:09:04.673 | INFO     | __main__:cli_evaluate:297 - Verbosity set to INFO
+{'group': 'mix_evals_image2text', 'task': ['mix_evals_image2text_mc', 'mix_evals_image2text_freeform']}
+{'type': 'group', 'task': -1, 'yaml_path': '/home1/hxl/disk/EAGLE/lmms_eval/tasks/mix_evals/image2text/mix
+_evals_image2text.yaml'}
+2025-01-08 11:09:07.314 | INFO     | __main__:cli_evaluate_single:380 - Evaluation tracker args: {'output_
+path': './output/eval/'}
+2025-01-08 11:09:07.315 | INFO     | __main__:cli_evaluate_single:469 - Selected Tasks: ['activitynetqa']
+2025-01-08 11:09:07.316 | INFO     | lmms_eval.evaluator:simple_evaluate:155 - Setting random seed to 0 |
+Setting numpy seed to 1234 | Setting torch manual seed to 1234
+Fetching 31 files: 100%|██████████████████████████████████████████████████████████████████████████████████
+██████████████████████████████████████████████████████████████████████████████████████████████████████████
+██████████████| 31/31 [00:00<00:00, 7771.87it/s]
+lmms-lab/ActivityNetQA
+The model was loaded with use_flash_attention_2=True, which is deprecated and may be removed in a future r
+elease. Please use `attn_implementation="flash_attention_2"` instead.
+Some weights of the model checkpoint at ./checkpoints/final_result/video/video_finetune_1epoch were not us
+ed when initializing EagleLlamaForCausalLM: ['model.vision_tower.LanguageBindVideo.logit_scale', 'model.vi
+sion_tower.LanguageBindVideo.text_model.embeddings.position_embedding.weight', 'model.vision_tower.Languag
+eBindVideo.text_model.embeddings.token_embedding.weight', 'model.vision_tower.LanguageBindVideo.text_model
+.encoder.layers.0.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.0.lay
+er_norm1.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.0.layer_norm2.bias', 'mo
+del.vision_tower.LanguageBindVideo.text_model.encoder.layers.0.layer_norm2.weight', 'model.vision_tower.La
+nguageBindVideo.text_model.encoder.layers.0.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.text_mode
+l.encoder.layers.0.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.0.mlp.
+fc2.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.0.mlp.fc2.weight', 'model.visio
+n_tower.LanguageBindVideo.text_model.encoder.layers.0.self_attn.k_proj.bias', 'model.vision_tower.Language
+BindVideo.text_model.encoder.layers.0.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.text
+_model.encoder.layers.0.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder
+.layers.0.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.0.se
+lf_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.0.self_attn.q_proj.w
+eight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.0.self_attn.v_proj.bias', 'model.v
+ision_tower.LanguageBindVideo.text_model.encoder.layers.0.self_attn.v_proj.weight', 'model.vision_tower.La
+nguageBindVideo.text_model.encoder.layers.1.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.text_
+model.encoder.layers.1.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layer
+s.1.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.1.layer_norm2.weigh
+t', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.1.mlp.fc1.bias', 'model.vision_tower.L
+anguageBindVideo.text_model.encoder.layers.1.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.text_m
+odel.encoder.layers.1.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.1.mlp
+.fc2.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.1.self_attn.k_proj.bias', 'm
+odel.vision_tower.LanguageBindVideo.text_model.encoder.layers.1.self_attn.k_proj.weight', 'model.vision_to
+wer.LanguageBindVideo.text_model.encoder.layers.1.self_attn.out_proj.bias', 'model.vision_tower.LanguageBi
+ndVideo.text_model.encoder.layers.1.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.text
+_model.encoder.layers.1.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.l
+ayers.1.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.1.self_a
+ttn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.1.self_attn.v_proj.weigh
+t', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.10.layer_norm1.bias', 'model.vision_to
+wer.LanguageBindVideo.text_model.encoder.layers.10.layer_norm1.weight', 'model.vision_tower.LanguageBindVi
+deo.text_model.encoder.layers.10.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.text_model.encod
+er.layers.10.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.10.mlp.f
+c1.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.10.mlp.fc1.weight', 'model.visio
+n_tower.LanguageBindVideo.text_model.encoder.layers.10.mlp.fc2.bias', 'model.vision_tower.LanguageBindVide
+o.text_model.encoder.layers.10.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.l
+ayers.10.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.10.self_a
+ttn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.10.self_attn.out_proj.
+bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.10.self_attn.out_proj.weight', 'mod
+el.vision_tower.LanguageBindVideo.text_model.encoder.layers.10.self_attn.q_proj.bias', 'model.vision_tower
+.LanguageBindVideo.text_model.encoder.layers.10.self_attn.q_proj.weight', 'model.vision_tower.LanguageBind
+Video.text_model.encoder.layers.10.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.text_mode
+l.encoder.layers.10.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.lay
+ers.11.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.11.layer_norm1.w
+eight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.11.layer_norm2.bias', 'model.visio
+n_tower.LanguageBindVideo.text_model.encoder.layers.11.layer_norm2.weight', 'model.vision_tower.LanguageBi
+ndVideo.text_model.encoder.layers.11.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.text_model.encod
+er.layers.11.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.11.mlp.fc2.b
+ias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.11.mlp.fc2.weight', 'model.vision_to
+wer.LanguageBindVideo.text_model.encoder.layers.11.self_attn.k_proj.bias', 'model.vision_tower.LanguageBin
+dVideo.text_model.encoder.layers.11.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.text_m
+odel.encoder.layers.11.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.
+layers.11.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.11.s
+elf_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.11.self_attn.q_proj
+.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.11.self_attn.v_proj.bias', 'mode
+l.vision_tower.LanguageBindVideo.text_model.encoder.layers.11.self_attn.v_proj.weight', 'model.vision_towe
+r.LanguageBindVideo.text_model.encoder.layers.2.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.t
+ext_model.encoder.layers.2.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.l
+ayers.2.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.2.layer_norm2.w
+eight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.2.mlp.fc1.bias', 'model.vision_tow
+er.LanguageBindVideo.text_model.encoder.layers.2.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.te
+xt_model.encoder.layers.2.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.2
+.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.2.self_attn.k_proj.bias'
+, 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.2.self_attn.k_proj.weight', 'model.visio
+n_tower.LanguageBindVideo.text_model.encoder.layers.2.self_attn.out_proj.bias', 'model.vision_tower.Langua
+geBindVideo.text_model.encoder.layers.2.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.
+text_model.encoder.layers.2.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encod
+er.layers.2.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.2.se
+lf_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.2.self_attn.v_proj.w
+eight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.3.layer_norm1.bias', 'model.vision
+_tower.LanguageBindVideo.text_model.encoder.layers.3.layer_norm1.weight', 'model.vision_tower.LanguageBind
+Video.text_model.encoder.layers.3.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.text_model.enco
+der.layers.3.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.3.mlp.fc
+1.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.3.mlp.fc1.weight', 'model.vision_
+tower.LanguageBindVideo.text_model.encoder.layers.3.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.t
+ext_model.encoder.layers.3.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layer
+s.3.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.3.self_attn.k_
+proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.3.self_attn.out_proj.bias',
+'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.3.self_attn.out_proj.weight', 'model.visio
+n_tower.LanguageBindVideo.text_model.encoder.layers.3.self_attn.q_proj.bias', 'model.vision_tower.Language
+BindVideo.text_model.encoder.layers.3.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.text
+_model.encoder.layers.3.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.l
+ayers.3.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.4.layer_
+norm1.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.4.layer_norm1.weight', 'model
+.vision_tower.LanguageBindVideo.text_model.encoder.layers.4.layer_norm2.bias', 'model.vision_tower.Languag
+eBindVideo.text_model.encoder.layers.4.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.text_mod
+el.encoder.layers.4.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.4.mlp.f
+c1.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.4.mlp.fc2.bias', 'model.vision
+_tower.LanguageBindVideo.text_model.encoder.layers.4.mlp.fc2.weight', 'model.vision_tower.LanguageBindVide
+o.text_model.encoder.layers.4.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.enc
+oder.layers.4.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.4.
+self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.4.self_attn.out_
+proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.4.self_attn.q_proj.bias', 'm
+odel.vision_tower.LanguageBindVideo.text_model.encoder.layers.4.self_attn.q_proj.weight', 'model.vision_to
+wer.LanguageBindVideo.text_model.encoder.layers.4.self_attn.v_proj.bias', 'model.vision_tower.LanguageBind
+Video.text_model.encoder.layers.4.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.text_mod
+el.encoder.layers.5.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.5.l
+ayer_norm1.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.5.layer_norm2.bias', '
+model.vision_tower.LanguageBindVideo.text_model.encoder.layers.5.layer_norm2.weight', 'model.vision_tower.
+LanguageBindVideo.text_model.encoder.layers.5.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.text_mo
+del.encoder.layers.5.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.5.ml
+p.fc2.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.5.mlp.fc2.weight', 'model.vis
+ion_tower.LanguageBindVideo.text_model.encoder.layers.5.self_attn.k_proj.bias', 'model.vision_tower.Langua
+geBindVideo.text_model.encoder.layers.5.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.te
+xt_model.encoder.layers.5.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encod
+er.layers.5.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.5.
+self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.5.self_attn.q_proj
+.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.5.self_attn.v_proj.bias', 'model
+.vision_tower.LanguageBindVideo.text_model.encoder.layers.5.self_attn.v_proj.weight', 'model.vision_tower.
+LanguageBindVideo.text_model.encoder.layers.6.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.tex
+t_model.encoder.layers.6.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.lay
+ers.6.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.6.layer_norm2.wei
+ght', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.6.mlp.fc1.bias', 'model.vision_tower
+.LanguageBindVideo.text_model.encoder.layers.6.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.text
+_model.encoder.layers.6.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.6.m
+lp.fc2.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.6.self_attn.k_proj.bias',
+'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.6.self_attn.k_proj.weight', 'model.vision_
+tower.LanguageBindVideo.text_model.encoder.layers.6.self_attn.out_proj.bias', 'model.vision_tower.Language
+BindVideo.text_model.encoder.layers.6.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.te
+xt_model.encoder.layers.6.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder
+.layers.6.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.6.self
+_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.6.self_attn.v_proj.wei
+ght', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.7.layer_norm1.bias', 'model.vision_t
+ower.LanguageBindVideo.text_model.encoder.layers.7.layer_norm1.weight', 'model.vision_tower.LanguageBindVi
+deo.text_model.encoder.layers.7.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.text_model.encode
+r.layers.7.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.7.mlp.fc1.
+bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.7.mlp.fc1.weight', 'model.vision_to
+wer.LanguageBindVideo.text_model.encoder.layers.7.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.tex
+t_model.encoder.layers.7.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.
+7.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.7.self_attn.k_pr
+oj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.7.self_attn.out_proj.bias', 'm
+odel.vision_tower.LanguageBindVideo.text_model.encoder.layers.7.self_attn.out_proj.weight', 'model.vision_
+tower.LanguageBindVideo.text_model.encoder.layers.7.self_attn.q_proj.bias', 'model.vision_tower.LanguageBi
+ndVideo.text_model.encoder.layers.7.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.text_m
+odel.encoder.layers.7.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.lay
+ers.7.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.8.layer_no
+rm1.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.8.layer_norm1.weight', 'model.v
+ision_tower.LanguageBindVideo.text_model.encoder.layers.8.layer_norm2.bias', 'model.vision_tower.LanguageB
+indVideo.text_model.encoder.layers.8.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.text_model
+.encoder.layers.8.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.8.mlp.fc1
+.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.8.mlp.fc2.bias', 'model.vision_t
+ower.LanguageBindVideo.text_model.encoder.layers.8.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.
+text_model.encoder.layers.8.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encod
+er.layers.8.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.8.se
+lf_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.8.self_attn.out_pr
+oj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.8.self_attn.q_proj.bias', 'mod
+el.vision_tower.LanguageBindVideo.text_model.encoder.layers.8.self_attn.q_proj.weight', 'model.vision_towe
+r.LanguageBindVideo.text_model.encoder.layers.8.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVi
+deo.text_model.encoder.layers.8.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model
+.encoder.layers.9.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.9.lay
+er_norm1.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.9.layer_norm2.bias', 'mo
+del.vision_tower.LanguageBindVideo.text_model.encoder.layers.9.layer_norm2.weight', 'model.vision_tower.La
+nguageBindVideo.text_model.encoder.layers.9.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.text_mode
+l.encoder.layers.9.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.9.mlp.
+fc2.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.9.mlp.fc2.weight', 'model.visio
+n_tower.LanguageBindVideo.text_model.encoder.layers.9.self_attn.k_proj.bias', 'model.vision_tower.Language
+BindVideo.text_model.encoder.layers.9.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.text
+_model.encoder.layers.9.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder
+.layers.9.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.9.se
+lf_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.9.self_attn.q_proj.w
+eight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.9.self_attn.v_proj.bias', 'model.v
+ision_tower.LanguageBindVideo.text_model.encoder.layers.9.self_attn.v_proj.weight', 'model.vision_tower.La
+nguageBindVideo.text_model.final_layer_norm.bias', 'model.vision_tower.LanguageBindVideo.text_model.final_
+layer_norm.weight', 'model.vision_tower.LanguageBindVideo.text_projection.weight', 'model.vision_tower.Lan
+guageBindVideo.vision_model.embeddings.class_embedding', 'model.vision_tower.LanguageBindVideo.vision_mode
+l.embeddings.patch_embedding.weight', 'model.vision_tower.LanguageBindVideo.vision_model.embeddings.positi
+on_embedding.weight', 'model.vision_tower.LanguageBindVideo.vision_model.embeddings.position_ids', 'model.
+vision_tower.LanguageBindVideo.vision_model.encoder.layers.0.layer_norm1.bias', 'model.vision_tower.Langua
+geBindVideo.vision_model.encoder.layers.0.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.visio
+n_model.encoder.layers.0.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.lay
+ers.0.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.0.mlp.fc1.bia
+s', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.0.mlp.fc1.weight', 'model.vision_tow
+er.LanguageBindVideo.vision_model.encoder.layers.0.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.vi
+sion_model.encoder.layers.0.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.la
+yers.0.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.0.self_at
+tn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.0.self_attn.out_proj.
+bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.0.self_attn.out_proj.weight', 'mo
+del.vision_tower.LanguageBindVideo.vision_model.encoder.layers.0.self_attn.q_proj.bias', 'model.vision_tow
+er.LanguageBindVideo.vision_model.encoder.layers.0.self_attn.q_proj.weight', 'model.vision_tower.LanguageB
+indVideo.vision_model.encoder.layers.0.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.visio
+n_model.encoder.layers.0.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.enco
+der.layers.0.temporal_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers
+.0.temporal_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.0.tempo
+ral_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.0.temporal_attn
+.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.0.temporal_attn.q_pro
+j.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.0.temporal_attn.q_proj.weight',
+ 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.0.temporal_attn.v_proj.bias', 'model.vi
+sion_tower.LanguageBindVideo.vision_model.encoder.layers.0.temporal_attn.v_proj.weight', 'model.vision_tow
+er.LanguageBindVideo.vision_model.encoder.layers.0.temporal_embedding', 'model.vision_tower.LanguageBindVi
+deo.vision_model.encoder.layers.0.temporal_layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision
+_model.encoder.layers.0.temporal_layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.e
+ncoder.layers.1.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.1.lay
+er_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.1.layer_norm2.bias', '
+model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.1.layer_norm2.weight', 'model.vision_towe
+r.LanguageBindVideo.vision_model.encoder.layers.1.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.vis
+ion_model.encoder.layers.1.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.lay
+ers.1.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.1.mlp.fc2.weight',
+'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.1.self_attn.k_proj.bias', 'model.vision_
+tower.LanguageBindVideo.vision_model.encoder.layers.1.self_attn.k_proj.weight', 'model.vision_tower.Langua
+geBindVideo.vision_model.encoder.layers.1.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.
+vision_model.encoder.layers.1.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_mod
+el.encoder.layers.1.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.lay
+ers.1.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.1.self_a
+ttn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.1.self_attn.v_proj.wei
+ght', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.1.temporal_attn.k_proj.bias', 'mod
+el.vision_tower.LanguageBindVideo.vision_model.encoder.layers.1.temporal_attn.k_proj.weight', 'model.visio
+n_tower.LanguageBindVideo.vision_model.encoder.layers.1.temporal_attn.out_proj.bias', 'model.vision_tower.
+LanguageBindVideo.vision_model.encoder.layers.1.temporal_attn.out_proj.weight', 'model.vision_tower.Langua
+geBindVideo.vision_model.encoder.layers.1.temporal_attn.q_proj.bias', 'model.vision_tower.LanguageBindVide
+o.vision_model.encoder.layers.1.temporal_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision
+_model.encoder.layers.1.temporal_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.enc
+oder.layers.1.temporal_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.lay
+ers.1.temporal_embedding', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.1.temporal_la
+yer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.1.temporal_layer_norm1.
+weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.10.layer_norm1.bias', 'model.vi
+sion_tower.LanguageBindVideo.vision_model.encoder.layers.10.layer_norm1.weight', 'model.vision_tower.Langu
+ageBindVideo.vision_model.encoder.layers.10.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.visio
+n_model.encoder.layers.10.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.
+layers.10.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.10.mlp.fc1.weig
+ht', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.10.mlp.fc2.bias', 'model.vision_tow
+er.LanguageBindVideo.vision_model.encoder.layers.10.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo
+.vision_model.encoder.layers.10.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model
+.encoder.layers.10.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.la
+yers.10.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.10.sel
+f_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.10.self_attn.q_
+proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.10.self_attn.q_proj.weight',
+ 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.10.self_attn.v_proj.bias', 'model.visio
+n_tower.LanguageBindVideo.vision_model.encoder.layers.10.self_attn.v_proj.weight', 'model.vision_tower.Lan
+guageBindVideo.vision_model.encoder.layers.10.temporal_attn.k_proj.bias', 'model.vision_tower.LanguageBind
+Video.vision_model.encoder.layers.10.temporal_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.v
+ision_model.encoder.layers.10.temporal_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_m
+odel.encoder.layers.10.temporal_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.
+encoder.layers.10.temporal_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.l
+ayers.10.temporal_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.1
+0.temporal_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.10.tempora
+l_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.10.temporal_embed
+ding', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.10.temporal_layer_norm1.bias', 'm
+odel.vision_tower.LanguageBindVideo.vision_model.encoder.layers.10.temporal_layer_norm1.weight', 'model.vi
+sion_tower.LanguageBindVideo.vision_model.encoder.layers.11.layer_norm1.bias', 'model.vision_tower.Languag
+eBindVideo.vision_model.encoder.layers.11.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.visio
+n_model.encoder.layers.11.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.la
+yers.11.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.11.mlp.fc1.
+bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.11.mlp.fc1.weight', 'model.vision
+_tower.LanguageBindVideo.vision_model.encoder.layers.11.mlp.fc2.bias', 'model.vision_tower.LanguageBindVid
+eo.vision_model.encoder.layers.11.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.enco
+der.layers.11.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.11
+.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.11.self_attn.
+out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.11.self_attn.out_proj.we
+ight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.11.self_attn.q_proj.bias', 'model
+.vision_tower.LanguageBindVideo.vision_model.encoder.layers.11.self_attn.q_proj.weight', 'model.vision_tow
+er.LanguageBindVideo.vision_model.encoder.layers.11.self_attn.v_proj.bias', 'model.vision_tower.LanguageBi
+ndVideo.vision_model.encoder.layers.11.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vis
+ion_model.encoder.layers.11.temporal_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model
+.encoder.layers.11.temporal_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encode
+r.layers.11.temporal_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layer
+s.11.temporal_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.11.
+temporal_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.11.temporal_
+attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.11.temporal_attn.v_
+proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.11.temporal_attn.v_proj.weig
+ht', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.11.temporal_embedding', 'model.visi
+on_tower.LanguageBindVideo.vision_model.encoder.layers.11.temporal_layer_norm1.bias', 'model.vision_tower.
+LanguageBindVideo.vision_model.encoder.layers.11.temporal_layer_norm1.weight', 'model.vision_tower.Languag
+eBindVideo.vision_model.encoder.layers.12.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_
+model.encoder.layers.12.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.la
+yers.12.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.12.layer_norm
+2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.12.mlp.fc1.bias', 'model.visi
+on_tower.LanguageBindVideo.vision_model.encoder.layers.12.mlp.fc1.weight', 'model.vision_tower.LanguageBin
+dVideo.vision_model.encoder.layers.12.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.en
+coder.layers.12.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.12.self
+_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.12.self_attn.k_proj.
+weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.12.self_attn.out_proj.bias', 'm
+odel.vision_tower.LanguageBindVideo.vision_model.encoder.layers.12.self_attn.out_proj.weight', 'model.visi
+on_tower.LanguageBindVideo.vision_model.encoder.layers.12.self_attn.q_proj.bias', 'model.vision_tower.Lang
+uageBindVideo.vision_model.encoder.layers.12.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVid
+eo.vision_model.encoder.layers.12.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_mod
+el.encoder.layers.12.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.
+layers.12.temporal_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.12
+.temporal_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.12.tempor
+al_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.12.temporal_attn
+.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.12.temporal_attn.q_pr
+oj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.12.temporal_attn.q_proj.weight
+', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.12.temporal_attn.v_proj.bias', 'model
+.vision_tower.LanguageBindVideo.vision_model.encoder.layers.12.temporal_attn.v_proj.weight', 'model.vision
+_tower.LanguageBindVideo.vision_model.encoder.layers.12.temporal_embedding', 'model.vision_tower.LanguageB
+indVideo.vision_model.encoder.layers.12.temporal_layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.
+vision_model.encoder.layers.12.temporal_layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_
+model.encoder.layers.13.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.laye
+rs.13.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.13.layer_norm
+2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.13.layer_norm2.weight', 'model.
+vision_tower.LanguageBindVideo.vision_model.encoder.layers.13.mlp.fc1.bias', 'model.vision_tower.LanguageB
+indVideo.vision_model.encoder.layers.13.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.vision_mode
+l.encoder.layers.13.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.13.ml
+p.fc2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.13.self_attn.k_proj.bias'
+, 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.13.self_attn.k_proj.weight', 'model.vi
+sion_tower.LanguageBindVideo.vision_model.encoder.layers.13.self_attn.out_proj.bias', 'model.vision_tower.
+LanguageBindVideo.vision_model.encoder.layers.13.self_attn.out_proj.weight', 'model.vision_tower.LanguageB
+indVideo.vision_model.encoder.layers.13.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.visi
+on_model.encoder.layers.13.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.en
+coder.layers.13.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.
+13.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.13.temporal
+_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.13.temporal_attn.k_p
+roj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.13.temporal_attn.out_proj.b
+ias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.13.temporal_attn.out_proj.weight',
+ 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.13.temporal_attn.q_proj.bias', 'model.v
+ision_tower.LanguageBindVideo.vision_model.encoder.layers.13.temporal_attn.q_proj.weight', 'model.vision_t
+ower.LanguageBindVideo.vision_model.encoder.layers.13.temporal_attn.v_proj.bias', 'model.vision_tower.Lang
+uageBindVideo.vision_model.encoder.layers.13.temporal_attn.v_proj.weight', 'model.vision_tower.LanguageBin
+dVideo.vision_model.encoder.layers.13.temporal_embedding', 'model.vision_tower.LanguageBindVideo.vision_mo
+del.encoder.layers.13.temporal_layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encod
+er.layers.13.temporal_layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.laye
+rs.14.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.14.layer_norm1.
+weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.14.layer_norm2.bias', 'model.vi
+sion_tower.LanguageBindVideo.vision_model.encoder.layers.14.layer_norm2.weight', 'model.vision_tower.Langu
+ageBindVideo.vision_model.encoder.layers.14.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.vision_mo
+del.encoder.layers.14.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.1
+4.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.14.mlp.fc2.weight', 'mo
+del.vision_tower.LanguageBindVideo.vision_model.encoder.layers.14.self_attn.k_proj.bias', 'model.vision_to
+wer.LanguageBindVideo.vision_model.encoder.layers.14.self_attn.k_proj.weight', 'model.vision_tower.Languag
+eBindVideo.vision_model.encoder.layers.14.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.
+vision_model.encoder.layers.14.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_mo
+del.encoder.layers.14.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.l
+ayers.14.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.14.se
+lf_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.14.self_attn.v_pro
+j.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.14.temporal_attn.k_proj.bias'
+, 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.14.temporal_attn.k_proj.weight', 'mode
+l.vision_tower.LanguageBindVideo.vision_model.encoder.layers.14.temporal_attn.out_proj.bias', 'model.visio
+n_tower.LanguageBindVideo.vision_model.encoder.layers.14.temporal_attn.out_proj.weight', 'model.vision_tow
+er.LanguageBindVideo.vision_model.encoder.layers.14.temporal_attn.q_proj.bias', 'model.vision_tower.Langua
+geBindVideo.vision_model.encoder.layers.14.temporal_attn.q_proj.weight', 'model.vision_tower.LanguageBindV
+ideo.vision_model.encoder.layers.14.temporal_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.visi
+on_model.encoder.layers.14.temporal_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_mode
+l.encoder.layers.14.temporal_embedding', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers
+.14.temporal_layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.14.tempo
+ral_layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.15.layer_norm1.
+bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.15.layer_norm1.weight', 'model.vi
+sion_tower.LanguageBindVideo.vision_model.encoder.layers.15.layer_norm2.bias', 'model.vision_tower.Languag
+eBindVideo.vision_model.encoder.layers.15.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.visio
+n_model.encoder.layers.15.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers
+.15.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.15.mlp.fc2.bias', '
+model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.15.mlp.fc2.weight', 'model.vision_tower.L
+anguageBindVideo.vision_model.encoder.layers.15.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVi
+deo.vision_model.encoder.layers.15.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_
+model.encoder.layers.15.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encod
+er.layers.15.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers
+.15.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.15.self_attn
+.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.15.self_attn.v_proj.bia
+s', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.15.self_attn.v_proj.weight', 'model.
+vision_tower.LanguageBindVideo.vision_model.encoder.layers.15.temporal_attn.k_proj.bias', 'model.vision_to
+wer.LanguageBindVideo.vision_model.encoder.layers.15.temporal_attn.k_proj.weight', 'model.vision_tower.Lan
+guageBindVideo.vision_model.encoder.layers.15.temporal_attn.out_proj.bias', 'model.vision_tower.LanguageBi
+ndVideo.vision_model.encoder.layers.15.temporal_attn.out_proj.weight', 'model.vision_tower.LanguageBindVid
+eo.vision_model.encoder.layers.15.temporal_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision
+_model.encoder.layers.15.temporal_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.
+encoder.layers.15.temporal_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.l
+ayers.15.temporal_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.1
+5.temporal_embedding', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.15.temporal_layer
+_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.15.temporal_layer_norm1.we
+ight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.16.layer_norm1.bias', 'model.visi
+on_tower.LanguageBindVideo.vision_model.encoder.layers.16.layer_norm1.weight', 'model.vision_tower.Languag
+eBindVideo.vision_model.encoder.layers.16.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.vision_
+model.encoder.layers.16.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.la
+yers.16.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.16.mlp.fc1.weight
+', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.16.mlp.fc2.bias', 'model.vision_tower
+.LanguageBindVideo.vision_model.encoder.layers.16.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.v
+ision_model.encoder.layers.16.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.e
+ncoder.layers.16.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.laye
+rs.16.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.16.self_
+attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.16.self_attn.q_pr
+oj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.16.self_attn.q_proj.weight', '
+model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.16.self_attn.v_proj.bias', 'model.vision_
+tower.LanguageBindVideo.vision_model.encoder.layers.16.self_attn.v_proj.weight', 'model.vision_tower.Langu
+ageBindVideo.vision_model.encoder.layers.16.temporal_attn.k_proj.bias', 'model.vision_tower.LanguageBindVi
+deo.vision_model.encoder.layers.16.temporal_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vis
+ion_model.encoder.layers.16.temporal_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_mod
+el.encoder.layers.16.temporal_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.en
+coder.layers.16.temporal_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.lay
+ers.16.temporal_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.16.
+temporal_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.16.temporal_
+attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.16.temporal_embeddi
+ng', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.16.temporal_layer_norm1.bias', 'mod
+el.vision_tower.LanguageBindVideo.vision_model.encoder.layers.16.temporal_layer_norm1.weight', 'model.visi
+on_tower.LanguageBindVideo.vision_model.encoder.layers.17.layer_norm1.bias', 'model.vision_tower.LanguageB
+indVideo.vision_model.encoder.layers.17.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_
+model.encoder.layers.17.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.laye
+rs.17.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.17.mlp.fc1.bi
+as', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.17.mlp.fc1.weight', 'model.vision_t
+ower.LanguageBindVideo.vision_model.encoder.layers.17.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo
+.vision_model.encoder.layers.17.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encode
+r.layers.17.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.17.s
+elf_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.17.self_attn.ou
+t_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.17.self_attn.out_proj.weig
+ht', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.17.self_attn.q_proj.bias', 'model.v
+ision_tower.LanguageBindVideo.vision_model.encoder.layers.17.self_attn.q_proj.weight', 'model.vision_tower
+.LanguageBindVideo.vision_model.encoder.layers.17.self_attn.v_proj.bias', 'model.vision_tower.LanguageBind
+Video.vision_model.encoder.layers.17.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.visio
+n_model.encoder.layers.17.temporal_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.e
+ncoder.layers.17.temporal_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.
+layers.17.temporal_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.
+17.temporal_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.17.te
+mporal_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.17.temporal_at
+tn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.17.temporal_attn.v_pr
+oj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.17.temporal_attn.v_proj.weight
+', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.17.temporal_embedding', 'model.vision
+_tower.LanguageBindVideo.vision_model.encoder.layers.17.temporal_layer_norm1.bias', 'model.vision_tower.La
+nguageBindVideo.vision_model.encoder.layers.17.temporal_layer_norm1.weight', 'model.vision_tower.LanguageB
+indVideo.vision_model.encoder.layers.18.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_mo
+del.encoder.layers.18.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.laye
+rs.18.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.18.layer_norm2.
+weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.18.mlp.fc1.bias', 'model.vision
+_tower.LanguageBindVideo.vision_model.encoder.layers.18.mlp.fc1.weight', 'model.vision_tower.LanguageBindV
+ideo.vision_model.encoder.layers.18.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.enco
+der.layers.18.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.18.self_a
+ttn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.18.self_attn.k_proj.we
+ight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.18.self_attn.out_proj.bias', 'mod
+el.vision_tower.LanguageBindVideo.vision_model.encoder.layers.18.self_attn.out_proj.weight', 'model.vision
+_tower.LanguageBindVideo.vision_model.encoder.layers.18.self_attn.q_proj.bias', 'model.vision_tower.Langua
+geBindVideo.vision_model.encoder.layers.18.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo
+.vision_model.encoder.layers.18.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model
+.encoder.layers.18.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.la
+yers.18.temporal_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.18.t
+emporal_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.18.temporal
+_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.18.temporal_attn.o
+ut_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.18.temporal_attn.q_proj
+.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.18.temporal_attn.q_proj.weight',
+ 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.18.temporal_attn.v_proj.bias', 'model.v
+ision_tower.LanguageBindVideo.vision_model.encoder.layers.18.temporal_attn.v_proj.weight', 'model.vision_t
+ower.LanguageBindVideo.vision_model.encoder.layers.18.temporal_embedding', 'model.vision_tower.LanguageBin
+dVideo.vision_model.encoder.layers.18.temporal_layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vi
+sion_model.encoder.layers.18.temporal_layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_mo
+del.encoder.layers.19.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers
+.19.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.19.layer_norm2.
+bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.19.layer_norm2.weight', 'model.vi
+sion_tower.LanguageBindVideo.vision_model.encoder.layers.19.mlp.fc1.bias', 'model.vision_tower.LanguageBin
+dVideo.vision_model.encoder.layers.19.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.
+encoder.layers.19.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.19.mlp.
+fc2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.19.self_attn.k_proj.bias',
+'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.19.self_attn.k_proj.weight', 'model.visi
+on_tower.LanguageBindVideo.vision_model.encoder.layers.19.self_attn.out_proj.bias', 'model.vision_tower.La
+nguageBindVideo.vision_model.encoder.layers.19.self_attn.out_proj.weight', 'model.vision_tower.LanguageBin
+dVideo.vision_model.encoder.layers.19.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision
+_model.encoder.layers.19.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.enco
+der.layers.19.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.19
+.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.19.temporal_a
+ttn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.19.temporal_attn.k_pro
+j.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.19.temporal_attn.out_proj.bia
+s', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.19.temporal_attn.out_proj.weight', '
+model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.19.temporal_attn.q_proj.bias', 'model.vis
+ion_tower.LanguageBindVideo.vision_model.encoder.layers.19.temporal_attn.q_proj.weight', 'model.vision_tow
+er.LanguageBindVideo.vision_model.encoder.layers.19.temporal_attn.v_proj.bias', 'model.vision_tower.Langua
+geBindVideo.vision_model.encoder.layers.19.temporal_attn.v_proj.weight', 'model.vision_tower.LanguageBindV
+ideo.vision_model.encoder.layers.19.temporal_embedding', 'model.vision_tower.LanguageBindVideo.vision_mode
+l.encoder.layers.19.temporal_layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder
+.layers.19.temporal_layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers
+.2.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.2.layer_norm1.weig
+ht', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.2.layer_norm2.bias', 'model.vision_
+tower.LanguageBindVideo.vision_model.encoder.layers.2.layer_norm2.weight', 'model.vision_tower.LanguageBin
+dVideo.vision_model.encoder.layers.2.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.enc
+oder.layers.2.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.2.mlp.fc2
+.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.2.mlp.fc2.weight', 'model.vision
+_tower.LanguageBindVideo.vision_model.encoder.layers.2.self_attn.k_proj.bias', 'model.vision_tower.Languag
+eBindVideo.vision_model.encoder.layers.2.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.v
+ision_model.encoder.layers.2.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.
+encoder.layers.2.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.la
+yers.2.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.2.self_at
+tn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.2.self_attn.v_proj.bi
+as', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.2.self_attn.v_proj.weight', 'model.
+vision_tower.LanguageBindVideo.vision_model.encoder.layers.2.temporal_attn.k_proj.bias', 'model.vision_tow
+er.LanguageBindVideo.vision_model.encoder.layers.2.temporal_attn.k_proj.weight', 'model.vision_tower.Langu
+ageBindVideo.vision_model.encoder.layers.2.temporal_attn.out_proj.bias', 'model.vision_tower.LanguageBindV
+ideo.vision_model.encoder.layers.2.temporal_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.v
+ision_model.encoder.layers.2.temporal_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_mode
+l.encoder.layers.2.temporal_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encode
+r.layers.2.temporal_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.2
+.temporal_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.2.tempora
+l_embedding', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.2.temporal_layer_norm1.bia
+s', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.2.temporal_layer_norm1.weight', 'mod
+el.vision_tower.LanguageBindVideo.vision_model.encoder.layers.20.layer_norm1.bias', 'model.vision_tower.La
+nguageBindVideo.vision_model.encoder.layers.20.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.
+vision_model.encoder.layers.20.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encod
+er.layers.20.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.20.mlp
+.fc1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.20.mlp.fc1.weight', 'model.v
+ision_tower.LanguageBindVideo.vision_model.encoder.layers.20.mlp.fc2.bias', 'model.vision_tower.LanguageBi
+ndVideo.vision_model.encoder.layers.20.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.vision_model
+.encoder.layers.20.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.laye
+rs.20.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.20.self_
+attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.20.self_attn.out_pr
+oj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.20.self_attn.q_proj.bias', '
+model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.20.self_attn.q_proj.weight', 'model.visio
+n_tower.LanguageBindVideo.vision_model.encoder.layers.20.self_attn.v_proj.bias', 'model.vision_tower.Langu
+ageBindVideo.vision_model.encoder.layers.20.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVide
+o.vision_model.encoder.layers.20.temporal_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_
+model.encoder.layers.20.temporal_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.e
+ncoder.layers.20.temporal_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.
+layers.20.temporal_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layer
+s.20.temporal_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.20.temp
+oral_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.20.temporal_at
+tn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.20.temporal_attn.v_proj
+.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.20.temporal_embedding', 'model
+.vision_tower.LanguageBindVideo.vision_model.encoder.layers.20.temporal_layer_norm1.bias', 'model.vision_t
+ower.LanguageBindVideo.vision_model.encoder.layers.20.temporal_layer_norm1.weight', 'model.vision_tower.La
+nguageBindVideo.vision_model.encoder.layers.21.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vi
+sion_model.encoder.layers.21.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encod
+er.layers.21.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.layer
+_norm2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.mlp.fc1.bias', 'model
+.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.mlp.fc1.weight', 'model.vision_tower.Langua
+geBindVideo.vision_model.encoder.layers.21.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.vision_mod
+el.encoder.layers.21.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21
+.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.self_attn.k_
+proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.self_attn.out_proj.bias
+', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.self_attn.out_proj.weight', 'model
+.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.self_attn.q_proj.bias', 'model.vision_tower
+.LanguageBindVideo.vision_model.encoder.layers.21.self_attn.q_proj.weight', 'model.vision_tower.LanguageBi
+ndVideo.vision_model.encoder.layers.21.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.visio
+n_model.encoder.layers.21.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.enc
+oder.layers.21.temporal_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.laye
+rs.21.temporal_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.t
+emporal_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.temporal
+_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.temporal_attn
+.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.temporal_attn.q_proj.w
+eight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.temporal_attn.v_proj.bias', '
+model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.temporal_attn.v_proj.weight', 'model.v
+ision_tower.LanguageBindVideo.vision_model.encoder.layers.21.temporal_embedding', 'model.vision_tower.Lang
+uageBindVideo.vision_model.encoder.layers.21.temporal_layer_norm1.bias', 'model.vision_tower.LanguageBindV
+ideo.vision_model.encoder.layers.21.temporal_layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vi
+sion_model.encoder.layers.22.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder
+.layers.22.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.22.layer
+_norm2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.22.layer_norm2.weight', 'm
+odel.vision_tower.LanguageBindVideo.vision_model.encoder.layers.22.mlp.fc1.bias', 'model.vision_tower.Lang
+uageBindVideo.vision_model.encoder.layers.22.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.vision
+_model.encoder.layers.22.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.
+22.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.22.self_attn.k_proj.
+bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.22.self_attn.k_proj.weight', 'mod
+el.vision_tower.LanguageBindVideo.vision_model.encoder.layers.22.self_attn.out_proj.bias', 'model.vision_t
+ower.LanguageBindVideo.vision_model.encoder.layers.22.self_attn.out_proj.weight', 'model.vision_tower.Lang
+uageBindVideo.vision_model.encoder.layers.22.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo
+.vision_model.encoder.layers.22.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_mod
+el.encoder.layers.22.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.la
+yers.22.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.22.tem
+poral_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.22.temporal_att
+n.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.22.temporal_attn.out_p
+roj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.22.temporal_attn.out_proj.wei
+ght', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.22.temporal_attn.q_proj.bias', 'mo
+del.vision_tower.LanguageBindVideo.vision_model.encoder.layers.22.temporal_attn.q_proj.weight', 'model.vis
+ion_tower.LanguageBindVideo.vision_model.encoder.layers.22.temporal_attn.v_proj.bias', 'model.vision_tower
+.LanguageBindVideo.vision_model.encoder.layers.22.temporal_attn.v_proj.weight', 'model.vision_tower.Langua
+geBindVideo.vision_model.encoder.layers.22.temporal_embedding', 'model.vision_tower.LanguageBindVideo.visi
+on_model.encoder.layers.22.temporal_layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.
+encoder.layers.22.temporal_layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder
+.layers.23.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.23.layer_n
+orm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.23.layer_norm2.bias', 'mod
+el.vision_tower.LanguageBindVideo.vision_model.encoder.layers.23.layer_norm2.weight', 'model.vision_tower.
+LanguageBindVideo.vision_model.encoder.layers.23.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.visi
+on_model.encoder.layers.23.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.lay
+ers.23.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.23.mlp.fc2.weight'
+, 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.23.self_attn.k_proj.bias', 'model.visi
+on_tower.LanguageBindVideo.vision_model.encoder.layers.23.self_attn.k_proj.weight', 'model.vision_tower.La
+nguageBindVideo.vision_model.encoder.layers.23.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindV
+ideo.vision_model.encoder.layers.23.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.visi
+on_model.encoder.layers.23.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.enco
+der.layers.23.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.
+23.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.23.self_attn.
+v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.23.temporal_attn.k_proj.
+bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.23.temporal_attn.k_proj.weight',
+'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.23.temporal_attn.out_proj.bias', 'model.
+vision_tower.LanguageBindVideo.vision_model.encoder.layers.23.temporal_attn.out_proj.weight', 'model.visio
+n_tower.LanguageBindVideo.vision_model.encoder.layers.23.temporal_attn.q_proj.bias', 'model.vision_tower.L
+anguageBindVideo.vision_model.encoder.layers.23.temporal_attn.q_proj.weight', 'model.vision_tower.Language
+BindVideo.vision_model.encoder.layers.23.temporal_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo
+.vision_model.encoder.layers.23.temporal_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision
+_model.encoder.layers.23.temporal_embedding', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.l
+ayers.23.temporal_layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.23.
+temporal_layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.layer_no
+rm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.layer_norm1.weight', 'model
+.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.layer_norm2.bias', 'model.vision_tower.Langu
+ageBindVideo.vision_model.encoder.layers.3.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.visi
+on_model.encoder.layers.3.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers
+.3.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.mlp.fc2.bias', 'mo
+del.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.mlp.fc2.weight', 'model.vision_tower.Lang
+uageBindVideo.vision_model.encoder.layers.3.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.
+vision_model.encoder.layers.3.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model
+.encoder.layers.3.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.lay
+ers.3.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.self
+_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.self_attn.q_proj.w
+eight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.self_attn.v_proj.bias', 'model
+.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.self_attn.v_proj.weight', 'model.vision_towe
+r.LanguageBindVideo.vision_model.encoder.layers.3.temporal_attn.k_proj.bias', 'model.vision_tower.Language
+BindVideo.vision_model.encoder.layers.3.temporal_attn.k_proj.weight', 'model.vision_tower.LanguageBindVide
+o.vision_model.encoder.layers.3.temporal_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision
+_model.encoder.layers.3.temporal_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model
+.encoder.layers.3.temporal_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.l
+ayers.3.temporal_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.
+temporal_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.temporal_a
+ttn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.temporal_embedding
+', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.temporal_layer_norm1.bias', 'model.
+vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.temporal_layer_norm1.weight', 'model.vision_t
+ower.LanguageBindVideo.vision_model.encoder.layers.4.layer_norm1.bias', 'model.vision_tower.LanguageBindVi
+deo.vision_model.encoder.layers.4.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.
+encoder.layers.4.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.la
+yer_norm2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.mlp.fc1.bias', 'mod
+el.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.mlp.fc1.weight', 'model.vision_tower.Langu
+ageBindVideo.vision_model.encoder.layers.4.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.vision_mod
+el.encoder.layers.4.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.s
+elf_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.self_attn.k_pro
+j.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.self_attn.out_proj.bias', '
+model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.self_attn.out_proj.weight', 'model.visi
+on_tower.LanguageBindVideo.vision_model.encoder.layers.4.self_attn.q_proj.bias', 'model.vision_tower.Langu
+ageBindVideo.vision_model.encoder.layers.4.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo
+.vision_model.encoder.layers.4.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.
+encoder.layers.4.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.laye
+rs.4.temporal_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.tempo
+ral_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.temporal_attn
+.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.temporal_attn.out_pro
+j.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.temporal_attn.q_proj.bias',
+ 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.temporal_attn.q_proj.weight', 'model.
+vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.temporal_attn.v_proj.bias', 'model.vision_tow
+er.LanguageBindVideo.vision_model.encoder.layers.4.temporal_attn.v_proj.weight', 'model.vision_tower.Langu
+ageBindVideo.vision_model.encoder.layers.4.temporal_embedding', 'model.vision_tower.LanguageBindVideo.visi
+on_model.encoder.layers.4.temporal_layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.e
+ncoder.layers.4.temporal_layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.l
+ayers.5.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.5.layer_norm1
+.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.5.layer_norm2.bias', 'model.vi
+sion_tower.LanguageBindVideo.vision_model.encoder.layers.5.layer_norm2.weight', 'model.vision_tower.Langua
+geBindVideo.vision_model.encoder.layers.5.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.vision_mode
+l.encoder.layers.5.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.5.ml
+p.fc2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.5.mlp.fc2.weight', 'model.v
+ision_tower.LanguageBindVideo.vision_model.encoder.layers.5.self_attn.k_proj.bias', 'model.vision_tower.La
+nguageBindVideo.vision_model.encoder.layers.5.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVi
+deo.vision_model.encoder.layers.5.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_m
+odel.encoder.layers.5.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encod
+er.layers.5.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.5.se
+lf_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.5.self_attn.v_pr
+oj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.5.self_attn.v_proj.weight', 'm
+odel.vision_tower.LanguageBindVideo.vision_model.encoder.layers.5.temporal_attn.k_proj.bias', 'model.visio
+n_tower.LanguageBindVideo.vision_model.encoder.layers.5.temporal_attn.k_proj.weight', 'model.vision_tower.
+LanguageBindVideo.vision_model.encoder.layers.5.temporal_attn.out_proj.bias', 'model.vision_tower.Language
+BindVideo.vision_model.encoder.layers.5.temporal_attn.out_proj.weight', 'model.vision_tower.LanguageBindVi
+deo.vision_model.encoder.layers.5.temporal_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision
+_model.encoder.layers.5.temporal_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.e
+ncoder.layers.5.temporal_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.lay
+ers.5.temporal_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.5.te
+mporal_embedding', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.5.temporal_layer_norm
+1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.5.temporal_layer_norm1.weight',
+ 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.6.layer_norm1.bias', 'model.vision_towe
+r.LanguageBindVideo.vision_model.encoder.layers.6.layer_norm1.weight', 'model.vision_tower.LanguageBindVid
+eo.vision_model.encoder.layers.6.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.enc
+oder.layers.6.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.6.mlp
+.fc1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.6.mlp.fc1.weight', 'model.vi
+sion_tower.LanguageBindVideo.vision_model.encoder.layers.6.mlp.fc2.bias', 'model.vision_tower.LanguageBind
+Video.vision_model.encoder.layers.6.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.en
+coder.layers.6.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.6
+.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.6.self_attn.o
+ut_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.6.self_attn.out_proj.weig
+ht', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.6.self_attn.q_proj.bias', 'model.vi
+sion_tower.LanguageBindVideo.vision_model.encoder.layers.6.self_attn.q_proj.weight', 'model.vision_tower.L
+anguageBindVideo.vision_model.encoder.layers.6.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVid
+eo.vision_model.encoder.layers.6.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_mo
+del.encoder.layers.6.temporal_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encode
+r.layers.6.temporal_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers
+.6.temporal_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.6.tempo
+ral_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.6.temporal_at
+tn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.6.temporal_attn.q_proj.
+weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.6.temporal_attn.v_proj.bias', '
+model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.6.temporal_attn.v_proj.weight', 'model.vi
+sion_tower.LanguageBindVideo.vision_model.encoder.layers.6.temporal_embedding', 'model.vision_tower.Langua
+geBindVideo.vision_model.encoder.layers.6.temporal_layer_norm1.bias', 'model.vision_tower.LanguageBindVide
+o.vision_model.encoder.layers.6.temporal_layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision
+_model.encoder.layers.7.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.laye
+rs.7.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.7.layer_norm2.
+bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.7.layer_norm2.weight', 'model.vis
+ion_tower.LanguageBindVideo.vision_model.encoder.layers.7.mlp.fc1.bias', 'model.vision_tower.LanguageBindV
+ideo.vision_model.encoder.layers.7.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.enc
+oder.layers.7.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.7.mlp.fc2.w
+eight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.7.self_attn.k_proj.bias', 'model
+.vision_tower.LanguageBindVideo.vision_model.encoder.layers.7.self_attn.k_proj.weight', 'model.vision_towe
+r.LanguageBindVideo.vision_model.encoder.layers.7.self_attn.out_proj.bias', 'model.vision_tower.LanguageBi
+ndVideo.vision_model.encoder.layers.7.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vi
+sion_model.encoder.layers.7.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.enc
+oder.layers.7.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.
+7.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.7.self_attn.v_
+proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.7.temporal_attn.k_proj.bia
+s', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.7.temporal_attn.k_proj.weight', 'mod
+el.vision_tower.LanguageBindVideo.vision_model.encoder.layers.7.temporal_attn.out_proj.bias', 'model.visio
+n_tower.LanguageBindVideo.vision_model.encoder.layers.7.temporal_attn.out_proj.weight', 'model.vision_towe
+r.LanguageBindVideo.vision_model.encoder.layers.7.temporal_attn.q_proj.bias', 'model.vision_tower.Language
+BindVideo.vision_model.encoder.layers.7.temporal_attn.q_proj.weight', 'model.vision_tower.LanguageBindVide
+o.vision_model.encoder.layers.7.temporal_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_m
+odel.encoder.layers.7.temporal_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.enc
+oder.layers.7.temporal_embedding', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.7.tem
+poral_layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.7.temporal_laye
+r_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.8.layer_norm1.bias', 'm
+odel.vision_tower.LanguageBindVideo.vision_model.encoder.layers.8.layer_norm1.weight', 'model.vision_tower
+.LanguageBindVideo.vision_model.encoder.layers.8.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.
+vision_model.encoder.layers.8.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.enco
+der.layers.8.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.8.mlp.fc1.we
+ight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.8.mlp.fc2.bias', 'model.vision_to
+wer.LanguageBindVideo.vision_model.encoder.layers.8.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo
+.vision_model.encoder.layers.8.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.
+encoder.layers.8.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.laye
+rs.8.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.8.self_at
+tn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.8.self_attn.q_proj.
+bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.8.self_attn.q_proj.weight', 'mode
+l.vision_tower.LanguageBindVideo.vision_model.encoder.layers.8.self_attn.v_proj.bias', 'model.vision_tower
+.LanguageBindVideo.vision_model.encoder.layers.8.self_attn.v_proj.weight', 'model.vision_tower.LanguageBin
+dVideo.vision_model.encoder.layers.8.temporal_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vis
+ion_model.encoder.layers.8.temporal_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_mode
+l.encoder.layers.8.temporal_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encode
+r.layers.8.temporal_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.laye
+rs.8.temporal_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.8.tempo
+ral_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.8.temporal_attn
+.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.8.temporal_attn.v_proj.we
+ight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.8.temporal_embedding', 'model.vis
+ion_tower.LanguageBindVideo.vision_model.encoder.layers.8.temporal_layer_norm1.bias', 'model.vision_tower.
+LanguageBindVideo.vision_model.encoder.layers.8.temporal_layer_norm1.weight', 'model.vision_tower.Language
+BindVideo.vision_model.encoder.layers.9.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_mo
+del.encoder.layers.9.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layer
+s.9.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.9.layer_norm2.wei
+ght', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.9.mlp.fc1.bias', 'model.vision_tow
+er.LanguageBindVideo.vision_model.encoder.layers.9.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.
+vision_model.encoder.layers.9.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.la
+yers.9.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.9.self_attn.k_pr
+oj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.9.self_attn.k_proj.weight', 'm
+odel.vision_tower.LanguageBindVideo.vision_model.encoder.layers.9.self_attn.out_proj.bias', 'model.vision_
+tower.LanguageBindVideo.vision_model.encoder.layers.9.self_attn.out_proj.weight', 'model.vision_tower.Lang
+uageBindVideo.vision_model.encoder.layers.9.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.
+vision_model.encoder.layers.9.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model
+.encoder.layers.9.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layer
+s.9.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.9.temporal
+_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.9.temporal_attn.k_pr
+oj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.9.temporal_attn.out_proj.bia
+s', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.9.temporal_attn.out_proj.weight', 'm
+odel.vision_tower.LanguageBindVideo.vision_model.encoder.layers.9.temporal_attn.q_proj.bias', 'model.visio
+n_tower.LanguageBindVideo.vision_model.encoder.layers.9.temporal_attn.q_proj.weight', 'model.vision_tower.
+LanguageBindVideo.vision_model.encoder.layers.9.temporal_attn.v_proj.bias', 'model.vision_tower.LanguageBi
+ndVideo.vision_model.encoder.layers.9.temporal_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.
+vision_model.encoder.layers.9.temporal_embedding', 'model.vision_tower.LanguageBindVideo.vision_model.enco
+der.layers.9.temporal_layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers
+.9.temporal_layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.post_layernorm.bias',
+'model.vision_tower.LanguageBindVideo.vision_model.post_layernorm.weight', 'model.vision_tower.LanguageBin
+dVideo.vision_model.pre_layrnorm.bias', 'model.vision_tower.LanguageBindVideo.vision_model.pre_layrnorm.we
+ight', 'model.vision_tower.LanguageBindVideo.visual_projection.weight']
+- This IS expected if you are initializing EagleLlamaForCausalLM from the checkpoint of a model trained on
+ another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a
+ BertForPreTraining model).
+- This IS NOT expected if you are initializing EagleLlamaForCausalLM from the checkpoint of a model that y
+ou expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequen
+ceClassification model).
+2025-01-08 11:09:18.649 | INFO     | lmms_eval.api.task:build_all_requests:425 - Building contexts for act
+ivitynetqa on rank 0...
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████
+██████████████████████████████████████████████████████████████████████████████████████████████████████████
+█████████| 8000/8000 [00:00<00:00, 74551.32it/s]
+2025-01-08 11:09:19.006 | INFO     | lmms_eval.evaluator:evaluate:446 - Running generate_until requests
+Model Responding:   0%|
+
+                       | 0/8000 [00:00<?, ?it/s]Starting from v4.46, the `logits` model output will have t
+he same type as the model (except at train time, where it will always be FP32)
+Model Responding:   4%|████████
+
+           | 322/8000 [08:04<2:15:12,  1.06s/it][11:17:26] /github/workspace/src/video/ffmpeg/threaded_dec
+oder.cc:292: [11:17:26] /github/workspace/src/video/ffmpeg/threaded_decoder.cc:218: Check failed: avcodec_
+send_packet(dec_ctx_.get(), pkt.get()) >= 0 (-1094995529 vs. 0) Thread worker: Error sending packet.
+Error with ['/home1/hxl/disk/EAGLE/.cache/huggingface/activitynetqa/all_test/v_MDWaKr7Gu5Q.mkv']
+Model Responding:   4%|████████▉
+
+           | 358/8000 [09:05<2:33:49,  1.21s/it][11:18:48] /github/workspace/src/video/ffmpeg/threaded_dec
+oder.cc:104: Check failed: run_.load()
+Error with ['/home1/hxl/disk/EAGLE/.cache/huggingface/activitynetqa/all_test/v_Npj77L31bhw.mp4']
+Model Responding:  16%|███████████████████████████████▎
+
+          | 1258/8000 [33:22<6:35:42,  3.52s/it][11:42:44] /github/workspace/src/video/ffmpeg/threaded_dec
+oder.cc:292: [11:42:44] /github/workspace/src/video/ffmpeg/threaded_decoder.cc:218: Check failed: avcodec_
+send_packet(dec_ctx_.get(), pkt.get()) >= 0 (-1094995529 vs. 0) Thread worker: Error sending packet.
+Error with ['/home1/hxl/disk/EAGLE/.cache/huggingface/activitynetqa/all_test/v_MDWaKr7Gu5Q.mkv']
+Model Responding:  19%|█████████████████████████████████████▎
+
+          | 1500/8000 [39:43<1:49:33,  1.01s/it][11:49:31] /github/workspace/src/video/ffmpeg/threaded_dec
+oder.cc:104: Check failed: run_.load()
+Error with ['/home1/hxl/disk/EAGLE/.cache/huggingface/activitynetqa/all_test/v_Npj77L31bhw.mp4']
+Model Responding:  20%|███████████████████████████████████████
+
+          | 1568/8000 [41:56<1:33:20,  1.15it/s][11:51:18] /github/workspace/src/video/ffmpeg/threaded_dec
+oder.cc:292: [11:51:18] /github/workspace/src/video/ffmpeg/threaded_decoder.cc:218: Check failed: avcodec_
+send_packet(dec_ctx_.get(), pkt.get()) >= 0 (-1094995529 vs. 0) Thread worker: Error sending packet.
+Error with ['/home1/hxl/disk/EAGLE/.cache/huggingface/activitynetqa/all_test/v_MDWaKr7Gu5Q.mkv']
+Model Responding:  26%|████████████████████████████████████████████████████▌
+
+          | 2111/8000 [55:32<1:55:34,  1.18s/it][12:05:16] /github/workspace/src/video/ffmpeg/threaded_dec
+oder.cc:104: Check failed: run_.load()
+Error with ['/home1/hxl/disk/EAGLE/.cache/huggingface/activitynetqa/all_test/v_Npj77L31bhw.mp4']
+Model Responding:  28%|███████████████████████████████████████████████████████▊
+
+          | 2246/8000 [59:45<1:11:06,  1.35it/s][12:09:07] /github/workspace/src/video/ffmpeg/threaded_dec
+oder.cc:104: Check failed: run_.load()
+Error with ['/home1/hxl/disk/EAGLE/.cache/huggingface/activitynetqa/all_test/v_MDWaKr7Gu5Q.mkv']
+Model Responding:  32%|███████████████████████████████████████████████████████████████▍
+
+        | 2578/8000 [1:08:06<1:35:26,  1.06s/it][12:17:50] /github/workspace/src/video/ffmpeg/threaded_dec
+oder.cc:104: Check failed: run_.load()
+Error with ['/home1/hxl/disk/EAGLE/.cache/huggingface/activitynetqa/all_test/v_Npj77L31bhw.mp4']
+Model Responding:  35%|█████████████████████████████████████████████████████████████████████
+
+        | 2807/8000 [1:14:48<2:00:00,  1.39s/it][12:24:32] /github/workspace/src/video/ffmpeg/threaded_dec
+oder.cc:104: Check failed: run_.load()
+Error with ['/home1/hxl/disk/EAGLE/.cache/huggingface/activitynetqa/all_test/v_Npj77L31bhw.mp4']
+Model Responding:  35%|█████████████████████████████████████████████████████████████████████▏
+
+        | 2812/8000 [1:15:22<4:55:09,  3.41s/it][12:24:44] /github/workspace/src/video/ffmpeg/threaded_dec
+oder.cc:104: Check failed: run_.load()
+Error with ['/home1/hxl/disk/EAGLE/.cache/huggingface/activitynetqa/all_test/v_MDWaKr7Gu5Q.mkv']
+Model Responding:  41%|████████████████████████████████████████████████████████████████████████████████▊
+
+        | 3282/8000 [1:27:50<2:08:30,  1.63s/it][12:37:34] /github/workspace/src/video/ffmpeg/threaded_dec
+oder.cc:104: Check failed: run_.load()
+Error with ['/home1/hxl/disk/EAGLE/.cache/huggingface/activitynetqa/all_test/v_Npj77L31bhw.mp4']
+Model Responding:  43%|███████████████████████████████████████████████████████████████████████████████████
+▉
+        | 3409/8000 [1:31:04<1:31:40,  1.20s/it][12:40:27] /github/workspace/src/video/ffmpeg/threaded_dec
+oder.cc:292: [12:40:27] /github/workspace/src/video/ffmpeg/threaded_decoder.cc:218: Check failed: avcodec_
+send_packet(dec_ctx_.get(), pkt.get()) >= 0 (-1094995529 vs. 0) Thread worker: Error sending packet.
+Error with ['/home1/hxl/disk/EAGLE/.cache/huggingface/activitynetqa/all_test/v_MDWaKr7Gu5Q.mkv']
+Model Responding:  58%|███████████████████████████████████████████████████████████████████████████████████
+██████████████████████████████▊
+        | 4620/8000 [2:01:45<1:51:43,  1.98s/it][13:11:29] /github/workspace/src/video/ffmpeg/threaded_dec
+oder.cc:292: [13:11:29] /github/workspace/src/video/ffmpeg/threaded_decoder.cc:218: Check failed: avcodec_
+send_packet(dec_ctx_.get(), pkt.get()) >= 0 (-1094995529 vs. 0) Thread worker: Error sending packet.
+Error with ['/home1/hxl/disk/EAGLE/.cache/huggingface/activitynetqa/all_test/v_Npj77L31bhw.mp4']
+Model Responding:  64%|███████████████████████████████████████████████████████████████████████████████████
+███████████████████████████████████████████▊
+        | 5148/8000 [2:15:49<1:02:46,  1.32s/it][13:25:33] /github/workspace/src/video/ffmpeg/threaded_dec
+oder.cc:104: Check failed: run_.load()
+Error with ['/home1/hxl/disk/EAGLE/.cache/huggingface/activitynetqa/all_test/v_Npj77L31bhw.mp4']
+Model Responding:  67%|███████████████████████████████████████████████████████████████████████████████████
+█████████████████████████████████████████████████▌
+        | 5381/8000 [2:22:03<1:22:39,  1.89s/it][13:31:26] /github/workspace/src/video/ffmpeg/threaded_dec
+oder.cc:292: [13:31:26] /github/workspace/src/video/ffmpeg/threaded_decoder.cc:218: Check failed: avcodec_
+send_packet(dec_ctx_.get(), pkt.get()) >= 0 (-1094995529 vs. 0) Thread worker: Error sending packet.
+Error with ['/home1/hxl/disk/EAGLE/.cache/huggingface/activitynetqa/all_test/v_MDWaKr7Gu5Q.mkv']
+Model Responding:  72%|███████████████████████████████████████████████████████████████████████████████████
+██████████████████████████████████████████████████████████▏
+        | 5731/8000 [2:31:38<1:29:32,  2.37s/it][13:41:01] /github/workspace/src/video/ffmpeg/threaded_dec
+oder.cc:292: [13:41:01] /github/workspace/src/video/ffmpeg/threaded_decoder.cc:218: Check failed: avcodec_
+send_packet(dec_ctx_.get(), pkt.get()) >= 0 (-1094995529 vs. 0) Thread worker: Error sending packet.
+Error with ['/home1/hxl/disk/EAGLE/.cache/huggingface/activitynetqa/all_test/v_MDWaKr7Gu5Q.mkv']
+Model Responding:  74%|███████████████████████████████████████████████████████████████████████████████████
+███████████████████████████████████████████████████████████████▏
+        | 5938/8000 [2:37:32<1:32:27,  2.69s/it][13:47:15] /github/workspace/src/video/ffmpeg/threaded_dec
+oder.cc:104: Check failed: run_.load()
+Error with ['/home1/hxl/disk/EAGLE/.cache/huggingface/activitynetqa/all_test/v_Npj77L31bhw.mp4']
+Model Responding:  79%|███████████████████████████████████████████████████████████████████████████████████
+█████████████████████████████████████████████████████████████████████████▉
+          | 6307/8000 [2:47:45<40:08,  1.42s/it][13:57:07] /github/workspace/src/video/ffmpeg/threaded_dec
+oder.cc:292: [13:57:07] /github/workspace/src/video/ffmpeg/threaded_decoder.cc:218: Check failed: avcodec_
+send_packet(dec_ctx_.get(), pkt.get()) >= 0 (-1094995529 vs. 0) Thread worker: Error sending packet.
+Error with ['/home1/hxl/disk/EAGLE/.cache/huggingface/activitynetqa/all_test/v_MDWaKr7Gu5Q.mkv']
+Model Responding:  79%|███████████████████████████████████████████████████████████████████████████████████
+████████████████████████████████████████████████████████████████████████▊
+        | 6329/8000 [2:48:25<1:21:19,  2.92s/it][13:57:47] /github/workspace/src/video/ffmpeg/threaded_dec
+oder.cc:104: Check failed: run_.load()
+Error with ['/home1/hxl/disk/EAGLE/.cache/huggingface/activitynetqa/all_test/v_MDWaKr7Gu5Q.mkv']
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+█████████████████████████████████████████████████████████████████████████████▋
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+█████████████████████████████████████████████████████████████████████████████▋
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+█████████████████████████████████████████████████████████████████████████████▋
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+█████████████████████████████████████████████████████████████████████████████▋
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+█████████████████████████████████████████████████████████████████████████████▋
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+█████████████████████████████████████████████████████████████████████████████▊
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+█████████████████████████████████████████████████████████████████████████████▊
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+█████████████████████████████████████████████████████████████████████████████▊
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+█████████████████████████████████████████████████████████████████████████████▊
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+█████████████████████████████████████████████████████████████████████████████▊
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+█████████████████████████████████████████████████████████████████████████████▉
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+█████████████████████████████████████████████████████████████████████████████▉
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+█████████████████████████████████████████████████████████████████████████████▉
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+█████████████████████████████████████████████████████████████████████████████▉
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+█████████████████████████████████████████████████████████████████████████████▉
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+██████████████████████████████████████████████████████████████████████████████
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+██████████████████████████████████████████████████████████████████████████████
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+██████████████████████████████████████████████████████████████████████████████
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+██████████████████████████████████████████████████████████████████████████████
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+██████████████████████████████████████████████████████████████████████████████
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+██████████████████████████████████████████████████████████████████████████████▏
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+██████████████████████████████████████████████████████████████████████████████▏
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+██████████████████████████████████████████████████████████████████████████████▏
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+██████████████████████████████████████████████████████████████████████████████▏
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+████████████████████████████████████████████████████████████████████████████▌
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+████████████████████████████████████████████████████████████████████████████▋
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+████████████████████████████████████████████████████████████████████████████▋
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+████████████████████████████████████████████████████████████████████████████▋
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+████████████████████████████████████████████████████████████████████████████▋
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+██████████████████████████████████████████████████████████████████████████████▎
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+██████████████████████████████████████████████████████████████████████████████▍
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+██████████████████████████████████████████████████████████████████████████████▍
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+██████████████████████████████████████████████████████████████████████████████▍
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+██████████████████████████████████████████████████████████████████████████████▍
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+██████████████████████████████████████████████████████████████████████████████▍
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+██████████████████████████████████████████████████████████████████████████████▌
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+██████████████████████████████████████████████████████████████████████████████▌
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+██████████████████████████████████████████████████████████████████████████████▌
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+██████████████████████████████████████████████████████████████████████████████▌
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+██████████████████████████████████████████████████████████████████████████████▌
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+██████████████████████████████████████████████████████████████████████████████▋
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+██████████████████████████████████████████████████████████████████████████████▋
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+██████████████████████████████████████████████████████████████████████████████▋
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+██████████████████████████████████████████████████████████████████████████████▋
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+██████████████████████████████████████████████████████████████████████████████▋
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+██████████████████████████████████████████████████████████████████████████████▊
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+██████████████████████████████████████████████████████████████████████████████▊
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+██████████████████████████████████████████████████████████████████████████████▊
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+██████████████████████████████████████████████████████████████████████████████▊
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+█████████████████████████████████████████████████████████████████████████████▏
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+██████████████████████████████████████████████████████████████████████████████▉
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+██████████████████████████████████████████████████████████████████████████████▉
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+██████████████████████████████████████████████████████████████████████████████▉
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+██████████████████████████████████████████████████████████████████████████████▉
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+██████████████████████████████████████████████████████████████████████████████▉
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+█████████████████████████████████████████████████████████████████████████████▍
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+███████████████████████████████████████████████████████████████████████████████
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+███████████████████████████████████████████████████████████████████████████████
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+███████████████████████████████████████████████████████████████████████████████
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+███████████████████████████████████████████████████████████████████████████████
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+█████████████████████████████████████████████████████████████████████████████▌
+Model Responding:  81%|███████████████████████████████████████████████████████████████████████████████████
+███████████████████████████████████████████████████████████████████████████████▏
+Model Responding:  82%|███████████████████████████████████████████████████████████████████████████████████
+███████████████████████████████████████████████████████████████████████████████▏
+Model Responding:  82%|███████████████████████████████████████████████████████████████████████████████████
+███████████████████████████████████████████████████████████████████████████████▏
+Model Responding:  82%|███████████████████████████████████████████████████████████████████████████████████
+███████████████████████████████████████████████████████████████████████████████▏
+Model Responding:  82%|███████████████████████████████████████████████████████████████████████████████████
+███████████████████████████████████████████████████████████████████████████████▎
+Model Responding:  82%|███████████████████████████████████████████████████████████████████████████████████
+███████████████████████████████████████████████████████████████████████████████▎
+Model Responding:  82%|███████████████████████████████████████████████████████████████████████████████████
+███████████████████████████████████████████████████████████████████████████████▎
+Model Responding:  82%|███████████████████████████████████████████████████████████████████████████████████
+███████████████████████████████████████████████████████████████████████████████▎
+Model Responding:  82%|███████████████████████████████████████████████████████████████████████████████████
+███████████████████████████████████████████████████████████████████████████████▎
+Model Responding:  82%|███████████████████████████████████████████████████████████████████████████████████
+███████████████████████████████████████████████████████████████████████████████▍
+          | 6528/8000 [2:53:36<27:02,  1.10s/it]

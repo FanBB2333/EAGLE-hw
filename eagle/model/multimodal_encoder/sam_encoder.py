@@ -91,8 +91,8 @@ class SAMVisionTower(nn.Module):
         if self.is_loaded:
             return
 
-        self.image_processor= SamProcessor.from_pretrained("facebook/sam-vit-large")
-        sam_model = SamModel.from_pretrained("facebook/sam-vit-large").vision_encoder
+        self.image_processor= SamProcessor.from_pretrained("./model/Vision_Encoder/sam-vit-large")
+        sam_model = SamModel.from_pretrained("./model/Vision_Encoder/sam-vit-large").vision_encoder
         sam_model.neck = ShortSamVisionNeck(sam_model.config)
         self.sam_model_config = sam_model.config
         self.image_processor.preprocess = self.image_processor.__call__

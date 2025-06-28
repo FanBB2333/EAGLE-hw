@@ -1,0 +1,1837 @@
+{'testlen': 0, 'reflen': 37, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.702702702629657e-17
+{'testlen': 0, 'reflen': 26, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 3.846153846005917e-17
+{'testlen': 0, 'reflen': 66, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.5151515151285583e-17
+{'testlen': 0, 'reflen': 58, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.7241379310047565e-17
+{'testlen': 0, 'reflen': 77, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.2987012986844326e-17
+{'testlen': 0, 'reflen': 62, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.6129032257804373e-17
+{'testlen': 0, 'reflen': 70, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.4285714285510206e-17
+{'testlen': 0, 'reflen': 74, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.3513513513330899e-17
+{'testlen': 0, 'reflen': 47, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.127659574422816e-17
+{'testlen': 0, 'reflen': 39, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.5641025640368184e-17
+{'testlen': 0, 'reflen': 32, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 3.124999999902344e-17
+{'testlen': 0, 'reflen': 40, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.4999999999375003e-17
+{'testlen': 0, 'reflen': 135, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 7.407407407352539e-18
+{'testlen': 0, 'reflen': 79, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.2658227847941036e-17
+{'testlen': 0, 'reflen': 50, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.9999999999600003e-17
+{'testlen': 0, 'reflen': 92, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.0869565217273158e-17
+{'testlen': 0, 'reflen': 92, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.0869565217273158e-17
+{'testlen': 0, 'reflen': 54, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.8518518518175586e-17
+{'testlen': 0, 'reflen': 52, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.923076923039941e-17
+{'testlen': 0, 'reflen': 57, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.754385964881502e-17
+{'testlen': 0, 'reflen': 58, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.7241379310047565e-17
+{'testlen': 0, 'reflen': 60, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.666666666638889e-17
+{'testlen': 0, 'reflen': 40, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.4999999999375003e-17
+{'testlen': 0, 'reflen': 65, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.53846153843787e-17
+{'testlen': 0, 'reflen': 69, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.4492753622978365e-17
+{'testlen': 0, 'reflen': 110, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 9.090909090826446e-18
+{'testlen': 0, 'reflen': 46, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.173913043431002e-17
+{'testlen': 0, 'reflen': 71, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.408450704205515e-17
+{'testlen': 0, 'reflen': 41, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.4390243901844144e-17
+{'testlen': 0, 'reflen': 83, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.2048192770939179e-17
+{'testlen': 0, 'reflen': 142, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 7.042253521077168e-18
+{'testlen': 0, 'reflen': 96, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.041666666655816e-17
+{'testlen': 0, 'reflen': 43, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.3255813952947542e-17
+{'testlen': 0, 'reflen': 119, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 8.403361344467198e-18
+{'testlen': 0, 'reflen': 47, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.127659574422816e-17
+{'testlen': 0, 'reflen': 30, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 3.3333333332222224e-17
+{'testlen': 0, 'reflen': 43, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.3255813952947542e-17
+{'testlen': 0, 'reflen': 142, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 7.042253521077168e-18
+{'testlen': 0, 'reflen': 77, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.2987012986844326e-17
+{'testlen': 0, 'reflen': 49, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.040816326488963e-17
+{'testlen': 0, 'reflen': 103, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 9.708737863983411e-18
+{'testlen': 0, 'reflen': 50, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.9999999999600003e-17
+{'testlen': 0, 'reflen': 40, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.4999999999375003e-17
+{'testlen': 0, 'reflen': 88, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.1363636363507233e-17
+{'testlen': 0, 'reflen': 50, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.9999999999600003e-17
+{'testlen': 0, 'reflen': 61, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.6393442622682076e-17
+{'testlen': 0, 'reflen': 103, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 9.708737863983411e-18
+{'testlen': 0, 'reflen': 38, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.6315789472991693e-17
+{'testlen': 0, 'reflen': 96, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.041666666655816e-17
+{'testlen': 0, 'reflen': 162, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 6.172839506134736e-18
+{'testlen': 0, 'reflen': 44, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.2727272726756202e-17
+{'testlen': 0, 'reflen': 31, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 3.225806451508845e-17
+{'testlen': 0, 'reflen': 65, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.53846153843787e-17
+{'testlen': 0, 'reflen': 44, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.2727272726756202e-17
+{'testlen': 0, 'reflen': 113, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 8.84955752204558e-18
+{'testlen': 0, 'reflen': 40, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.4999999999375003e-17
+{'testlen': 0, 'reflen': 52, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.923076923039941e-17
+{'testlen': 0, 'reflen': 45, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.2222222221728398e-17
+{'testlen': 0, 'reflen': 40, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.4999999999375003e-17
+{'testlen': 0, 'reflen': 39, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.5641025640368184e-17
+{'testlen': 0, 'reflen': 71, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.408450704205515e-17
+{'testlen': 0, 'reflen': 72, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.388888888869599e-17
+{'testlen': 0, 'reflen': 39, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.5641025640368184e-17
+{'testlen': 0, 'reflen': 111, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 9.009009008927848e-18
+{'testlen': 0, 'reflen': 70, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.4285714285510206e-17
+{'testlen': 0, 'reflen': 38, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.6315789472991693e-17
+{'testlen': 0, 'reflen': 32, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 3.124999999902344e-17
+{'testlen': 0, 'reflen': 55, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.8181818181487605e-17
+{'testlen': 0, 'reflen': 31, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 3.225806451508845e-17
+{'testlen': 0, 'reflen': 144, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 6.94444444439622e-18
+{'testlen': 0, 'reflen': 60, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.666666666638889e-17
+{'testlen': 0, 'reflen': 71, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.408450704205515e-17
+{'testlen': 0, 'reflen': 61, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.6393442622682076e-17
+{'testlen': 0, 'reflen': 66, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.5151515151285583e-17
+{'testlen': 0, 'reflen': 17, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 5.88235294083045e-17
+{'testlen': 0, 'reflen': 43, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.3255813952947542e-17
+{'testlen': 0, 'reflen': 63, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.5873015872763922e-17
+{'testlen': 0, 'reflen': 70, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.4285714285510206e-17
+{'testlen': 0, 'reflen': 93, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.0752688171927391e-17
+{'testlen': 0, 'reflen': 90, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.1111111110987654e-17
+{'testlen': 0, 'reflen': 67, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.492537313410559e-17
+{'testlen': 0, 'reflen': 58, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.7241379310047565e-17
+{'testlen': 0, 'reflen': 97, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.0309278350409183e-17
+{'testlen': 0, 'reflen': 41, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.4390243901844144e-17
+{'testlen': 0, 'reflen': 89, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.1235955056053528e-17
+{'testlen': 0, 'reflen': 46, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.173913043431002e-17
+{'testlen': 0, 'reflen': 76, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.3157894736668975e-17
+{'testlen': 0, 'reflen': 45, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.2222222221728398e-17
+{'testlen': 0, 'reflen': 93, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.0752688171927391e-17
+{'testlen': 0, 'reflen': 78, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.2820512820348455e-17
+{'testlen': 0, 'reflen': 53, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.886792452794589e-17
+{'testlen': 0, 'reflen': 126, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 7.936507936444948e-18
+{'testlen': 0, 'reflen': 27, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 3.7037037035665295e-17
+{'testlen': 0, 'reflen': 72, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.388888888869599e-17
+{'testlen': 0, 'reflen': 69, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.4492753622978365e-17
+{'testlen': 0, 'reflen': 43, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.3255813952947542e-17
+{'testlen': 0, 'reflen': 47, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.127659574422816e-17
+{'testlen': 0, 'reflen': 69, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.4492753622978365e-17
+{'testlen': 0, 'reflen': 55, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.8181818181487605e-17
+{'testlen': 0, 'reflen': 54, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.8518518518175586e-17
+{'testlen': 0, 'reflen': 46, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.173913043431002e-17
+{'testlen': 0, 'reflen': 23, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 4.347826086767486e-17
+{'testlen': 0, 'reflen': 40, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.4999999999375003e-17
+{'testlen': 0, 'reflen': 71, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.408450704205515e-17
+{'testlen': 0, 'reflen': 57, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.754385964881502e-17
+{'testlen': 0, 'reflen': 112, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 8.928571428491709e-18
+{'testlen': 0, 'reflen': 50, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.9999999999600003e-17
+{'testlen': 0, 'reflen': 78, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.2820512820348455e-17
+{'testlen': 0, 'reflen': 64, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.562499999975586e-17
+{'testlen': 0, 'reflen': 96, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.041666666655816e-17
+{'testlen': 0, 'reflen': 53, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.886792452794589e-17
+{'testlen': 0, 'reflen': 54, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.8518518518175586e-17
+{'testlen': 0, 'reflen': 43, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.3255813952947542e-17
+{'testlen': 0, 'reflen': 50, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.9999999999600003e-17
+{'testlen': 0, 'reflen': 52, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.923076923039941e-17
+{'testlen': 0, 'reflen': 71, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.408450704205515e-17
+{'testlen': 0, 'reflen': 69, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.4492753622978365e-17
+{'testlen': 0, 'reflen': 47, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.127659574422816e-17
+{'testlen': 0, 'reflen': 78, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.2820512820348455e-17
+{'testlen': 0, 'reflen': 115, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 8.69565217383743e-18
+{'testlen': 0, 'reflen': 57, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.754385964881502e-17
+{'testlen': 0, 'reflen': 61, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.6393442622682076e-17
+{'testlen': 0, 'reflen': 42, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.380952380895692e-17
+{'testlen': 0, 'reflen': 60, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.666666666638889e-17
+{'testlen': 0, 'reflen': 44, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.2727272726756202e-17
+{'testlen': 0, 'reflen': 46, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.173913043431002e-17
+{'testlen': 0, 'reflen': 108, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 9.259259259173526e-18
+{'testlen': 0, 'reflen': 53, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.886792452794589e-17
+{'testlen': 0, 'reflen': 35, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.857142857061225e-17
+{'testlen': 0, 'reflen': 73, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.369863013679865e-17
+{'testlen': 0, 'reflen': 52, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.923076923039941e-17
+{'testlen': 0, 'reflen': 53, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.886792452794589e-17
+{'testlen': 0, 'reflen': 39, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.5641025640368184e-17
+{'testlen': 0, 'reflen': 35, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.857142857061225e-17
+{'testlen': 0, 'reflen': 70, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.4285714285510206e-17
+{'testlen': 0, 'reflen': 60, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.666666666638889e-17
+{'testlen': 0, 'reflen': 50, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.9999999999600003e-17
+{'testlen': 0, 'reflen': 37, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.702702702629657e-17
+{'testlen': 0, 'reflen': 66, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.5151515151285583e-17
+{'testlen': 0, 'reflen': 112, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 8.928571428491709e-18
+{'testlen': 0, 'reflen': 64, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.562499999975586e-17
+{'testlen': 0, 'reflen': 73, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.369863013679865e-17
+{'testlen': 0, 'reflen': 87, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.1494252873431101e-17
+{'testlen': 0, 'reflen': 44, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.2727272726756202e-17
+{'testlen': 0, 'reflen': 105, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 9.523809523718822e-18
+{'testlen': 0, 'reflen': 122, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 8.196721311408224e-18
+{'testlen': 0, 'reflen': 153, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 6.535947712375583e-18
+{'testlen': 0, 'reflen': 105, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 9.523809523718822e-18
+{'testlen': 0, 'reflen': 85, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.1764705882214533e-17
+{'testlen': 0, 'reflen': 75, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.3333333333155556e-17
+{'testlen': 0, 'reflen': 37, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.702702702629657e-17
+{'testlen': 0, 'reflen': 67, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.492537313410559e-17
+{'testlen': 0, 'reflen': 72, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.388888888869599e-17
+{'testlen': 0, 'reflen': 47, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.127659574422816e-17
+{'testlen': 0, 'reflen': 111, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 9.009009008927848e-18
+{'testlen': 0, 'reflen': 100, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 9.9999999999e-18
+{'testlen': 0, 'reflen': 36, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.7777777777006175e-17
+{'testlen': 0, 'reflen': 71, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.408450704205515e-17
+{'testlen': 0, 'reflen': 49, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.040816326488963e-17
+{'testlen': 0, 'reflen': 86, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.1627906976608978e-17
+{'testlen': 0, 'reflen': 31, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 3.225806451508845e-17
+{'testlen': 0, 'reflen': 60, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.666666666638889e-17
+{'testlen': 0, 'reflen': 67, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.492537313410559e-17
+{'testlen': 0, 'reflen': 51, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.9607843136870437e-17
+{'testlen': 0, 'reflen': 77, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.2987012986844326e-17
+{'testlen': 0, 'reflen': 38, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.6315789472991693e-17
+{'testlen': 0, 'reflen': 76, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.3157894736668975e-17
+{'testlen': 0, 'reflen': 119, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 8.403361344467198e-18
+{'testlen': 0, 'reflen': 80, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.249999999984375e-17
+{'testlen': 0, 'reflen': 45, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.2222222221728398e-17
+{'testlen': 0, 'reflen': 65, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.53846153843787e-17
+{'testlen': 0, 'reflen': 35, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.857142857061225e-17
+{'testlen': 0, 'reflen': 67, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.492537313410559e-17
+{'testlen': 0, 'reflen': 76, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.3157894736668975e-17
+{'testlen': 0, 'reflen': 177, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 5.649717514092375e-18
+{'testlen': 0, 'reflen': 38, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.6315789472991693e-17
+{'testlen': 0, 'reflen': 77, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.2987012986844326e-17
+{'testlen': 0, 'reflen': 88, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.1363636363507233e-17
+{'testlen': 0, 'reflen': 68, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.4705882352724915e-17
+{'testlen': 0, 'reflen': 38, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.6315789472991693e-17
+{'testlen': 0, 'reflen': 49, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.040816326488963e-17
+{'testlen': 0, 'reflen': 36, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.7777777777006175e-17
+{'testlen': 0, 'reflen': 63, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.5873015872763922e-17
+{'testlen': 0, 'reflen': 85, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.1764705882214533e-17
+{'testlen': 0, 'reflen': 30, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 3.3333333332222224e-17
+{'testlen': 0, 'reflen': 51, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.9607843136870437e-17
+{'testlen': 0, 'reflen': 111, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 9.009009008927848e-18
+{'testlen': 0, 'reflen': 19, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 5.2631578944598344e-17
+{'testlen': 0, 'reflen': 92, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.0869565217273158e-17
+{'testlen': 0, 'reflen': 73, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.369863013679865e-17
+{'testlen': 0, 'reflen': 48, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.0833333332899307e-17
+{'testlen': 0, 'reflen': 70, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.4285714285510206e-17
+{'testlen': 0, 'reflen': 65, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.53846153843787e-17
+{'testlen': 0, 'reflen': 120, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 8.33333333326389e-18
+{'testlen': 0, 'reflen': 81, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.2345679012193264e-17
+{'testlen': 0, 'reflen': 73, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.369863013679865e-17
+{'testlen': 0, 'reflen': 74, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.3513513513330899e-17
+{'testlen': 0, 'reflen': 30, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 3.3333333332222224e-17
+{'testlen': 0, 'reflen': 54, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.8518518518175586e-17
+{'testlen': 0, 'reflen': 62, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.6129032257804373e-17
+{'testlen': 0, 'reflen': 40, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.4999999999375003e-17
+{'testlen': 0, 'reflen': 44, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.2727272726756202e-17
+{'testlen': 0, 'reflen': 109, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 9.174311926521338e-18
+{'testlen': 0, 'reflen': 80, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.249999999984375e-17
+{'testlen': 0, 'reflen': 64, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.562499999975586e-17
+{'testlen': 0, 'reflen': 51, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.9607843136870437e-17
+{'testlen': 0, 'reflen': 91, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.0989010988890231e-17
+{'testlen': 0, 'reflen': 158, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 6.3291139240105765e-18
+{'testlen': 0, 'reflen': 49, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.040816326488963e-17
+{'testlen': 0, 'reflen': 50, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.9999999999600003e-17
+{'testlen': 0, 'reflen': 53, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.886792452794589e-17
+{'testlen': 0, 'reflen': 86, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.1627906976608978e-17
+{'testlen': 0, 'reflen': 58, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.7241379310047565e-17
+{'testlen': 0, 'reflen': 48, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.0833333332899307e-17
+{'testlen': 0, 'reflen': 40, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.4999999999375003e-17
+{'testlen': 0, 'reflen': 75, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.3333333333155556e-17
+{'testlen': 0, 'reflen': 33, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 3.0303030302112037e-17
+{'testlen': 0, 'reflen': 56, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.7857142856823982e-17
+{'testlen': 0, 'reflen': 50, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.9999999999600003e-17
+{'testlen': 0, 'reflen': 69, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.4492753622978365e-17
+{'testlen': 0, 'reflen': 36, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.7777777777006175e-17
+{'testlen': 0, 'reflen': 43, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.3255813952947542e-17
+{'testlen': 0, 'reflen': 138, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 7.246376811541694e-18
+{'testlen': 0, 'reflen': 95, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.052631578936288e-17
+{'testlen': 0, 'reflen': 51, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.9607843136870437e-17
+{'testlen': 0, 'reflen': 46, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.173913043431002e-17
+{'testlen': 0, 'reflen': 45, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.2222222221728398e-17
+{'testlen': 0, 'reflen': 88, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.1363636363507233e-17
+2025-01-09 10:11:00.661 | INFO     | utils:youcook2_aggregate_results:81 - tokenization...
+PTBTokenizer tokenized 29828 tokens at 212935.11 tokens per second.
+PTBTokenizer tokenized 3073 tokens at 37137.14 tokens per second.
+2025-01-09 10:11:01.096 | INFO     | utils:youcook2_aggregate_results:86 - Computing Bleu_1 scores...
+{'testlen': 0, 'reflen': 56, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.7857142856823982e-17
+{'testlen': 0, 'reflen': 88, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.1363636363507233e-17
+{'testlen': 0, 'reflen': 52, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.923076923039941e-17
+{'testlen': 0, 'reflen': 28, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 3.571428571301021e-17
+{'testlen': 0, 'reflen': 55, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.8181818181487605e-17
+{'testlen': 0, 'reflen': 93, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.0752688171927391e-17
+{'testlen': 0, 'reflen': 115, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 8.69565217383743e-18
+{'testlen': 0, 'reflen': 152, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 6.578947368377771e-18
+{'testlen': 0, 'reflen': 68, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.4705882352724915e-17
+{'testlen': 0, 'reflen': 64, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.562499999975586e-17
+{'testlen': 0, 'reflen': 57, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.754385964881502e-17
+{'testlen': 0, 'reflen': 38, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.6315789472991693e-17
+{'testlen': 0, 'reflen': 118, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 8.474576271114622e-18
+{'testlen': 0, 'reflen': 132, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 7.575757575700184e-18
+{'testlen': 0, 'reflen': 40, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.4999999999375003e-17
+{'testlen': 0, 'reflen': 153, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 6.535947712375583e-18
+{'testlen': 0, 'reflen': 55, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.8181818181487605e-17
+{'testlen': 0, 'reflen': 29, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 3.44827586195006e-17
+{'testlen': 0, 'reflen': 80, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.249999999984375e-17
+{'testlen': 0, 'reflen': 57, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.754385964881502e-17
+{'testlen': 0, 'reflen': 79, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.2658227847941036e-17
+{'testlen': 0, 'reflen': 43, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.3255813952947542e-17
+{'testlen': 0, 'reflen': 59, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.694915254208561e-17
+{'testlen': 0, 'reflen': 84, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.1904761904620182e-17
+{'testlen': 0, 'reflen': 87, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.1494252873431101e-17
+{'testlen': 0, 'reflen': 51, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.9607843136870437e-17
+{'testlen': 0, 'reflen': 91, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.0989010988890231e-17
+{'testlen': 0, 'reflen': 46, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.173913043431002e-17
+{'testlen': 0, 'reflen': 81, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.2345679012193264e-17
+{'testlen': 0, 'reflen': 126, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 7.936507936444948e-18
+{'testlen': 0, 'reflen': 54, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.8518518518175586e-17
+{'testlen': 0, 'reflen': 92, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.0869565217273158e-17
+{'testlen': 0, 'reflen': 111, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 9.009009008927848e-18
+{'testlen': 0, 'reflen': 24, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 4.166666666493056e-17
+{'testlen': 0, 'reflen': 43, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.3255813952947542e-17
+{'testlen': 0, 'reflen': 35, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.857142857061225e-17
+{'testlen': 0, 'reflen': 77, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.2987012986844326e-17
+{'testlen': 0, 'reflen': 83, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.2048192770939179e-17
+{'testlen': 0, 'reflen': 58, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.7241379310047565e-17
+{'testlen': 0, 'reflen': 55, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.8181818181487605e-17
+{'testlen': 0, 'reflen': 115, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 8.69565217383743e-18
+{'testlen': 0, 'reflen': 94, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.0638297872227252e-17
+{'testlen': 0, 'reflen': 98, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.0204081632548938e-17
+{'testlen': 0, 'reflen': 147, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 6.802721088389098e-18
+{'testlen': 0, 'reflen': 118, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 8.474576271114622e-18
+{'testlen': 0, 'reflen': 35, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.857142857061225e-17
+{'testlen': 0, 'reflen': 77, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.2987012986844326e-17
+{'testlen': 0, 'reflen': 128, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 7.812499999938966e-18
+{'testlen': 0, 'reflen': 61, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.6393442622682076e-17
+{'testlen': 0, 'reflen': 79, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.2658227847941036e-17
+{'testlen': 0, 'reflen': 83, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.2048192770939179e-17
+{'testlen': 0, 'reflen': 39, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.5641025640368184e-17
+{'testlen': 0, 'reflen': 42, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.380952380895692e-17
+{'testlen': 0, 'reflen': 90, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.1111111110987654e-17
+{'testlen': 0, 'reflen': 50, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.9999999999600003e-17
+{'testlen': 0, 'reflen': 38, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.6315789472991693e-17
+{'testlen': 0, 'reflen': 107, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 9.345794392436021e-18
+{'testlen': 0, 'reflen': 34, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.9411764705017306e-17
+{'testlen': 0, 'reflen': 39, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.5641025640368184e-17
+{'testlen': 0, 'reflen': 48, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.0833333332899307e-17
+{'testlen': 0, 'reflen': 45, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.2222222221728398e-17
+{'testlen': 0, 'reflen': 81, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.2345679012193264e-17
+{'testlen': 0, 'reflen': 51, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.9607843136870437e-17
+{'testlen': 0, 'reflen': 34, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.9411764705017306e-17
+{'testlen': 0, 'reflen': 105, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 9.523809523718822e-18
+{'testlen': 0, 'reflen': 63, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.5873015872763922e-17
+{'testlen': 0, 'reflen': 143, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 6.993006992958092e-18
+{'testlen': 0, 'reflen': 60, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.666666666638889e-17
+{'testlen': 0, 'reflen': 51, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.9607843136870437e-17
+{'testlen': 0, 'reflen': 90, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.1111111110987654e-17
+{'testlen': 0, 'reflen': 37, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.702702702629657e-17
+{'testlen': 0, 'reflen': 114, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 8.771929824484457e-18
+{'testlen': 0, 'reflen': 52, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.923076923039941e-17
+{'testlen': 0, 'reflen': 73, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.369863013679865e-17
+{'testlen': 0, 'reflen': 84, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.1904761904620182e-17
+{'testlen': 0, 'reflen': 63, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.5873015872763922e-17
+{'testlen': 0, 'reflen': 81, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.2345679012193264e-17
+{'testlen': 0, 'reflen': 62, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.6129032257804373e-17
+{'testlen': 0, 'reflen': 43, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.3255813952947542e-17
+{'testlen': 0, 'reflen': 54, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.8518518518175586e-17
+{'testlen': 0, 'reflen': 39, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.5641025640368184e-17
+{'testlen': 0, 'reflen': 42, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.380952380895692e-17
+{'testlen': 0, 'reflen': 74, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.3513513513330899e-17
+{'testlen': 0, 'reflen': 61, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.6393442622682076e-17
+{'testlen': 0, 'reflen': 55, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.8181818181487605e-17
+{'testlen': 0, 'reflen': 59, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.694915254208561e-17
+{'testlen': 0, 'reflen': 53, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.886792452794589e-17
+{'testlen': 0, 'reflen': 79, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.2658227847941036e-17
+{'testlen': 0, 'reflen': 71, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.408450704205515e-17
+{'testlen': 0, 'reflen': 34, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.9411764705017306e-17
+{'testlen': 0, 'reflen': 52, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.923076923039941e-17
+{'testlen': 0, 'reflen': 40, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.4999999999375003e-17
+{'testlen': 0, 'reflen': 37, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.702702702629657e-17
+{'testlen': 0, 'reflen': 45, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.2222222221728398e-17
+{'testlen': 0, 'reflen': 58, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.7241379310047565e-17
+{'testlen': 0, 'reflen': 39, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.5641025640368184e-17
+{'testlen': 0, 'reflen': 106, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 9.433962264061944e-18
+{'testlen': 0, 'reflen': 82, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.2195121951070792e-17
+{'testlen': 0, 'reflen': 39, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.5641025640368184e-17
+{'testlen': 0, 'reflen': 250, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 3.9999999999840004e-18
+{'testlen': 0, 'reflen': 76, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.3157894736668975e-17
+{'testlen': 0, 'reflen': 42, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.380952380895692e-17
+{'testlen': 0, 'reflen': 61, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.6393442622682076e-17
+{'testlen': 0, 'reflen': 48, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.0833333332899307e-17
+{'testlen': 0, 'reflen': 74, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.3513513513330899e-17
+{'testlen': 0, 'reflen': 71, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.408450704205515e-17
+{'testlen': 0, 'reflen': 66, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.5151515151285583e-17
+{'testlen': 0, 'reflen': 55, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.8181818181487605e-17
+{'testlen': 0, 'reflen': 37, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.702702702629657e-17
+{'testlen': 0, 'reflen': 47, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.127659574422816e-17
+{'testlen': 0, 'reflen': 53, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.886792452794589e-17
+{'testlen': 0, 'reflen': 55, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.8181818181487605e-17
+{'testlen': 0, 'reflen': 57, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.754385964881502e-17
+{'testlen': 0, 'reflen': 85, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.1764705882214533e-17
+{'testlen': 0, 'reflen': 36, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.7777777777006175e-17
+{'testlen': 0, 'reflen': 51, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.9607843136870437e-17
+{'testlen': 0, 'reflen': 61, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.6393442622682076e-17
+{'testlen': 0, 'reflen': 34, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.9411764705017306e-17
+{'testlen': 0, 'reflen': 51, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.9607843136870437e-17
+{'testlen': 0, 'reflen': 51, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.9607843136870437e-17
+{'testlen': 0, 'reflen': 71, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.408450704205515e-17
+{'testlen': 0, 'reflen': 67, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.492537313410559e-17
+{'testlen': 0, 'reflen': 49, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.040816326488963e-17
+{'testlen': 0, 'reflen': 189, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 5.291005290977297e-18
+{'testlen': 0, 'reflen': 45, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.2222222221728398e-17
+{'testlen': 0, 'reflen': 85, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.1764705882214533e-17
+{'testlen': 0, 'reflen': 67, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.492537313410559e-17
+{'testlen': 0, 'reflen': 75, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.3333333333155556e-17
+{'testlen': 0, 'reflen': 115, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 8.69565217383743e-18
+{'testlen': 0, 'reflen': 58, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.7241379310047565e-17
+{'testlen': 0, 'reflen': 112, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 8.928571428491709e-18
+{'testlen': 0, 'reflen': 27, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 3.7037037035665295e-17
+{'testlen': 0, 'reflen': 120, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 8.33333333326389e-18
+{'testlen': 0, 'reflen': 69, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.4492753622978365e-17
+{'testlen': 0, 'reflen': 72, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.388888888869599e-17
+{'testlen': 0, 'reflen': 41, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.4390243901844144e-17
+{'testlen': 0, 'reflen': 42, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.380952380895692e-17
+{'testlen': 0, 'reflen': 70, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.4285714285510206e-17
+{'testlen': 0, 'reflen': 61, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.6393442622682076e-17
+{'testlen': 0, 'reflen': 83, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.2048192770939179e-17
+{'testlen': 0, 'reflen': 39, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.5641025640368184e-17
+{'testlen': 0, 'reflen': 51, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.9607843136870437e-17
+{'testlen': 0, 'reflen': 92, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.0869565217273158e-17
+{'testlen': 0, 'reflen': 39, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.5641025640368184e-17
+{'testlen': 0, 'reflen': 40, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.4999999999375003e-17
+{'testlen': 0, 'reflen': 48, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.0833333332899307e-17
+{'testlen': 0, 'reflen': 70, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.4285714285510206e-17
+{'testlen': 0, 'reflen': 60, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.666666666638889e-17
+{'testlen': 0, 'reflen': 48, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.0833333332899307e-17
+{'testlen': 0, 'reflen': 84, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.1904761904620182e-17
+{'testlen': 0, 'reflen': 55, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.8181818181487605e-17
+{'testlen': 0, 'reflen': 35, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.857142857061225e-17
+{'testlen': 0, 'reflen': 85, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.1764705882214533e-17
+{'testlen': 0, 'reflen': 32, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 3.124999999902344e-17
+{'testlen': 0, 'reflen': 34, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.9411764705017306e-17
+{'testlen': 0, 'reflen': 77, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.2987012986844326e-17
+{'testlen': 0, 'reflen': 102, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 9.803921568531335e-18
+{'testlen': 0, 'reflen': 42, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.380952380895692e-17
+{'testlen': 0, 'reflen': 22, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 4.545454545247934e-17
+{'testlen': 0, 'reflen': 57, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.754385964881502e-17
+{'testlen': 0, 'reflen': 41, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.4390243901844144e-17
+{'testlen': 0, 'reflen': 30, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 3.3333333332222224e-17
+{'testlen': 0, 'reflen': 59, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.694915254208561e-17
+{'testlen': 0, 'reflen': 143, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 6.993006992958092e-18
+{'testlen': 0, 'reflen': 82, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.2195121951070792e-17
+{'testlen': 0, 'reflen': 46, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.173913043431002e-17
+{'testlen': 0, 'reflen': 71, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.408450704205515e-17
+{'testlen': 0, 'reflen': 63, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.5873015872763922e-17
+{'testlen': 0, 'reflen': 33, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 3.0303030302112037e-17
+{'testlen': 0, 'reflen': 52, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.923076923039941e-17
+{'testlen': 0, 'reflen': 25, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 3.99999999984e-17
+{'testlen': 0, 'reflen': 94, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.0638297872227252e-17
+{'testlen': 0, 'reflen': 49, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.040816326488963e-17
+{'testlen': 0, 'reflen': 37, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.702702702629657e-17
+{'testlen': 0, 'reflen': 26, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 3.846153846005917e-17
+{'testlen': 0, 'reflen': 66, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.5151515151285583e-17
+{'testlen': 0, 'reflen': 58, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.7241379310047565e-17
+{'testlen': 0, 'reflen': 77, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.2987012986844326e-17
+{'testlen': 0, 'reflen': 62, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.6129032257804373e-17
+{'testlen': 0, 'reflen': 70, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.4285714285510206e-17
+{'testlen': 0, 'reflen': 74, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.3513513513330899e-17
+{'testlen': 0, 'reflen': 47, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.127659574422816e-17
+{'testlen': 0, 'reflen': 39, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.5641025640368184e-17
+{'testlen': 0, 'reflen': 32, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 3.124999999902344e-17
+{'testlen': 0, 'reflen': 40, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.4999999999375003e-17
+{'testlen': 0, 'reflen': 135, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 7.407407407352539e-18
+{'testlen': 0, 'reflen': 79, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.2658227847941036e-17
+{'testlen': 0, 'reflen': 50, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.9999999999600003e-17
+{'testlen': 0, 'reflen': 92, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.0869565217273158e-17
+{'testlen': 0, 'reflen': 92, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.0869565217273158e-17
+{'testlen': 0, 'reflen': 54, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.8518518518175586e-17
+{'testlen': 0, 'reflen': 52, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.923076923039941e-17
+{'testlen': 0, 'reflen': 57, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.754385964881502e-17
+{'testlen': 0, 'reflen': 58, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.7241379310047565e-17
+{'testlen': 0, 'reflen': 60, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.666666666638889e-17
+{'testlen': 0, 'reflen': 40, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.4999999999375003e-17
+{'testlen': 0, 'reflen': 65, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.53846153843787e-17
+{'testlen': 0, 'reflen': 69, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.4492753622978365e-17
+{'testlen': 0, 'reflen': 110, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 9.090909090826446e-18
+{'testlen': 0, 'reflen': 46, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.173913043431002e-17
+{'testlen': 0, 'reflen': 71, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.408450704205515e-17
+{'testlen': 0, 'reflen': 41, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.4390243901844144e-17
+{'testlen': 0, 'reflen': 83, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.2048192770939179e-17
+{'testlen': 0, 'reflen': 142, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 7.042253521077168e-18
+{'testlen': 0, 'reflen': 96, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.041666666655816e-17
+{'testlen': 0, 'reflen': 43, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.3255813952947542e-17
+{'testlen': 0, 'reflen': 119, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 8.403361344467198e-18
+{'testlen': 0, 'reflen': 47, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.127659574422816e-17
+{'testlen': 0, 'reflen': 30, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 3.3333333332222224e-17
+{'testlen': 0, 'reflen': 43, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.3255813952947542e-17
+{'testlen': 0, 'reflen': 142, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 7.042253521077168e-18
+{'testlen': 0, 'reflen': 77, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.2987012986844326e-17
+{'testlen': 0, 'reflen': 49, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.040816326488963e-17
+{'testlen': 0, 'reflen': 103, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 9.708737863983411e-18
+{'testlen': 0, 'reflen': 50, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.9999999999600003e-17
+{'testlen': 0, 'reflen': 40, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.4999999999375003e-17
+{'testlen': 0, 'reflen': 88, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.1363636363507233e-17
+{'testlen': 0, 'reflen': 50, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.9999999999600003e-17
+{'testlen': 0, 'reflen': 61, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.6393442622682076e-17
+{'testlen': 0, 'reflen': 103, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 9.708737863983411e-18
+{'testlen': 0, 'reflen': 38, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.6315789472991693e-17
+{'testlen': 0, 'reflen': 96, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.041666666655816e-17
+{'testlen': 0, 'reflen': 162, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 6.172839506134736e-18
+{'testlen': 0, 'reflen': 44, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.2727272726756202e-17
+{'testlen': 0, 'reflen': 31, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 3.225806451508845e-17
+{'testlen': 0, 'reflen': 65, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.53846153843787e-17
+{'testlen': 0, 'reflen': 44, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.2727272726756202e-17
+{'testlen': 0, 'reflen': 113, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 8.84955752204558e-18
+{'testlen': 0, 'reflen': 40, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.4999999999375003e-17
+{'testlen': 0, 'reflen': 52, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.923076923039941e-17
+{'testlen': 0, 'reflen': 45, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.2222222221728398e-17
+{'testlen': 0, 'reflen': 40, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.4999999999375003e-17
+{'testlen': 0, 'reflen': 39, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.5641025640368184e-17
+{'testlen': 0, 'reflen': 71, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.408450704205515e-17
+{'testlen': 0, 'reflen': 72, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.388888888869599e-17
+{'testlen': 0, 'reflen': 39, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.5641025640368184e-17
+{'testlen': 0, 'reflen': 111, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 9.009009008927848e-18
+{'testlen': 0, 'reflen': 70, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.4285714285510206e-17
+{'testlen': 0, 'reflen': 38, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.6315789472991693e-17
+{'testlen': 0, 'reflen': 32, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 3.124999999902344e-17
+{'testlen': 0, 'reflen': 55, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.8181818181487605e-17
+{'testlen': 0, 'reflen': 31, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 3.225806451508845e-17
+{'testlen': 0, 'reflen': 144, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 6.94444444439622e-18
+{'testlen': 0, 'reflen': 60, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.666666666638889e-17
+{'testlen': 0, 'reflen': 71, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.408450704205515e-17
+{'testlen': 0, 'reflen': 61, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.6393442622682076e-17
+{'testlen': 0, 'reflen': 66, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.5151515151285583e-17
+{'testlen': 0, 'reflen': 17, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 5.88235294083045e-17
+{'testlen': 0, 'reflen': 43, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.3255813952947542e-17
+{'testlen': 0, 'reflen': 63, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.5873015872763922e-17
+{'testlen': 0, 'reflen': 70, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.4285714285510206e-17
+{'testlen': 0, 'reflen': 93, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.0752688171927391e-17
+{'testlen': 0, 'reflen': 90, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.1111111110987654e-17
+{'testlen': 0, 'reflen': 67, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.492537313410559e-17
+{'testlen': 0, 'reflen': 58, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.7241379310047565e-17
+{'testlen': 0, 'reflen': 97, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.0309278350409183e-17
+{'testlen': 0, 'reflen': 41, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.4390243901844144e-17
+{'testlen': 0, 'reflen': 89, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.1235955056053528e-17
+{'testlen': 0, 'reflen': 46, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.173913043431002e-17
+{'testlen': 0, 'reflen': 76, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.3157894736668975e-17
+{'testlen': 0, 'reflen': 45, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.2222222221728398e-17
+{'testlen': 0, 'reflen': 93, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.0752688171927391e-17
+{'testlen': 0, 'reflen': 78, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.2820512820348455e-17
+{'testlen': 0, 'reflen': 53, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.886792452794589e-17
+{'testlen': 0, 'reflen': 126, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 7.936507936444948e-18
+{'testlen': 0, 'reflen': 27, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 3.7037037035665295e-17
+{'testlen': 0, 'reflen': 72, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.388888888869599e-17
+{'testlen': 0, 'reflen': 69, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.4492753622978365e-17
+{'testlen': 0, 'reflen': 43, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.3255813952947542e-17
+{'testlen': 0, 'reflen': 47, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.127659574422816e-17
+{'testlen': 0, 'reflen': 69, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.4492753622978365e-17
+{'testlen': 0, 'reflen': 55, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.8181818181487605e-17
+{'testlen': 0, 'reflen': 54, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.8518518518175586e-17
+{'testlen': 0, 'reflen': 46, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.173913043431002e-17
+{'testlen': 0, 'reflen': 23, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 4.347826086767486e-17
+{'testlen': 0, 'reflen': 40, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.4999999999375003e-17
+{'testlen': 0, 'reflen': 71, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.408450704205515e-17
+{'testlen': 0, 'reflen': 57, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.754385964881502e-17
+{'testlen': 0, 'reflen': 112, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 8.928571428491709e-18
+{'testlen': 0, 'reflen': 50, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.9999999999600003e-17
+{'testlen': 0, 'reflen': 78, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.2820512820348455e-17
+{'testlen': 0, 'reflen': 64, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.562499999975586e-17
+{'testlen': 0, 'reflen': 96, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.041666666655816e-17
+{'testlen': 0, 'reflen': 53, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.886792452794589e-17
+{'testlen': 0, 'reflen': 54, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.8518518518175586e-17
+{'testlen': 0, 'reflen': 43, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.3255813952947542e-17
+{'testlen': 0, 'reflen': 50, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.9999999999600003e-17
+{'testlen': 0, 'reflen': 52, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.923076923039941e-17
+{'testlen': 0, 'reflen': 71, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.408450704205515e-17
+{'testlen': 0, 'reflen': 69, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.4492753622978365e-17
+{'testlen': 0, 'reflen': 47, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.127659574422816e-17
+{'testlen': 0, 'reflen': 78, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.2820512820348455e-17
+{'testlen': 0, 'reflen': 115, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 8.69565217383743e-18
+{'testlen': 0, 'reflen': 57, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.754385964881502e-17
+{'testlen': 0, 'reflen': 61, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.6393442622682076e-17
+{'testlen': 0, 'reflen': 42, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.380952380895692e-17
+{'testlen': 0, 'reflen': 60, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.666666666638889e-17
+{'testlen': 0, 'reflen': 44, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.2727272726756202e-17
+{'testlen': 0, 'reflen': 46, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.173913043431002e-17
+{'testlen': 0, 'reflen': 108, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 9.259259259173526e-18
+{'testlen': 0, 'reflen': 53, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.886792452794589e-17
+{'testlen': 0, 'reflen': 35, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.857142857061225e-17
+{'testlen': 0, 'reflen': 73, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.369863013679865e-17
+{'testlen': 0, 'reflen': 52, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.923076923039941e-17
+{'testlen': 0, 'reflen': 53, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.886792452794589e-17
+{'testlen': 0, 'reflen': 39, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.5641025640368184e-17
+{'testlen': 0, 'reflen': 35, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.857142857061225e-17
+{'testlen': 0, 'reflen': 70, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.4285714285510206e-17
+{'testlen': 0, 'reflen': 60, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.666666666638889e-17
+{'testlen': 0, 'reflen': 50, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.9999999999600003e-17
+{'testlen': 0, 'reflen': 37, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.702702702629657e-17
+{'testlen': 0, 'reflen': 66, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.5151515151285583e-17
+{'testlen': 0, 'reflen': 112, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 8.928571428491709e-18
+{'testlen': 0, 'reflen': 64, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.562499999975586e-17
+{'testlen': 0, 'reflen': 73, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.369863013679865e-17
+{'testlen': 0, 'reflen': 87, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.1494252873431101e-17
+{'testlen': 0, 'reflen': 44, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.2727272726756202e-17
+{'testlen': 0, 'reflen': 105, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 9.523809523718822e-18
+{'testlen': 0, 'reflen': 122, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 8.196721311408224e-18
+{'testlen': 0, 'reflen': 153, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 6.535947712375583e-18
+{'testlen': 0, 'reflen': 105, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 9.523809523718822e-18
+{'testlen': 0, 'reflen': 85, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.1764705882214533e-17
+{'testlen': 0, 'reflen': 75, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.3333333333155556e-17
+{'testlen': 0, 'reflen': 37, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.702702702629657e-17
+{'testlen': 0, 'reflen': 67, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.492537313410559e-17
+{'testlen': 0, 'reflen': 72, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.388888888869599e-17
+{'testlen': 0, 'reflen': 47, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.127659574422816e-17
+{'testlen': 0, 'reflen': 111, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 9.009009008927848e-18
+{'testlen': 0, 'reflen': 100, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 9.9999999999e-18
+{'testlen': 0, 'reflen': 36, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.7777777777006175e-17
+{'testlen': 0, 'reflen': 71, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.408450704205515e-17
+{'testlen': 0, 'reflen': 49, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.040816326488963e-17
+{'testlen': 0, 'reflen': 86, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.1627906976608978e-17
+{'testlen': 0, 'reflen': 31, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 3.225806451508845e-17
+{'testlen': 0, 'reflen': 60, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.666666666638889e-17
+{'testlen': 0, 'reflen': 67, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.492537313410559e-17
+{'testlen': 0, 'reflen': 51, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.9607843136870437e-17
+{'testlen': 0, 'reflen': 77, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.2987012986844326e-17
+{'testlen': 0, 'reflen': 38, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.6315789472991693e-17
+{'testlen': 0, 'reflen': 76, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.3157894736668975e-17
+{'testlen': 0, 'reflen': 119, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 8.403361344467198e-18
+{'testlen': 0, 'reflen': 80, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.249999999984375e-17
+{'testlen': 0, 'reflen': 45, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.2222222221728398e-17
+{'testlen': 0, 'reflen': 65, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.53846153843787e-17
+{'testlen': 0, 'reflen': 35, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.857142857061225e-17
+{'testlen': 0, 'reflen': 67, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.492537313410559e-17
+{'testlen': 0, 'reflen': 76, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.3157894736668975e-17
+{'testlen': 0, 'reflen': 177, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 5.649717514092375e-18
+{'testlen': 0, 'reflen': 38, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.6315789472991693e-17
+{'testlen': 0, 'reflen': 77, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.2987012986844326e-17
+{'testlen': 0, 'reflen': 88, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.1363636363507233e-17
+{'testlen': 0, 'reflen': 68, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.4705882352724915e-17
+{'testlen': 0, 'reflen': 38, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.6315789472991693e-17
+{'testlen': 0, 'reflen': 49, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.040816326488963e-17
+{'testlen': 0, 'reflen': 36, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.7777777777006175e-17
+{'testlen': 0, 'reflen': 63, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.5873015872763922e-17
+{'testlen': 0, 'reflen': 85, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.1764705882214533e-17
+{'testlen': 0, 'reflen': 30, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 3.3333333332222224e-17
+{'testlen': 0, 'reflen': 51, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.9607843136870437e-17
+{'testlen': 0, 'reflen': 111, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 9.009009008927848e-18
+{'testlen': 0, 'reflen': 19, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 5.2631578944598344e-17
+{'testlen': 0, 'reflen': 92, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.0869565217273158e-17
+{'testlen': 0, 'reflen': 73, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.369863013679865e-17
+{'testlen': 0, 'reflen': 48, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.0833333332899307e-17
+{'testlen': 0, 'reflen': 70, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.4285714285510206e-17
+{'testlen': 0, 'reflen': 65, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.53846153843787e-17
+{'testlen': 0, 'reflen': 120, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 8.33333333326389e-18
+{'testlen': 0, 'reflen': 81, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.2345679012193264e-17
+{'testlen': 0, 'reflen': 73, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.369863013679865e-17
+{'testlen': 0, 'reflen': 74, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.3513513513330899e-17
+{'testlen': 0, 'reflen': 30, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 3.3333333332222224e-17
+{'testlen': 0, 'reflen': 54, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.8518518518175586e-17
+{'testlen': 0, 'reflen': 62, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.6129032257804373e-17
+{'testlen': 0, 'reflen': 40, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.4999999999375003e-17
+{'testlen': 0, 'reflen': 44, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.2727272726756202e-17
+{'testlen': 0, 'reflen': 109, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 9.174311926521338e-18
+{'testlen': 0, 'reflen': 80, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.249999999984375e-17
+{'testlen': 0, 'reflen': 64, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.562499999975586e-17
+{'testlen': 0, 'reflen': 51, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.9607843136870437e-17
+{'testlen': 0, 'reflen': 91, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.0989010988890231e-17
+{'testlen': 0, 'reflen': 158, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 6.3291139240105765e-18
+{'testlen': 0, 'reflen': 49, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.040816326488963e-17
+{'testlen': 0, 'reflen': 50, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.9999999999600003e-17
+{'testlen': 0, 'reflen': 53, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.886792452794589e-17
+{'testlen': 0, 'reflen': 86, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.1627906976608978e-17
+{'testlen': 0, 'reflen': 58, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.7241379310047565e-17
+{'testlen': 0, 'reflen': 48, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.0833333332899307e-17
+{'testlen': 0, 'reflen': 40, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.4999999999375003e-17
+{'testlen': 0, 'reflen': 75, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.3333333333155556e-17
+{'testlen': 0, 'reflen': 33, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 3.0303030302112037e-17
+{'testlen': 0, 'reflen': 56, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.7857142856823982e-17
+{'testlen': 0, 'reflen': 50, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.9999999999600003e-17
+{'testlen': 0, 'reflen': 69, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.4492753622978365e-17
+{'testlen': 0, 'reflen': 36, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.7777777777006175e-17
+{'testlen': 0, 'reflen': 43, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.3255813952947542e-17
+{'testlen': 0, 'reflen': 138, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 7.246376811541694e-18
+{'testlen': 0, 'reflen': 95, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.052631578936288e-17
+{'testlen': 0, 'reflen': 51, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.9607843136870437e-17
+{'testlen': 0, 'reflen': 46, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.173913043431002e-17
+{'testlen': 0, 'reflen': 45, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 2.2222222221728398e-17
+{'testlen': 0, 'reflen': 88, 'guess': [0, 0, 0, 0], 'correct': [0, 0, 0, 0]}
+ratio: 1.1363636363507233e-17
+2025-01-09 10:11:01.234 | INFO     | utils:youcook2_aggregate_results:81 - tokenization...
+PTBTokenizer tokenized 29828 tokens at 286852.20 tokens per second.
+PTBTokenizer tokenized 3073 tokens at 40836.24 tokens per second.
+2025-01-09 10:11:01.616 | INFO     | utils:youcook2_aggregate_results:86 - Computing METEOR scores...
+2025-01-09 10:11:09.320 | INFO     | utils:youcook2_aggregate_results:81 - tokenization...
+PTBTokenizer tokenized 29828 tokens at 213530.36 tokens per second.
+PTBTokenizer tokenized 3073 tokens at 39197.88 tokens per second.
+2025-01-09 10:11:10.005 | INFO     | utils:youcook2_aggregate_results:86 - Computing ROUGE_L scores...
+2025-01-09 10:11:10.059 | INFO     | utils:youcook2_aggregate_results:81 - tokenization...
+PTBTokenizer tokenized 29828 tokens at 245574.59 tokens per second.
+PTBTokenizer tokenized 3073 tokens at 38450.07 tokens per second.
+2025-01-09 10:11:10.479 | INFO     | utils:youcook2_aggregate_results:86 - Computing CIDEr scores...
+2025-01-09 10:11:10.991 | INFO     | lmms_eval.loggers.evaluation_tracker:save_results_aggregated:188 - Saving results aggregated
+2025-01-09 10:11:10.995 | INFO     | lmms_eval.loggers.evaluation_tracker:save_results_samples:255 - Saving per-sample results for: youcook2_val
+eagle (pretrained=./checkpoints/final_result/video/video_finetune_1epoch,conv_template=llama3), gen_kwargs: (), limit: None, num_fewshot: None, batch_size: 1
+|   Tasks    |Version|Filter|n-shot|Metric |   |Value|   |Stderr|
+|------------|-------|------|-----:|-------|---|----:|---|------|
+|youcook2_val|Yaml   |none  |     0|Bleu_1 |↑  |    0|±  |   N/A|
+|youcook2_val|Yaml   |none  |     0|Bleu_2 |↑  |    0|±  |   N/A|
+|youcook2_val|Yaml   |none  |     0|Bleu_3 |↑  |    0|±  |   N/A|
+|youcook2_val|Yaml   |none  |     0|Bleu_4 |↑  |    0|±  |   N/A|
+|youcook2_val|Yaml   |none  |     0|CIDEr  |↑  |    0|±  |   N/A|
+|youcook2_val|Yaml   |none  |     0|METEOR |↑  |    0|±  |   N/A|
+|youcook2_val|Yaml   |none  |     0|ROUGE_L|↑  |    0|±  |   N/A|
+
+./checkpoints/final_result/video/video_finetune_1epoch
+youcook2_val
+(eagle) hxl@9007:~/disk/EAGLE$ bash scripts/eval_lmms_eval/eval-video.sh
+The following values were not passed to `accelerate launch` and had defaults used instead:
+        `--num_machines` was set to a value of `1`
+        `--mixed_precision` was set to a value of `'no'`
+        `--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+Import Error: from .onellm import OneLLM
+2025-01-09 10:21:06.259 | INFO     | __main__:cli_evaluate:297 - Verbosity set to INFO
+{'group': 'mix_evals_image2text', 'task': ['mix_evals_image2text_mc', 'mix_evals_image2text_freeform']}
+{'type': 'group', 'task': -1, 'yaml_path': '/home1/hxl/disk/EAGLE/lmms_eval/tasks/mix_evals/image2text/mix_evals_image2text.yaml'}
+2025-01-09 10:21:08.517 | INFO     | __main__:cli_evaluate_single:380 - Evaluation tracker args: {'output_path': './output/eval/'}
+2025-01-09 10:21:08.518 | INFO     | __main__:cli_evaluate_single:469 - Selected Tasks: ['youcook2_val']
+2025-01-09 10:21:08.519 | INFO     | lmms_eval.evaluator:simple_evaluate:155 - Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+Fetching 5 files: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 5/5 [00:00<00:00, 69905.07it/s]
+lmms-lab/YouCook2
+The model was loaded with use_flash_attention_2=True, which is deprecated and may be removed in a future release. Please use `attn_implementation="flash_attention_2"` instead.
+Some weights of the model checkpoint at ./checkpoints/final_result/video/video_finetune_1epoch were not used when initializing EagleLlamaForCausalLM: ['model.vision_tower.LanguageBindVideo.logit_scale', 'model.vision_tower.LanguageBindVideo.text_model.embeddings.position_embe
+dding.weight', 'model.vision_tower.LanguageBindVideo.text_model.embeddings.token_embedding.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.0.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.0.layer_norm1.weight', 'mod
+el.vision_tower.LanguageBindVideo.text_model.encoder.layers.0.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.0.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.0.mlp.fc1.bias', 'model.vision_tower.Languag
+eBindVideo.text_model.encoder.layers.0.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.0.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.0.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder
+.layers.0.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.0.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.0.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.l
+ayers.0.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.0.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.0.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.l
+ayers.0.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.0.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.1.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.1.l
+ayer_norm1.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.1.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.1.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.1.mlp.fc1.bias', 'mo
+del.vision_tower.LanguageBindVideo.text_model.encoder.layers.1.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.1.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.1.mlp.fc2.weight', 'model.vision_tower.LanguageBind
+Video.text_model.encoder.layers.1.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.1.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.1.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVi
+deo.text_model.encoder.layers.1.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.1.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.1.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVi
+deo.text_model.encoder.layers.1.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.1.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.10.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.text
+_model.encoder.layers.10.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.10.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.10.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder
+.layers.10.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.10.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.10.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.10.mlp.fc2.weight',
+'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.10.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.10.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.10.self_attn.out_proj.bias',
+ 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.10.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.10.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.10.self_attn.q_proj.weigh
+t', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.10.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.10.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.11.layer_norm1.bias', 'm
+odel.vision_tower.LanguageBindVideo.text_model.encoder.layers.11.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.11.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.11.layer_norm2.weight', 'model.vision_to
+wer.LanguageBindVideo.text_model.encoder.layers.11.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.11.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.11.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.text_m
+odel.encoder.layers.11.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.11.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.11.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.enc
+oder.layers.11.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.11.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.11.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.
+encoder.layers.11.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.11.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.11.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model
+.encoder.layers.2.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.2.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.2.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.2.l
+ayer_norm2.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.2.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.2.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.2.mlp.fc2.bias', 'model.visi
+on_tower.LanguageBindVideo.text_model.encoder.layers.2.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.2.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.2.self_attn.k_proj.weight', 'model.vision_tower.La
+nguageBindVideo.text_model.encoder.layers.2.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.2.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.2.self_attn.q_proj.bias', 'model.vision_tower.La
+nguageBindVideo.text_model.encoder.layers.2.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.2.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.2.self_attn.v_proj.weight', 'model.vision_tower.Lang
+uageBindVideo.text_model.encoder.layers.3.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.3.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.3.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.text_
+model.encoder.layers.3.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.3.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.3.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.3.ml
+p.fc2.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.3.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.3.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.3.self_attn.k_proj.weight'
+, 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.3.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.3.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.3.self_attn.q_proj.bias'
+, 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.3.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.3.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.3.self_attn.v_proj.weight',
+'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.4.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.4.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.4.layer_norm2.bias', 'model.vision_tower
+.LanguageBindVideo.text_model.encoder.layers.4.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.4.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.4.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.text_m
+odel.encoder.layers.4.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.4.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.4.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.4.
+self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.4.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.4.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.
+4.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.4.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.4.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.4.se
+lf_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.5.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.5.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.5.layer_norm2.bi
+as', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.5.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.5.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.5.mlp.fc1.weight', 'model.vision_tower.
+LanguageBindVideo.text_model.encoder.layers.5.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.5.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.5.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.text
+_model.encoder.layers.5.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.5.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.5.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.te
+xt_model.encoder.layers.5.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.5.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.5.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.text_m
+odel.encoder.layers.5.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.6.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.6.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder
+.layers.6.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.6.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.6.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.6.mlp.fc1.weigh
+t', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.6.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.6.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.6.self_attn.k_proj.bias', 'model.vision_towe
+r.LanguageBindVideo.text_model.encoder.layers.6.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.6.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.6.self_attn.out_proj.weight', 'model.vision_to
+wer.LanguageBindVideo.text_model.encoder.layers.6.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.6.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.6.self_attn.v_proj.bias', 'model.vision_tower.
+LanguageBindVideo.text_model.encoder.layers.6.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.7.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.7.layer_norm1.weight', 'model.vision_tower.LanguageBind
+Video.text_model.encoder.layers.7.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.7.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.7.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.text_model.encode
+r.layers.7.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.7.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.7.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.7.self_attn.k_proj.b
+ias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.7.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.7.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.7.self_attn.out_proj.w
+eight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.7.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.7.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.7.self_attn.v_proj.bia
+s', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.7.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.8.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.8.layer_norm1.weight', 'model.v
+ision_tower.LanguageBindVideo.text_model.encoder.layers.8.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.8.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.8.mlp.fc1.bias', 'model.vision_tower.LanguageBin
+dVideo.text_model.encoder.layers.8.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.8.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.8.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.lay
+ers.8.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.8.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.8.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layer
+s.8.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.8.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.8.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layer
+s.8.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.8.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.9.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.9.layer
+_norm1.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.9.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.9.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.9.mlp.fc1.bias', 'model.
+vision_tower.LanguageBindVideo.text_model.encoder.layers.9.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.9.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.9.mlp.fc2.weight', 'model.vision_tower.LanguageBindVide
+o.text_model.encoder.layers.9.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.9.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.9.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.
+text_model.encoder.layers.9.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.9.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.9.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.
+text_model.encoder.layers.9.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.text_model.encoder.layers.9.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.text_model.final_layer_norm.bias', 'model.vision_tower.LanguageBindVideo.text_model.final_laye
+r_norm.weight', 'model.vision_tower.LanguageBindVideo.text_projection.weight', 'model.vision_tower.LanguageBindVideo.vision_model.embeddings.class_embedding', 'model.vision_tower.LanguageBindVideo.vision_model.embeddings.patch_embedding.weight', 'model.vision_tower.LanguageBi
+ndVideo.vision_model.embeddings.position_embedding.weight', 'model.vision_tower.LanguageBindVideo.vision_model.embeddings.position_ids', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.0.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.e
+ncoder.layers.0.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.0.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.0.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.laye
+rs.0.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.0.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.0.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.0.mlp.fc2.weight', 'mo
+del.vision_tower.LanguageBindVideo.vision_model.encoder.layers.0.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.0.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.0.self_attn.out_proj.bias',
+ 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.0.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.0.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.0.self_attn.q_proj.we
+ight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.0.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.0.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.0.temporal_attn.k
+_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.0.temporal_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.0.temporal_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.0
+.temporal_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.0.temporal_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.0.temporal_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_mode
+l.encoder.layers.0.temporal_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.0.temporal_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.0.temporal_embedding', 'model.vision_tower.LanguageBindVideo.visi
+on_model.encoder.layers.0.temporal_layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.0.temporal_layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.1.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo
+.vision_model.encoder.layers.1.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.1.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.1.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.vision_mod
+el.encoder.layers.1.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.1.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.1.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.1.mlp.f
+c2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.1.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.1.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.1.self_attn.
+out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.1.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.1.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.1.self
+_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.1.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.1.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.1.
+temporal_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.1.temporal_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.1.temporal_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.e
+ncoder.layers.1.temporal_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.1.temporal_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.1.temporal_attn.q_proj.weight', 'model.vision_tower.LanguageBindVi
+deo.vision_model.encoder.layers.1.temporal_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.1.temporal_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.1.temporal_embedding', 'model.vision_tower.Languag
+eBindVideo.vision_model.encoder.layers.1.temporal_layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.1.temporal_layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.10.layer_norm1.bias', 'model.vision_tower.L
+anguageBindVideo.vision_model.encoder.layers.10.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.10.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.10.layer_norm2.weight', 'model.vision_tower.LanguageB
+indVideo.vision_model.encoder.layers.10.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.10.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.10.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.
+encoder.layers.10.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.10.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.10.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.en
+coder.layers.10.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.10.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.10.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision
+_model.encoder.layers.10.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.10.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.10.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo
+.vision_model.encoder.layers.10.temporal_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.10.temporal_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.10.temporal_attn.out_proj.bias', 'model.vision_towe
+r.LanguageBindVideo.vision_model.encoder.layers.10.temporal_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.10.temporal_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.10.temporal_attn.q_proj.weight
+', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.10.temporal_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.10.temporal_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.10.temporal
+_embedding', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.10.temporal_layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.10.temporal_layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.1
+1.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.11.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.11.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.11.layer_no
+rm2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.11.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.11.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.11.mlp.fc2.bias', 'model.vi
+sion_tower.LanguageBindVideo.vision_model.encoder.layers.11.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.11.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.11.self_attn.k_proj.weight', 'model.visi
+on_tower.LanguageBindVideo.vision_model.encoder.layers.11.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.11.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.11.self_attn.q_proj.bias', 'm
+odel.vision_tower.LanguageBindVideo.vision_model.encoder.layers.11.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.11.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.11.self_attn.v_proj.weig
+ht', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.11.temporal_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.11.temporal_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.11.tempor
+al_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.11.temporal_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.11.temporal_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.enc
+oder.layers.11.temporal_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.11.temporal_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.11.temporal_attn.v_proj.weight', 'model.vision_tower.LanguageBindVid
+eo.vision_model.encoder.layers.11.temporal_embedding', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.11.temporal_layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.11.temporal_layer_norm1.weight', 'model.vision_tower.Langu
+ageBindVideo.vision_model.encoder.layers.12.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.12.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.12.layer_norm2.bias', 'model.vision_tower.LanguageBindVid
+eo.vision_model.encoder.layers.12.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.12.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.12.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.
+encoder.layers.12.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.12.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.12.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layer
+s.12.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.12.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.12.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.en
+coder.layers.12.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.12.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.12.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_mod
+el.encoder.layers.12.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.12.temporal_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.12.temporal_attn.k_proj.weight', 'model.vision_tower.LanguageBindV
+ideo.vision_model.encoder.layers.12.temporal_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.12.temporal_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.12.temporal_attn.q_proj.bias', 'model.visio
+n_tower.LanguageBindVideo.vision_model.encoder.layers.12.temporal_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.12.temporal_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.12.temporal_attn.v_proj.we
+ight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.12.temporal_embedding', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.12.temporal_layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.12.temporal_laye
+r_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.13.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.13.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.13.layer_norm2.
+bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.13.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.13.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.13.mlp.fc1.weight', 'model.vi
+sion_tower.LanguageBindVideo.vision_model.encoder.layers.13.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.13.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.13.self_attn.k_proj.bias', 'model.vision_tower.La
+nguageBindVideo.vision_model.encoder.layers.13.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.13.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.13.self_attn.out_proj.weight', 'model.visi
+on_tower.LanguageBindVideo.vision_model.encoder.layers.13.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.13.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.13.self_attn.v_proj.bias', 'model
+.vision_tower.LanguageBindVideo.vision_model.encoder.layers.13.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.13.temporal_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.13.temporal_attn.k_proj.
+weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.13.temporal_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.13.temporal_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.1
+3.temporal_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.13.temporal_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.13.temporal_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model
+.encoder.layers.13.temporal_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.13.temporal_embedding', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.13.temporal_layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vi
+sion_model.encoder.layers.13.temporal_layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.14.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.14.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.v
+ision_model.encoder.layers.14.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.14.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.14.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.en
+coder.layers.14.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.14.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.14.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.14.self
+_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.14.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.14.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.
+14.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.14.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.14.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encode
+r.layers.14.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.14.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.14.temporal_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_mod
+el.encoder.layers.14.temporal_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.14.temporal_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.14.temporal_attn.out_proj.weight', 'model.vision_tower.Langu
+ageBindVideo.vision_model.encoder.layers.14.temporal_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.14.temporal_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.14.temporal_attn.v_proj.bias', 'model.v
+ision_tower.LanguageBindVideo.vision_model.encoder.layers.14.temporal_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.14.temporal_embedding', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.14.temporal_layer_norm1.bias'
+, 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.14.temporal_layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.15.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.15.layer_norm1.weight
+', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.15.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.15.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.15.mlp.fc1.bias', 'model.visi
+on_tower.LanguageBindVideo.vision_model.encoder.layers.15.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.15.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.15.mlp.fc2.weight', 'model.vision_tower.LanguageBin
+dVideo.vision_model.encoder.layers.15.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.15.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.15.self_attn.out_proj.bias', 'model.vision_tower.Lang
+uageBindVideo.vision_model.encoder.layers.15.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.15.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.15.self_attn.q_proj.weight', 'model.vision_t
+ower.LanguageBindVideo.vision_model.encoder.layers.15.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.15.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.15.temporal_attn.k_proj.bias', 'model
+.vision_tower.LanguageBindVideo.vision_model.encoder.layers.15.temporal_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.15.temporal_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.15.temporal_attn.o
+ut_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.15.temporal_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.15.temporal_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.laye
+rs.15.temporal_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.15.temporal_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.15.temporal_embedding', 'model.vision_tower.LanguageBindVideo.vision_model.en
+coder.layers.15.temporal_layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.15.temporal_layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.16.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_
+model.encoder.layers.16.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.16.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.16.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.en
+coder.layers.16.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.16.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.16.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.16.mlp.fc
+2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.16.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.16.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.16.self_att
+n.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.16.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.16.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.16
+.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.16.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.16.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.la
+yers.16.temporal_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.16.temporal_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.16.temporal_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.visi
+on_model.encoder.layers.16.temporal_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.16.temporal_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.16.temporal_attn.q_proj.weight', 'model.vision_tower.L
+anguageBindVideo.vision_model.encoder.layers.16.temporal_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.16.temporal_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.16.temporal_embedding', 'model.visi
+on_tower.LanguageBindVideo.vision_model.encoder.layers.16.temporal_layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.16.temporal_layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.17.layer_norm1.bias', 'mo
+del.vision_tower.LanguageBindVideo.vision_model.encoder.layers.17.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.17.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.17.layer_norm2.weight', 'model.visi
+on_tower.LanguageBindVideo.vision_model.encoder.layers.17.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.17.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.17.mlp.fc2.bias', 'model.vision_tower.LanguageBindV
+ideo.vision_model.encoder.layers.17.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.17.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.17.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVid
+eo.vision_model.encoder.layers.17.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.17.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.17.self_attn.q_proj.bias', 'model.vision_tower.Langua
+geBindVideo.vision_model.encoder.layers.17.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.17.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.17.self_attn.v_proj.weight', 'model.vision_tower
+.LanguageBindVideo.vision_model.encoder.layers.17.temporal_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.17.temporal_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.17.temporal_attn.out_proj.bias',
+'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.17.temporal_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.17.temporal_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.17.temporal_
+attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.17.temporal_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.17.temporal_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.
+layers.17.temporal_embedding', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.17.temporal_layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.17.temporal_layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_mode
+l.encoder.layers.18.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.18.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.18.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.
+layers.18.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.18.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.18.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.18.mlp.fc
+2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.18.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.18.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.18.self_attn.k_proj.we
+ight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.18.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.18.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.18.self_att
+n.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.18.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.18.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.18.sel
+f_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.18.temporal_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.18.temporal_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encode
+r.layers.18.temporal_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.18.temporal_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.18.temporal_attn.q_proj.bias', 'model.vision_tower.LanguageBindVide
+o.vision_model.encoder.layers.18.temporal_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.18.temporal_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.18.temporal_attn.v_proj.weight', 'model.vision_tow
+er.LanguageBindVideo.vision_model.encoder.layers.18.temporal_embedding', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.18.temporal_layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.18.temporal_layer_norm1.weight', 'model.
+vision_tower.LanguageBindVideo.vision_model.encoder.layers.19.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.19.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.19.layer_norm2.bias', 'model.vision_tow
+er.LanguageBindVideo.vision_model.encoder.layers.19.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.19.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.19.mlp.fc1.weight', 'model.vision_tower.LanguageBindV
+ideo.vision_model.encoder.layers.19.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.19.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.19.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_m
+odel.encoder.layers.19.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.19.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.19.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVid
+eo.vision_model.encoder.layers.19.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.19.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.19.self_attn.v_proj.bias', 'model.vision_tower.LanguageBi
+ndVideo.vision_model.encoder.layers.19.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.19.temporal_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.19.temporal_attn.k_proj.weight', 'model.vision_t
+ower.LanguageBindVideo.vision_model.encoder.layers.19.temporal_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.19.temporal_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.19.temporal_attn.q_proj.b
+ias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.19.temporal_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.19.temporal_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.19.tempo
+ral_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.19.temporal_embedding', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.19.temporal_layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layer
+s.19.temporal_layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.2.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.2.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers
+.2.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.2.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.2.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.2.mlp.fc1.weight
+', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.2.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.2.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.2.self_attn.k_proj.bias', 'model.vision
+_tower.LanguageBindVideo.vision_model.encoder.layers.2.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.2.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.2.self_attn.out_proj.weight', 'mode
+l.vision_tower.LanguageBindVideo.vision_model.encoder.layers.2.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.2.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.2.self_attn.v_proj.bias', 'mo
+del.vision_tower.LanguageBindVideo.vision_model.encoder.layers.2.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.2.temporal_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.2.temporal_attn.k_proj.
+weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.2.temporal_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.2.temporal_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.2.t
+emporal_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.2.temporal_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.2.temporal_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.enco
+der.layers.2.temporal_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.2.temporal_embedding', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.2.temporal_layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_mod
+el.encoder.layers.2.temporal_layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.20.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.20.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_mod
+el.encoder.layers.20.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.20.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.20.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.lay
+ers.20.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.20.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.20.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.20.self_attn.k_p
+roj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.20.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.20.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.20.self_a
+ttn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.20.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.20.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.
+20.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.20.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.20.temporal_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encode
+r.layers.20.temporal_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.20.temporal_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.20.temporal_attn.out_proj.weight', 'model.vision_tower.LanguageBindVi
+deo.vision_model.encoder.layers.20.temporal_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.20.temporal_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.20.temporal_attn.v_proj.bias', 'model.vision_tow
+er.LanguageBindVideo.vision_model.encoder.layers.20.temporal_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.20.temporal_embedding', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.20.temporal_layer_norm1.bias', 'model.
+vision_tower.LanguageBindVideo.vision_model.encoder.layers.20.temporal_layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.layer_norm1.weight', 'model
+.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.mlp.fc1.bias', 'model.vision_tower.
+LanguageBindVideo.vision_model.encoder.layers.21.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.vi
+sion_model.encoder.layers.21.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindV
+ideo.vision_model.encoder.layers.21.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.self_attn.q_proj.weight', 'model.vision_tower.Lang
+uageBindVideo.vision_model.encoder.layers.21.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.temporal_attn.k_proj.bias', 'model.vision_t
+ower.LanguageBindVideo.vision_model.encoder.layers.21.temporal_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.temporal_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.temporal_attn.out_proj.w
+eight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.temporal_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.temporal_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.tem
+poral_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.temporal_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.temporal_embedding', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.lay
+ers.21.temporal_layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.21.temporal_layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.22.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.enc
+oder.layers.22.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.22.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.22.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.lay
+ers.22.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.22.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.22.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.22.mlp.fc2.weight'
+, 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.22.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.22.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.22.self_attn.out_pro
+j.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.22.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.22.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.22.self_att
+n.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.22.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.22.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.22.t
+emporal_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.22.temporal_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.22.temporal_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.
+encoder.layers.22.temporal_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.22.temporal_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.22.temporal_attn.q_proj.weight', 'model.vision_tower.LanguageBi
+ndVideo.vision_model.encoder.layers.22.temporal_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.22.temporal_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.22.temporal_embedding', 'model.vision_tower.
+LanguageBindVideo.vision_model.encoder.layers.22.temporal_layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.22.temporal_layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.23.layer_norm1.bias', 'model.visio
+n_tower.LanguageBindVideo.vision_model.encoder.layers.23.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.23.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.23.layer_norm2.weight', 'model.vision_tower.
+LanguageBindVideo.vision_model.encoder.layers.23.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.23.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.23.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.visi
+on_model.encoder.layers.23.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.23.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.23.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision
+_model.encoder.layers.23.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.23.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.23.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVid
+eo.vision_model.encoder.layers.23.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.23.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.23.self_attn.v_proj.weight', 'model.vision_tower.Language
+BindVideo.vision_model.encoder.layers.23.temporal_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.23.temporal_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.23.temporal_attn.out_proj.bias', 'model.vi
+sion_tower.LanguageBindVideo.vision_model.encoder.layers.23.temporal_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.23.temporal_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.23.temporal_attn.q_pr
+oj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.23.temporal_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.23.temporal_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.23
+.temporal_embedding', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.23.temporal_layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.23.temporal_layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder
+.layers.3.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.lay
+er_norm2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.mlp.fc2.bias', 'model.
+vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.self_attn.k_proj.weight', 'model.visio
+n_tower.LanguageBindVideo.vision_model.encoder.layers.3.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.self_attn.q_proj.bias', 'model
+.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.self_attn.v_proj.weight', 'm
+odel.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.temporal_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.temporal_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.temporal_attn.ou
+t_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.temporal_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.temporal_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.
+3.temporal_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.temporal_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.temporal_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model
+.encoder.layers.3.temporal_embedding', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.temporal_layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.3.temporal_layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.visio
+n_model.encoder.layers.4.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encod
+er.layers.4.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.mlp.fc2
+.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.self_attn.k_proj.weight
+', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.self_attn.q_pro
+j.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.self_attn.v_p
+roj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.temporal_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.temporal_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.t
+emporal_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.temporal_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.temporal_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.
+encoder.layers.4.temporal_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.temporal_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.temporal_attn.v_proj.weight', 'model.vision_tower.LanguageBindVid
+eo.vision_model.encoder.layers.4.temporal_embedding', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.temporal_layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.4.temporal_layer_norm1.weight', 'model.vision_tower.Language
+BindVideo.vision_model.encoder.layers.5.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.5.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.5.layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.vis
+ion_model.encoder.layers.5.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.5.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.5.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.l
+ayers.5.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.5.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.5.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.5.self_att
+n.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.5.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.5.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.5.
+self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.5.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.5.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.
+5.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.5.temporal_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.5.temporal_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.enc
+oder.layers.5.temporal_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.5.temporal_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.5.temporal_attn.q_proj.bias', 'model.vision_tower.LanguageBindVide
+o.vision_model.encoder.layers.5.temporal_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.5.temporal_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.5.temporal_attn.v_proj.weight', 'model.vision_tower.
+LanguageBindVideo.vision_model.encoder.layers.5.temporal_embedding', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.5.temporal_layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.5.temporal_layer_norm1.weight', 'model.vision
+_tower.LanguageBindVideo.vision_model.encoder.layers.6.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.6.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.6.layer_norm2.bias', 'model.vision_tower.Langua
+geBindVideo.vision_model.encoder.layers.6.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.6.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.6.mlp.fc1.weight', 'model.vision_tower.LanguageBindVideo.vision_
+model.encoder.layers.6.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.6.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.6.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.la
+yers.6.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.6.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.6.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.en
+coder.layers.6.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.6.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.6.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.
+encoder.layers.6.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.6.temporal_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.6.temporal_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.v
+ision_model.encoder.layers.6.temporal_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.6.temporal_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.6.temporal_attn.q_proj.bias', 'model.vision_tower.L
+anguageBindVideo.vision_model.encoder.layers.6.temporal_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.6.temporal_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.6.temporal_attn.v_proj.weight', 'mode
+l.vision_tower.LanguageBindVideo.vision_model.encoder.layers.6.temporal_embedding', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.6.temporal_layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.6.temporal_layer_norm1.weight'
+, 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.7.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.7.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.7.layer_norm2.bias', 'model.visi
+on_tower.LanguageBindVideo.vision_model.encoder.layers.7.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.7.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.7.mlp.fc1.weight', 'model.vision_tower.LanguageBi
+ndVideo.vision_model.encoder.layers.7.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.7.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.7.self_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_m
+odel.encoder.layers.7.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.7.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.7.self_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.
+vision_model.encoder.layers.7.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.7.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.7.self_attn.v_proj.bias', 'model.vision_tower.LanguageBindVide
+o.vision_model.encoder.layers.7.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.7.temporal_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.7.temporal_attn.k_proj.weight', 'model.vision_tower.Lang
+uageBindVideo.vision_model.encoder.layers.7.temporal_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.7.temporal_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.7.temporal_attn.q_proj.bias', 'model
+.vision_tower.LanguageBindVideo.vision_model.encoder.layers.7.temporal_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.7.temporal_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.7.temporal_attn.v_proj
+.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.7.temporal_embedding', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.7.temporal_layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.7.temporal_laye
+r_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.8.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.8.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.8.layer_norm2.bia
+s', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.8.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.8.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.8.mlp.fc1.weight', 'model.vision_t
+ower.LanguageBindVideo.vision_model.encoder.layers.8.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.8.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.8.self_attn.k_proj.bias', 'model.vision_tower.LanguageBin
+dVideo.vision_model.encoder.layers.8.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.8.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.8.self_attn.out_proj.weight', 'model.vision_tower.Lan
+guageBindVideo.vision_model.encoder.layers.8.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.8.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.8.self_attn.v_proj.bias', 'model.vision_tower.L
+anguageBindVideo.vision_model.encoder.layers.8.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.8.temporal_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.8.temporal_attn.k_proj.weight', 'model.vi
+sion_tower.LanguageBindVideo.vision_model.encoder.layers.8.temporal_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.8.temporal_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.8.temporal_attn.q_pro
+j.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.8.temporal_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.8.temporal_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.8.tempo
+ral_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.8.temporal_embedding', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.8.temporal_layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.
+8.temporal_layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.9.layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.9.layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.9.
+layer_norm2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.9.layer_norm2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.9.mlp.fc1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.9.mlp.fc1.weight',
+'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.9.mlp.fc2.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.9.mlp.fc2.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.9.self_attn.k_proj.bias', 'model.vision_to
+wer.LanguageBindVideo.vision_model.encoder.layers.9.self_attn.k_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.9.self_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.9.self_attn.out_proj.weight', 'model.v
+ision_tower.LanguageBindVideo.vision_model.encoder.layers.9.self_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.9.self_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.9.self_attn.v_proj.bias', 'model
+.vision_tower.LanguageBindVideo.vision_model.encoder.layers.9.self_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.9.temporal_attn.k_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.9.temporal_attn.k_proj.wei
+ght', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.9.temporal_attn.out_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.9.temporal_attn.out_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.9.temp
+oral_attn.q_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.9.temporal_attn.q_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.9.temporal_attn.v_proj.bias', 'model.vision_tower.LanguageBindVideo.vision_model.encoder
+.layers.9.temporal_attn.v_proj.weight', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.9.temporal_embedding', 'model.vision_tower.LanguageBindVideo.vision_model.encoder.layers.9.temporal_layer_norm1.bias', 'model.vision_tower.LanguageBindVideo.vision_model.
+encoder.layers.9.temporal_layer_norm1.weight', 'model.vision_tower.LanguageBindVideo.vision_model.post_layernorm.bias', 'model.vision_tower.LanguageBindVideo.vision_model.post_layernorm.weight', 'model.vision_tower.LanguageBindVideo.vision_model.pre_layrnorm.bias', 'model.vis
+ion_tower.LanguageBindVideo.vision_model.pre_layrnorm.weight', 'model.vision_tower.LanguageBindVideo.visual_projection.weight']
+- This IS expected if you are initializing EagleLlamaForCausalLM from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing EagleLlamaForCausalLM from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+2025-01-09 10:21:19.865 | INFO     | lmms_eval.api.task:build_all_requests:425 - Building contexts for youcook2_val on rank 0...
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3177/3177 [00:00<00:00, 118492.44it/s]
+2025-01-09 10:21:20.071 | INFO     | lmms_eval.evaluator:evaluate:446 - Running generate_until requests
+Model Responding:   0%|                                                                                                                                                                                                                                    | 0/3177 [00:00<?, ?it/s]
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Model Responding:   0%|▍                                                                                                                                                                                                                           | 7/3177 [00:00<00:47, 67.00it/s]
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Model Responding:   0%|▉                                                                                                                                                                                                                          | 14/3177 [00:00<00:46, 67.32it/s]
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Model Responding:   1%|█▌                                                                                                                                                                                                                         | 22/3177 [00:00<00:45, 69.47it/s]
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Model Responding:   1%|██                                                                                                                                                                                                                         | 30/3177 [00:00<00:44, 70.67it/s]
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Model Responding:   1%|██▌                                                                                                                                                                                                                        | 38/3177 [00:00<00:43, 72.25it/s]
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Model Responding:   1%|███▏                                                                                                                                                                                                                       | 46/3177 [00:00<00:42, 73.28it/s]
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Model Responding:   2%|███▋                                                                                                                                                                                                                       | 54/3177 [00:00<00:42, 73.78it/s]
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Model Responding:   2%|████▎                                                                                                                                                                                                                      | 62/3177 [00:00<00:41, 74.29it/s]
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Model Responding:   2%|████▊                                                                                                                                                                                                                      | 70/3177 [00:00<00:41, 74.69it/s]
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Model Responding:   2%|█████▍                                                                                                                                                                                                                     | 78/3177 [00:01<00:41, 74.91it/s]
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Model Responding:   3%|█████▉                                                                                                                                                                                                                     | 86/3177 [00:01<00:41, 75.09it/s]
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Model Responding:   3%|██████▍                                                                                                                                                                                                                    | 94/3177 [00:01<00:40, 75.21it/s]
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Model Responding:   3%|██████▉                                                                                                                                                                                                                   | 102/3177 [00:01<00:40, 75.45it/s]
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Model Responding:   3%|███████▌                                                                                                                                                                                                                  | 110/3177 [00:01<00:40, 75.55it/s]
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+[Errno 2] No such file or directory: '/home1/hxl/disk/EAGLE/dataset/eval/youcook2/videos/val/VH0SmCfAov4_0.npy'
+Error with ['/home1/hxl/disk/EAGLE/.cache/huggingface/YouCookIIVideos/YouCookIIVideos/val/VH0SmCfAov4_0.mkv']
+[Errno 2] No such file or directory: '/home1/hxl/disk/EAGLE/dataset/eval/youcook2/videos/val/VH0SmCfAov4_1.npy'
+Error with ['/home1/hxl/disk/EAGLE/.cache/huggingface/YouCookIIVideos/YouCookIIVideos/val/VH0SmCfAov4_1.mkv']
+[Errno 2] No such file or directory: '/home1/hxl/disk/EAGLE/dataset/eval/youcook2/videos/val/VH0SmCfAov4_2.npy'
+Error with ['/home1/hxl/disk/EAGLE/.cache/huggingface/YouCookIIVideos/YouCookIIVideos/val/VH0SmCfAov4_2.mkv']
+[Errno 2] No such file or directory: '/home1/hxl/disk/EAGLE/dataset/eval/youcook2/videos/val/VH0SmCfAov4_3.npy'
+Error with ['/home1/hxl/disk/EAGLE/.cache/huggingface/YouCookIIVideos/YouCookIIVideos/val/VH0SmCfAov4_3.mkv']
+[Errno 2] No such file or directory: '/home1/hxl/disk/EAGLE/dataset/eval/youcook2/videos/val/VH0SmCfAov4_4.npy'
+Error with ['/home1/hxl/disk/EAGLE/.cache/huggingface/YouCookIIVideos/YouCookIIVideos/val/VH0SmCfAov4_4.mkv']
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Model Responding:   4%|████████                                                                                                                                                                                                                  | 118/3177 [00:01<00:40, 74.69it/s]
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Model Responding:   4%|████████▋                                                                                                                                                                                                                 | 126/3177 [00:01<00:41, 73.75it/s]
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Error Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead in generating
+Model Responding:   4%|█████████▏                                                                                                                                                                                                                | 134/3177 [00:01<00:40, 74.77it/s]
+^CTraceback (most recent call last):
+  File "/home1/hxl/miniconda3/envs/eagle/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home1/hxl/disk/EAGLE/eagle/model/multimodal_encoder/clip_encoder.py", line 143, in forward
+    image_forward_outs = self.vision_tower(images.to(device=self.device, dtype=self.dtype), output_hidden_states=True)
+  File "/home1/hxl/miniconda3/envs/eagle/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home1/hxl/miniconda3/envs/eagle/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home1/hxl/disk/EAGLE/eagle/model/multimodal_encoder/languagebind/video/modeling_video.py", line 770, in forward
+    hidden_states = self.embeddings(pixel_values)
+  File "/home1/hxl/miniconda3/envs/eagle/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home1/hxl/miniconda3/envs/eagle/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home1/hxl/disk/EAGLE/eagle/model/multimodal_encoder/languagebind/video/modeling_video.py", line 57, in forward
+    patch_embeds = self.patch_embedding(pixel_values)  # shape = [*, width, grid, grid]
+  File "/home1/hxl/miniconda3/envs/eagle/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home1/hxl/miniconda3/envs/eagle/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home1/hxl/miniconda3/envs/eagle/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 460, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/home1/hxl/miniconda3/envs/eagle/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 456, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+RuntimeError: Given groups=1, weight of size [1024, 3, 14, 14], expected input[3, 8, 224, 224] to have 3 channels, but got 8 channels instead
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home1/hxl/disk/EAGLE/evaluate_lmms_eval.py", line 535, in <module>
+    cli_evaluate()
+  File "/home1/hxl/disk/EAGLE/evaluate_lmms_eval.py", line 332, in cli_evaluate
+    results, samples = cli_evaluate_single(args)
+  File "/home1/hxl/disk/EAGLE/evaluate_lmms_eval.py", line 473, in cli_evaluate_single
+    results = evaluator.simple_evaluate(
+  File "/home1/hxl/disk/EAGLE/lmms_eval/utils.py", line 533, in _wrapper
+    return fn(*args, **kwargs)
+  File "/home1/hxl/disk/EAGLE/lmms_eval/evaluator.py", line 243, in simple_evaluate
+    results = evaluate(
+  File "/home1/hxl/disk/EAGLE/lmms_eval/utils.py", line 533, in _wrapper
+    return fn(*args, **kwargs)
+  File "/home1/hxl/disk/EAGLE/lmms_eval/evaluator.py", line 457, in evaluate
+    resps = getattr(lm, reqtype)(cloned_reqs)  # Choiszt run generate until
+  File "/home1/hxl/disk/EAGLE/lmms_eval/models/eagle.py", line 433, in generate_until
+    cont = self.model.generate(
+  File "/home1/hxl/miniconda3/envs/eagle/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home1/hxl/disk/EAGLE/eagle/model/language_model/eagle_llama.py", line 200, in generate
+    ) = self.prepare_inputs_labels_for_multimodal(
+  File "/home1/hxl/disk/EAGLE/eagle/model/eagle_arch.py", line 320, in prepare_inputs_labels_for_multimodal
+    image_features = self.encode_images(images)
+  File "/home1/hxl/disk/EAGLE/eagle/model/eagle_arch.py", line 240, in encode_images
+    image_features = self.get_model().get_vision_tower()(images)
+  File "/home1/hxl/miniconda3/envs/eagle/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home1/hxl/miniconda3/envs/eagle/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home1/hxl/miniconda3/envs/eagle/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+KeyboardInterrupt
+Model Responding:   4%|█████████▏                                                                                                                                                                                                                | 134/3177 [00:02<00:46, 66.05it/s]
+Traceback (most recent call last):
+  File "/home1/hxl/miniconda3/envs/eagle/bin/accelerate", line 8, in <module>
+    sys.exit(main())
+  File "/home1/hxl/miniconda3/envs/eagle/lib/python3.10/site-packages/accelerate/commands/accelerate_cli.py", line 48, in main
+    args.func(args)
+  File "/home1/hxl/miniconda3/envs/eagle/lib/python3.10/site-packages/accelerate/commands/launch.py", line 1168, in launch_command
+    simple_launcher(args)
+  File "/home1/hxl/miniconda3/envs/eagle/lib/python3.10/site-packages/accelerate/commands/launch.py", line 760, in simple_launcher
+    process.wait()
+  File "/home1/hxl/miniconda3/envs/eagle/lib/python3.10/subprocess.py", line 1209, in wait
+    return self._wait(timeout=timeout)
+  File "/home1/hxl/miniconda3/envs/eagle/lib/python3.10/subprocess.py", line 1959, in _wait
+    (pid, sts) = self._try_wait(0)
+  File "/home1/hxl/miniconda3/envs/eagle/lib/python3.10/subprocess.py", line 1917, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+KeyboardInterrupt
+
+(eagle) hxl@9007:~/disk/EAGLE$

@@ -67,9 +67,9 @@ class Pix2StructLargeVisionTower(nn.Module):
     def load_model(self):
         if self.is_loaded:
             return
-        whole_model = Pix2StructForConditionalGeneration.from_pretrained("google/pix2struct-large")
+        whole_model = Pix2StructForConditionalGeneration.from_pretrained("./model/Vision_Encoder/pix2struct-large")
         self.vision_tower = whole_model.encoder
-        self.pix2struct_processor = AutoProcessor.from_pretrained("google/pix2struct-large")
+        self.pix2struct_processor = AutoProcessor.from_pretrained("./model/Vision_Encoder/pix2struct-large")
         self.pix2struct_processor.image_processor.is_vqa = False
 
         self.image_processor = CLIPImageProcessor(**cfg)
@@ -143,4 +143,5 @@ class Pix2StructLargeVisionTower(nn.Module):
 
     @property
     def num_patches(self):
+        return 0
         return self.config['num_patches']
